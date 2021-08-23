@@ -48,7 +48,7 @@ function writeQuestionMetadata(question) {
         resultCat += '\t' + cat.catName + ' "' + cat.catLabel + '"' + ' [Value=' + cat.catValue + ']'
 
         if (cat.isOther) {
-            resultCat += ' other (FREETEXT "" text;)'
+            resultCat += ' other (FREETEXT "" text)'
         }
 
         if (cat.isExclusive) {
@@ -61,15 +61,22 @@ function writeQuestionMetadata(question) {
     })
     
     result += resultCat;
-    result += '}\n';
+    result += '};\n';
     return result;
 }
 
 function writeQuestionRouting(question) {
+    let categoryLetter = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+    let routing = 'if ' + question.routing.split('#qstart#')[0].trim().replace(/\s*=\s*/,' * {_') + '} then\n';
 
-    let result = 'if ' + question.routing.split('#qstart#')[0] + ' then\n';
-    result += '\t' + question.qname + '.Ask()\n'
-    result += 'end if\n';
-    return result;
+    if (routing.indexOf('_check') > 0) {
+        var catValue = routing.match(/\{_([\d])+\}/)[1];
+        routing = routing.replace(/\{_[\d]+\}/,'{'+ categoryLetter[catValue-1] +'}')
+        
+    }
+
+    routing += '\t' + question.qname + '.Ask()\n'
+    routing += 'end if\n';
+    return routing;
 }
 
