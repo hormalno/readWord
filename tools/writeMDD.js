@@ -67,16 +67,23 @@ function writeQuestionMetadata(question) {
 
 function writeQuestionRouting(question) {
     let categoryLetter = ['A','B','C','D','E','F','G','H','I','J','K','L'];
-    let routing = 'if ' + question.routing.split('#qstart#')[0].trim().replace(/\s*=\s*/,' * {_') + '} then\n';
 
-    if (routing.indexOf('_check') > 0) {
-        var catValue = routing.match(/\{_([\d])+\}/)[1];
-        routing = routing.replace(/\{_[\d]+\}/,'{'+ categoryLetter[catValue-1] +'}')
-        
+    if (question.routing.indexOf('jobcat') > -1) {
+        let heading = "'" + question.qname + "\n"
+        heading += question.qname + '.Ask()\n'
+        return heading;
+    } else {
+        let routing = 'if ' + question.routing.split('#qstart#')[0].trim().replace(/\s*=\s*/,' * {_') + '} then\n';
+
+        if (routing.indexOf('_check') > -1) {
+            var catValue = routing.match(/\{_([\d])+\}/)[1];
+            routing = routing.replace(/\{_[\d]+\}/,'{'+ categoryLetter[catValue-1] +'}')
+            
+        }
+
+        routing += '\t' + question.qname + '.Ask()\n'
+        routing += 'end if\n';
+        return routing;
     }
-
-    routing += '\t' + question.qname + '.Ask()\n'
-    routing += 'end if\n';
-    return routing;
 }
 

@@ -1,0 +1,670 @@
+Questions count: 82
+FIRE_CHECK_1 "1 FIRE_CHECK_1 - In the last working week, did you perform any of the following activities as a firefighter?"
+categorical [1..]
+{
+	A "FIRE_1A Frontline fighting" [Value=1],
+	B "FIRE_1B Search and rescue, including motor vehicle accidents" [Value=2],
+	C "FIRE_1C Natural disaster response" [Value=3],
+	D "FIRE_1D Overhaul, clean up, and/or sifting through the remains of a fire" [Value=4],
+	E "FIRE_1E Firebreak constructing, controlled burning or preventative burning" [Value=5],
+	F "FIRE_1F Support, education, prevention, communications, or management activities" [Value=6],
+	G "FIRE_1G Other" [Value=7],
+	H "FIRE_1H Don’t know" [Value=8] exclusive
+};
+FIRE_CHECK_1A1 "1A1 FIRE_CHECK_1A1 - In the last working week, did you fight any of the following fire types?"
+categorical [1..]
+{
+	A "FIRE_1A1A Wildfires or forest fires" [Value=1],
+	B "FIRE_1A1B Residential or commercial fires" [Value=2],
+	C "FIRE_1A1C Industrial fires or fires that involved hazardous materials" [Value=3],
+	D "FIRE_1A1D Vehicle or trash fires" [Value=4],
+	E "FIRE_1A1E None of these" [Value=5] exclusive,
+	F "FIRE_1A1F Don’t know" [Value=6] exclusive
+};
+FIRE_RADIO_1A2 "1A2 FIRE_RADIO_1A2 - In the last working week, did you wear an air-supplied breathing apparatus during frontline firefighting?"
+categorical [1..1]
+{
+	_1 "FIRE_1A2A Yes" [Value=1],
+	_2 "FIRE_1A2B No" [Value=2],
+	_3 "FIRE_1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_RADIO_1D1 "1D1 FIRE_RADIO_1D1 - In the last working week, did you wear an air-supplied breathing apparatus during overhaul or clean up?"
+categorical [1..1]
+{
+	_1 "FIRE_1D1A Yes" [Value=1],
+	_2 "FIRE_1D1B No" [Value=2],
+	_3 "FIRE_1D1C Don’t know" [Value=3] exclusive
+};
+FIRE_RADIO_1E1 "1E1 FIRE_RADIO_1E1 - In the last working week, did you wear an air-supplied breathing apparatus when constructing a firebreak, doing preventative burning or controlled burning?"
+categorical [1..1]
+{
+	_1 "FIRE_1E1A Yes" [Value=1],
+	_2 "FIRE_1E1B No" [Value=2],
+	_3 "FIRE_1E1C Don’t know" [Value=3] exclusive
+};
+FIRE_aFPE_RADIO_2_1 "1 FIRE_aFPE_RADIO_2_1 - In the last working week, did you use or repair any fuel-powered equipment other than vehicles or generators (e.g., concrete cutter, metal cutter, truck mount, chainsaws, lawnmowers, concrete mixer, brush cutter)?"
+categorical [1..1]
+{
+	_1 "aFPE_1A Yes" [Value=1],
+	_2 "aFPE_1B No" [Value=2],
+	_3 "aFPE_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aFPE_CHECK_2_1A1 "1A1 FIRE_aFPE_CHECK_2_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?"
+categorical [1..]
+{
+	A "aFPE_1A1A Diesel" [Value=1],
+	B "aFPE_1A1B Petrol" [Value=2],
+	C "aFPE_1A1C Propane or Liquefied Petroleum Gas (LPG)" [Value=3],
+	D "aFPE_1A1D Other" [Value=4],
+	E "aFPE_1A1E Don’t know" [Value=5] exclusive
+};
+FIRE_aFPE_RADIO_2_1A2 "1A2 FIRE_aFPE_RADIO_2_1A2 - Were you indoors when you were using or repairing the equipment?"
+categorical [1..1]
+{
+	_1 "aFPE_1A2A Yes" [Value=1],
+	_2 "aFPE_1A2B No" [Value=2],
+	_3 "aFPE_1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aFPE_CHECK_2_1A2A1 "1A2A1 FIRE_aFPE_CHECK_2_1A2A1 - How was the area where you worked ventilated?"
+categorical [1..]
+{
+	A "aFPE_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aFPE_1A2A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aFPE_1A2A1C By a general ventilation system" [Value=3],
+	D "aFPE_1A2A1D By fans in the window or doorway" [Value=4],
+	E "aFPE_1A2A1E By open doors or windows" [Value=5],
+	F "aFPE_1A2A1F No ventilation was applied to the area" [Value=6],
+	G "aFPE_1A2A1G Other" [Value=7],
+	H "aFPE_1A2A1H Don’t know" [Value=8] exclusive
+};
+FIRE_aFPE_RADIO_2_1A3 "1A3 FIRE_aFPE_RADIO_2_1A3 - In the last working week, did you refuel the equipment?"
+categorical [1..1]
+{
+	_1 "aFPE_1A3A Yes" [Value=1],
+	_2 "aFPE_1A3B No" [Value=2],
+	_3 "aFPE_1A3C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_RADIO_3_1 "1 FIRE_aCTW_RADIO_3_1 - In the last working week, did you chop, cut, saw, sand or otherwise work with wood?"
+categorical [1..1]
+{
+	_1 "aCTW_1A Yes" [Value=1],
+	_2 "aCTW_1B No" [Value=2],
+	_3 "aCTW_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_RADIO_3_1A1 "1A1 FIRE_aCTW_RADIO_3_1A1 - In the last working week, did you use power tools to work with wood?"
+categorical [1..1]
+{
+	_1 "aCTW_1A1A Yes" [Value=1],
+	_2 "aCTW_1A1B No" [Value=2],
+	_3 "aCTW_1A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_RADIO_3_1A2 "1A2 FIRE_aCTW_RADIO_3_1A2 - In the last working week, did you work with plywood, particle board, marine ply or MDF board?"
+categorical [1..1]
+{
+	_1 "aCTW_1A2A Yes" [Value=1],
+	_2 "aCTW_1A2B No" [Value=2],
+	_3 "aCTW_1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_CHECK_3_1A4 "1A4 FIRE_aCTW_CHECK_3_1A4 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aCTW_1A4A Indoors" [Value=1],
+	B "aCTW_1A4B Outdoors" [Value=2],
+	C "aCTW_1A4C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_CHECK_3_1A4A1 "1A4A1 FIRE_aCTW_CHECK_3_1A4A1 - Was there a ventilation system that removed dust or fume from where you worked in the last working week (local exhaust ventilation or on-tool extraction)?"
+categorical [1..]
+{
+	A "aCTW_1A4A1A Yes" [Value=1],
+	B "aCTW_1A4A1B No" [Value=2],
+	C "aCTW_1A4A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_RADIO_3_1A5 "1A5 FIRE_aCTW_RADIO_3_1A5 - In the last working week, did you use respiratory protection when working with wood?"
+categorical [1..1]
+{
+	_1 "aCTW_1A5A Yes" [Value=1],
+	_2 "aCTW_1A5B No" [Value=2],
+	_3 "aCTW_1A5C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTW_CHECK_3_1A5A1 "1A5A1 FIRE_aCTW_CHECK_3_1A5A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aCTW_1A5A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aCTW_1A5A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "aCTW_1A5A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aCTW_1A5A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "aCTW_1A5A1E Other" [Value=5],
+	F "aCTW_1A5A1F Don’t know" [Value=6] exclusive
+};
+FIRE_aCTW_CHECK_3_1A6 "1A6 FIRE_aCTW_CHECK_3_1A6 - How was the working area cleaned of dust?"
+categorical [1..]
+{
+	A "aCTW_1A6A Using vacuum cleaner" [Value=1],
+	B "aCTW_1A6B Using vacuum cleaner fitted with a HEPA filter" [Value=2],
+	C "aCTW_1A6C Using compressed air" [Value=3],
+	D "aCTW_1A6D Using a brush or sweeping the area with a broom" [Value=4],
+	E "aCTW_1A6E Mopping the area with water" [Value=5],
+	F "aCTW_1A6F None of these" [Value=6] exclusive,
+	G "aCTW_1A6G The working area was not cleaned of dust" [Value=7],
+	H "aCTW_1A6H Don’t know" [Value=8] exclusive
+};
+FIRE_aCTW_RADIO_3_1A7 "1A7 FIRE_aCTW_RADIO_3_1A7 - In the last working week, was water spray or water suppression used to reduce the amount of dust in your work area?"
+categorical [1..1]
+{
+	_1 "aCTW_1A7A Yes" [Value=1],
+	_2 "aCTW_1A7B No" [Value=2],
+	_3 "aCTW_1A7C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTO_RADIO_4_1 "1 FIRE_aCTO_RADIO_4_1 - In the last working week, did you use cutting or cooling oils?"
+categorical [1..1]
+{
+	_1 "aCTO_1A Yes" [Value=1],
+	_2 "aCTO_1B No" [Value=2],
+	_3 "aCTO_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTO_CHECK_4_1A1 "1A1 FIRE_aCTO_CHECK_4_1A1 - What types of cutting or cooling oils did you use? (May also be referred to as lubricating or machine oils or fluids.)"
+categorical [1..]
+{
+	A "aCTO_1A1A Straight cutting oils (clear and feels oily)" [Value=1],
+	B "aCTO_1A1B Soluble cutting oils (milky white and feels watery)" [Value=2],
+	C "aCTO_1A1C Semi-synthetic cutting oils (forms a semi-transparent fluid when mixed with water)" [Value=3],
+	D "aCTO_1A1D Synthetic oils which are water soluble (forms a clear fluid when mixed with water)" [Value=4],
+	E "aCTO_1A1E None of these" [Value=5] exclusive,
+	F "aCTO_1A1F Don’t know" [Value=6] exclusive
+};
+FIRE_aCTO_CHECK_4_1A2 "1A2 FIRE_aCTO_CHECK_4_1A2 - In the last working week, did you use cutting or cooling oils with hand tools or with a fixed machine?"
+categorical [1..]
+{
+	A "aCTO_1A2A Hand tools" [Value=1],
+	B "aCTO_1A2B Fixed machine" [Value=2],
+	C "aCTO_1A2C Other" [Value=3],
+	D "aCTO_1A2D Don’t know" [Value=4] exclusive
+};
+FIRE_aCTO_RADIO_4_1A2B1 "1A2B1 FIRE_aCTO_RADIO_4_1A2B1 - In the last working week, did you use an enclosed machine (you had to open a door on the machine to see the machining fluid)?"
+categorical [1..1]
+{
+	_1 "aCTO_1A2B1A Yes" [Value=1],
+	_2 "aCTO_1A2B1B No" [Value=2],
+	_3 "aCTO_1A2B1C Don’t know" [Value=3] exclusive
+};
+FIRE_aCTO_RADIO_4_1A2B1B1 "1A2B1B1 FIRE_aCTO_RADIO_4_1A2B1B1 - Did you allow time for the mist or droplets to settle before opening the machine?"
+categorical [1..1]
+{
+	_1 "aCTO_1A2B1B1A Yes" [Value=1],
+	_2 "aCTO_1A2B1B1B No" [Value=2],
+	_3 "aCTO_1A2B1B1C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1 "1 FIRE_aDVM_RADIO_5_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A Yes" [Value=1],
+	_2 "aDVM_1B No" [Value=2],
+	_3 "aDVM_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_CHECK_5_1A1 "1A1 FIRE_aDVM_CHECK_5_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?"
+categorical [1..]
+{
+	A "aDVM_1A1A Diesel" [Value=1],
+	B "aDVM_1A1B Petrol" [Value=2],
+	C "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane" [Value=3],
+	D "aDVM_1A1D Battery or electricity" [Value=4],
+	E "aDVM_1A1E None of these" [Value=5] exclusive,
+	F "aDVM_1A1F Don’t know" [Value=6] exclusive
+};
+FIRE_aDVM_RADIO_5_1A2 "1A2 FIRE_aDVM_RADIO_5_1A2 - In the last working week, did you fuel the vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aDVM_1A2A Yes" [Value=1],
+	_2 "aDVM_1A2B No" [Value=2],
+	_3 "aDVM_1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1A3 "1A3 FIRE_aDVM_RADIO_5_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A3A Yes" [Value=1],
+	_2 "aDVM_1A3B No" [Value=2],
+	_3 "aDVM_1A3C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_CHECK_5_1A3A1 "1A3A1 FIRE_aDVM_CHECK_5_1A3A1 - What types of roads or areas did you drive or travel on?"
+categorical [1..]
+{
+	A "aDVM_1A3A1A Any public street or road in an urban area" [Value=1],
+	B "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)" [Value=2],
+	C "aDVM_1A3A1C Agricultural land" [Value=3],
+	D "aDVM_1A3A1D Forestry areas" [Value=4],
+	E "aDVM_1A3A1E Underground in a mine" [Value=5],
+	F "aDVM_1A3A1F Surface driving in an open mine or in a quarry" [Value=6],
+	G "aDVM_1A3A1G Construction sites" [Value=7],
+	H "aDVM_1A3A1H Inside a building (e.g., warehouse)" [Value=8],
+	I "aDVM_1A3A1I Other industrial sites" [Value=9],
+	J "aDVM_1A3A1J Other" [Value=10],
+	K "aDVM_1A3A1K Don’t know" [Value=11] exclusive
+};
+FIRE_aDVM_RADIO_5_1A4 "1A4 FIRE_aDVM_RADIO_5_1A4 - In the last working week, did you perform any maintenance work on vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A Yes" [Value=1],
+	_2 "aDVM_1A4B No" [Value=2],
+	_3 "aDVM_1A4C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1A4A1 "1A4A1 FIRE_aDVM_RADIO_5_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1B No" [Value=2],
+	_3 "aDVM_1A4A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1A4A1A1 "1A4A1A1 FIRE_aDVM_RADIO_5_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1A1B No" [Value=2],
+	_3 "aDVM_1A4A1A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1A4A2 "1A4A2 FIRE_aDVM_RADIO_5_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A Yes" [Value=1],
+	_2 "aDVM_1A4A2B No" [Value=2],
+	_3 "aDVM_1A4A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1A4A2A1 "1A4A2A1 FIRE_aDVM_RADIO_5_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A1A Yes" [Value=1],
+	_2 "aDVM_1A4A2A1B No" [Value=2],
+	_3 "aDVM_1A4A2A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_RADIO_5_1A4A4 "1A4A4 FIRE_aDVM_RADIO_5_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A4A Yes" [Value=1],
+	_2 "aDVM_1A4A4B No" [Value=2],
+	_3 "aDVM_1A4A4C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_CHECK_5_1A4A5 "1A4A5 FIRE_aDVM_CHECK_5_1A4A5 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A Indoors" [Value=1],
+	B "aDVM_1A4A5B Outdoors" [Value=2],
+	C "aDVM_1A4A5C Don’t know" [Value=3] exclusive
+};
+FIRE_aDVM_CHECK_5_1A4A5A1 "1A4A5A1 FIRE_aDVM_CHECK_5_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aDVM_1A4A5A1C By a general ventilation system" [Value=3],
+	D "aDVM_1A4A5A1D By fans in the window or doorway" [Value=4],
+	E "aDVM_1A4A5A1E By open doors or windows" [Value=5],
+	F "aDVM_1A4A5A1F No ventilation was applied to the area" [Value=6],
+	G "aDVM_1A4A5A1G Other" [Value=7],
+	H "aDVM_1A4A5A1H Don’t know" [Value=8] exclusive
+};
+FIRE_aVEX_RADIO_6_1 "1 FIRE_aVEX_RADIO_6_1 - In the last working week, did you work in an area where there were vehicles driven or had their engines running?"
+categorical [1..1]
+{
+	_1 "aVEX_1A Yes" [Value=1],
+	_2 "aVEX_1B No" [Value=2],
+	_3 "aVEX_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aVEX_CHECK_6_1A1 "1A1 FIRE_aVEX_CHECK_6_1A1 - What types of fuel were used in these vehicles?"
+categorical [1..]
+{
+	A "aVEX_1A1A Diesel" [Value=1],
+	B "aVEX_1A1B Petrol" [Value=2],
+	C "aVEX_1A1C Liquefied Petroleum Gas (LPG) or propane" [Value=3],
+	D "aVEX_1A1D Battery or electricity" [Value=4],
+	E "aVEX_1A1E Other" [Value=5],
+	F "aVEX_1A1F Don’t know" [Value=6] exclusive
+};
+FIRE_aVEX_CHECK_6_1A2 "1A2 FIRE_aVEX_CHECK_6_1A2 - Were these vehicles indoors or outdoors?"
+categorical [1..]
+{
+	A "aVEX_1A2A Indoors" [Value=1],
+	B "aVEX_1A2B Outdoors" [Value=2],
+	C "aVEX_1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aVEX_CHECK_6_1A2A1 "1A2A1 FIRE_aVEX_CHECK_6_1A2A1 - How was the area ventilated?"
+categorical [1..]
+{
+	A "aVEX_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aVEX_1A2A1B By a general ventilation system" [Value=2],
+	C "aVEX_1A2A1C By fans in the window or doorway" [Value=3],
+	D "aVEX_1A2A1D By open doors or windows" [Value=4],
+	E "aVEX_1A2A1E No ventilation was applied to the area" [Value=5],
+	F "aVEX_1A2A1F Other" [Value=6],
+	G "aVEX_1A2A1G Don’t know" [Value=7] exclusive
+};
+FIRE_aVEX_RADIO_6_1A3 "1A3 FIRE_aVEX_RADIO_6_1A3 - How far away did you work from these vehicles?"
+categorical [1..1]
+{
+	_1 "aVEX_1A3A Less than 20 metres" [Value=1],
+	_2 "aVEX_1A3B 20 - 50 metres" [Value=2],
+	_3 "aVEX_1A3C More than 50 metres" [Value=3],
+	_4 "aVEX_1A3D Don’t know" [Value=4] exclusive
+};
+FIRE_aVEX_RADIO_6_1A4 "1A4 FIRE_aVEX_RADIO_6_1A4 - In the last working week, did you smell exhaust from the vehicles?"
+categorical [1..1]
+{
+	_1 "aVEX_1A4A Yes" [Value=1],
+	_2 "aVEX_1A4B No" [Value=2],
+	_3 "aVEX_1A4C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_RADIO_7_1 "1 FIRE_aASR_RADIO_7_1 - In the last working week, did you work with any asbestos-containing materials?"
+categorical [1..1]
+{
+	_1 "aASR_1A Yes" [Value=1],
+	_2 "aASR_1B No" [Value=2],
+	_3 "aASR_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_RADIO_7_1A1 "1A1 FIRE_aASR_RADIO_7_1A1 - What type of work did you do involving asbestos-containing material?"
+categorical [1..1]
+{
+	_1 "aASR_1A1A Repair or maintenance tasks (not involving removal of asbestos-containing materials)" [Value=1],
+	_2 "aASR_1A1B Removal of asbestos-containing materials" [Value=2],
+	_3 "aASR_1A1C Other" [Value=3]
+};
+FIRE_aASR_CHECK_7_1A1A1 "1A1A1 FIRE_aASR_CHECK_7_1A1A1 - Which materials did you work with?"
+categorical [1..]
+{
+	A "aASR_1A1A1A Corrugated cement sheeting" [Value=1],
+	B "aASR_1A1A1B Brakes on vintage cars" [Value=2],
+	C "aASR_1A1A1C Gaskets that could contain asbestos" [Value=3],
+	D "aASR_1A1A1D Lagging" [Value=4],
+	E "aASR_1A1A1E Vinyl floor tiles" [Value=5],
+	F "aASR_1A1A1F Ceiling tiles" [Value=6],
+	G "aASR_1A1A1G Other" [Value=7],
+	H "aASR_1A1A1H Don’t know" [Value=8] exclusive
+};
+FIRE_aASR_RADIO_7_1A1A1G1 "1A1A1G1 FIRE_aASR_RADIO_7_1A1A1G1 - Please specify"
+categorical [1..1]
+{
+	_1 "aASR_1A1A1G1A" [Value=1] other (FREETEXT "" text)
+};
+FIRE_aASR_RADIO_7_1A1A2 "1A1A2 FIRE_aASR_RADIO_7_1A1A2 - Did you cut, grind or break up the asbestos-containing material or were you exposed to it by accident?"
+categorical [1..1]
+{
+	_1 "aASR_1A1A2A Yes" [Value=1],
+	_2 "aASR_1A1A2B No" [Value=2],
+	_3 "aASR_1A1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_RADIO_7_1A1A3 "1A1A3 FIRE_aASR_RADIO_7_1A1A3 - In the last working week, did you use respiratory protection?"
+categorical [1..1]
+{
+	_1 "aASR_1A1A3A Yes" [Value=1],
+	_2 "aASR_1A1A3B No" [Value=2],
+	_3 "aASR_1A1A3C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_CHECK_7_1A1A3A1 "1A1A3A1 FIRE_aASR_CHECK_7_1A1A3A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aASR_1A1A3A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aASR_1A1A3A1B Powered Air-Purifying Respirator (PAPR" [Value=2],
+	C "aASR_1A1A3A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aASR_1A1A3A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "aASR_1A1A3A1E Other" [Value=5],
+	F "aASR_1A1A3A1F Don’t know" [Value=6] exclusive
+};
+FIRE_aASR_CHECK_7_1A1A4 "1A1A4 FIRE_aASR_CHECK_7_1A1A4 - How did you clean up the dust in the last working week?"
+categorical [1..]
+{
+	A "aASR_1A1A4A Using vacuum cleaner" [Value=1],
+	B "aASR_1A1A4B Using vacuum cleaner fitted with a HEPA filter" [Value=2],
+	C "aASR_1A1A4C Using compressed air" [Value=3],
+	D "aASR_1A1A4D Using a brush or sweeping the area with a broom" [Value=4],
+	E "aASR_1A1A4E Mopping the area with water" [Value=5],
+	F "aASR_1A1A4F None of these" [Value=6] exclusive,
+	G "aASR_1A1A4G The working area was not cleaned of dust" [Value=7],
+	H "aASR_1A1A4H Don’t know" [Value=8] exclusive
+};
+FIRE_aASR_CHECK_7_1A1B1 "1A1B1 FIRE_aASR_CHECK_7_1A1B1 - Which of the following asbestos-containing materials did you remove?"
+categorical [1..]
+{
+	A "aASR_1A1B1A Fibro (fibrous cement) sheet (external cladding, roofing, pipes, internal wet-area lining sheets)" [Value=1],
+	B "aASR_1A1B1B Asbestos cavity insulation (from wall or ceiling cavities in buildings)" [Value=2],
+	C "aASR_1A1B1C Fire rated board or millboard" [Value=3],
+	D "aASR_1A1B1D Vinyl floorcoverings (tiles or sheet)" [Value=4],
+	E "aASR_1A1B1E Any asbestos-containing material from onboard a ship, train or other mobile plant" [Value=5],
+	F "aASR_1A1B1F Lagging/insulation from boilers/ovens/furnaces or similar fixed plant" [Value=6],
+	G "aASR_1A1B1G Asbestos ceiling tiles (accoustic tiles)" [Value=7],
+	H "aASR_1A1B1H Road paving or asphalt containing asbestos" [Value=8],
+	I "aASR_1A1B1I Other, please specify" [Value=9] other (FREETEXT "" text),
+	J "aASR_1A1B1J Don’t know" [Value=10] exclusive
+};
+FIRE_aASR_CHECK_7_1A1B2 "1A1B2 FIRE_aASR_CHECK_7_1A1B2 - In the last working week, did you use any of the following methods to remove the asbestos containing materials?"
+categorical [1..]
+{
+	A "aASR_1A1B2A Wet spray method" [Value=1],
+	B "aASR_1A1B2B Saturation and water injection method" [Value=2],
+	C "aASR_1A1B2C Dry method" [Value=3],
+	D "aASR_1A1B2D Hammering or using power tools (e.g. disc cutters, saws, etc)" [Value=4],
+	E "aASR_1A1B2E Other" [Value=5],
+	F "aASR_1A1B2F Don’t know" [Value=6] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B3 "1A1B3 FIRE_aASR_RADIO_7_1A1B3 - In the last working week, was the asbestos removal work done inside an enclosure?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B3A Yes" [Value=1],
+	_2 "aASR_1A1B3B No" [Value=2],
+	_3 "aASR_1A1B3C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B3A1 "1A1B3A1 FIRE_aASR_RADIO_7_1A1B3A1 - Was the enclosure under negative pressure?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B3A1A Yes" [Value=1],
+	_2 "aASR_1A1B3A1B No" [Value=2],
+	_3 "aASR_1A1B3A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B3A1A1 "1A1B3A1A1 FIRE_aASR_RADIO_7_1A1B3A1A1 - Did you do a preliminary decontamination of personal protective equipment (PPE) before leaving the enclosure?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B3A1A1A Yes" [Value=1],
+	_2 "aASR_1A1B3A1A1B No" [Value=2],
+	_3 "aASR_1A1B3A1A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B4 "1A1B4 FIRE_aASR_RADIO_7_1A1B4 - In the last working week, was there a decontamination unit (DCU) on site so that you could shower and decontaminate fully?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B4A Yes" [Value=1],
+	_2 "aASR_1A1B4B No" [Value=2],
+	_3 "aASR_1A1B4C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_CHECK_7_1A1B5 "1A1B5 FIRE_aASR_CHECK_7_1A1B5 - In the last working week, what protective clothing did you wear when removing asbestos-containing materials?"
+categorical [1..]
+{
+	A "aASR_1A1B5A Gloves" [Value=1],
+	B "aASR_1A1B5B Footwear" [Value=2],
+	C "aASR_1A1B5C Overalls" [Value=3],
+	D "aASR_1A1B5D Apron" [Value=4],
+	E "aASR_1A1B5E Goggles/glasses" [Value=5],
+	F "aASR_1A1B5F Other protective clothing" [Value=6],
+	G "aASR_1A1B5G Don’t know" [Value=7] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B6 "1A1B6 FIRE_aASR_RADIO_7_1A1B6 - Did you shower before or after removing PPE?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B6A Before removing PPE" [Value=1],
+	_2 "aASR_1A1B6B After removing PPE" [Value=2],
+	_3 "aASR_1A1B6C When I got home" [Value=3],
+	_4 "aASR_1A1B6D Don’t know" [Value=4] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B7 "1A1B7 FIRE_aASR_RADIO_7_1A1B7 - In the last working week, what was the last item of PPE you removed following work?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B7A Gloves" [Value=1],
+	_2 "aASR_1A1B7B Footwear" [Value=2],
+	_3 "aASR_1A1B7C Overalls" [Value=3],
+	_4 "aASR_1A1B7D Apron" [Value=4],
+	_5 "aASR_1A1B7E Respiratory protective equipment (RPE)" [Value=5],
+	_6 "aASR_1A1B7F Don’t know" [Value=6] exclusive
+};
+FIRE_aASR_RADIO_7_1A1B8 "1A1B8 FIRE_aASR_RADIO_7_1A1B8 - In the last working week, did you use respiratory protective equipment when removing the asbestos containing materials?"
+categorical [1..1]
+{
+	_1 "aASR_1A1B8A Yes" [Value=1],
+	_2 "aASR_1A1B8B No" [Value=2],
+	_3 "aASR_1A1B8C Don’t know" [Value=3] exclusive
+};
+FIRE_aASR_CHECK_7_1A1B8A1 "1A1B8A1 FIRE_aASR_CHECK_7_1A1B8A1 - What  type of respiratory protective equipment (RPE) did you use when removing the asbestos-containing materials in the last working week?"
+categorical [1..]
+{
+	A "aASR_1A1B8A1A Rubber face mask fitted with a particle filter (P3) or a cartridge" [Value=1],
+	B "aASR_1A1B8A1B Powered Air-Purifying Respirator (PAPR)" [Value=2],
+	C "aASR_1A1B8A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aASR_1A1B8A1D A filtering face piece mask or dust mask (FFP3 type)" [Value=4],
+	E "aASR_1A1B8A1E Other" [Value=5],
+	F "aASR_1A1B8A1F Don’t know" [Value=6] exclusive
+};
+FIRE_aASR_RADIO_7_1A1C1 "1A1C1 FIRE_aASR_RADIO_7_1A1C1 - Please specify"
+categorical [1..1]
+{
+	_1 "aASR_1A1C1A" [Value=1] other (FREETEXT "" text)
+};
+FIRE_aUVR_RADIO_8_1 "1 FIRE_aUVR_RADIO_8_1 - In the last working week, did you work outside during the day (includes being in a vehicle that is outside)?"
+categorical [1..1]
+{
+	_1 "aUVR_1A Yes" [Value=1],
+	_2 "aUVR_1B No" [Value=2],
+	_3 "aUVR_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A1 "1A1 FIRE_aUVR_RADIO_8_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?"
+categorical [1..1]
+{
+	_1 "aUVR_1A1A Yes" [Value=1],
+	_2 "aUVR_1A1B No" [Value=2],
+	_3 "aUVR_1A1C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_CHECK_8_1A1A1 "1A1A1 FIRE_aUVR_CHECK_8_1A1A1 - In the last working week, did you work with or near any of the following reflective surfaces?"
+categorical [1..]
+{
+	A "aUVR_1A1A1A Sand" [Value=1],
+	B "aUVR_1A1A1B Glass (including windscreens)" [Value=2],
+	C "aUVR_1A1A1C Roofing iron" [Value=3],
+	D "aUVR_1A1A1D Water" [Value=4],
+	E "aUVR_1A1A1E Concrete or cement" [Value=5],
+	F "aUVR_1A1A1F Bitumen or ashphalt" [Value=6],
+	G "aUVR_1A1A1G Snow" [Value=7],
+	H "aUVR_1A1A1H Plastic" [Value=8],
+	I "aUVR_1A1A1I None of these" [Value=9] exclusive,
+	J "aUVR_1A1A1J Don’t know" [Value=10] exclusive
+};
+FIRE_aUVR_CHECK_8_1A3 "1A3 FIRE_aUVR_CHECK_8_1A3 - When you were working outdoors, were you:"
+categorical [1..]
+{
+	A "aUVR_1A3A Under partial shade (e.g., sun shade sail, under trees)" [Value=1],
+	B "aUVR_1A3B In the open" [Value=2],
+	C "aUVR_1A3C In a vehicle" [Value=3],
+	D "aUVR_1A3D Don’t know" [Value=4] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3A1 "1A3A1 FIRE_aUVR_RADIO_8_1A3A1 - How many hours per day did you spend working under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A1A More than 4 hours" [Value=1],
+	_2 "aUVR_1A3A1B Between 1 and 4 hours" [Value=2],
+	_3 "aUVR_1A3A1C Less than 1 hour" [Value=3],
+	_4 "aUVR_1A3A1D Don’t know" [Value=4] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3A2 "1A3A2 FIRE_aUVR_RADIO_8_1A3A2 - In the last working week, did you wear clothing that covered most of your body (i.e., trousers and shirts or t-shirts with sleeves) when working under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A2A Yes" [Value=1],
+	_2 "aUVR_1A3A2B No" [Value=2],
+	_3 "aUVR_1A3A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3A3 "1A3A3 FIRE_aUVR_RADIO_8_1A3A3 - In the last working week, did you wear sunscreen when working under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A3A Yes" [Value=1],
+	_2 "aUVR_1A3A3B No" [Value=2],
+	_3 "aUVR_1A3A3C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3A4 "1A3A4 FIRE_aUVR_RADIO_8_1A3A4 - In the last working week did you wear a hat or other sun protection head cover when working out under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A4A Yes" [Value=1],
+	_2 "aUVR_1A3A4B No" [Value=2],
+	_3 "aUVR_1A3A4C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3B1 "1A3B1 FIRE_aUVR_RADIO_8_1A3B1 - In the last working week, how many hours per day did you spend working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B1A More than 4 hours" [Value=1],
+	_2 "aUVR_1A3B1B Between 1 and 4 hours" [Value=2],
+	_3 "aUVR_1A3B1C Less than 1 hour" [Value=3],
+	_4 "aUVR_1A3B1D Don’t know" [Value=4] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3B2 "1A3B2 FIRE_aUVR_RADIO_8_1A3B2 - In the last working week, did you wear clothing that covered most of your body (i.e., trousers and shirts or t-shirts with sleeves) when working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B2A Yes" [Value=1],
+	_2 "aUVR_1A3B2B No" [Value=2],
+	_3 "aUVR_1A3B2C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3B3 "1A3B3 FIRE_aUVR_RADIO_8_1A3B3 - In the last working week, did you wear sunscreen when working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B3A Yes" [Value=1],
+	_2 "aUVR_1A3B3B No" [Value=2],
+	_3 "aUVR_1A3B3C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3B4 "1A3B4 FIRE_aUVR_RADIO_8_1A3B4 - In the last working week, did you wear a hat or other sun protection head cover when working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B4A Yes" [Value=1],
+	_2 "aUVR_1A3B4B No" [Value=2],
+	_3 "aUVR_1A3B4C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3C1 "1A3C1 FIRE_aUVR_RADIO_8_1A3C1 - In the last working week, did you have your windows open in the vehicle you were working in?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A Yes" [Value=1],
+	_2 "aUVR_1A3C1B No" [Value=2],
+	_3 "aUVR_1A3C1C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3C1A1 "1A3C1A1 FIRE_aUVR_RADIO_8_1A3C1A1 - In the last working week, how many hours per day did you spend working in a vehicle with your windows down?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A1A More than 4 hours" [Value=1],
+	_2 "aUVR_1A3C1A1B Between 1 and 4 hours" [Value=2],
+	_3 "aUVR_1A3C1A1C Less than 1 hour" [Value=3],
+	_4 "aUVR_1A3C1A1D Don’t know" [Value=4] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3C1A2 "1A3C1A2 FIRE_aUVR_RADIO_8_1A3C1A2 - In the last working week, did you wear clothing that covered most of your body (i.e., long sleeve shirts) when working in the vehicle?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A2A Yes" [Value=1],
+	_2 "aUVR_1A3C1A2B No" [Value=2],
+	_3 "aUVR_1A3C1A2C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A3C1A3 "1A3C1A3 FIRE_aUVR_RADIO_8_1A3C1A3 - In the last working week, did you wear sunscreen when working in the vehicle?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A3A Yes" [Value=1],
+	_2 "aUVR_1A3C1A3B No" [Value=2],
+	_3 "aUVR_1A3C1A3C Don’t know" [Value=3] exclusive
+};
+FIRE_aUVR_RADIO_8_1A4 "1A4 FIRE_aUVR_RADIO_8_1A4 - In the last working week, did you wear sunglasses when you were working outside?"
+categorical [1..1]
+{
+	_1 "aUVR_1A4A Yes" [Value=1],
+	_2 "aUVR_1A4B No" [Value=2],
+	_3 "aUVR_1A4C Don’t know" [Value=3] exclusive
+};
+FIRE_aCLH_RADIO_9_1 "1 FIRE_aCLH_RADIO_9_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?"
+categorical [1..1]
+{
+	_1 "aCLH_1A Yes" [Value=1],
+	_2 "aCLH_1B No" [Value=2],
+	_3 "aCLH_1C Don’t know" [Value=3] exclusive
+};
+FIRE_aCLH_CHECK_9_1A1 "1A1 FIRE_aCLH_CHECK_9_1A1 - In the last working week, did you use any of the following to clean your hands at work?"
+categorical [1..]
+{
+	A "aCLH_1A1A Industrial hand cleaner" [Value=1],
+	B "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner" [Value=2],
+	C "aCLH_1A1C Petrol" [Value=3],
+	D "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub" [Value=4],
+	E "aCLH_1A1E None of these" [Value=5] exclusive,
+	F "aCLH_1A1F Don’t know" [Value=6] exclusive
+};

@@ -1,0 +1,810 @@
+[
+  {
+    "routing": "jobcat9 = 12 or jobcat11 = 16#qstart#",
+    "qname": "DRYC_CHECK_1",
+    "qtype": "multi",
+    "qlabel": "1 DRYC_CHECK_1 - In the last working week, did you do any of the following activities at work?",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A Dry cleaning of clothes on site",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "DRYC_1B Organisation of dry cleaning off site",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "DRYC_1C Water-based laundry",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "DRYC_1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_check_1 =1#qstart#",
+    "qname": "DRYC_CHECK_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 DRYC_CHECK_1A1 - In the last working week, did you use any of the following dry cleaning chemicals?",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A1A Perchloroethylene or tetrachloroethylene (PERC)",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "DRYC_1A1B Trichloroethylene",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "DRYC_1A1C Solvent-based cleaners (e.g Petroleum distillates, hydrocarbon dry cleaners)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "DRYC_1A1D Greenearth (silicone based)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "DRYC_1A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "DRYC_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_check_1 =1#qstart#",
+    "qname": "DRYC_CHECK_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 DRYC_CHECK_1A2 - In the last working week, did you do any of the following tasks?",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A2A Served customers",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "DRYC_1A2B Pressed clothes",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "DRYC_1A2C Transferred dry cleaned clothing from the washer to the dryer",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "DRYC_1A2D Manually transferred dry cleaning chemicals from a storage tank to a washer",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "DRYC_1A2E Cleaned dry cleaning equipment",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "DRYC_1A2F Maintained or repaired dry cleaning equipment",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "DRYC_1A2G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "DRYC_1A2H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_check_1 =1#qstart#",
+    "qname": "DRYC_CHECK_1A3",
+    "qtype": "multi",
+    "qlabel": "1A3 DRYC_CHECK_1A3 - How was the area where you carried out dry cleaning of clothes ventilated?",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A3A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "DRYC_1A3B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "DRYC_1A3C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "DRYC_1A3D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "DRYC_1A3E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "DRYC_1A3F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "DRYC_1A3G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "DRYC_1A3H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_check_1 =1#qstart#",
+    "qname": "DRYC_RADIO_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 DRYC_RADIO_1A4 - In the last working week, did you use respiratory protection?",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "DRYC_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "DRYC_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_radio_1a4 =1#qstart#",
+    "qname": "DRYC_CHECK_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 DRYC_CHECK_1A4A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A4A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "DRYC_1A4A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "DRYC_1A4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "DRYC_1A4A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "DRYC_1A4A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "DRYC_1A4A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": " dryc_check_1a4a1=5#qstart#",
+    "qname": "DRYC_RADIO_1A4A1E1",
+    "qtype": "single",
+    "qlabel": "1A4A1E1 DRYC_RADIO_1A4A1E1 - Please specify",
+    "categories": [
+      {
+        "catLabel": "DRYC_1A4A1E1A",
+        "isOther": true,
+        "catValue": "1",
+        "catName": "_1"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat9 = 12 or jobcat11 = 16#qstart#",
+    "qname": "DRYC_aFAB_RADIO_2_1",
+    "qtype": "single",
+    "qlabel": "1 DRYC_aFAB_RADIO_2_1 - In the last working week, did you clean fabrics such as carpets, clothes or textiles?",
+    "categories": [
+      {
+        "catLabel": "aFAB_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFAB_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFAB_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_afab_radio_2_1 =1#qstart#",
+    "qname": "DRYC_aFAB_CHECK_2_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 DRYC_aFAB_CHECK_2_1A1 - In the last working week, did you use any of the following chemicals to clean stains from fabrics?",
+    "categories": [
+      {
+        "catLabel": "aFAB_1A1A Perchloroethylene (PERC) or tetrachloroethylene",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFAB_1A1B Solvent- based cleaners (e.g. Petroleum distillates /  hydrocarbon dry cleaners)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFAB_1A1C Butylal",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFAB_1A1D None of these",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFAB_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_afab_radio_2_1 =1#qstart#",
+    "qname": "DRYC_aFAB_CHECK_2_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 DRYC_aFAB_CHECK_2_1A2 - How was the area where you worked ventilated?",
+    "categories": [
+      {
+        "catLabel": "aFAB_1A2A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFAB_1A2B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFAB_1A2C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFAB_1A2D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFAB_1A2E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aFAB_1A2F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aFAB_1A2G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aFAB_1A2H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat9 = 12 or jobcat11 = 16#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1",
+    "qtype": "single",
+    "qlabel": "1 DRYC_aDVM_RADIO_3_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1=1#qstart#",
+    "qname": "DRYC_aDVM_CHECK_3_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 DRYC_aDVM_CHECK_3_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A1A Diesel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A1B Petrol",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDVM_1A1D Battery or electricity",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDVM_1A1E None of these",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDVM_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1=1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 DRYC_aDVM_RADIO_3_1A2 - In the last working week, did you fuel the vehicles yourself?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1=1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 DRYC_aDVM_RADIO_3_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a3 =1#qstart#",
+    "qname": "DRYC_aDVM_CHECK_3_1A3A1",
+    "qtype": "multi",
+    "qlabel": "1A3A1 DRYC_aDVM_CHECK_3_1A3A1 - What types of roads or areas did you drive or travel on?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A3A1A Any public street or road in an urban area",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A3A1C Agricultural land",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDVM_1A3A1D Forestry areas",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDVM_1A3A1E Underground in a mine",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDVM_1A3A1F Surface driving in an open mine or in a quarry",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aDVM_1A3A1G Construction sites",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aDVM_1A3A1H Inside a building (e.g., warehouse)",
+        "catValue": "8",
+        "catName": "H"
+      },
+      {
+        "catLabel": "aDVM_1A3A1I Other industrial sites",
+        "catValue": "9",
+        "catName": "I"
+      },
+      {
+        "catLabel": "aDVM_1A3A1J Other",
+        "catValue": "10",
+        "catName": "J"
+      },
+      {
+        "catLabel": "aDVM_1A3A1K Don’t know",
+        "isExclusive": true,
+        "catValue": "11",
+        "catName": "K"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1=1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 DRYC_aDVM_RADIO_3_1A4 - In the last working week, did you perform any maintenance work on vehicles?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a4 =1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A4A1",
+    "qtype": "single",
+    "qlabel": "1A4A1 DRYC_aDVM_RADIO_3_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a4a1 =1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A4A1A1",
+    "qtype": "single",
+    "qlabel": "1A4A1A1 DRYC_aDVM_RADIO_3_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a4 =1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A4A2",
+    "qtype": "single",
+    "qlabel": "1A4A2 DRYC_aDVM_RADIO_3_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a4a2=1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A4A2A1",
+    "qtype": "single",
+    "qlabel": "1A4A2A1 DRYC_aDVM_RADIO_3_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A2A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a4 =1#qstart#",
+    "qname": "DRYC_aDVM_RADIO_3_1A4A4",
+    "qtype": "single",
+    "qlabel": "1A4A4 DRYC_aDVM_RADIO_3_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_radio_3_1a4 =1#qstart#",
+    "qname": "DRYC_aDVM_CHECK_3_1A4A5",
+    "qtype": "multi",
+    "qlabel": "1A4A5 DRYC_aDVM_CHECK_3_1A4A5 - In the last working week, did you work indoors or outdoors?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A5A Indoors",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A4A5B Outdoors",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A4A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_advm_check_3_1a4a5 =1#qstart#",
+    "qname": "DRYC_aDVM_CHECK_3_1A4A5A1",
+    "qtype": "multi",
+    "qlabel": "1A4A5A1 DRYC_aDVM_CHECK_3_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat9 = 12 or jobcat11 = 16#qstart#",
+    "qname": "DRYC_aCLH_RADIO_4_1",
+    "qtype": "single",
+    "qlabel": "1 DRYC_aCLH_RADIO_4_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?",
+    "categories": [
+      {
+        "catLabel": "aCLH_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCLH_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCLH_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "dryc_aclh_radio_4_1 =1#qstart#",
+    "qname": "DRYC_aCLH_CHECK_4_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 DRYC_aCLH_CHECK_4_1A1 - In the last working week, did you use any of the following to clean your hands at work?",
+    "categories": [
+      {
+        "catLabel": "aCLH_1A1A Industrial hand cleaner",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aCLH_1A1C Petrol",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aCLH_1A1E None of these",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aCLH_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  }
+]

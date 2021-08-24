@@ -1,0 +1,217 @@
+Questions count: 25
+DRYC_CHECK_1 "1 DRYC_CHECK_1 - In the last working week, did you do any of the following activities at work?"
+categorical [1..]
+{
+	A "DRYC_1A Dry cleaning of clothes on site" [Value=1],
+	B "DRYC_1B Organisation of dry cleaning off site" [Value=2],
+	C "DRYC_1C Water-based laundry" [Value=3],
+	D "DRYC_1D Don’t know" [Value=4] exclusive
+};
+DRYC_CHECK_1A1 "1A1 DRYC_CHECK_1A1 - In the last working week, did you use any of the following dry cleaning chemicals?"
+categorical [1..]
+{
+	A "DRYC_1A1A Perchloroethylene or tetrachloroethylene (PERC)" [Value=1],
+	B "DRYC_1A1B Trichloroethylene" [Value=2],
+	C "DRYC_1A1C Solvent-based cleaners (e.g Petroleum distillates, hydrocarbon dry cleaners)" [Value=3],
+	D "DRYC_1A1D Greenearth (silicone based)" [Value=4],
+	E "DRYC_1A1E Other" [Value=5],
+	F "DRYC_1A1F Don’t know" [Value=6] exclusive
+};
+DRYC_CHECK_1A2 "1A2 DRYC_CHECK_1A2 - In the last working week, did you do any of the following tasks?"
+categorical [1..]
+{
+	A "DRYC_1A2A Served customers" [Value=1],
+	B "DRYC_1A2B Pressed clothes" [Value=2],
+	C "DRYC_1A2C Transferred dry cleaned clothing from the washer to the dryer" [Value=3],
+	D "DRYC_1A2D Manually transferred dry cleaning chemicals from a storage tank to a washer" [Value=4],
+	E "DRYC_1A2E Cleaned dry cleaning equipment" [Value=5],
+	F "DRYC_1A2F Maintained or repaired dry cleaning equipment" [Value=6],
+	G "DRYC_1A2G Other" [Value=7],
+	H "DRYC_1A2H Don’t know" [Value=8] exclusive
+};
+DRYC_CHECK_1A3 "1A3 DRYC_CHECK_1A3 - How was the area where you carried out dry cleaning of clothes ventilated?"
+categorical [1..]
+{
+	A "DRYC_1A3A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "DRYC_1A3B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "DRYC_1A3C By a general ventilation system" [Value=3],
+	D "DRYC_1A3D By fans in the window or doorway" [Value=4],
+	E "DRYC_1A3E By open doors or windows" [Value=5],
+	F "DRYC_1A3F No ventilation was applied to the area" [Value=6],
+	G "DRYC_1A3G Other" [Value=7],
+	H "DRYC_1A3H Don’t know" [Value=8] exclusive
+};
+DRYC_RADIO_1A4 "1A4 DRYC_RADIO_1A4 - In the last working week, did you use respiratory protection?"
+categorical [1..1]
+{
+	_1 "DRYC_1A4A Yes" [Value=1],
+	_2 "DRYC_1A4B No" [Value=2],
+	_3 "DRYC_1A4C Don’t know" [Value=3] exclusive
+};
+DRYC_CHECK_1A4A1 "1A4A1 DRYC_CHECK_1A4A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "DRYC_1A4A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "DRYC_1A4A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "DRYC_1A4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "DRYC_1A4A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "DRYC_1A4A1E Other" [Value=5],
+	F "DRYC_1A4A1F Don’t know" [Value=6] exclusive
+};
+DRYC_RADIO_1A4A1E1 "1A4A1E1 DRYC_RADIO_1A4A1E1 - Please specify"
+categorical [1..1]
+{
+	_1 "DRYC_1A4A1E1A" [Value=1] other (FREETEXT "" text)
+};
+DRYC_aFAB_RADIO_2_1 "1 DRYC_aFAB_RADIO_2_1 - In the last working week, did you clean fabrics such as carpets, clothes or textiles?"
+categorical [1..1]
+{
+	_1 "aFAB_1A Yes" [Value=1],
+	_2 "aFAB_1B No" [Value=2],
+	_3 "aFAB_1C Don’t know" [Value=3] exclusive
+};
+DRYC_aFAB_CHECK_2_1A1 "1A1 DRYC_aFAB_CHECK_2_1A1 - In the last working week, did you use any of the following chemicals to clean stains from fabrics?"
+categorical [1..]
+{
+	A "aFAB_1A1A Perchloroethylene (PERC) or tetrachloroethylene" [Value=1],
+	B "aFAB_1A1B Solvent- based cleaners (e.g. Petroleum distillates /  hydrocarbon dry cleaners)" [Value=2],
+	C "aFAB_1A1C Butylal" [Value=3],
+	D "aFAB_1A1D None of these" [Value=4] exclusive,
+	E "aFAB_1A1E Don’t know" [Value=5] exclusive
+};
+DRYC_aFAB_CHECK_2_1A2 "1A2 DRYC_aFAB_CHECK_2_1A2 - How was the area where you worked ventilated?"
+categorical [1..]
+{
+	A "aFAB_1A2A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aFAB_1A2B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aFAB_1A2C By a general ventilation system" [Value=3],
+	D "aFAB_1A2D By fans in the window or doorway" [Value=4],
+	E "aFAB_1A2E By open doors or windows" [Value=5],
+	F "aFAB_1A2F No ventilation was applied to the area" [Value=6],
+	G "aFAB_1A2G Other" [Value=7],
+	H "aFAB_1A2H Don’t know" [Value=8] exclusive
+};
+DRYC_aDVM_RADIO_3_1 "1 DRYC_aDVM_RADIO_3_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A Yes" [Value=1],
+	_2 "aDVM_1B No" [Value=2],
+	_3 "aDVM_1C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_CHECK_3_1A1 "1A1 DRYC_aDVM_CHECK_3_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?"
+categorical [1..]
+{
+	A "aDVM_1A1A Diesel" [Value=1],
+	B "aDVM_1A1B Petrol" [Value=2],
+	C "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane" [Value=3],
+	D "aDVM_1A1D Battery or electricity" [Value=4],
+	E "aDVM_1A1E None of these" [Value=5] exclusive,
+	F "aDVM_1A1F Don’t know" [Value=6] exclusive
+};
+DRYC_aDVM_RADIO_3_1A2 "1A2 DRYC_aDVM_RADIO_3_1A2 - In the last working week, did you fuel the vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aDVM_1A2A Yes" [Value=1],
+	_2 "aDVM_1A2B No" [Value=2],
+	_3 "aDVM_1A2C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_RADIO_3_1A3 "1A3 DRYC_aDVM_RADIO_3_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A3A Yes" [Value=1],
+	_2 "aDVM_1A3B No" [Value=2],
+	_3 "aDVM_1A3C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_CHECK_3_1A3A1 "1A3A1 DRYC_aDVM_CHECK_3_1A3A1 - What types of roads or areas did you drive or travel on?"
+categorical [1..]
+{
+	A "aDVM_1A3A1A Any public street or road in an urban area" [Value=1],
+	B "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)" [Value=2],
+	C "aDVM_1A3A1C Agricultural land" [Value=3],
+	D "aDVM_1A3A1D Forestry areas" [Value=4],
+	E "aDVM_1A3A1E Underground in a mine" [Value=5],
+	F "aDVM_1A3A1F Surface driving in an open mine or in a quarry" [Value=6],
+	G "aDVM_1A3A1G Construction sites" [Value=7],
+	H "aDVM_1A3A1H Inside a building (e.g., warehouse)" [Value=8],
+	I "aDVM_1A3A1I Other industrial sites" [Value=9],
+	J "aDVM_1A3A1J Other" [Value=10],
+	K "aDVM_1A3A1K Don’t know" [Value=11] exclusive
+};
+DRYC_aDVM_RADIO_3_1A4 "1A4 DRYC_aDVM_RADIO_3_1A4 - In the last working week, did you perform any maintenance work on vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A Yes" [Value=1],
+	_2 "aDVM_1A4B No" [Value=2],
+	_3 "aDVM_1A4C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_RADIO_3_1A4A1 "1A4A1 DRYC_aDVM_RADIO_3_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1B No" [Value=2],
+	_3 "aDVM_1A4A1C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_RADIO_3_1A4A1A1 "1A4A1A1 DRYC_aDVM_RADIO_3_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1A1B No" [Value=2],
+	_3 "aDVM_1A4A1A1C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_RADIO_3_1A4A2 "1A4A2 DRYC_aDVM_RADIO_3_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A Yes" [Value=1],
+	_2 "aDVM_1A4A2B No" [Value=2],
+	_3 "aDVM_1A4A2C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_RADIO_3_1A4A2A1 "1A4A2A1 DRYC_aDVM_RADIO_3_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A1A Yes" [Value=1],
+	_2 "aDVM_1A4A2A1B No" [Value=2],
+	_3 "aDVM_1A4A2A1C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_RADIO_3_1A4A4 "1A4A4 DRYC_aDVM_RADIO_3_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A4A Yes" [Value=1],
+	_2 "aDVM_1A4A4B No" [Value=2],
+	_3 "aDVM_1A4A4C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_CHECK_3_1A4A5 "1A4A5 DRYC_aDVM_CHECK_3_1A4A5 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A Indoors" [Value=1],
+	B "aDVM_1A4A5B Outdoors" [Value=2],
+	C "aDVM_1A4A5C Don’t know" [Value=3] exclusive
+};
+DRYC_aDVM_CHECK_3_1A4A5A1 "1A4A5A1 DRYC_aDVM_CHECK_3_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aDVM_1A4A5A1C By a general ventilation system" [Value=3],
+	D "aDVM_1A4A5A1D By fans in the window or doorway" [Value=4],
+	E "aDVM_1A4A5A1E By open doors or windows" [Value=5],
+	F "aDVM_1A4A5A1F No ventilation was applied to the area" [Value=6],
+	G "aDVM_1A4A5A1G Other" [Value=7],
+	H "aDVM_1A4A5A1H Don’t know" [Value=8] exclusive
+};
+DRYC_aCLH_RADIO_4_1 "1 DRYC_aCLH_RADIO_4_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?"
+categorical [1..1]
+{
+	_1 "aCLH_1A Yes" [Value=1],
+	_2 "aCLH_1B No" [Value=2],
+	_3 "aCLH_1C Don’t know" [Value=3] exclusive
+};
+DRYC_aCLH_CHECK_4_1A1 "1A1 DRYC_aCLH_CHECK_4_1A1 - In the last working week, did you use any of the following to clean your hands at work?"
+categorical [1..]
+{
+	A "aCLH_1A1A Industrial hand cleaner" [Value=1],
+	B "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner" [Value=2],
+	C "aCLH_1A1C Petrol" [Value=3],
+	D "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub" [Value=4],
+	E "aCLH_1A1E None of these" [Value=5] exclusive,
+	F "aCLH_1A1F Don’t know" [Value=6] exclusive
+};
