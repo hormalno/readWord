@@ -1,0 +1,3268 @@
+[
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_CHECK_1",
+    "qtype": "multi",
+    "qlabel": "1 CERA_CHECK_1 - What types of ceramic or glass products are made where you work?",
+    "categories": [
+      {
+        "catLabel": "CERA_1A Bricks",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "CERA_1B Tiles",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "CERA_1C Clay pipes",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "CERA_1D Sanitary ware",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "CERA_1E Pottery",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "CERA_1F Glass items",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "CERA_1G Engineered, agglomerated or reconstituted stone, also known as quartz conglomerate or quartzites, Caesarstone, Silestone, Technistone",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "CERA_1H Other",
+        "catValue": "8",
+        "catName": "H"
+      },
+      {
+        "catLabel": "CERA_1I Don’t know",
+        "isExclusive": true,
+        "catValue": "9",
+        "catName": "I"
+      }
+    ]
+  },
+  {
+    "routing": "cera_check_1 =6#qstart#",
+    "qname": "CERA_RADIO_1F1",
+    "qtype": "single",
+    "qlabel": "1F1 CERA_RADIO_1F1 - In the last working week, did you make lead cutting glass?",
+    "categories": [
+      {
+        "catLabel": "CERA_1F1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_1F1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_1F1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_1f1 =1#qstart#",
+    "qname": "CERA_RADIO_1F1A1",
+    "qtype": "single",
+    "qlabel": "1F1A1 CERA_RADIO_1F1A1 - In the last working week, did you mix red lead into sand when making lead cutting glass?",
+    "categories": [
+      {
+        "catLabel": "CERA_1F1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_1F1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_1F1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_check_1 =7#qstart#",
+    "qname": "CERA_aCTS_RADIO_1G1_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aCTS_RADIO_1G1_1 - In the last working week, did you cut, drill, grind, polish or work with concrete, stone, artificial stone, slate, ceramic tiles or bricks?",
+    "categories": [
+      {
+        "catLabel": "aCTS_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTS_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTS_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_acts_radio_1g1_1 #qstart#",
+    "qname": "CERA_aCTS_RADIO_1G1_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 CERA_aCTS_RADIO_1G1_1A1 - Which of the following materials did you work with?",
+    "categories": [
+      {
+        "catLabel": "aCTS_1A1A Concrete, natural stone, or bricks",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTS_1A1B Artificial stone such as engineered, agglomerated or reconstituted stone, also known as quartz conglomerate or quartzites, Caesarstone, Silestone, Technistone",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTS_1A1C Ceramic tiles",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aCTS_1A1D Other, please specify",
+        "isOther": true,
+        "catValue": "4",
+        "catName": "_4"
+      },
+      {
+        "catLabel": "aCTS_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "_5"
+      }
+    ]
+  },
+  {
+    "routing": "cera_acts_radio_1g1_1 1 #qstart#",
+    "qname": "CERA_aCTS_RADIO_1G1_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aCTS_RADIO_1G1_1A2 - In the last working week, did you use water suppression all the time when you were working on these materials?",
+    "categories": [
+      {
+        "catLabel": "aCTS_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTS_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTS_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_acts_radio_1g1_1#qstart#",
+    "qname": "CERA_aCTS_RADIO_1G1_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 CERA_aCTS_RADIO_1G1_1A3 - In the last working week, did you use on tool ventilation or dust collection when you worked with these materials?",
+    "categories": [
+      {
+        "catLabel": "aCTS_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTS_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTS_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_acts_radio_1g1_1#qstart#",
+    "qname": "CERA_aCTS_RADIO_1G1_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aCTS_RADIO_1G1_1A4 - In the last working week, did you always work in the open air when you worked with these materials?",
+    "categories": [
+      {
+        "catLabel": "aCTS_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTS_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTS_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_acts_radio_1g1_1#qstart#",
+    "qname": "CERA_aCTS_RADIO_1G1_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 CERA_aCTS_RADIO_1G1_1A5 - In the last working week, did you use a filtering or air-supplied respirator when you worked with these materials (including if you were working in the open air)?",
+    "categories": [
+      {
+        "catLabel": "aCTS_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTS_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTS_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_2",
+    "qtype": "single",
+    "qlabel": "2 CERA_RADIO_2 - In the last working week, did you mix or handle (e.g., crushing, sizing, transferring) any raw materials in dry form?",
+    "categories": [
+      {
+        "catLabel": "CERA_2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_2 =1#qstart#",
+    "qname": "CERA_CHECK_2A1",
+    "qtype": "multi",
+    "qlabel": "2A1 CERA_CHECK_2A1 - What types of measures were used to reduce the amount of dust in your work area in the last working week?",
+    "categories": [
+      {
+        "catLabel": "CERA_2A1A Extracted booth",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "CERA_2A1B Water atomisers or water dust suppression",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "CERA_2A1C Respiratory protective equipment (e.g., FFP mask)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "CERA_2A1D None of these",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "CERA_2A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_3",
+    "qtype": "single",
+    "qlabel": "3 CERA_RADIO_3 - In the last working week, did you do any dry fettling?",
+    "categories": [
+      {
+        "catLabel": "CERA_3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_3 =1#qstart#",
+    "qname": "CERA_CHECK_3A1",
+    "qtype": "multi",
+    "qlabel": "3A1 CERA_CHECK_3A1 - In the last working week, did you use hand or power tools for fettling?",
+    "categories": [
+      {
+        "catLabel": "CERA_3A1A Hand tools",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "CERA_3A1B Power tools",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "CERA_3A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_3 =1#qstart#",
+    "qname": "CERA_CHECK_3A2",
+    "qtype": "multi",
+    "qlabel": "3A2 CERA_CHECK_3A2 - In the last working week, what type of measures were used to reduce the amount of dust in your work area?",
+    "categories": [
+      {
+        "catLabel": "CERA_3A2A Extracted booth",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "CERA_3A2B Water atomisers or water dust suppression",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "CERA_3A2C Respiratory protective equipment (e.g., FFP mask)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "CERA_3A2D None of these",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "CERA_3A2E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_4",
+    "qtype": "single",
+    "qlabel": "4 CERA_RADIO_4 - In the last working week, did you prepare enamels?",
+    "categories": [
+      {
+        "catLabel": "CERA_4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_4=1#qstart#",
+    "qname": "CERA_RADIO_4A1",
+    "qtype": "single",
+    "qlabel": "4A1 CERA_RADIO_4A1 - Did you use an extracted booth when preparing enamels in the last working week?",
+    "categories": [
+      {
+        "catLabel": "CERA_4A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_4A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_4A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_4=1#qstart#",
+    "qname": "CERA_RADIO_4A2",
+    "qtype": "single",
+    "qlabel": "4A2 CERA_RADIO_4A2 - In the last working week, did you handle or come in contact with pigments that contained cobalt?",
+    "categories": [
+      {
+        "catLabel": "CERA_4A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_4A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_4A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_5",
+    "qtype": "single",
+    "qlabel": "5 CERA_RADIO_5 - In the last working week, did you work in the forming or moulding area?",
+    "categories": [
+      {
+        "catLabel": "CERA_5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_5=1#qstart#",
+    "qname": "CERA_CHECK_5A1",
+    "qtype": "multi",
+    "qlabel": "5A1 CERA_CHECK_5A1 - What type of forming techniques did you use?",
+    "categories": [
+      {
+        "catLabel": "CERA_5A1A Dry pressing, such as uniaxial pressing or isostatic pressing",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "CERA_5A1B Stiff plastic forming, such as extrusion or injection moulding",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "CERA_5A1C Soft plastic forming by machine, such as jiggering, jollying, or ram pressing",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "CERA_5A1D Soft plastic forming by hand, such as throwing or wheel turning",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "CERA_5A1E Casting, such as slip casting or pressure casting",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "CERA_5A1F Other",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "CERA_5A1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_aART_RADIO_6_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aART_RADIO_6_1 - In the last working week, did you use ceramic glazes?",
+    "categories": [
+      {
+        "catLabel": "aART_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aART_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aART_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aart_radio_6_1=1#qstart#",
+    "qname": "CERA_aART_CHECK_6_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 CERA_aART_CHECK_6_1A1 - In the last working week, did you use glazes that contained any of the following agents?",
+    "categories": [
+      {
+        "catLabel": "aART_1A1A Chromic acid",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aART_1A1B Chromium pigments",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aART_1A1C Lead",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aART_1A1D Nickel oxide",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aART_1A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aART_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aart_radio_6_1=1#qstart#",
+    "qname": "CERA_aART_RADIO_6_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aART_RADIO_6_1A2 - In the last working week, did you apply the glaze by spraying?",
+    "categories": [
+      {
+        "catLabel": "aART_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aART_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aART_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aart_radio_6_1a2=1#qstart#",
+    "qname": "CERA_aART_RADIO_6_1A2A1",
+    "qtype": "single",
+    "qlabel": "1A2A1 CERA_aART_RADIO_6_1A2A1 - Did you use an extracted booth when spraying glazes in the last working week?",
+    "categories": [
+      {
+        "catLabel": "aART_1A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aART_1A2A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aART_1A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_7",
+    "qtype": "single",
+    "qlabel": "7 CERA_RADIO_7 - In the last working week, did you use paints, varnishes, stains or sealants, or prepare items for painting (i.e., strip or sand items)?",
+    "categories": [
+      {
+        "catLabel": "CERA_7A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_7B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_7C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_7=1#qstart#",
+    "qname": "CERA_aSAN_RADIO_7A1_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aSAN_RADIO_7A1_1 - In the last working week, did you sand or polish items?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSAN_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSAN_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_asan_radio_7a1_1 =1#qstart#",
+    "qname": "CERA_aSAN_CHECK_7A1_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 CERA_aSAN_CHECK_7A1_1A1 - In the last working week, did you sand any of the following items?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A1A Chipboard, MDF, plywood, or pressed wood",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSAN_1A1B Wood",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSAN_1A1C Bare plaster",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSAN_1A1D Metal or metal objects",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSAN_1A1E Artificial stone such as engineered, agglomerated or reconstituted stone, also known as quartz conglomerate or quartzites, Caesarstone, Silestone, Technistone",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSAN_1A1F Other",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aSAN_1A1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "cera_asan_check_7a1_1a1 =4#qstart#",
+    "qname": "CERA_aSAN_RADIO_7A1_1A1D1",
+    "qtype": "single",
+    "qlabel": "1A1D1 CERA_aSAN_RADIO_7A1_1A1D1 - In the last working week, did you sand painted metal?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A1D1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSAN_1A1D1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSAN_1A1D1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_asan_radio_7a1_1 =1#qstart#",
+    "qname": "CERA_aSAN_RADIO_7A1_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aSAN_RADIO_7A1_1A2 - Was there a ventilation system that removed dust or fume from where you worked in the last working week (local exhaust ventilation or on-tool extraction)?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSAN_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSAN_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_asan_radio_7a1_1 =1#qstart#",
+    "qname": "CERA_aSAN_CHECK_7A1_1A3",
+    "qtype": "multi",
+    "qlabel": "1A3 CERA_aSAN_CHECK_7A1_1A3 - In the last working week, which of the following did you use to sand or polish the items?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A3A A power sander or polisher",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSAN_1A3B A hand sander or polisher",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSAN_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "cera_asan_radio_7a1_1 =1#qstart#",
+    "qname": "CERA_aSAN_RADIO_7A1_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aSAN_RADIO_7A1_1A4 - In the last working week, did you use respiratory protection while sanding or polishing items?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSAN_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSAN_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_asan_radio_7a1_1a4 =1#qstart#",
+    "qname": "CERA_aSAN_CHECK_7A1_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 CERA_aSAN_CHECK_7A1_1A4A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aSAN_1A4A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSAN_1A4A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSAN_1A4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSAN_1A4A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSAN_1A4A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSAN_1A4A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_7=1#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aSTP_RADIO_7A2_1 - In the last working week, did you strip paint from existing surfaces?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1 =1#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 CERA_aSTP_RADIO_7A2_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A1A Yes If CERA_aSTP_RADIO_7A2_1A1",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1a1#qstart#",
+    "qname": "CERA_aSTP_CHECK_7A2_1A1A1",
+    "qtype": "multi",
+    "qlabel": "1A1A1 CERA_aSTP_CHECK_7A2_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A1A1A On-tool extraction to remove dust",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSTP_1A1A1B Wet sanding, blasting or grinding",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSTP_1A1A1C None of these",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSTP_1A1A1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1 =1#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aSTP_RADIO_7A2_1A2 - In the last working week, did you strip lead-based paint?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1 =1#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 CERA_aSTP_RADIO_7A2_1A3 - In the last working week, did you strip old paint which was likely to have been applied before 2001?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1 =1#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aSTP_RADIO_7A2_1A4 - In the last working week, where did you strip paint?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A4A Indoors",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1A4B Outdoors",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1a4 =1#qstart#",
+    "qname": "CERA_aSTP_CHECK_7A2_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 CERA_aSTP_CHECK_7A2_1A4A1 - How was the area ventilated?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A4A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSTP_1A4A1B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSTP_1A4A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSTP_1A4A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSTP_1A4A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSTP_1A4A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aSTP_1A4A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aSTP_1A4A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1a4 =2#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1A4B1",
+    "qtype": "single",
+    "qlabel": "1A4B1 CERA_aSTP_RADIO_7A2_1A4B1 - Was there a ventilation system operating on the tool you used to strip paint (local exhaust ventilation or on-tool extraction)?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A4B1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1A4B1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1A4B1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1 =1#qstart#",
+    "qname": "CERA_aSTP_RADIO_7A2_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 CERA_aSTP_RADIO_7A2_1A5 - In the last working week, did you use respiratory protection while stripping paint?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSTP_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSTP_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_astp_radio_7a2_1a5 =1 #qstart#",
+    "qname": "CERA_aSTP_CHECK_7A2_1A5A1",
+    "qtype": "multi",
+    "qlabel": "1A5A1 CERA_aSTP_CHECK_7A2_1A5A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aSTP_1A5A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSTP_1A5A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSTP_1A5A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSTP_1A5A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSTP_1A5A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSTP_1A5A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_7=1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aPAI_RADIO_7A3_1 - In the last working week, did you use paints, stains, varnishes, polishes, or sealers?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 CERA_aPAI_RADIO_7A3_1A1 - In the last working week, did you mix or thin paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a1=1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A1A1",
+    "qtype": "single",
+    "qlabel": "1A1A1 CERA_aPAI_RADIO_7A3_1A1A1 - In the last working week, did you mix or thin solvent-based or oil-based paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A1A1B No (I used water-based or non-toxic paint)",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a1a1 =1#qstart#",
+    "qname": "CERA_aPAI_CHECK_7A3_1A1A1A1",
+    "qtype": "multi",
+    "qlabel": "1A1A1A1 CERA_aPAI_CHECK_7A3_1A1A1A1 - What did you use to mix or thin paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A1A1A1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aPAI_1A1A1A1B Oil or solvent-based thinners",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aPAI_1A1A1A1C Other",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aPAI_1A1A1A1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a1=1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A1A2",
+    "qtype": "single",
+    "qlabel": "1A1A2 CERA_aPAI_RADIO_7A3_1A1A2 - In the last working week, did you use a cartridge filter respirator, a powered air-purifying respirator (PAPR) or an air-supplied respirator when mixing and thinning paints? or air-supplied respirator when mixing and thinning paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aPAI_RADIO_7A3_1A2 - In the last working week, did you apply a primer or undercoat prior to painting?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a2 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A2A1",
+    "qtype": "single",
+    "qlabel": "1A2A1 CERA_aPAI_RADIO_7A3_1A2A1 - In the last working week, did you use oil/solvent-based or water-based/non-toxic primer or undercoat?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A2A1A Oil or solvent-based",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A2A1B Water-based or non-toxic",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a2 =1#qstart#",
+    "qname": "CERA_aPAI_CHECK_7A3_1A2A2",
+    "qtype": "multi",
+    "qlabel": "1A2A2 CERA_aPAI_CHECK_7A3_1A2A2 - In the last working week, did you use chromate primers or red lead?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A2A2A Zinc chromate or other chromate primers",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aPAI_1A2A2B Red lead",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aPAI_1A2A2C Neither",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aPAI_1A2A2D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a2 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A2A3",
+    "qtype": "single",
+    "qlabel": "1A2A3 CERA_aPAI_RADIO_7A3_1A2A3 - In the last working week, did you use a spray/gun to apply the primer or undercoat?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A2A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A2A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A2A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a2a3 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A2A3A1",
+    "qtype": "single",
+    "qlabel": "1A2A3A1 CERA_aPAI_RADIO_7A3_1A2A3A1 - In the last working week, did you spray the primer or undercoat in a spray booth?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A2A3A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A2A3A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A2A3A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a2a3 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A2A3A2",
+    "qtype": "single",
+    "qlabel": "1A2A3A2 CERA_aPAI_RADIO_7A3_1A2A3A2 - In the last working week, did you use a cartridge filter respirator, a powered air-purifying respirator (PAPR) or an air-supplied respirator when applying primers or undercoats with a spray/gun?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A2A3A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A2A3A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A2A3A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 CERA_aPAI_RADIO_7A3_1A3 - In the last working week, did you paint?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3A1",
+    "qtype": "single",
+    "qlabel": "1A3A1 CERA_aPAI_RADIO_7A3_1A3A1 - In the last working week, did you paint with a brush, roller or any other painting equipment (not spray)?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3a1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3A1A1",
+    "qtype": "single",
+    "qlabel": "1A3A1A1 CERA_aPAI_RADIO_7A3_1A3A1A1 - In the last working week, did you paint with solvent or oil-based paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3A1A1B No (water-based or non-toxic)",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3A1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3a1 =1#qstart#",
+    "qname": "CERA_aPAI_CHECK_7A3_1A3A1A2",
+    "qtype": "multi",
+    "qlabel": "1A3A1A2 CERA_aPAI_CHECK_7A3_1A3A1A2 - In the last working week, did you paint with any of the following paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A1A2A Nitrocellulose paints",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aPAI_1A3A1A2B Acid cured paints or lacquers",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aPAI_1A3A1A2C Latex paints",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aPAI_1A3A1A2D Other",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aPAI_1A3A1A2E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3A2",
+    "qtype": "single",
+    "qlabel": "1A3A2 CERA_aPAI_RADIO_7A3_1A3A2 - In the last working week, did you use spray or powder coat paint?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3a2 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3A2A1",
+    "qtype": "single",
+    "qlabel": "1A3A2A1 CERA_aPAI_RADIO_7A3_1A3A2A1 - In the last working week, did you spray/powder coat solvent or oil-based paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A1B No (water-based or non-toxic)",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3a2 =1#qstart#",
+    "qname": "CERA_aPAI_CHECK_7A3_1A3A2A2",
+    "qtype": "multi",
+    "qlabel": "1A3A2A2 CERA_aPAI_CHECK_7A3_1A3A2A2 - In the last working week, did you spray or powder coat with any of the following paints?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A2A2A Nitrocellulose paints",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A2B Acid cured paints",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A2C Latex paints",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A2D Other",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A2E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3a2 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3A2A3",
+    "qtype": "single",
+    "qlabel": "1A3A2A3 CERA_aPAI_RADIO_7A3_1A3A2A3 - In the last working week, did you spray/powder coat in a booth?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A2A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a3a2 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A3A2A4",
+    "qtype": "single",
+    "qlabel": "1A3A2A4 CERA_aPAI_RADIO_7A3_1A3A2A4 - In the last working week, did you use a cartridge filter respirator, a powered air-purifying respirator (PAPR) or an air-supplied respirator when painting or applying coats?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A3A2A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A3A2A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aPAI_RADIO_7A3_1A4 - In the last working week, did you use stains, varnishes or polishes?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a4 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A4A1",
+    "qtype": "single",
+    "qlabel": "1A4A1 CERA_aPAI_RADIO_7A3_1A4A1 - What type of stain or varnish did you use in the last working week?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A4A1A Water-based",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A4A1B Oil or solvent-based",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A4A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 CERA_aPAI_RADIO_7A3_1A5 - In the last working week, did you apply lacquers?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A6",
+    "qtype": "single",
+    "qlabel": "1A6 CERA_aPAI_RADIO_7A3_1A6 - In the last working week, did you use UV lamps for drying paints, varnishes, stains, polishes or lacquers?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A6A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A6B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A6C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a6 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A6A1",
+    "qtype": "single",
+    "qlabel": "1A6A1 CERA_aPAI_RADIO_7A3_1A6A1 - Did you have any measures in place to protect you from the UV light?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A6A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A6A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A6A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1 =1#qstart#",
+    "qname": "CERA_aPAI_RADIO_7A3_1A7",
+    "qtype": "single",
+    "qlabel": "1A7 CERA_aPAI_RADIO_7A3_1A7 - In the last working week, did you clean painting equipment?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A7A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aPAI_1A7B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aPAI_1A7C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_apai_radio_7a3_1a7 =1#qstart#",
+    "qname": "CERA_aPAI_CHECK_7A3_1A7A1",
+    "qtype": "multi",
+    "qlabel": "1A7A1 CERA_aPAI_CHECK_7A3_1A7A1 - In the last working week, did you use any of the following products to clean painting equipment?",
+    "categories": [
+      {
+        "catLabel": "aPAI_1A7A1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aPAI_1A7A1B Solvent or oil-based thinners",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aPAI_1A7A1C None of these",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aPAI_1A7A1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_aGLU_RADIO_8_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aGLU_RADIO_8_1 - In the last working week, did you handle or come in contact with glues, resins, bogs, or fillers?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGLU_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGLU_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_radio_8_1=1#qstart#",
+    "qname": "CERA_aGLU_RADIO_8_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 CERA_aGLU_RADIO_8_1A1 - In the last working week, did you use glues or adhesives?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGLU_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGLU_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_radio_8_1a1 =1#qstart#",
+    "qname": "CERA_aGLU_CHECK_8_1A1A2",
+    "qtype": "multi",
+    "qlabel": "1A1A2 CERA_aGLU_CHECK_8_1A1A2 - In the last working week, did you use any of the following types of glues or adhesives?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A1A2A 2-part glues",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aGLU_1A1A2B Plastic resin wood glue (also called urea-formaldehyde resin)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aGLU_1A1A2C None of these",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aGLU_1A1A2D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_check_8_1a1a2 =1#qstart#",
+    "qname": "CERA_aGLU_RADIO_8_1A1A2A1",
+    "qtype": "single",
+    "qlabel": "1A1A2A1 CERA_aGLU_RADIO_8_1A1A2A1 - In the last working week, did you use epoxy two-part glues?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A1A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGLU_1A1A2A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGLU_1A1A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_radio_8_1=1#qstart#",
+    "qname": "CERA_aGLU_RADIO_8_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aGLU_RADIO_8_1A4 - In the last working week, were you indoors while handling or coming in contact with glues, resins, bogs, or fillers?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGLU_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGLU_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_radio_8_1a4 =1#qstart#",
+    "qname": "CERA_aGLU_CHECK_8_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 CERA_aGLU_CHECK_8_1A4A1 - How was the area ventilated?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A4A1A By local exhaust ventilation which captured the vapour at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aGLU_1A4A1B By on-tool extraction to remove vapours away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aGLU_1A4A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aGLU_1A4A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aGLU_1A4A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aGLU_1A4A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aGLU_1A4A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aGLU_1A4A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_radio_8_1=1#qstart#",
+    "qname": "CERA_aGLU_RADIO_8_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 CERA_aGLU_RADIO_8_1A5 - In the last working week, did you use respiratory protection while handling or coming in contact with glues, resins, bogs, or fillers?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGLU_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGLU_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aglu_radio_8_1a5 =1#qstart#",
+    "qname": "CERA_aGLU_CHECK_8_1A5A1",
+    "qtype": "multi",
+    "qlabel": "1A5A1 CERA_aGLU_CHECK_8_1A5A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aGLU_1A5A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aGLU_1A5A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aGLU_1A5A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aGLU_1A5A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aGLU_1A5A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aGLU_1A5A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_9",
+    "qtype": "single",
+    "qlabel": "9 CERA_RADIO_9 - In the last working week, did you operate, clean, install, or maintain a kiln or furnace?",
+    "categories": [
+      {
+        "catLabel": "CERA_9A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_9B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_9C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_9 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aFUR_RADIO_9A1_1 - In the last working week, did you re-line, clean or maintain industrial furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1 =1#qstart#",
+    "qname": "CERA_aFUR_CHECK_9A1_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 CERA_aFUR_CHECK_9A1_1A1 - What did you use to re-line the furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A1A Refractory bricks",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFUR_1A1B Ceramic fibres or alumino-silicate wools (ASW)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFUR_1A1C Other types of rockwool",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFUR_1A1D Other, please specify",
+        "isOther": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFUR_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aFUR_RADIO_9A1_1A2 - In the last working week, did you remove or maintain lining made out of asbestos?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 CERA_aFUR_RADIO_9A1_1A3 - Was there a ventilated hood over the furnace when you were working on it?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aFUR_RADIO_9A1_1A4 - In the last working week, did you use respiratory protection equipment when re-lining, cleaning or maintaining furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1a4 =1#qstart#",
+    "qname": "CERA_aFUR_CHECK_9A1_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 CERA_aFUR_CHECK_9A1_1A4A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A4A1A Rubber face mask fitted with a particle filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFUR_1A4A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFUR_1A4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFUR_1A4A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFUR_1A4A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aFUR_1A4A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 CERA_aFUR_RADIO_9A1_1A5 - In the last working week, did you manually clean out ash or scale from the furnace?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1a5 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A5A1",
+    "qtype": "single",
+    "qlabel": "1A5A1 CERA_aFUR_RADIO_9A1_1A5A1 - In the last working week, did you use an ash vacuum cleaner fitted with a HEPA filter to clean out the ash or scale from the furnace?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1a5 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A5A2",
+    "qtype": "single",
+    "qlabel": "1A5A2 CERA_aFUR_RADIO_9A1_1A5A2 - In the last working week, were dust suppression precautions taken to minimise dust levels (e.g., by controlled damping of the ash)?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1a5 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A5A3",
+    "qtype": "single",
+    "qlabel": "1A5A3 CERA_aFUR_RADIO_9A1_1A5A3 - In the last working week, did you wear respiratory protection when manually cleaning ash or scale from the furnace?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1a5a3 =1#qstart#",
+    "qname": "CERA_aFUR_CHECK_9A1_1A5A3A1",
+    "qtype": "multi",
+    "qlabel": "1A5A3A1 CERA_aFUR_CHECK_9A1_1A5A3A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A3A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_afur_radio_9a1_1 =1#qstart#",
+    "qname": "CERA_aFUR_RADIO_9A1_1A6",
+    "qtype": "single",
+    "qlabel": "1A6 CERA_aFUR_RADIO_9A1_1A6 - Did you receive specific training related to relining or maintaining industrial furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A6A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A6B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A6C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_RADIO_10",
+    "qtype": "single",
+    "qlabel": "10 CERA_RADIO_10 - In the last working week, did you or anyone near you clean up floors in the production areas?",
+    "categories": [
+      {
+        "catLabel": "CERA_10A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "CERA_10B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "CERA_10C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_radio_10=1#qstart#",
+    "qname": "CERA_CHECK_10A1",
+    "qtype": "multi",
+    "qlabel": "10A1 CERA_CHECK_10A1 - How did you or anyone around you clean up floors in the last working week?",
+    "categories": [
+      {
+        "catLabel": "CERA_10A1A Swept it with a broom",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "CERA_10A1B Used compressed air",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "CERA_10A1C Mopped it up with water",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "CERA_10A1D None of these",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "CERA_10A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aDEG_RADIO_11_1 - In the last working week, did you degrease items?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_radio_11_1 =1#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 CERA_aDEG_RADIO_11_1A1 - In the last working week, did you degrease using chemicals other than detergents?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_radio_11_1a1 =1#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1",
+    "qtype": "multi",
+    "qlabel": "1A1A1 CERA_aDEG_CHECK_11_1A1A1 - In the last working week, did you use any of the following methods to degrease?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1A By hand e.g., with rag, cloth or brush",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1B Sprayed parts manually",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1C Conveyorised degreaser (automatic closed machine)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D Dip tank",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E Vapour degreaser",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1F Ultrasonic cleaner",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aDEG_1A1A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aDEG_1A1A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =1#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1A1",
+    "qtype": "multi",
+    "qlabel": "1A1A1A1 CERA_aDEG_CHECK_11_1A1A1A1 - What chemicals did you use to clean by hand?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1A1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1A1B Trichloroethylene (Trike)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1A1C Perchloroethylene or Tetrachloroethylene (perc)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1A1D Methylene chloride",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1A1E Petrol",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1A1F Other, please specify",
+        "isOther": true,
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aDEG_1A1A1A1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =2#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1B1",
+    "qtype": "multi",
+    "qlabel": "1A1A1B1 CERA_aDEG_CHECK_11_1A1A1B1 - What chemicals did you use to spray parts?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1B1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1B1B Trichlorethylene (Trike)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1B1C Perchloroethylene or Tetrachloroethylene (perc)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1B1D Methylene Chloride",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1B1E Other, please specify",
+        "isOther": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1B1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =3#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1C1",
+    "qtype": "multi",
+    "qlabel": "1A1A1C1 CERA_aDEG_CHECK_11_1A1A1C1 - What chemicals did you use in the conveyorised degreaser?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1C1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1C1B Trichloroethylene (trike)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1C1C Perchloroethylene or Tetrachloroethylene (PERC)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1C1D Methylene Chloride",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1C1E Other, please specify",
+        "isOther": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1C1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =4#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1D1",
+    "qtype": "multi",
+    "qlabel": "1A1A1D1 CERA_aDEG_CHECK_11_1A1A1D1 - What chemicals did you use in the dip tank?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1D1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D1B Trichlorethylene (trike)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D1C Perchloroethylene or Tetrachloroethylene (PERC)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D1D Methylene Chloride",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D1E Other, please specify",
+        "isOther": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =4#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A1A1D2",
+    "qtype": "single",
+    "qlabel": "1A1A1D2 CERA_aDEG_RADIO_11_1A1A1D2 - Was the dip tank kept covered when not in use?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1D2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =4#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A1A1D3",
+    "qtype": "single",
+    "qlabel": "1A1A1D3 CERA_aDEG_RADIO_11_1A1A1D3 - Was there a ventilation system on the dip tank?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1D3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A1A1D3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =5#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1E1",
+    "qtype": "multi",
+    "qlabel": "1A1A1E1 CERA_aDEG_CHECK_11_1A1A1E1 - What chemicals did you use in the vapour degreaser?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1E1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E1B Trichlorethylene (trike)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E1C Perchloroethylene or Tetrachloroethylene (PERC)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E1D Methylene chloride",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E1E Other, please specify",
+        "isOther": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =5#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A1A1E2",
+    "qtype": "single",
+    "qlabel": "1A1A1E2 CERA_aDEG_RADIO_11_1A1A1E2 - Was the vapour degreaser covered when not in use?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1E2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =5#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A1A1E3",
+    "qtype": "single",
+    "qlabel": "1A1A1E3 CERA_aDEG_RADIO_11_1A1A1E3 - Was there a ventilation system on the vapour degreaser?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1E3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =5#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A1A1E4",
+    "qtype": "single",
+    "qlabel": "1A1A1E4 CERA_aDEG_RADIO_11_1A1A1E4 - Were there cooling coils around the vapour degreaser?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1E4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A1A1E4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_check_11_1a1a1 =6#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A1A1F1",
+    "qtype": "multi",
+    "qlabel": "1A1A1F1 CERA_aDEG_CHECK_11_1A1A1F1 - What chemicals did you use in the ultrasonic cleaner?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A1A1F1A Water",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A1A1F1B Trichlorethylene (trike)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A1A1F1C Perchloroethylene or Tetrachloroethylene (PERC)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A1A1F1D Methylene chloride",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A1A1F1E Other, please specify",
+        "isOther": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDEG_1A1A1F1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_radio_11_1 =1#qstart#",
+    "qname": "CERA_aDEG_RADIO_11_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 CERA_aDEG_RADIO_11_1A2 - In the last working week, did you use respiratory protection?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDEG_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDEG_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_adeg_radio_11_1a2 =1#qstart#",
+    "qname": "CERA_aDEG_CHECK_11_1A2A1",
+    "qtype": "multi",
+    "qlabel": "1A2A1 CERA_aDEG_CHECK_11_1A2A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aDEG_1A2A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDEG_1A2A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDEG_1A2A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDEG_1A2A1D None of these",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDEG_1A2A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_aVEX_RADIO_12_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aVEX_RADIO_12_1 - In the last working week, did you work in an area where there were vehicles driven or had their engines running?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aVEX_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aVEX_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_avex_radio_12_1 =1#qstart#",
+    "qname": "CERA_aVEX_CHECK_12_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 CERA_aVEX_CHECK_12_1A1 - What types of fuel were used in these vehicles?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A1A Diesel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aVEX_1A1B Petrol",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aVEX_1A1C Liquefied Petroleum Gas (LPG) or propane",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aVEX_1A1D Battery or electricity",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aVEX_1A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aVEX_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "cera_avex_radio_12_1 =1#qstart#",
+    "qname": "CERA_aVEX_CHECK_12_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 CERA_aVEX_CHECK_12_1A2 - Were these vehicles indoors or outdoors?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A2A Indoors",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aVEX_1A2B Outdoors",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aVEX_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "cera_avex_check_12_1a2 =1#qstart#",
+    "qname": "CERA_aVEX_CHECK_12_1A2A1",
+    "qtype": "multi",
+    "qlabel": "1A2A1 CERA_aVEX_CHECK_12_1A2A1 - How was the area ventilated?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aVEX_1A2A1B By a general ventilation system",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aVEX_1A2A1C By fans in the window or doorway",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aVEX_1A2A1D By open doors or windows",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aVEX_1A2A1E No ventilation was applied to the area",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aVEX_1A2A1F Other",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aVEX_1A2A1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "cera_avex_radio_12_1 =1#qstart#",
+    "qname": "CERA_aVEX_RADIO_12_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 CERA_aVEX_RADIO_12_1A3 - How far away did you work from these vehicles?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A3A Less than 20 metres",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aVEX_1A3B 20 - 50 metres",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aVEX_1A3C More than 50 metres",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aVEX_1A3D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "cera_avex_radio_12_1 =1#qstart#",
+    "qname": "CERA_aVEX_RADIO_12_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 CERA_aVEX_RADIO_12_1A4 - In the last working week, did you smell exhaust from the vehicles?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aVEX_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aVEX_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat4 = 12 or jobcat5 = 13#qstart#",
+    "qname": "CERA_aCLH_RADIO_13_1",
+    "qtype": "single",
+    "qlabel": "1 CERA_aCLH_RADIO_13_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?",
+    "categories": [
+      {
+        "catLabel": "aCLH_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCLH_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCLH_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "cera_aclh_radio_13_1=1#qstart#",
+    "qname": "CERA_aCLH_CHECK_13_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 CERA_aCLH_CHECK_13_1A1 - In the last working week, did you use any of the following to clean your hands at work?",
+    "categories": [
+      {
+        "catLabel": "aCLH_1A1A Industrial hand cleaner",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aCLH_1A1C Petrol",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aCLH_1A1E None of these",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aCLH_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  }
+]

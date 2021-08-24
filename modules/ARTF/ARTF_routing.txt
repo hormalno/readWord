@@ -1,0 +1,444 @@
+if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
+	ARTF_CHECK_1.Ask()
+end if
+if artf_check_1 * {A} then
+	ARTF_aART_RADIO_1A1_1.Ask()
+end if
+if artf_aart_radio_1a1_1 * {_1} then
+	ARTF_aART_CHECK_1A1_1A1.Ask()
+end if
+if artf_aart_radio_1a1_1 * {_1} then
+	ARTF_aART_RADIO_1A1_1A2.Ask()
+end if
+if artf_aart_radio_1a1_1a2 * {_1} then
+	ARTF_aART_RADIO_1A1_1A2A1.Ask()
+end if
+if artf_check_1 * {A} then
+	ARTF_RADIO_1A2.Ask()
+end if
+if artf_radio_1a2 * {_1} then
+	ARTF_aSTP_RADIO_1A2A1_1.Ask()
+end if
+if artf_astp_radio_1a2a1_1 * {_1} then
+	ARTF_aSTP_RADIO_1A2A1_1A1.Ask()
+end if
+if artf_astp_radio_1a2a1_1a1 * {_1} then
+	ARTF_aSTP_CHECK_1A2A1_1A1A1.Ask()
+end if
+if artf_astp_radio_1a2a1_1 * {_1} then
+	ARTF_aSTP_RADIO_1A2A1_1A2.Ask()
+end if
+if artf_astp_radio_1a2a1_1 * {_1} then
+	ARTF_aSTP_RADIO_1A2A1_1A3.Ask()
+end if
+if artf_astp_radio_1a2a1_1 * {_1} then
+	ARTF_aSTP_RADIO_1A2A1_1A4.Ask()
+end if
+if artf_astp_radio_1a2a1_1a4 * {_1} then
+	ARTF_aSTP_CHECK_1A2A1_1A4A1.Ask()
+end if
+if artf_astp_radio_1a2a1_1a4 * {_2} then
+	ARTF_aSTP_RADIO_1A2A1_1A4B1.Ask()
+end if
+if artf_astp_radio_1a2a1_1 * {_1} then
+	ARTF_aSTP_RADIO_1A2A1_1A5.Ask()
+end if
+if artf_astp_radio_1a2a1_1a5 * {_1} then
+	ARTF_aSTP_CHECK_1A2A1_1A5A1.Ask()
+end if
+if artf_radio_1a2 * {_1} then
+	ARTF_aSAN_RADIO_1A2A2_1.Ask()
+end if
+if artf_asan_radio_1a2a2_1 * {_1} then
+	ARTF_aSAN_CHECK_1A2A2_1A1.Ask()
+end if
+if artf_asan_check_1a2a2_1a1 * {D} then
+	ARTF_aSAN_RADIO_1A2A2_1A1D1.Ask()
+end if
+if artf_asan_radio_1a2a2_1 * {_1} then
+	ARTF_aSAN_RADIO_1A2A2_1A2.Ask()
+end if
+if artf_asan_radio_1a2a2_1 * {_1} then
+	ARTF_aSAN_CHECK_1A2A2_1A3.Ask()
+end if
+if artf_asan_radio_1a2a2_1 * {_1} then
+	ARTF_aSAN_RADIO_1A2A2_1A4.Ask()
+end if
+if artf_asan_radio_1a2a2_1a4 * {_1} then
+	ARTF_aSAN_CHECK_1A2A2_1A4A1.Ask()
+end if
+if artf_radio_1a2 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A1A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a1a1 * {_1} then
+	ARTF_aPAI_CHECK_1A2A3_1A1A1A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A1A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1a2 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A2A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a2 * {_1} then
+	ARTF_aPAI_CHECK_1A2A3_1A2A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1a2 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A2A3.Ask()
+end if
+if artf_apai_radio_1a2a3_1a2a3 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A2A3A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a2a3 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A2A3A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3a1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3A1A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3a1 * {_1} then
+	ARTF_aPAI_CHECK_1A2A3_1A3A1A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3a2 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3A2A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3a2 * {_1} then
+	ARTF_aPAI_CHECK_1A2A3_1A3A2A2.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3a2 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3A2A3.Ask()
+end if
+if artf_apai_radio_1a2a3_1a3a2 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A3A2A4.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A4.Ask()
+end if
+if artf_apai_radio_1a2a3_1a4 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A4A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A5.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A6.Ask()
+end if
+if artf_apai_radio_1a2a3_1a6 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A6A1.Ask()
+end if
+if artf_apai_radio_1a2a3_1 * {_1} then
+	ARTF_aPAI_RADIO_1A2A3_1A7.Ask()
+end if
+if artf_apai_radio_1a2a3_1a7 * {_1} then
+	ARTF_aPAI_CHECK_1A2A3_1A7A1.Ask()
+end if
+if artf_check_1 * {A} then
+	ARTF_RADIO_1A3.Ask()
+end if
+if artf_radio_1a3 * {_1} then
+	ARTF_CHECK_1A3A1.Ask()
+end if
+if artf_check_1a3a1 * {A} then
+	ARTF_aWEL_RADIO_1A3A1A1_1.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1 * {_1} then
+	ARTF_aWEL_CHECK_1A3A1A1_1A1.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1 * {_1} then
+	ARTF_aWEL_CHECK_1A3A1A1_1A2.Ask()
+end if
+if artf_awel_check_1a3a1a1_1a2 * {F} then
+	ARTF_aWEL_CHECK_1A3A1A1_1A2F1.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1 * {_1} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A4.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1 * {_1} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A5.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1a5 * {_2} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A5B1.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1a5 * {_2} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A5B2.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1a5 * {_2} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A5B3.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1 * {_1} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A6.Ask()
+end if
+if artf_awel_radio_1a3a1a1_1 * {_1} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A7.Ask()
+end if
+if artf_awel_radio_5a1_1a7 * {_1} then
+	ARTF_aWEL_RADIO_1A3A1A1_1A7A1.Ask()
+end if
+if artf_check_1a3a1 * {A} then
+	ARTF_aCTO_RADIO_1A3A1A2_1.Ask()
+end if
+if artf_acto_radio_1c6_1 * {_1} then
+	ARTF_aCTO_CHECK_1A3A1A2_1A1.Ask()
+end if
+if artf_acto_radio_1c6_1 * {_1} then
+	ARTF_aCTO_CHECK_1A3A1A2_1A2.Ask()
+end if
+if artf_acto_check_1c6_1a2 * {B} then
+	ARTF_aCTO_RADIO_1A3A1A2_1A2B1.Ask()
+end if
+if artf_acto_radio_1c6_1a2b1 * {_2} then
+	ARTF_aCTO_RADIO_1A3A1A2_1A2B1B1.Ask()
+end if
+if artf_check_1a3a1 * {A} then
+	ARTF_aDEG_RADIO_1A3A1A3_1.Ask()
+end if
+if artf_adeg_radio_1c5_1 * {_1} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A1.Ask()
+end if
+if artf_adeg_radio_1a3a1a3_1a1 * {_1} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1.Ask()
+end if
+if artf_adeg_check_1a3a1a3_1a1a1 * {A} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1A1.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {B} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1B1.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {C} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1C1.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {D} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1D1.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {D} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A1A1D2.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {D} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A1A1D3.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {E} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1E1.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {E} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A1A1E2.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {E} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A1A1E3.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {E} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A1A1E4.Ask()
+end if
+if artf_adeg_check_1c5_1a1a1 * {F} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A1A1F1.Ask()
+end if
+if artf_adeg_radio_1c5_1 * {_1} then
+	ARTF_aDEG_RADIO_1A3A1A3_1A2.Ask()
+end if
+if artf_adeg_radio_1c5_1a2 * {_1} then
+	ARTF_aDEG_CHECK_1A3A1A3_1A2A1.Ask()
+end if
+if artf_check_1a3a1 * {B} then
+	ARTF_aCTW_RADIO_1A3A1B1_1.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1 * {_1} then
+	ARTF_aCTW_RADIO_1A3A1B1_1A1.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1 * {_1} then
+	ARTF_aCTW_RADIO_1A3A1B1_1A2.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1 * {_1} then
+	ARTF_aCTW_CHECK_1A3A1B1_1A4.Ask()
+end if
+if artf_actw_check_1a3a1b1_1a4 * {A} then
+	ARTF_aCTW_CHECK_1A3A1B1_1A4A1.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1 * {_1} then
+	ARTF_aCTW_RADIO_1A3A1B1_1A5.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1a5 * {_1} then
+	ARTF_aCTW_CHECK_1A3A1B1_1A5A1.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1 * {_1} then
+	ARTF_aCTW_CHECK_1A3A1B1_1A6.Ask()
+end if
+if artf_actw_radio_1a3a1b1_1 * {_1} then
+	ARTF_aCTW_RADIO_1A3A1B1_1A7.Ask()
+end if
+if artf_check_1a3a1 * {B} then
+	ARTF_aFPE_RADIO_1A3A1B2_1.Ask()
+end if
+if artf_afpe_radio_1a3a1b2_1} then
+	ARTF_aFPE_CHECK_1A3A1B2_1A1.Ask()
+end if
+if artf_afpe_radio_1a3a1b2_1} then
+	ARTF_aFPE_RADIO_1A3A1B2_1A2.Ask()
+end if
+if artf_afpe_radio_1a3a1b2_1a2} then
+	ARTF_aFPE_CHECK_1A3A1B2_1A2A1.Ask()
+end if
+if artf_afpe_radio_1a3a1b2_1} then
+	ARTF_aFPE_RADIO_1A3A1B2_1A3.Ask()
+end if
+if artf_check_1a3a1 * {C} then
+	ARTF_aCTS_RADIO_1A3A1C1_1.Ask()
+end if
+if artf_acts_radio_1a3a1c1_1} then
+	ARTF_aCTS_RADIO_1A3A1C1_1A1.Ask()
+end if
+if artf_acts_radio_1a3a1c1_1} then
+	ARTF_aCTS_RADIO_1A3A1C1_1A2.Ask()
+end if
+if artf_acts_radio_1a3a1c1_1} then
+	ARTF_aCTS_RADIO_1A3A1C1_1A3.Ask()
+end if
+if artf_acts_radio_1a3a1c1_1} then
+	ARTF_aCTS_RADIO_1A3A1C1_1A4.Ask()
+end if
+if artf_acts_radio_1a3a1c1_1} then
+	ARTF_aCTS_RADIO_1A3A1C1_1A5.Ask()
+end if
+if artf_check_1 * {A} then
+	ARTF_aSLD_RADIO_1A4_1.Ask()
+end if
+if artf_asld_radio_1a4_1 * {_1} then
+	ARTF_aSLD_CHECK_1A4_1A1.Ask()
+end if
+if artf_asld_check_1a4_1a1 * {C} then
+	ARTF_aSLD_RADIO_1A4_1A1C1.Ask()
+end if
+if artf_asld_radio_1a4_1 * {_1} then
+	ARTF_aSLD_RADIO_1A4_1A3.Ask()
+end if
+if artf_asld_radio_1a4_1a3 * {_1} then
+	ARTF_aSLD_CHECK_1A4_1A3A1.Ask()
+end if
+if artf_asld_radio_1a4_1 * {_1} then
+	ARTF_aSLD_RADIO_1A4_1A4.Ask()
+end if
+if artf_asld_radio_1a4_1a4 * {_1} then
+	ARTF_aSLD_CHECK_1A4_1A4A1.Ask()
+end if
+if artf_check_1 * {B} then
+	ARTF_CHECK_1B1.Ask()
+end if
+if artf_check_1b1 * {A} then
+	ARTF_RADIO_1B1A1.Ask()
+end if
+if artf_check_1b1 * {B} then
+	ARTF_RADIO_1B1B1.Ask()
+end if
+if artf_radio_1b1b1 * {_1} then
+	ARTF_RADIO_1B1B1A1.Ask()
+end if
+if artf_radio_1b1b1a1 * {_1} then
+	ARTF_RADIO_1B1B1A1B1.Ask()
+end if
+if artf_check_1 * {B} then
+	ARTF_CHECK_1B2.Ask()
+end if
+if artf_check_1 * {B} then
+	ARTF_CHECK_1B3.Ask()
+end if
+if artf_check_1 * {B} then
+	ARTF_RADIO_1B5.Ask()
+end if
+if artf_radio_1b5 * {_1} then
+	ARTF_CHECK_1B5A1.Ask()
+end if
+if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
+	ARTF_aGLU_RADIO_2_1.Ask()
+end if
+if artf_aglu_radio_2_1 * {_1} then
+	ARTF_aGLU_RADIO_2_1A1.Ask()
+end if
+if artf_aglu_radio_2_1a1 * {_1} then
+	ARTF_aGLU_CHECK_2_1A1A2.Ask()
+end if
+if artf_aglu_check_2_1a1a2 * {A} then
+	ARTF_aGLU_RADIO_2_1A1A2A1.Ask()
+end if
+if artf_aglu_radio_2_1 * {_1} then
+	ARTF_aGLU_RADIO_2_1A4.Ask()
+end if
+if artf_aglu_radio_2_1a4 * {_1} then
+	ARTF_aGLU_CHECK_2_1A4A1.Ask()
+end if
+if artf_aglu_radio_2_1 * {_1} then
+	ARTF_aGLU_RADIO_2_1A5.Ask()
+end if
+if artf_aglu_radio_2_1a5 * {_1} then
+	ARTF_aGLU_CHECK_2_1A5A1.Ask()
+end if
+if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
+	ARTF_aUVR_RADIO_3_1.Ask()
+end if
+if artf_auvr_radio_2a3_1 * {_1} then
+	ARTF_aUVR_RADIO_3_1A1.Ask()
+end if
+if artf_auvr_radio_3_1a1 * {_1} then
+	ARTF_aUVR_CHECK_3_1A1A1.Ask()
+end if
+if artf_auvr_radio_3_1 * {_1} then
+	ARTF_aUVR_CHECK_3_1A3.Ask()
+end if
+if artf_auvr_check_3_1a3 * {A} then
+	ARTF_aUVR_RADIO_3_1A3A1.Ask()
+end if
+if artf_auvr_check_3_1a3 * {A} then
+	ARTF_aUVR_RADIO_3_1A3A2.Ask()
+end if
+if artf_auvr_check_3_1a3 * {A} then
+	ARTF_aUVR_RADIO_3_1A3A3.Ask()
+end if
+if artf_auvr_check_3_1a3 * {A} then
+	ARTF_aUVR_RADIO_3_1A3A4.Ask()
+end if
+if artf_auvr_check_3_1a3 * {B} then
+	ARTF_aUVR_RADIO_3_1A3B1.Ask()
+end if
+if artf_auvr_check_3_1a3 * {B} then
+	ARTF_aUVR_RADIO_3_1A3B2.Ask()
+end if
+if artf_auvr_check_3_1a3 * {B} then
+	ARTF_aUVR_RADIO_3_1A3B3.Ask()
+end if
+if artf_auvr_check_3_1a3 * {B} then
+	ARTF_aUVR_RADIO_3_1A3B4.Ask()
+end if
+if artf_auvr_check_3_1a3 * {C} then
+	ARTF_aUVR_RADIO_3_1A3C1.Ask()
+end if
+if artf_auvr_radio_3_1a3c1 * {_1} then
+	ARTF_aUVR_RADIO_3_1A3C1A1.Ask()
+end if
+if artf_auvr_radio_3_1a3c1 * {_1} then
+	ARTF_aUVR_RADIO_3_1A3C1A2.Ask()
+end if
+if artf_auvr_radio_3_1a3c1 * {_1} then
+	ARTF_aUVR_RADIO_3_1A3C1A3.Ask()
+end if
+if artf_auvr_radio_3_1 * {_1} then
+	ARTF_aUVR_RADIO_3_1A4.Ask()
+end if
+if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
+	ARTF_aCLH_RADIO_4_1.Ask()
+end if
+if artf_aclh_radio_4_1 * {_1} then
+	ARTF_aCLH_CHECK_4_1A1.Ask()
+end if
