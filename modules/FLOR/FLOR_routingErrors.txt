@@ -1,0 +1,12 @@
+'to do Incorrect instruction (doesnt have = symbol)
+'if flor_auvr_radio_7_1 then
+'	FLOR_aUVR_RADIO_7_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if flor_auvr_radio_7_1 then
+'	FLOR_aUVR_CHECK_7_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if flor_auvr_radio_7_1 then
+'	FLOR_aUVR_RADIO_7_1A4.Ask()
+'end if

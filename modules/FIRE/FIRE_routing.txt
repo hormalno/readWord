@@ -14,18 +14,22 @@ if fire_check_1 * {E} then
 end if
 'FIRE_aFPE_RADIO_2_1
 FIRE_aFPE_RADIO_2_1.Ask()
-if fire_afpe_radio_2_1} then
-	FIRE_aFPE_CHECK_2_1A1.Ask()
-end if
-if fire_afpe_radio_2_1} then
-	FIRE_aFPE_RADIO_2_1A2.Ask()
-end if
-if fire_afpe_radio_2_1a2} then
-	FIRE_aFPE_CHECK_2_1A2A1.Ask()
-end if
-if fire_afpe_radio_2_1} then
-	FIRE_aFPE_RADIO_2_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_afpe_radio_2_1 then
+'	FIRE_aFPE_CHECK_2_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_afpe_radio_2_1 then
+'	FIRE_aFPE_RADIO_2_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_afpe_radio_2_1a2 then
+'	FIRE_aFPE_CHECK_2_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_afpe_radio_2_1 then
+'	FIRE_aFPE_RADIO_2_1A3.Ask()
+'end if
 'FIRE_aCTW_RADIO_3_1
 FIRE_aCTW_RADIO_3_1.Ask()
 if fire_actw_radio_3_1 * {_1} then
@@ -129,9 +133,10 @@ end if
 if fire_aasr_radio_7_1a1 * {_1} then
 	FIRE_aASR_CHECK_7_1A1A1.Ask()
 end if
-if 1a1a1 * {_fire_aasr_1a1a1g other} then
-	FIRE_aASR_RADIO_7_1A1A1G1.Ask()
-end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1a1 = fire_aasr_1a1a1g other then
+'	FIRE_aASR_RADIO_7_1A1A1G1.Ask()
+'end if
 if fire_aasr_radio_7_1a1 * {_1} then
 	FIRE_aASR_RADIO_7_1A1A2.Ask()
 end if
@@ -182,15 +187,17 @@ if fire_aasr_check_7_1a1b8a1 * {E} then
 end if
 'FIRE_aUVR_RADIO_8_1
 FIRE_aUVR_RADIO_8_1.Ask()
-if fire_auvr_radio_8_1} then
-	FIRE_aUVR_RADIO_8_1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_auvr_radio_8_1 then
+'	FIRE_aUVR_RADIO_8_1A1.Ask()
+'end if
 if fire_auvr_radio_8_1a1 * {_1} then
 	FIRE_aUVR_CHECK_8_1A1A1.Ask()
 end if
-if fire_auvr_radio_8_1} then
-	FIRE_aUVR_CHECK_8_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_auvr_radio_8_1 then
+'	FIRE_aUVR_CHECK_8_1A3.Ask()
+'end if
 if fire_auvr_check_8_1a3 * {A} then
 	FIRE_aUVR_RADIO_8_1A3A1.Ask()
 end if
@@ -227,9 +234,10 @@ end if
 if fire_auvr_radio_8_1a3c1 * {_1} then
 	FIRE_aUVR_RADIO_8_1A3C1A3.Ask()
 end if
-if fire_auvr_radio_8_1} then
-	FIRE_aUVR_RADIO_8_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if fire_auvr_radio_8_1 then
+'	FIRE_aUVR_RADIO_8_1A4.Ask()
+'end if
 'FIRE_aCLH_RADIO_9_1
 FIRE_aCLH_RADIO_9_1.Ask()
 if fire_aclh_radio_9_1 * {_1} then

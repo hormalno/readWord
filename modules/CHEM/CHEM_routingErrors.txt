@@ -1,0 +1,8 @@
+'to do Incorrect instruction (doesnt have = symbol)
+'if chem_aste_radio_9_1a4 then
+'	CHEM_aSTE_CHECK_9_1A4A1.Ask()
+'end if
+'to do question doesnt exists
+'if chem_amah_check_2_1a1 =5 then
+'	CHEM_aMAH_RADIO_10_1A1E1.Ask()
+'end if

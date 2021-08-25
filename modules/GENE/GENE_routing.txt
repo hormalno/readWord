@@ -366,32 +366,39 @@ if gene_actw_radio_6_1 * {_1} then
 end if
 'GENE_aCTS_RADIO_7_1
 GENE_aCTS_RADIO_7_1.Ask()
-if gene_acts_radio_6_1} then
-	GENE_aCTS_RADIO_7_1A1.Ask()
-end if
-if gene_acts_radio_6_1} then
-	GENE_aCTS_RADIO_7_1A2.Ask()
-end if
-if gene_acts_radio_6_1} then
-	GENE_aCTS_RADIO_7_1A3.Ask()
-end if
-if gene_acts_radio_6_1} then
-	GENE_aCTS_RADIO_7_1A4.Ask()
-end if
-if gene_acts_radio_6_1} then
-	GENE_aCTS_RADIO_7_1A5.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_acts_radio_6_1 then
+'	GENE_aCTS_RADIO_7_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_acts_radio_6_1 then
+'	GENE_aCTS_RADIO_7_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_acts_radio_6_1 then
+'	GENE_aCTS_RADIO_7_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_acts_radio_6_1 then
+'	GENE_aCTS_RADIO_7_1A4.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_acts_radio_6_1 then
+'	GENE_aCTS_RADIO_7_1A5.Ask()
+'end if
 'GENE_aUVR_RADIO_8_1
 GENE_aUVR_RADIO_8_1.Ask()
-if gene_auvr_radio_8_1} then
-	GENE_aUVR_RADIO_8_1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_auvr_radio_8_1 then
+'	GENE_aUVR_RADIO_8_1A1.Ask()
+'end if
 if gene_auvr_radio_8_1a1 * {_1} then
 	GENE_aUVR_CHECK_8_1A1A1.Ask()
 end if
-if gene_auvr_radio_8_1} then
-	GENE_aUVR_CHECK_8_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_auvr_radio_8_1 then
+'	GENE_aUVR_CHECK_8_1A3.Ask()
+'end if
 if gene_auvr_check_8_1a3 * {A} then
 	GENE_aUVR_RADIO_8_1A3A1.Ask()
 end if
@@ -428,9 +435,10 @@ end if
 if gene_auvr_radio_8_1a3c1 * {_1} then
 	GENE_aUVR_RADIO_8_1A3C1A3.Ask()
 end if
-if gene_auvr_radio_8_1} then
-	GENE_aUVR_RADIO_8_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gene_auvr_radio_8_1 then
+'	GENE_aUVR_RADIO_8_1A4.Ask()
+'end if
 'GENE_aCLH_RADIO_10_1
 GENE_aCLH_RADIO_10_1.Ask()
 if gene_aclh_radio_10_1 * {_1} then

@@ -1,6 +1,5 @@
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_CHECK_1.Ask()
-end if
+'CONS_CHECK_1
+CONS_CHECK_1.Ask()
 if cons_check_1 * {D} then
 	CONS_aSHP_CHECK_1D1_1.Ask()
 end if
@@ -34,18 +33,16 @@ end if
 if cons_afum_radio_1d2_1a4 * {_1} then
 	CONS_aFUM_CHECK_1D2_1A4A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_2.Ask()
-end if
+'CONS_RADIO_2
+CONS_RADIO_2.Ask()
 if cons_radio_2 * {_1} then
 	CONS_CHECK_2A1.Ask()
 end if
 if cons_radio_2 * {_1} then
 	CONS_RADIO_2A2.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_3.Ask()
-end if
+'CONS_RADIO_3
+CONS_RADIO_3.Ask()
 if cons_radio_3 * {_1} then
 	CONS_RADIO_3A1.Ask()
 end if
@@ -55,9 +52,10 @@ end if
 if cons_astp_radio_3a1a1_1 * {_1} then
 	CONS_aSTP_RADIO_3A1A1_1A1.Ask()
 end if
-if cons_astp_radio_3a1a1_1a1} then
-	CONS_aSTP_CHECK_3A1A1_1A1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_astp_radio_3a1a1_1a1 then
+'	CONS_aSTP_CHECK_3A1A1_1A1A1.Ask()
+'end if
 if cons_astp_radio_3a1a1_1 * {_1} then
 	CONS_aSTP_RADIO_3A1A1_1A2.Ask()
 end if
@@ -238,27 +236,23 @@ end if
 if cons_awop_radio_3a4_1a3 * {_1} then
 	CONS_aWOP_CHECK_3A4_1A3A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_4.Ask()
-end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_6.Ask()
-end if
+'CONS_RADIO_4
+CONS_RADIO_4.Ask()
+'CONS_RADIO_6
+CONS_RADIO_6.Ask()
 if cons_radio_6 * {_1} then
 	CONS_RADIO_6A1.Ask()
 end if
 if cons_radio_6a1 * {_1} then
 	CONS_RADIO_6A1A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_7.Ask()
-end if
+'CONS_RADIO_7
+CONS_RADIO_7.Ask()
 if cons_radio_7 * {_1} then
 	CONS_RADIO_7A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_8.Ask()
-end if
+'CONS_RADIO_8
+CONS_RADIO_8.Ask()
 if cons_radio_8 * {_1} then
 	CONS_RADIO_8A1.Ask()
 end if
@@ -280,39 +274,40 @@ end if
 if cons_radio_8a2 * {_1} then
 	CONS_RADIO_8A2A3.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_9.Ask()
-end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aCTS_RADIO_10_1.Ask()
-end if
-if cons_acts_radio_10_1} then
-	CONS_aCTS_RADIO_10_1A1.Ask()
-end if
-if cons_acts_radio_10_1} then
-	CONS_aCTS_RADIO_10_1A2.Ask()
-end if
-if cons_acts_radio_10_1} then
-	CONS_aCTS_RADIO_10_1A3.Ask()
-end if
-if cons_acts_radio_10_1} then
-	CONS_aCTS_RADIO_10_1A4.Ask()
-end if
-if cons_acts_radio_10_1} then
-	CONS_aCTS_RADIO_10_1A5.Ask()
-end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_11.Ask()
-end if
+'CONS_RADIO_9
+CONS_RADIO_9.Ask()
+'CONS_aCTS_RADIO_10_1
+CONS_aCTS_RADIO_10_1.Ask()
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_acts_radio_10_1 then
+'	CONS_aCTS_RADIO_10_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_acts_radio_10_1 then
+'	CONS_aCTS_RADIO_10_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_acts_radio_10_1 then
+'	CONS_aCTS_RADIO_10_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_acts_radio_10_1 then
+'	CONS_aCTS_RADIO_10_1A4.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_acts_radio_10_1 then
+'	CONS_aCTS_RADIO_10_1A5.Ask()
+'end if
+'CONS_RADIO_11
+CONS_RADIO_11.Ask()
 if cons_radio_11 * {_1} then
 	CONS_CHECK_11A1.Ask()
 end if
 if cons_check_11a1 * {E} then
 	CONS_RADIO_11A1E1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_RADIO_12.Ask()
-end if
+'CONS_RADIO_12
+CONS_RADIO_12.Ask()
 if cons_radio_12 * {_1} then
 	CONS_aSLD_RADIO_12A1_1.Ask()
 end if
@@ -370,9 +365,8 @@ end if
 if cons_awel_radio_12a2_1a7 * {_1} then
 	CONS_aWEL_RADIO_12A2_1A7A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aXRY_RADIO_13_1.Ask()
-end if
+'CONS_aXRY_RADIO_13_1
+CONS_aXRY_RADIO_13_1.Ask()
 if cons_axry_radio_13_1 * {_1} then
 	CONS_aXRY_CHECK_13_1A1.Ask()
 end if
@@ -400,9 +394,8 @@ end if
 if cons_axry_radio_13_1a2 * {_1} then
 	CONS_aXRY_RADIO_13_1A2A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aASR_RADIO_14_1.Ask()
-end if
+'CONS_aASR_RADIO_14_1
+CONS_aASR_RADIO_14_1.Ask()
 if cons_aasr_radio_14_1 * {_1} then
 	CONS_aASR_RADIO_14_1A1.Ask()
 end if
@@ -460,9 +453,8 @@ end if
 if cons_aasr_check_14_1a1b8a1 * {E} then
 	CONS_aASR_RADIO_14_1A1C1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aGLU_RADIO_15_1.Ask()
-end if
+'CONS_aGLU_RADIO_15_1
+CONS_aGLU_RADIO_15_1.Ask()
 if cons_aglu_radio_15_1 * {_1} then
 	CONS_aGLU_RADIO_15_1A1.Ask()
 end if
@@ -484,9 +476,8 @@ end if
 if cons_aglu_radio_15_1a5 * {_1} then
 	CONS_aGLU_CHECK_15_1A5A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aDEG_RADIO_16_1.Ask()
-end if
+'CONS_aDEG_RADIO_16_1
+CONS_aDEG_RADIO_16_1.Ask()
 if cons_adeg_radio_16_1 * {_1} then
 	CONS_aDEG_RADIO_16_1A1.Ask()
 end if
@@ -532,9 +523,8 @@ end if
 if cons_adeg_radio_16_1a2 * {_1} then
 	CONS_aDEG_CHECK_16_1A2A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aCTO_RADIO_17_1.Ask()
-end if
+'CONS_aCTO_RADIO_17_1
+CONS_aCTO_RADIO_17_1.Ask()
 if cons_acto_radio_17_1 * {_1} then
 	CONS_aCTO_CHECK_17_1A1.Ask()
 end if
@@ -547,9 +537,8 @@ end if
 if cons_acto_radio_17_1a2b1 * {_2} then
 	CONS_aCTO_RADIO_17_1A2B1B1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aDVM_RADIO_18_1.Ask()
-end if
+'CONS_aDVM_RADIO_18_1
+CONS_aDVM_RADIO_18_1.Ask()
 if cons_advm_radio_18_1 * {_1} then
 	CONS_aDVM_CHECK_18_1A1.Ask()
 end if
@@ -586,24 +575,26 @@ end if
 if cons_advm_check_18_1a4a5 * {A} then
 	CONS_aDVM_CHECK_18_1A4A5A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aFPE_RADIO_19_1.Ask()
-end if
-if cons_afpe_radio_19_1} then
-	CONS_aFPE_CHECK_19_1A1.Ask()
-end if
-if cons_afpe_radio_19_1} then
-	CONS_aFPE_RADIO_19_1A2.Ask()
-end if
-if cons_afpe_radio_19_1a2} then
-	CONS_aFPE_CHECK_19_1A2A1.Ask()
-end if
-if cons_afpe_radio_19_1} then
-	CONS_aFPE_RADIO_19_1A3.Ask()
-end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aVEX_RADIO_20_1.Ask()
-end if
+'CONS_aFPE_RADIO_19_1
+CONS_aFPE_RADIO_19_1.Ask()
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_afpe_radio_19_1 then
+'	CONS_aFPE_CHECK_19_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_afpe_radio_19_1 then
+'	CONS_aFPE_RADIO_19_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_afpe_radio_19_1a2 then
+'	CONS_aFPE_CHECK_19_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_afpe_radio_19_1 then
+'	CONS_aFPE_RADIO_19_1A3.Ask()
+'end if
+'CONS_aVEX_RADIO_20_1
+CONS_aVEX_RADIO_20_1.Ask()
 if cons_avex_radio_20_1 * {_1} then
 	CONS_aVEX_CHECK_20_1A1.Ask()
 end if
@@ -619,9 +610,8 @@ end if
 if cons_avex_radio_20_1 * {_1} then
 	CONS_aVEX_RADIO_20_1A4.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aGEX_RADIO_21_1.Ask()
-end if
+'CONS_aGEX_RADIO_21_1
+CONS_aGEX_RADIO_21_1.Ask()
 if cons_agex_radio_21_1 * {_1} then
 	CONS_aGEX_CHECK_21_1A1.Ask()
 end if
@@ -643,18 +633,19 @@ end if
 if cons_agex_radio_21_1 * {_1} then
 	CONS_aGEX_RADIO_21_1A5.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aUVR_RADIO_22_1.Ask()
-end if
-if cons_auvr_radio_22_1} then
-	CONS_aUVR_RADIO_22_1A1.Ask()
-end if
+'CONS_aUVR_RADIO_22_1
+CONS_aUVR_RADIO_22_1.Ask()
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_auvr_radio_22_1 then
+'	CONS_aUVR_RADIO_22_1A1.Ask()
+'end if
 if cons_auvr_radio_22_1a1 * {_1} then
 	CONS_aUVR_CHECK_22_1A1A1.Ask()
 end if
-if cons_auvr_radio_22_1} then
-	CONS_aUVR_CHECK_22_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_auvr_radio_22_1 then
+'	CONS_aUVR_CHECK_22_1A3.Ask()
+'end if
 if cons_auvr_check_22_1a3 * {A} then
 	CONS_aUVR_RADIO_22_1A3A1.Ask()
 end if
@@ -691,18 +682,17 @@ end if
 if cons_auvr_radio_22_1a3c1 * {_1} then
 	CONS_aUVR_RADIO_22_1A3C1A3.Ask()
 end if
-if cons_auvr_radio_22_1} then
-	CONS_aUVR_RADIO_22_1A4.Ask()
-end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aCLH_RADIO_23_1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cons_auvr_radio_22_1 then
+'	CONS_aUVR_RADIO_22_1A4.Ask()
+'end if
+'CONS_aCLH_RADIO_23_1
+CONS_aCLH_RADIO_23_1.Ask()
 if cons_aclh_radio_23_1 * {_1} then
 	CONS_aCLH_CHECK_23_1A1.Ask()
 end if
-if jobcat2 * {_3 or jobcat3 = 1 or jobcat4 = 9 or jobcat5 = 1 or jobcat5 = 191 or jobcat7 = 7 or jobcat8 = 6 or jobcat8 = 31} then
-	CONS_aSER_RADIO_24_1.Ask()
-end if
+'CONS_aSER_RADIO_24_1
+CONS_aSER_RADIO_24_1.Ask()
 if cons_aser_radio_24_1 * {_1} then
 	CONS_aSER_RADIO_24_1A1.Ask()
 end if

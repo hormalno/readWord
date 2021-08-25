@@ -1,21 +1,18 @@
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_RADIO_1.Ask()
-end if
+'CHEM_RADIO_1
+CHEM_RADIO_1.Ask()
 if chem_radio_1 * {_3} then
 	CHEM_RADIO_1C1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_CHECK_2.Ask()
-end if
+'CHEM_CHECK_2
+CHEM_CHECK_2.Ask()
 if chem_check_2 * {A} then
 	CHEM_RADIO_2A1.Ask()
 end if
 if chem_check_2 * {B} then
 	CHEM_RADIO_2B1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_CHECK_3.Ask()
-end if
+'CHEM_CHECK_3
+CHEM_CHECK_3.Ask()
 if chem_check_3 * {A} then
 	CHEM_RADIO_3A1.Ask()
 end if
@@ -25,9 +22,8 @@ end if
 if chem_check_3 * {C} then
 	CHEM_RADIO_3C1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_CHECK_4.Ask()
-end if
+'CHEM_CHECK_4
+CHEM_CHECK_4.Ask()
 if chem_check_4 * {A} then
 	CHEM_RADIO_4A1.Ask()
 end if
@@ -49,12 +45,10 @@ end if
 if chem_check_4 * {G} then
 	CHEM_RADIO_4G1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_CHECK_5.Ask()
-end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_CHECK_6.Ask()
-end if
+'CHEM_CHECK_5
+CHEM_CHECK_5.Ask()
+'CHEM_CHECK_6
+CHEM_CHECK_6.Ask()
 if chem_check_6 * {A} then
 	CHEM_aXRY_RADIO_6A1_1.Ask()
 end if
@@ -94,18 +88,15 @@ end if
 if chem_aauv_radio_6b1_1 * {_1} then
 	CHEM_aAUV_RADIO_6B1_1A2.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_RADIO_7.Ask()
-end if
+'CHEM_RADIO_7
+CHEM_RADIO_7.Ask()
 if chem_radio_7 * {_1} then
 	CHEM_CHECK_7A1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_CHECK_8.Ask()
-end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aSTE_RADIO_9_1.Ask()
-end if
+'CHEM_CHECK_8
+CHEM_CHECK_8.Ask()
+'CHEM_aSTE_RADIO_9_1
+CHEM_aSTE_RADIO_9_1.Ask()
 if chem_aste_radio_9_1 * {_1} then
 	CHEM_aSTE_CHECK_9_1A1.Ask()
 end if
@@ -124,12 +115,12 @@ end if
 if chem_aste_radio_9_1 * {_1} then
 	CHEM_aSTE_RADIO_9_1A4.Ask()
 end if
-if chem_aste_radio_9_1a4} then
-	CHEM_aSTE_CHECK_9_1A4A1.Ask()
-end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aMAH_RADIO_10_1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if chem_aste_radio_9_1a4 then
+'	CHEM_aSTE_CHECK_9_1A4A1.Ask()
+'end if
+'CHEM_aMAH_RADIO_10_1
+CHEM_aMAH_RADIO_10_1.Ask()
 if chem_amah_radio_10_1 * {_1} then
 	CHEM_aMAH_CHECK_10_1A1.Ask()
 end if
@@ -163,18 +154,18 @@ end if
 if chem_amah_check_10_1a1 * {D} then
 	CHEM_aMAH_RADIO_10_1A1D2.Ask()
 end if
-if chem_amah_check_2_1a1 * {E} then
-	CHEM_aMAH_RADIO_10_1A1E1.Ask()
-end if
+'to do question doesnt exists
+'if chem_amah_check_2_1a1 =5 then
+'	CHEM_aMAH_RADIO_10_1A1E1.Ask()
+'end if
 if chem_amah_radio_10_1 * {_1} then
 	CHEM_aMAH_CHECK_10_1A2.Ask()
 end if
 if chem_amah_check_10_1a2 * {E} then
 	CHEM_aMAH_RADIO_10_1A2E1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aDEG_RADIO_11_1.Ask()
-end if
+'CHEM_aDEG_RADIO_11_1
+CHEM_aDEG_RADIO_11_1.Ask()
 if chem_adeg_radio_11_1 * {_1} then
 	CHEM_aDEG_RADIO_11_1A1.Ask()
 end if
@@ -220,9 +211,8 @@ end if
 if chem_adeg_radio_11_1a2 * {_1} then
 	CHEM_aDEG_CHECK_11_1A2A1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aVEX_RADIO_12_1.Ask()
-end if
+'CHEM_aVEX_RADIO_12_1
+CHEM_aVEX_RADIO_12_1.Ask()
 if chem_avex_radio_12_1 * {_1} then
 	CHEM_aVEX_CHECK_12_1A1.Ask()
 end if
@@ -238,9 +228,8 @@ end if
 if chem_avex_radio_12_1 * {_1} then
 	CHEM_aVEX_RADIO_12_1A4.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aDVM_RADIO_13_1.Ask()
-end if
+'CHEM_aDVM_RADIO_13_1
+CHEM_aDVM_RADIO_13_1.Ask()
 if chem_advm_radio_13_1 * {_1} then
 	CHEM_aDVM_CHECK_13_1A1.Ask()
 end if
@@ -277,9 +266,8 @@ end if
 if chem_advm_check_13_1a4a5 * {A} then
 	CHEM_aDVM_CHECK_13_1A4A5A1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aCTO_RADIO_14_1.Ask()
-end if
+'CHEM_aCTO_RADIO_14_1
+CHEM_aCTO_RADIO_14_1.Ask()
 if chem_acto_radio_14_1 * {_1} then
 	CHEM_aCTO_CHECK_14_1A1.Ask()
 end if
@@ -292,9 +280,8 @@ end if
 if chem_acto_radio_14_1a2b1 * {_2} then
 	CHEM_aCTO_RADIO_14_1A2B1B1.Ask()
 end if
-if jobcat2 * {_131 or jobcat4 = 31 or jobcat11 = 11} then
-	CHEM_aCLH_RADIO_15_1.Ask()
-end if
+'CHEM_aCLH_RADIO_15_1
+CHEM_aCLH_RADIO_15_1.Ask()
 if chem_aclh_radio_15_1 * {_1} then
 	CHEM_aCLH_CHECK_15_1A1.Ask()
 end if

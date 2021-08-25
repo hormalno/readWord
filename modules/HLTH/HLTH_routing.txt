@@ -9,9 +9,10 @@ end if
 if hlth_radio_1a1 * {_1} then
 	HLTH_RADIO_1A1A2.Ask()
 end if
-if hlth_radio_1a1 2} then
-	HLTH_RADIO_1B1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if hlth_radio_1a1 2 then
+'	HLTH_RADIO_1B1.Ask()
+'end if
 if hlth_radio_1b1 * {_1} then
 	HLTH_RADIO_1B1A1.Ask()
 end if
@@ -163,9 +164,10 @@ end if
 if hlth_aste_radio_3_1 * {_1} then
 	HLTH_aSTE_RADIO_3_1A4.Ask()
 end if
-if hlth_aste_radio_3_1a4} then
-	HLTH_aSTE_CHECK_3_1A4A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if hlth_aste_radio_3_1a4 then
+'	HLTH_aSTE_CHECK_3_1A4A1.Ask()
+'end if
 'HLTH_aGAL_RADIO_4_1
 HLTH_aGAL_RADIO_4_1.Ask()
 if hlth_agal_radio_4_1 * {_1} then
@@ -274,15 +276,17 @@ if hlth_advm_check_7_1a4a5 * {A} then
 end if
 'HLTH_aUVR_RADIO_8_1
 HLTH_aUVR_RADIO_8_1.Ask()
-if hlth_auvr_radio_8_1} then
-	HLTH_aUVR_RADIO_8_1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if hlth_auvr_radio_8_1 then
+'	HLTH_aUVR_RADIO_8_1A1.Ask()
+'end if
 if hlth_auvr_radio_8_1a1 * {_1} then
 	HLTH_aUVR_CHECK_8_1A1A1.Ask()
 end if
-if hlth_auvr_radio_8_1} then
-	HLTH_aUVR_CHECK_8_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if hlth_auvr_radio_8_1 then
+'	HLTH_aUVR_CHECK_8_1A3.Ask()
+'end if
 if hlth_auvr_check_8_1a3 * {A} then
 	HLTH_aUVR_RADIO_8_1A3A1.Ask()
 end if
@@ -319,9 +323,10 @@ end if
 if hlth_auvr_radio_8_1a3c1 * {_1} then
 	HLTH_aUVR_RADIO_8_1A3C1A3.Ask()
 end if
-if hlth_auvr_radio_8_1} then
-	HLTH_aUVR_RADIO_8_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if hlth_auvr_radio_8_1 then
+'	HLTH_aUVR_RADIO_8_1A4.Ask()
+'end if
 'HLTH_aCLH_RADIO_9_1
 HLTH_aCLH_RADIO_9_1.Ask()
 if hlth_aclh_radio_9_1 * {_1} then

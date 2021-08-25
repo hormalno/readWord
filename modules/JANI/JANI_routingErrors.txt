@@ -1,0 +1,56 @@
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_astp_radio_3a1_1a1 then
+'	JANI_aSTP_CHECK_3A1_1A1A1.Ask()
+'end if
+'to do question doesnt exists
+'if jani_awel_radio_5a2_1 =1 then
+'	JANI_aWEL_CHECK_5A2_1A1.Ask()
+'end if
+'to do question doesnt exists
+'if jani_awel_radio_5a2_1 =1 then
+'	JANI_aWEL_CHECK_5A2_1A2.Ask()
+'end if
+'to do question doesnt exists
+'if jani_awel_radio_5a2_1 =1 then
+'	JANI_aWEL_RADIO_5A2_1A4.Ask()
+'end if
+'to do question doesnt exists
+'if jani_awel_radio_5a2_1 =1 then
+'	JANI_aWEL_RADIO_5A2_1A5.Ask()
+'end if
+'to do question doesnt exists
+'if jani_awel_radio_5a2_1 =1 then
+'	JANI_aWEL_RADIO_5A2_1A6.Ask()
+'end if
+'to do question doesnt exists
+'if jani_awel_radio_5a2_1 =1 then
+'	JANI_aWEL_RADIO_5A2_1A7.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_afpe_radio_6a1_1 then
+'	JANI_aFPE_CHECK_6A1_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_afpe_radio_6a1_1 then
+'	JANI_aFPE_RADIO_6A1_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_afpe_radio_6a1_1a2 then
+'	JANI_aFPE_CHECK_6A1_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_afpe_radio_6a1_1 then
+'	JANI_aFPE_RADIO_6A1_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_auvr_radio_13_1 then
+'	JANI_aUVR_RADIO_13_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_auvr_radio_13_1 then
+'	JANI_aUVR_CHECK_13_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if jani_auvr_radio_13_1 then
+'	JANI_aUVR_RADIO_13_1A4.Ask()
+'end if

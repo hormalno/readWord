@@ -1,6 +1,5 @@
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_CHECK_1.Ask()
-end if
+'CERA_CHECK_1
+CERA_CHECK_1.Ask()
 if cera_check_1 * {F} then
 	CERA_RADIO_1F1.Ask()
 end if
@@ -10,54 +9,54 @@ end if
 if cera_check_1 * {G} then
 	CERA_aCTS_RADIO_1G1_1.Ask()
 end if
-if cera_acts_radio_1g1_1} then
-	CERA_aCTS_RADIO_1G1_1A1.Ask()
-end if
-if cera_acts_radio_1g1_1 1} then
-	CERA_aCTS_RADIO_1G1_1A2.Ask()
-end if
-if cera_acts_radio_1g1_1} then
-	CERA_aCTS_RADIO_1G1_1A3.Ask()
-end if
-if cera_acts_radio_1g1_1} then
-	CERA_aCTS_RADIO_1G1_1A4.Ask()
-end if
-if cera_acts_radio_1g1_1} then
-	CERA_aCTS_RADIO_1G1_1A5.Ask()
-end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_2.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cera_acts_radio_1g1_1 then
+'	CERA_aCTS_RADIO_1G1_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cera_acts_radio_1g1_1 1 then
+'	CERA_aCTS_RADIO_1G1_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cera_acts_radio_1g1_1 then
+'	CERA_aCTS_RADIO_1G1_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cera_acts_radio_1g1_1 then
+'	CERA_aCTS_RADIO_1G1_1A4.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cera_acts_radio_1g1_1 then
+'	CERA_aCTS_RADIO_1G1_1A5.Ask()
+'end if
+'CERA_RADIO_2
+CERA_RADIO_2.Ask()
 if cera_radio_2 * {_1} then
 	CERA_CHECK_2A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_3.Ask()
-end if
+'CERA_RADIO_3
+CERA_RADIO_3.Ask()
 if cera_radio_3 * {_1} then
 	CERA_CHECK_3A1.Ask()
 end if
 if cera_radio_3 * {_1} then
 	CERA_CHECK_3A2.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_4.Ask()
-end if
+'CERA_RADIO_4
+CERA_RADIO_4.Ask()
 if cera_radio_4 * {_1} then
 	CERA_RADIO_4A1.Ask()
 end if
 if cera_radio_4 * {_1} then
 	CERA_RADIO_4A2.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_5.Ask()
-end if
+'CERA_RADIO_5
+CERA_RADIO_5.Ask()
 if cera_radio_5 * {_1} then
 	CERA_CHECK_5A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_aART_RADIO_6_1.Ask()
-end if
+'CERA_aART_RADIO_6_1
+CERA_aART_RADIO_6_1.Ask()
 if cera_aart_radio_6_1 * {_1} then
 	CERA_aART_CHECK_6_1A1.Ask()
 end if
@@ -67,9 +66,8 @@ end if
 if cera_aart_radio_6_1a2 * {_1} then
 	CERA_aART_RADIO_6_1A2A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_7.Ask()
-end if
+'CERA_RADIO_7
+CERA_RADIO_7.Ask()
 if cera_radio_7 * {_1} then
 	CERA_aSAN_RADIO_7A1_1.Ask()
 end if
@@ -97,9 +95,10 @@ end if
 if cera_astp_radio_7a2_1 * {_1} then
 	CERA_aSTP_RADIO_7A2_1A1.Ask()
 end if
-if cera_astp_radio_7a2_1a1} then
-	CERA_aSTP_CHECK_7A2_1A1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if cera_astp_radio_7a2_1a1 then
+'	CERA_aSTP_CHECK_7A2_1A1A1.Ask()
+'end if
 if cera_astp_radio_7a2_1 * {_1} then
 	CERA_aSTP_RADIO_7A2_1A2.Ask()
 end if
@@ -202,9 +201,8 @@ end if
 if cera_apai_radio_7a3_1a7 * {_1} then
 	CERA_aPAI_CHECK_7A3_1A7A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_aGLU_RADIO_8_1.Ask()
-end if
+'CERA_aGLU_RADIO_8_1
+CERA_aGLU_RADIO_8_1.Ask()
 if cera_aglu_radio_8_1 * {_1} then
 	CERA_aGLU_RADIO_8_1A1.Ask()
 end if
@@ -226,9 +224,8 @@ end if
 if cera_aglu_radio_8_1a5 * {_1} then
 	CERA_aGLU_CHECK_8_1A5A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_9.Ask()
-end if
+'CERA_RADIO_9
+CERA_RADIO_9.Ask()
 if cera_radio_9 * {_1} then
 	CERA_aFUR_RADIO_9A1_1.Ask()
 end if
@@ -265,15 +262,13 @@ end if
 if cera_afur_radio_9a1_1 * {_1} then
 	CERA_aFUR_RADIO_9A1_1A6.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_RADIO_10.Ask()
-end if
+'CERA_RADIO_10
+CERA_RADIO_10.Ask()
 if cera_radio_10 * {_1} then
 	CERA_CHECK_10A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_aDEG_RADIO_11_1.Ask()
-end if
+'CERA_aDEG_RADIO_11_1
+CERA_aDEG_RADIO_11_1.Ask()
 if cera_adeg_radio_11_1 * {_1} then
 	CERA_aDEG_RADIO_11_1A1.Ask()
 end if
@@ -319,9 +314,8 @@ end if
 if cera_adeg_radio_11_1a2 * {_1} then
 	CERA_aDEG_CHECK_11_1A2A1.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_aVEX_RADIO_12_1.Ask()
-end if
+'CERA_aVEX_RADIO_12_1
+CERA_aVEX_RADIO_12_1.Ask()
 if cera_avex_radio_12_1 * {_1} then
 	CERA_aVEX_CHECK_12_1A1.Ask()
 end if
@@ -337,9 +331,8 @@ end if
 if cera_avex_radio_12_1 * {_1} then
 	CERA_aVEX_RADIO_12_1A4.Ask()
 end if
-if jobcat4 * {_12 or jobcat5 = 13} then
-	CERA_aCLH_RADIO_13_1.Ask()
-end if
+'CERA_aCLH_RADIO_13_1
+CERA_aCLH_RADIO_13_1.Ask()
 if cera_aclh_radio_13_1 * {_1} then
 	CERA_aCLH_CHECK_13_1A1.Ask()
 end if

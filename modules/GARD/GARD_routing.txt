@@ -210,9 +210,10 @@ end if
 if gard_astp_radio_5a3a2_1 * {_1} then
 	GARD_aSTP_RADIO_5A3A2_1A1.Ask()
 end if
-if gard_astp_radio_5a3a2_1a1} then
-	GARD_aSTP_CHECK_5A3A2_1A1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_astp_radio_5a3a2_1a1 then
+'	GARD_aSTP_CHECK_5A3A2_1A1A1.Ask()
+'end if
 if gard_astp_radio_5a3a2_1 * {_1} then
 	GARD_aSTP_RADIO_5A3A2_1A2.Ask()
 end if
@@ -416,18 +417,22 @@ if gard_acto_radio_5a6_1a2b1 * {_2} then
 end if
 'GARD_aFPE_RADIO_6_1
 GARD_aFPE_RADIO_6_1.Ask()
-if gard_afpe_radio_6_1} then
-	GARD_aFPE_CHECK_6_1A1.Ask()
-end if
-if gard_afpe_radio_6_1} then
-	GARD_aFPE_RADIO_6_1A2.Ask()
-end if
-if gard_afpe_radio_6_1a2} then
-	GARD_aFPE_CHECK_6_1A2A1.Ask()
-end if
-if gard_afpe_radio_6_1} then
-	GARD_aFPE_RADIO_6_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1 then
+'	GARD_aFPE_CHECK_6_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1 then
+'	GARD_aFPE_RADIO_6_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1a2 then
+'	GARD_aFPE_CHECK_6_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1 then
+'	GARD_aFPE_RADIO_6_1A3.Ask()
+'end if
 'GARD_aFTC_RADIO_7_1
 GARD_aFTC_RADIO_7_1.Ask()
 if gard_aftc_radio_7_1 * {_1} then
@@ -553,15 +558,17 @@ if gard_aclh_radio_12_1 * {_1} then
 end if
 'GARD_aUVR_RADIO_13_1
 GARD_aUVR_RADIO_13_1.Ask()
-if gard_auvr_radio_13_1} then
-	GARD_aUVR_RADIO_13_1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_auvr_radio_13_1 then
+'	GARD_aUVR_RADIO_13_1A1.Ask()
+'end if
 if gard_auvr_radio_13_1a1 * {_1} then
 	GARD_aUVR_CHECK_13_1A1A1.Ask()
 end if
-if gard_auvr_radio_13_1} then
-	GARD_aUVR_CHECK_13_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_auvr_radio_13_1 then
+'	GARD_aUVR_CHECK_13_1A3.Ask()
+'end if
 if gard_auvr_check_13_1a3 * {A} then
 	GARD_aUVR_RADIO_13_1A3A1.Ask()
 end if
@@ -598,6 +605,7 @@ end if
 if gard_auvr_radio_13_1a3c1 * {_1} then
 	GARD_aUVR_RADIO_13_1A3C1A3.Ask()
 end if
-if gard_auvr_radio_13_1} then
-	GARD_aUVR_RADIO_13_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_auvr_radio_13_1 then
+'	GARD_aUVR_RADIO_13_1A4.Ask()
+'end if

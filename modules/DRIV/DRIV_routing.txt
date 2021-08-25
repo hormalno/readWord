@@ -1,6 +1,5 @@
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aDVM_RADIO_1_1.Ask()
-end if
+'DRIV_aDVM_RADIO_1_1
+DRIV_aDVM_RADIO_1_1.Ask()
 if driv_advm_radio_1_1 * {_1} then
 	DRIV_aDVM_CHECK_1_1A1.Ask()
 end if
@@ -37,9 +36,8 @@ end if
 if driv_advm_check_1_1a4a5 * {A} then
 	DRIV_aDVM_CHECK_1_1A4A5A1.Ask()
 end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aMAH_RADIO_2_1.Ask()
-end if
+'DRIV_aMAH_RADIO_2_1
+DRIV_aMAH_RADIO_2_1.Ask()
 if driv_amah_radio_2_1 * {_1} then
 	DRIV_aMAH_CHECK_2_1A1.Ask()
 end if
@@ -82,9 +80,8 @@ end if
 if driv_amah_check_2_1a2 * {E} then
 	DRIV_aMAH_RADIO_2_1A2E1.Ask()
 end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aCON_RADIO_3_1.Ask()
-end if
+'DRIV_aCON_RADIO_3_1
+DRIV_aCON_RADIO_3_1.Ask()
 if driv_acon_radio_3_1 * {_1} then
 	DRIV_aCON_RADIO_3_1A1.Ask()
 end if
@@ -100,9 +97,8 @@ end if
 if driv_acon_radio_3_1 * {_1} then
 	DRIV_aCON_RADIO_3_1A3.Ask()
 end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aDEG_RADIO_4_1.Ask()
-end if
+'DRIV_aDEG_RADIO_4_1
+DRIV_aDEG_RADIO_4_1.Ask()
 if driv_adeg_radio_4_1 * {_1} then
 	DRIV_aDEG_RADIO_4_1A1.Ask()
 end if
@@ -148,9 +144,8 @@ end if
 if driv_adeg_radio_4_1a2 * {_1} then
 	DRIV_aDEG_CHECK_4_1A2A1.Ask()
 end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aFTC_RADIO_5_1.Ask()
-end if
+'DRIV_aFTC_RADIO_5_1
+DRIV_aFTC_RADIO_5_1.Ask()
 if driv_aftc_radio_5_1 * {_1} then
 	DRIV_aFTC_CHECK_5_1A1.Ask()
 end if
@@ -175,9 +170,8 @@ end if
 if driv_aftc_radio_5_1a4 * {_1} then
 	DRIV_aFTC_CHECK_5_1A4A1.Ask()
 end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aCTO_RADIO_6_1.Ask()
-end if
+'DRIV_aCTO_RADIO_6_1
+DRIV_aCTO_RADIO_6_1.Ask()
 if driv_acto_radio_6_1 * {_1} then
 	DRIV_aCTO_CHECK_6_1A1.Ask()
 end if
@@ -190,18 +184,19 @@ end if
 if driv_acto_radio_6_1a2b1 * {_2} then
 	DRIV_aCTO_RADIO_6_1A2B1B1.Ask()
 end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aUVR_RADIO_7_1.Ask()
-end if
-if driv_auvr_radio_7_1} then
-	DRIV_aUVR_RADIO_7_1A1.Ask()
-end if
+'DRIV_aUVR_RADIO_7_1
+DRIV_aUVR_RADIO_7_1.Ask()
+'to do Incorrect instruction (doesnt have = symbol)
+'if driv_auvr_radio_7_1 then
+'	DRIV_aUVR_RADIO_7_1A1.Ask()
+'end if
 if driv_auvr_radio_7_1a1 * {_1} then
 	DRIV_aUVR_CHECK_7_1A1A1.Ask()
 end if
-if driv_auvr_radio_7_1} then
-	DRIV_aUVR_CHECK_7_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if driv_auvr_radio_7_1 then
+'	DRIV_aUVR_CHECK_7_1A3.Ask()
+'end if
 if driv_auvr_check_7_1a3 * {A} then
 	DRIV_aUVR_RADIO_7_1A3A1.Ask()
 end if
@@ -238,12 +233,12 @@ end if
 if driv_auvr_radio_7_1a3c1 * {_1} then
 	DRIV_aUVR_RADIO_7_1A3C1A3.Ask()
 end if
-if driv_auvr_radio_7_1} then
-	DRIV_aUVR_RADIO_7_1A4.Ask()
-end if
-if jobcat1 * {_7 or jobcat2 = 18 or jobcat3 = 12 or jobcat6 = 5 or jobcat9 = 5 or jobcat10 = 4 or jobcat12 = 6} then
-	DRIV_aCLH_RADIO_8_1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if driv_auvr_radio_7_1 then
+'	DRIV_aUVR_RADIO_7_1A4.Ask()
+'end if
+'DRIV_aCLH_RADIO_8_1
+DRIV_aCLH_RADIO_8_1.Ask()
 if driv_aclh_radio_8_1 * {_1} then
 	DRIV_aCLH_CHECK_8_1A1.Ask()
 end if

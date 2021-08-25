@@ -70,18 +70,22 @@ if clnr_aser_radio_5_1 * {_1} then
 end if
 'CLNR_aFPE_RADIO_6_1
 CLNR_aFPE_RADIO_6_1.Ask()
-if clnr_afpe_radio_6_1} then
-	CLNR_aFPE_CHECK_6_1A1.Ask()
-end if
-if clnr_afpe_radio_6_1} then
-	CLNR_aFPE_RADIO_6_1A2.Ask()
-end if
-if clnr_afpe_radio_6_1a2} then
-	CLNR_aFPE_CHECK_6_1A2A1.Ask()
-end if
-if clnr_afpe_radio_6_1} then
-	CLNR_aFPE_RADIO_6_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_afpe_radio_6_1 then
+'	CLNR_aFPE_CHECK_6_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_afpe_radio_6_1 then
+'	CLNR_aFPE_RADIO_6_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_afpe_radio_6_1a2 then
+'	CLNR_aFPE_CHECK_6_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_afpe_radio_6_1 then
+'	CLNR_aFPE_RADIO_6_1A3.Ask()
+'end if
 'CLNR_aDVM_RADIO_7_1
 CLNR_aDVM_RADIO_7_1.Ask()
 if clnr_advm_radio_7_1 * {_1} then
@@ -122,15 +126,17 @@ if clnr_advm_check_7_1a4a5 * {A} then
 end if
 'CLNR_aUVR_RADIO_8_1
 CLNR_aUVR_RADIO_8_1.Ask()
-if clnr_auvr_radio_8_1} then
-	CLNR_aUVR_RADIO_8_1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_auvr_radio_8_1 then
+'	CLNR_aUVR_RADIO_8_1A1.Ask()
+'end if
 if clnr_auvr_radio_8_1a1 * {_1} then
 	CLNR_aUVR_CHECK_8_1A1A1.Ask()
 end if
-if clnr_auvr_radio_8_1} then
-	CLNR_aUVR_CHECK_8_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_auvr_radio_8_1 then
+'	CLNR_aUVR_CHECK_8_1A3.Ask()
+'end if
 if clnr_auvr_check_8_1a3 * {A} then
 	CLNR_aUVR_RADIO_8_1A3A1.Ask()
 end if
@@ -167,9 +173,10 @@ end if
 if clnr_auvr_radio_8_1a3c1 * {_1} then
 	CLNR_aUVR_RADIO_8_1A3C1A3.Ask()
 end if
-if clnr_auvr_radio_8_1} then
-	CLNR_aUVR_RADIO_8_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if clnr_auvr_radio_8_1 then
+'	CLNR_aUVR_RADIO_8_1A4.Ask()
+'end if
 'CLNR_aCLH_RADIO_9_1
 CLNR_aCLH_RADIO_9_1.Ask()
 if clnr_aclh_radio_9_1 * {_1} then

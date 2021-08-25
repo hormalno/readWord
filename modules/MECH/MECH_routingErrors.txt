@@ -1,0 +1,16 @@
+'to do Incorrect instruction (doesnt have = symbol)
+'if mech_astp_radio_7a2_1a1 then
+'	MECH_aSTP_CHECK_7A2_1A1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if mech_auvr_radio_11_1 then
+'	MECH_aUVR_RADIO_11_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if mech_auvr_radio_11_1 then
+'	MECH_aUVR_CHECK_11_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if mech_auvr_radio_11_1 then
+'	MECH_aUVR_RADIO_11_1A4.Ask()
+'end if

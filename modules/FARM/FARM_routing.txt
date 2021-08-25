@@ -6,9 +6,10 @@ end if
 if farm_radio_1a1 * {_1} then
 	FARM_CHECK_1A1A1.Ask()
 end if
-if 1a1a1 farm_check_1a1a1 * {D} then
-	FARM_RADIO_1A1A1D1.Ask()
-end if
+'to do question doesnt exists
+'if 1a1a1 farm_check_1a1a1 =4 then
+'	FARM_RADIO_1A1A1D1.Ask()
+'end if
 if farm_radio_1a1a1d1 * {_1} then
 	FARM_RADIO_1A1A1D1A1.Ask()
 end if
@@ -27,9 +28,10 @@ end if
 if farm_radio_1a1 * {_1} then
 	FARM_RADIO_1A1A5.Ask()
 end if
-if 1a1a5 farm_radio_1a1a5 * {_1} then
-	FARM_RADIO_1A1A5A1.Ask()
-end if
+'to do question doesnt exists
+'if 1a1a5 farm_radio_1a1a5 =1 then
+'	FARM_RADIO_1A1A5A1.Ask()
+'end if
 'FARM_aPES_RADIO_2_1
 FARM_aPES_RADIO_2_1.Ask()
 if farm_apes_radio_2_1 * {_1} then
@@ -164,18 +166,22 @@ if farm_advm_check_7_1a4a5 * {A} then
 end if
 'FARM_aFPE_RADIO_8_1
 FARM_aFPE_RADIO_8_1.Ask()
-if farm_afpe_radio_8_1} then
-	FARM_aFPE_CHECK_8_1A1.Ask()
-end if
-if farm_afpe_radio_8_1} then
-	FARM_aFPE_RADIO_8_1A2.Ask()
-end if
-if farm_afpe_radio_8_1a2} then
-	FARM_aFPE_CHECK_8_1A2A1.Ask()
-end if
-if farm_afpe_radio_8_1} then
-	FARM_aFPE_RADIO_8_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1 then
+'	FARM_aFPE_CHECK_8_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1 then
+'	FARM_aFPE_RADIO_8_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1a2 then
+'	FARM_aFPE_CHECK_8_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1 then
+'	FARM_aFPE_RADIO_8_1A3.Ask()
+'end if
 'FARM_aFTC_RADIO_9_1
 FARM_aFTC_RADIO_9_1.Ask()
 if farm_aftc_radio_9_1 * {_1} then
@@ -411,9 +417,10 @@ end if
 if farm_astp_radio_13a3_1 * {_1} then
 	FARM_aSTP_RADIO_13A3_1A1.Ask()
 end if
-if farm_astp_radio_13a3_1a1} then
-	FARM_aSTP_CHECK_13A3_1A1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_astp_radio_13a3_1a1 then
+'	FARM_aSTP_CHECK_13A3_1A1A1.Ask()
+'end if
 if farm_astp_radio_13a3_1 * {_1} then
 	FARM_aSTP_RADIO_13A3_1A2.Ask()
 end if
@@ -440,24 +447,30 @@ FARM_RADIO_14.Ask()
 if farm_radio_14 * {_1} then
 	FARM_aSLD_RADIO_14A1_1.Ask()
 end if
-if farm_asld_radio_1a4_1 * {_1} then
-	FARM_aSLD_CHECK_14A1_1A1.Ask()
-end if
-if farm_asld_check_1a4_1a1 * {C} then
-	FARM_aSLD_RADIO_14A1_1A1C1.Ask()
-end if
-if farm_asld_radio_1a4_1 * {_1} then
-	FARM_aSLD_RADIO_14A1_1A3.Ask()
-end if
-if farm_asld_radio_1a4_1a3 * {_1} then
-	FARM_aSLD_CHECK_14A1_1A3A1.Ask()
-end if
-if farm_asld_radio_1a4_1 * {_1} then
-	FARM_aSLD_RADIO_14A1_1A4.Ask()
-end if
-if farm_asld_radio_1a4_1a4 * {_1} then
-	FARM_aSLD_CHECK_14A1_1A4A1.Ask()
-end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1 =1 then
+'	FARM_aSLD_CHECK_14A1_1A1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_check_1a4_1a1 =3 then
+'	FARM_aSLD_RADIO_14A1_1A1C1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1 =1 then
+'	FARM_aSLD_RADIO_14A1_1A3.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1a3 =1 then
+'	FARM_aSLD_CHECK_14A1_1A3A1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1 =1 then
+'	FARM_aSLD_RADIO_14A1_1A4.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1a4 =1 then
+'	FARM_aSLD_CHECK_14A1_1A4A1.Ask()
+'end if
 if farm_radio_14 * {_1} then
 	FARM_aWEL_RADIO_14A2_1.Ask()
 end if
@@ -566,15 +579,17 @@ if farm_adeg_radio_16_1a2 * {_1} then
 end if
 'FARM_aUVR_RADIO_17_1
 FARM_aUVR_RADIO_17_1.Ask()
-if farm_auvr_radio_17_1} then
-	FARM_aUVR_RADIO_17_1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_auvr_radio_17_1 then
+'	FARM_aUVR_RADIO_17_1A1.Ask()
+'end if
 if farm_auvr_radio_17_1a1 * {_1} then
 	FARM_aUVR_CHECK_17_1A1A1.Ask()
 end if
-if farm_auvr_radio_17_1} then
-	FARM_aUVR_CHECK_17_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_auvr_radio_17_1 then
+'	FARM_aUVR_CHECK_17_1A3.Ask()
+'end if
 if farm_auvr_check_17_1a3 * {A} then
 	FARM_aUVR_RADIO_17_1A3A1.Ask()
 end if
@@ -611,9 +626,10 @@ end if
 if farm_auvr_radio_17_1a3c1 * {_1} then
 	FARM_aUVR_RADIO_17_1A3C1A3.Ask()
 end if
-if farm_auvr_radio_17_1} then
-	FARM_aUVR_RADIO_17_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_auvr_radio_17_1 then
+'	FARM_aUVR_RADIO_17_1A4.Ask()
+'end if
 'FARM_aCLH_RADIO_18_1
 FARM_aCLH_RADIO_18_1.Ask()
 if farm_aclh_radio_18_1 * {_1} then

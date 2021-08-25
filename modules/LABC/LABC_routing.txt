@@ -85,9 +85,10 @@ end if
 if labc_actw_radio_3a1_1 * {_1} then
 	LABC_aCTW_RADIO_3A1_1A7.Ask()
 end if
-if labc_agal_radio_3a1_1a4 * {_1} then
-	LABC_RADIO_4.Ask()
-end if
+'to do question doesnt exists
+'if labc_agal_radio_3a1_1a4 =1 then
+'	LABC_RADIO_4.Ask()
+'end if
 if labc_radio_4 * {_1} then
 	LABC_CHECK_4A1.Ask()
 end if
@@ -252,9 +253,10 @@ end if
 if labc_aste_radio_14_1 * {_1} then
 	LABC_aSTE_RADIO_14_1A4.Ask()
 end if
-if labc_aste_radio_14_1a4} then
-	LABC_aSTE_CHECK_14_1A4A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if labc_aste_radio_14_1a4 then
+'	LABC_aSTE_CHECK_14_1A4A1.Ask()
+'end if
 'LABC_aDVM_RADIO_15_1
 LABC_aDVM_RADIO_15_1.Ask()
 if labc_advm_radio_15_1 * {_1} then
@@ -310,18 +312,21 @@ end if
 if labc_avex_radio_16_1 * {_1} then
 	LABC_aVEX_RADIO_16_1A4.Ask()
 end if
-if labc_agal_radio_16_1a4 * {_1} then
-	LABC_aUVR_RADIO_17_1.Ask()
-end if
-if labc_auvr_radio_17_1} then
-	LABC_aUVR_RADIO_17_1A1.Ask()
-end if
+'to do question doesnt exists
+'if labc_agal_radio_16_1a4 =1 then
+'	LABC_aUVR_RADIO_17_1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if labc_auvr_radio_17_1 then
+'	LABC_aUVR_RADIO_17_1A1.Ask()
+'end if
 if labc_auvr_radio_17_1a1 * {_1} then
 	LABC_aUVR_CHECK_17_1A1A1.Ask()
 end if
-if labc_auvr_radio_17_1} then
-	LABC_aUVR_CHECK_17_1A3.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if labc_auvr_radio_17_1 then
+'	LABC_aUVR_CHECK_17_1A3.Ask()
+'end if
 if labc_auvr_check_17_1a3 * {A} then
 	LABC_aUVR_RADIO_17_1A3A1.Ask()
 end if
@@ -358,9 +363,10 @@ end if
 if labc_auvr_radio_17_1a3c1 * {_1} then
 	LABC_aUVR_RADIO_17_1A3C1A3.Ask()
 end if
-if labc_auvr_radio_17_1} then
-	LABC_aUVR_RADIO_17_1A4.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if labc_auvr_radio_17_1 then
+'	LABC_aUVR_RADIO_17_1A4.Ask()
+'end if
 'LABC_aCLH_RADIO_18_1
 LABC_aCLH_RADIO_18_1.Ask()
 if labc_aclh_radio_18_1 * {_1} then

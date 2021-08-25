@@ -1,0 +1,64 @@
+'to do question doesnt exists
+'if 1a1a1 farm_check_1a1a1 =4 then
+'	FARM_RADIO_1A1A1D1.Ask()
+'end if
+'to do question doesnt exists
+'if 1a1a5 farm_radio_1a1a5 =1 then
+'	FARM_RADIO_1A1A5A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1 then
+'	FARM_aFPE_CHECK_8_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1 then
+'	FARM_aFPE_RADIO_8_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1a2 then
+'	FARM_aFPE_CHECK_8_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_afpe_radio_8_1 then
+'	FARM_aFPE_RADIO_8_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_astp_radio_13a3_1a1 then
+'	FARM_aSTP_CHECK_13A3_1A1A1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1 =1 then
+'	FARM_aSLD_CHECK_14A1_1A1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_check_1a4_1a1 =3 then
+'	FARM_aSLD_RADIO_14A1_1A1C1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1 =1 then
+'	FARM_aSLD_RADIO_14A1_1A3.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1a3 =1 then
+'	FARM_aSLD_CHECK_14A1_1A3A1.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1 =1 then
+'	FARM_aSLD_RADIO_14A1_1A4.Ask()
+'end if
+'to do question doesnt exists
+'if farm_asld_radio_1a4_1a4 =1 then
+'	FARM_aSLD_CHECK_14A1_1A4A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_auvr_radio_17_1 then
+'	FARM_aUVR_RADIO_17_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_auvr_radio_17_1 then
+'	FARM_aUVR_CHECK_17_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if farm_auvr_radio_17_1 then
+'	FARM_aUVR_RADIO_17_1A4.Ask()
+'end if

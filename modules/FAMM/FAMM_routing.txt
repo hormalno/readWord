@@ -139,9 +139,10 @@ end if
 if famm_astp_radio_6a1_1 * {_1} then
 	FAMM_aSTP_RADIO_6A1_1A1.Ask()
 end if
-if famm_astp_radio_6a1_1a1} then
-	FAMM_aSTP_CHECK_6A1_1A1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if famm_astp_radio_6a1_1a1 then
+'	FAMM_aSTP_CHECK_6A1_1A1A1.Ask()
+'end if
 if famm_astp_radio_6a1_1 * {_1} then
 	FAMM_aSTP_RADIO_6A1_1A2.Ask()
 end if
@@ -453,41 +454,50 @@ if famm_aenu_radio_13_1 * {_1} then
 end if
 'FAMM_aFPE_RADIO_14_1
 FAMM_aFPE_RADIO_14_1.Ask()
-if famm_aenu_radio_14_1 * {_1} then
-	FAMM_aFPE_CHECK_14_1A1.Ask()
-end if
-if famm_aenu_radio_14_1 * {_1} then
-	FAMM_aFPE_RADIO_14_1A2.Ask()
-end if
-if famm_aenu_radio_14_1a2 * {_1} then
-	FAMM_aFPE_CHECK_14_1A2A1.Ask()
-end if
-if famm_aenu_radio_14_1 * {_1} then
-	FAMM_aFPE_RADIO_14_1A3.Ask()
-end if
+'to do question doesnt exists
+'if famm_aenu_radio_14_1 =1 then
+'	FAMM_aFPE_CHECK_14_1A1.Ask()
+'end if
+'to do question doesnt exists
+'if famm_aenu_radio_14_1 =1 then
+'	FAMM_aFPE_RADIO_14_1A2.Ask()
+'end if
+'to do question doesnt exists
+'if famm_aenu_radio_14_1a2 =1 then
+'	FAMM_aFPE_CHECK_14_1A2A1.Ask()
+'end if
+'to do question doesnt exists
+'if famm_aenu_radio_14_1 =1 then
+'	FAMM_aFPE_RADIO_14_1A3.Ask()
+'end if
 'FAMM_aDVM_RADIO_15_1
 FAMM_aDVM_RADIO_15_1.Ask()
-if iaenu_radio_13_1a2a1b1 * {_1} then
-	FAMM_aDVM_CHECK_15_1A1.Ask()
-end if
-if iaenu_radio_13_1a2a1b1 * {_1} then
-	FAMM_aDVM_RADIO_15_1A2.Ask()
-end if
-if iaenu_radio_13_1a2a1b1 * {_1} then
-	FAMM_aDVM_RADIO_15_1A3.Ask()
-end if
+'to do question doesnt exists
+'if iaenu_radio_13_1a2a1b1  =1 then
+'	FAMM_aDVM_CHECK_15_1A1.Ask()
+'end if
+'to do question doesnt exists
+'if iaenu_radio_13_1a2a1b1  =1 then
+'	FAMM_aDVM_RADIO_15_1A2.Ask()
+'end if
+'to do question doesnt exists
+'if iaenu_radio_13_1a2a1b1  =1 then
+'	FAMM_aDVM_RADIO_15_1A3.Ask()
+'end if
 if famm_aenu_radio_13_1a5 * {_1} then
 	FAMM_aDVM_CHECK_15_1A3A1.Ask()
 end if
-if iaenu_radio_13_1a2a1b1 * {_1} then
-	FAMM_aDVM_RADIO_15_1A4.Ask()
-end if
+'to do question doesnt exists
+'if iaenu_radio_13_1a2a1b1  =1 then
+'	FAMM_aDVM_RADIO_15_1A4.Ask()
+'end if
 if famm_afpe_check_14_1a1 * {A} then
 	FAMM_aDVM_RADIO_15_1A4A1.Ask()
 end if
-if famm_afpe_radio_1a3a1b2_1a2} then
-	FAMM_aDVM_RADIO_15_1A4A1A1.Ask()
-end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if famm_afpe_radio_1a3a1b2_1a2 then
+'	FAMM_aDVM_RADIO_15_1A4A1A1.Ask()
+'end if
 if famm_afpe_check_14_1a1 * {A} then
 	FAMM_aDVM_RADIO_15_1A4A2.Ask()
 end if
@@ -523,9 +533,10 @@ end if
 if famm_advm_radio_15_1a4a1a1 * {_2} then
 	FAMM_aFTC_RADIO_16_1A3B2.Ask()
 end if
-if famm_advm_check_16_1a3a1 * {A} then
-	FAMM_aFTC_RADIO_16_1A4.Ask()
-end if
+'to do question doesnt exists
+'if famm_advm_check_16_1a3a1 =1 then
+'	FAMM_aFTC_RADIO_16_1A4.Ask()
+'end if
 if famm_advm_check_15_1a4a5 * {A} then
 	FAMM_aFTC_CHECK_16_1A4A1.Ask()
 end if
@@ -615,30 +626,38 @@ end if
 if famm_axry_radio_19_1a1b2 * {_3} then
 	FAMM_aDEG_CHECK_20_1A1A1C1.Ask()
 end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_CHECK_20_1A1A1D1.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_RADIO_20_1A1A1D2.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_RADIO_20_1A1A1D3.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_CHECK_20_1A1A1E1.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_RADIO_20_1A1A1E2.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_RADIO_20_1A1A1E3.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_RADIO_20_1A1A1E4.Ask()
-end if
-if 1a1b2 * {_} then
-	FAMM_aDEG_CHECK_20_1A1A1F1.Ask()
-end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_CHECK_20_1A1A1D1.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_RADIO_20_1A1A1D2.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_RADIO_20_1A1A1D3.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_CHECK_20_1A1A1E1.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_RADIO_20_1A1A1E2.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_RADIO_20_1A1A1E3.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_RADIO_20_1A1A1E4.Ask()
+'end if
+'to do Incorrect instruction (the question name is incorrect)
+'if 1a1b2 = then
+'	FAMM_aDEG_CHECK_20_1A1A1F1.Ask()
+'end if
 if famm_axry_check_19_1a1 * {A} then
 	FAMM_aDEG_RADIO_20_1A2.Ask()
 end if

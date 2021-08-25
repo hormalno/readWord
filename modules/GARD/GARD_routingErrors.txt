@@ -1,0 +1,32 @@
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_astp_radio_5a3a2_1a1 then
+'	GARD_aSTP_CHECK_5A3A2_1A1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1 then
+'	GARD_aFPE_CHECK_6_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1 then
+'	GARD_aFPE_RADIO_6_1A2.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1a2 then
+'	GARD_aFPE_CHECK_6_1A2A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_afpe_radio_6_1 then
+'	GARD_aFPE_RADIO_6_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_auvr_radio_13_1 then
+'	GARD_aUVR_RADIO_13_1A1.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_auvr_radio_13_1 then
+'	GARD_aUVR_CHECK_13_1A3.Ask()
+'end if
+'to do Incorrect instruction (doesnt have = symbol)
+'if gard_auvr_radio_13_1 then
+'	GARD_aUVR_RADIO_13_1A4.Ask()
+'end if
