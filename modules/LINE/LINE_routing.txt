@@ -1,0 +1,338 @@
+'LINE_RADIO_2
+LINE_RADIO_2.Ask()
+if line_radio_2 * {_1} then
+	LINE_aSLD_RADIO_2A1_1.Ask()
+end if
+if line_asld_radio_2a1_1 * {_1} then
+	LINE_aSLD_CHECK_2A1_1A1.Ask()
+end if
+if line_asld_check_2a1_1a1 * {C} then
+	LINE_aSLD_RADIO_2A1_1A1C1.Ask()
+end if
+if line_asld_radio_2a1_1 * {_1} then
+	LINE_aSLD_RADIO_2A1_1A3.Ask()
+end if
+if line_asld_radio_2a1_1a3 * {_1} then
+	LINE_aSLD_CHECK_2A1_1A3A1.Ask()
+end if
+if line_asld_radio_2a1_1 * {_1} then
+	LINE_aSLD_RADIO_2A1_1A4.Ask()
+end if
+if line_asld_radio_2a1_1a4 * {_1} then
+	LINE_aSLD_CHECK_2A1_1A4A1.Ask()
+end if
+if line_radio_2 * {_1} then
+	LINE_aWEL_RADIO_2A2_1.Ask()
+end if
+if line_awel_radio_2a2_1 * {_1} then
+	LINE_aWEL_CHECK_2A2_1A1.Ask()
+end if
+if line_awel_radio_2a2_1 * {_1} then
+	LINE_aWEL_CHECK_2A2_1A2.Ask()
+end if
+if line_awel_check_2a2_1a2 * {F} then
+	LINE_aWEL_CHECK_2A2_1A2F1.Ask()
+end if
+if line_awel_radio_2a2_1 * {_1} then
+	LINE_aWEL_RADIO_2A2_1A4.Ask()
+end if
+if line_awel_radio_2a2_1 * {_1} then
+	LINE_aWEL_RADIO_2A2_1A5.Ask()
+end if
+if line_awel_radio_2a2_1a5 * {_2} then
+	LINE_aWEL_RADIO_2A2_1A5B1.Ask()
+end if
+if line_awel_radio_2a2_1a5 * {_2} then
+	LINE_aWEL_RADIO_2A2_1A5B2.Ask()
+end if
+if line_awel_radio_2a2_1a5 * {_2} then
+	LINE_aWEL_RADIO_2A2_1A5B3.Ask()
+end if
+if line_awel_radio_2a2_1 * {_1} then
+	LINE_aWEL_RADIO_2A2_1A6.Ask()
+end if
+if line_awel_radio_2a2_1 * {_1} then
+	LINE_aWEL_RADIO_2A2_1A7.Ask()
+end if
+if line_awel_radio_2a2_1a7 * {_1} then
+	LINE_aWEL_RADIO_2A2_1A7A1.Ask()
+end if
+'LINE_RADIO_3
+LINE_RADIO_3.Ask()
+if line_radio_3 - * {_1} then
+	LINE_CHECK_3A1.Ask()
+end if
+if line_check_3a1 * {A} then
+	LINE_aFUR_RADIO_3A1A1_1.Ask()
+end if
+if line_afur_radio_3a1a1_1 * {_1} then
+	LINE_aFUR_CHECK_3A1A1_1A1.Ask()
+end if
+if line_afur_radio_3a1a1_1 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A2.Ask()
+end if
+if line_afur_radio_3a1a1_1 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A3.Ask()
+end if
+if line_afur_radio_3a1a1_1 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A4.Ask()
+end if
+if line_afur_radio_3a1a1_1a4 * {_1} then
+	LINE_aFUR_CHECK_3A1A1_1A4A1.Ask()
+end if
+if line_afur_radio_3a1a1_1 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A5.Ask()
+end if
+if line_afur_radio_3a1a1_1a5 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A5A1.Ask()
+end if
+if line_afur_radio_3a1a1_1a5 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A5A2.Ask()
+end if
+if line_afur_radio_3a1a1_1a5 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A5A3.Ask()
+end if
+if line_afur_radio_3a1a1_1a5a3 * {_1} then
+	LINE_aFUR_CHECK_3A1A1_1A5A3A1.Ask()
+end if
+if line_afur_radio_3a1a1_1 * {_1} then
+	LINE_aFUR_RADIO_3A1A1_1A6.Ask()
+end if
+if line_check_3a1 * {C} then
+	LINE_aENU_RADIO_3A1C1_1.Ask()
+end if
+if line_aenu_radio_3a1c1_1 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A1.Ask()
+end if
+if line_aenu_radio_3a1c1_1 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A2.Ask()
+end if
+if line_aenu_radio_3a1c1_1a2 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A2A1.Ask()
+end if
+if line_aenu_radio_3a1c1_1a2a1 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A2A1A1.Ask()
+end if
+if line_aenu_radio_3a1c1_1a2a1 * {_2} then
+	LINE_aENU_RADIO_3A1C1_1A2A1B1.Ask()
+end if
+if line_aenu_radio_3a1c1_1 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A3.Ask()
+end if
+if line_aenu_radio_3a1c1_1 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A4.Ask()
+end if
+if line_aenu_radio_3a1c1_1 * {_1} then
+	LINE_aENU_RADIO_3A1C1_1A5.Ask()
+end if
+if line_radio_3 * {_1} then
+	LINE_RADIO_3A2.Ask()
+end if
+if line_radio_3a2 * {_1} then
+	LINE_RADIO_3A3.Ask()
+end if
+'aFPE_RADIO_4_1
+aFPE_RADIO_4_1.Ask()
+if afpe_radio_4_1} then
+	aFPE_CHECK_4_1A1.Ask()
+end if
+if afpe_radio_4_1} then
+	aFPE_RADIO_4_1A2.Ask()
+end if
+if afpe_radio_4_1a2} then
+	aFPE_CHECK_4_1A2A1.Ask()
+end if
+if afpe_radio_4_1} then
+	aFPE_RADIO_4_1A3.Ask()
+end if
+'LINE_aXRY_RADIO_5_1
+LINE_aXRY_RADIO_5_1.Ask()
+if line_axry_radio_5_1 * {_1} then
+	LINE_aXRY_CHECK_5_1A1.Ask()
+end if
+if line_axry_check_5_1a1 * {B} then
+	LINE_aXRY_RADIO_5_1A1B1.Ask()
+end if
+if line_axry_check_5_1a1 * {B} then
+	LINE_aXRY_RADIO_5_1A1B2.Ask()
+end if
+if line_axry_check_5_1a1 * {B} then
+	LINE_aXRY_RADIO_5_1A1B3.Ask()
+end if
+if line_axry_check_5_1a1 * {C} then
+	LINE_aXRY_RADIO_5_1A1C1.Ask()
+end if
+if line_axry_check_5_1a1 * {C} then
+	LINE_aXRY_RADIO_5_1A1C2.Ask()
+end if
+if line_axry_check_5_1a1 * {C} then
+	LINE_aXRY_RADIO_5_1A1C3.Ask()
+end if
+if line_axry_radio_5_1 * {_1} then
+	LINE_aXRY_RADIO_5_1A2.Ask()
+end if
+if line_axry_radio_5_1a2 * {_1} then
+	LINE_aXRY_RADIO_5_1A2A1.Ask()
+end if
+'LINE_aCTO_RADIO_6_1
+LINE_aCTO_RADIO_6_1.Ask()
+if line_acto_radio_6_1 * {_1} then
+	LINE_aCTO_CHECK_6_1A1.Ask()
+end if
+if line_acto_radio_6_1 * {_1} then
+	LINE_aCTO_CHECK_6_1A2.Ask()
+end if
+if line_acto_check_6_1a2 * {B} then
+	LINE_aCTO_RADIO_6_1A2B1.Ask()
+end if
+if line_acto_radio_6_1a2b1 * {_2} then
+	LINE_aCTO_RADIO_6_1A2B1B1.Ask()
+end if
+'LINE_aDVM_RADIO_7_1
+LINE_aDVM_RADIO_7_1.Ask()
+if line_advm_radio_7_1 * {_1} then
+	LINE_aDVM_CHECK_7_1A1.Ask()
+end if
+if line_advm_radio_7_1 * {_1} then
+	LINE_aDVM_RADIO_7_1A2.Ask()
+end if
+if line_advm_radio_7_1 * {_1} then
+	LINE_aDVM_RADIO_7_1A3.Ask()
+end if
+if line_advm_radio_7_1a3 * {_1} then
+	LINE_aDVM_CHECK_7_1A3A1.Ask()
+end if
+if line_advm_radio_7_1 * {_1} then
+	LINE_aDVM_RADIO_7_1A4.Ask()
+end if
+if line_advm_radio_7_1a4 * {_1} then
+	LINE_aDVM_RADIO_7_1A4A1.Ask()
+end if
+if line_advm_radio_7_1a4a1 * {_1} then
+	LINE_aDVM_RADIO_7_1A4A1A1.Ask()
+end if
+if line_advm_radio_7_1a4 * {_1} then
+	LINE_aDVM_RADIO_7_1A4A2.Ask()
+end if
+if line_advm_radio_7_1a4a2 * {_1} then
+	LINE_aDVM_RADIO_7_1A4A2A1.Ask()
+end if
+if line_advm_radio_7_1a4 * {_1} then
+	LINE_aDVM_RADIO_7_1A4A4.Ask()
+end if
+if line_advm_radio_7_1a4 * {_1} then
+	LINE_aDVM_CHECK_7_1A4A5.Ask()
+end if
+if line_advm_check_7_1a4a5 * {A} then
+	LINE_aDVM_CHECK_7_1A4A5A1.Ask()
+end if
+if agal_radio_7_1a4 * {_1} then
+	LINE_aVEX_RADIO_8_1.Ask()
+end if
+if line_avex_radio_8_1 * {_1} then
+	LINE_aVEX_CHECK_8_1A1.Ask()
+end if
+if line_avex_radio_8_1 * {_1} then
+	LINE_aVEX_CHECK_8_1A2.Ask()
+end if
+if line_avex_check_8_1a2 * {A} then
+	LINE_aVEX_CHECK_8_1A2A1.Ask()
+end if
+if line_avex_radio_8_1 * {_1} then
+	LINE_aVEX_RADIO_8_1A3.Ask()
+end if
+if line_avex_radio_8_1 * {_1} then
+	LINE_aVEX_RADIO_8_1A4.Ask()
+end if
+'LINE_aGEX_RADIO_9_1
+LINE_aGEX_RADIO_9_1.Ask()
+if line_agex_radio_9_1 * {_1} then
+	LINE_aGEX_CHECK_9_1A1.Ask()
+end if
+if line_agex_check_9_1a1 * {A} then
+	LINE_aGEX_CHECK_9_1A1A1.Ask()
+end if
+if line_agex_radio_9_1 * {_1} then
+	LINE_aGEX_CHECK_9_1A2.Ask()
+end if
+if line_agex_check_9_1a2 * {C} then
+	LINE_aGEX_RADIO_9_1A2C1.Ask()
+end if
+if line_agex_radio_9_1 * {_1} then
+	LINE_aGEX_RADIO_9_1A3.Ask()
+end if
+if line_agex_radio_9_1 * {_1} then
+	LINE_aGEX_RADIO_9_1A4.Ask()
+end if
+if line_agex_radio_9_1 * {_1} then
+	LINE_aGEX_RADIO_9_1A5.Ask()
+end if
+'LINE_aSER_RADIO_10_1
+LINE_aSER_RADIO_10_1.Ask()
+if line_aser_radio_10_1 * {_1} then
+	LINE_aSER_RADIO_10_1A1.Ask()
+end if
+if line_aser_radio_10_1a1 * {_1} then
+	LINE_aSER_RADIO_10_1A1A1.Ask()
+end if
+if line_aser_radio_10_1a1a1 * {_1} then
+	LINE_aSER_RADIO_10_1A1A1A1.Ask()
+end if
+if line_aser_radio_10_1 * {_1} then
+	LINE_aSER_CHECK_10_1A2.Ask()
+end if
+'LINE_aUVR_RADIO_11_1
+LINE_aUVR_RADIO_11_1.Ask()
+if line_auvr_radio_11_1} then
+	LINE_aUVR_RADIO_11_1A1.Ask()
+end if
+if line_auvr_radio_11_1a1 * {_1} then
+	LINE_aUVR_CHECK_11_1A1A1.Ask()
+end if
+if line_auvr_radio_11_1} then
+	LINE_aUVR_CHECK_11_1A3.Ask()
+end if
+if line_auvr_check_11_1a3 * {A} then
+	LINE_aUVR_RADIO_11_1A3A1.Ask()
+end if
+if line_auvr_check_11_1a3 * {A} then
+	LINE_aUVR_RADIO_11_1A3A2.Ask()
+end if
+if line_auvr_check_11_1a3 * {A} then
+	LINE_aUVR_RADIO_11_1A3A3.Ask()
+end if
+if line_auvr_check_11_1a3 * {A} then
+	LINE_aUVR_RADIO_11_1A3A4.Ask()
+end if
+if line_auvr_check_11_1a3 * {B} then
+	LINE_aUVR_RADIO_11_1A3B1.Ask()
+end if
+if line_auvr_check_11_1a3 * {B} then
+	LINE_aUVR_RADIO_11_1A3B2.Ask()
+end if
+if line_auvr_check_11_1a3 * {B} then
+	LINE_aUVR_RADIO_11_1A3B3.Ask()
+end if
+if line_auvr_check_11_1a3 * {B} then
+	LINE_aUVR_RADIO_11_1A3B4.Ask()
+end if
+if line_auvr_check_11_1a3 * {C} then
+	LINE_aUVR_RADIO_11_1A3C1.Ask()
+end if
+if line_auvr_radio_11_1a3c1 * {_1} then
+	LINE_aUVR_RADIO_11_1A3C1A1.Ask()
+end if
+if line_auvr_radio_11_1a3c1 * {_1} then
+	LINE_aUVR_RADIO_11_1A3C1A2.Ask()
+end if
+if line_auvr_radio_11_1a3c1 * {_1} then
+	LINE_aUVR_RADIO_11_1A3C1A3.Ask()
+end if
+if line_auvr_radio_11_1} then
+	LINE_aUVR_RADIO_11_1A4.Ask()
+end if
+'LINE_aCLH_RADIO_12_1
+LINE_aCLH_RADIO_12_1.Ask()
+if line_aclh_radio_12_1 * {_1} then
+	LINE_aCLH_CHECK_12_1A1.Ask()
+end if

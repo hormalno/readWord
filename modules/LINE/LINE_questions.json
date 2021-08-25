@@ -1,0 +1,3323 @@
+[
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_RADIO_2",
+    "qtype": "single",
+    "qlabel": "2 LINE_RADIO_2 - In the last working week, did you solder, weld, braze, or cut metal?",
+    "categories": [
+      {
+        "catLabel": "LINE_2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "LINE_2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "LINE_2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_radio_2=1#qstart#",
+    "qname": "LINE_aSLD_RADIO_2A1_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aSLD_RADIO_2A1_1 - In the last working week, did you solder?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSLD_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSLD_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_asld_radio_2a1_1 =1#qstart#",
+    "qname": "LINE_aSLD_CHECK_2A1_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aSLD_CHECK_2A1_1A1 - In the last working week, did you handle or come in contact with any of the following types of solder?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A1A Lead-containing solder",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSLD_1A1B Aluminium solder",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSLD_1A1C Silver solder",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSLD_1A1D None of these",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSLD_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "line_asld_check_2a1_1a1 =3#qstart#",
+    "qname": "LINE_aSLD_RADIO_2A1_1A1C1",
+    "qtype": "single",
+    "qlabel": "1A1C1 LINE_aSLD_RADIO_2A1_1A1C1 - Did the silver solder contain cadmium?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A1C1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSLD_1A1C1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSLD_1A1C1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_asld_radio_2a1_1 =1#qstart#",
+    "qname": "LINE_aSLD_RADIO_2A1_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 LINE_aSLD_RADIO_2A1_1A3 - In the last working week, were you indoors while soldering?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSLD_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSLD_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_asld_radio_2a1_1a3 =1#qstart#",
+    "qname": "LINE_aSLD_CHECK_2A1_1A3A1",
+    "qtype": "multi",
+    "qlabel": "1A3A1 LINE_aSLD_CHECK_2A1_1A3A1 - How was the area ventilated?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A3A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSLD_1A3A1B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSLD_1A3A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSLD_1A3A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSLD_1A3A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSLD_1A3A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aSLD_1A3A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aSLD_1A3A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "line_asld_radio_2a1_1 =1#qstart#",
+    "qname": "LINE_aSLD_RADIO_2A1_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aSLD_RADIO_2A1_1A4 - In the last working week, did you use respiratory protective equipment when soldering?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSLD_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSLD_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_asld_radio_2a1_1a4 =1#qstart#",
+    "qname": "LINE_aSLD_CHECK_2A1_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 LINE_aSLD_CHECK_2A1_1A4A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aSLD_1A4A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSLD_1A4A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSLD_1A4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSLD_1A4A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSLD_1A4A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSLD_1A4A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "line_radio_2=1#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aWEL_RADIO_2A2_1 - In the last working week, did you weld, torch, braze, cut, or laser metals?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1 =1#qstart#",
+    "qname": "LINE_aWEL_CHECK_2A2_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aWEL_CHECK_2A2_1A1 - What types of welding, cutting, or brazing did you do?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A1A Shielded metal arc, stick or manual arc, flux core",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aWEL_1A1B Oxyacetylene",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aWEL_1A1C MIG/ gas metal arc, TIG/tungsten arc, plasma arc",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aWEL_1A1D Brazing",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aWEL_1A1E Robotic or mechanized",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aWEL_1A1F Other",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aWEL_1A1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1 =1#qstart#",
+    "qname": "LINE_aWEL_CHECK_2A2_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 LINE_aWEL_CHECK_2A2_1A2 - What metals did you weld, cut, or braze?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A2A Aluminium",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aWEL_1A2B Brass or bronze",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aWEL_1A2C Beryllium or Beryllium alloys",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aWEL_1A2D Cobalt or Cobalt alloys",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aWEL_1A2E Hard metal alloys (e.g., Tungsten carbide or Stellite)",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aWEL_1A2F Iron or Steel",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aWEL_1A2G Lead or lead alloys",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aWEL_1A2H Nickel or Nickel alloys",
+        "catValue": "8",
+        "catName": "H"
+      },
+      {
+        "catLabel": "aWEL_1A2I Zinc coated metals",
+        "catValue": "9",
+        "catName": "I"
+      },
+      {
+        "catLabel": "aWEL_1A2J Other",
+        "catValue": "10",
+        "catName": "J"
+      },
+      {
+        "catLabel": "aWEL_1A2K Don’t know",
+        "isExclusive": true,
+        "catValue": "11",
+        "catName": "K"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_check_2a2_1a2 =6#qstart#",
+    "qname": "LINE_aWEL_CHECK_2A2_1A2F1",
+    "qtype": "multi",
+    "qlabel": "1A2F1 LINE_aWEL_CHECK_2A2_1A2F1 - In the last working week, did you weld any of the following types of iron or steel?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A2F1A Stainless steel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aWEL_1A2F1B Cadmium-plated steel",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aWEL_1A2F1C Chromium-plated steel",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aWEL_1A2F1D Lead-plated or leaded steel",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aWEL_1A2F1E Mild, ordinary, or construction steel",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aWEL_1A2F1F Other",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aWEL_1A2F1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1 =1#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aWEL_RADIO_2A2_1A4 - In the last working week, did you grind welds?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1 =1#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 LINE_aWEL_RADIO_2A2_1A5 - In the last working week, did you use a welding helmet that has a separate air supply attached?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1a5 =2#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A5B1",
+    "qtype": "single",
+    "qlabel": "1A5B1 LINE_aWEL_RADIO_2A2_1A5B1 - In the last working week, did you use a welding booth, exhaust hood or use local exhaust ventilation when welding, brazing or cutting?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A5B1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A5B1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A5B1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1a5 =2#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A5B2",
+    "qtype": "single",
+    "qlabel": "1A5B2 LINE_aWEL_RADIO_2A2_1A5B2 - In the last working week, did you mostly weld in confined spaces?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A5B2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A5B2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A5B2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1a5 =2#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A5B3",
+    "qtype": "single",
+    "qlabel": "1A5B3 LINE_aWEL_RADIO_2A2_1A5B3 - In the last working week, did you wear welding goggles, a welding helmet that includes goggles, or a welding shield when welding, brazing or cutting?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A5B3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A5B3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A5B3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1 =1#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A6",
+    "qtype": "single",
+    "qlabel": "1A6 LINE_aWEL_RADIO_2A2_1A6 - In the last working week, did you wear clothing that completely covered your skin whilst welding (i.e., long pants, long shirt, overalls, gloves etc.)?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A6A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A6B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A6C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1 =1#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A7",
+    "qtype": "single",
+    "qlabel": "1A7 LINE_aWEL_RADIO_2A2_1A7 - Were there other welders working in the area where you worked?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A7A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A7B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A7C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_awel_radio_2a2_1a7 =1#qstart#",
+    "qname": "LINE_aWEL_RADIO_2A2_1A7A1",
+    "qtype": "single",
+    "qlabel": "1A7A1 LINE_aWEL_RADIO_2A2_1A7A1 - How many other welders were there in the area where you worked?",
+    "categories": [
+      {
+        "catLabel": "aWEL_1A7A1A 1 to 3 others",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aWEL_1A7A1B 4 to 6 others",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aWEL_1A7A1C More than 6 others",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aWEL_1A7A1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_RADIO_3",
+    "qtype": "single",
+    "qlabel": "3 LINE_RADIO_3 - In the last working week, did you work at a heat or power plant/station?",
+    "categories": [
+      {
+        "catLabel": "LINE_3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "LINE_3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "LINE_3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_radio_3 -=1#qstart#",
+    "qname": "LINE_CHECK_3A1",
+    "qtype": "multi",
+    "qlabel": "3A1 LINE_CHECK_3A1 - In the last working week, what types of power plant/stations did you work at?",
+    "categories": [
+      {
+        "catLabel": "LINE_3A1A Coal power plant/station",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "LINE_3A1B Gas power plant/station",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "LINE_3A1C Nuclear power plant/station",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "LINE_3A1D Hydroelectric power plant/station",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "LINE_3A1E Peat-fired power plant/station",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "LINE_3A1F Forest biomass power plant/station (except peat-fired)",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "LINE_3A1G Plant or station using solid recovered fuels (biodegradable waste)",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "LINE_3A1H Other",
+        "catValue": "8",
+        "catName": "H"
+      },
+      {
+        "catLabel": "LINE_3A1I Don’t know",
+        "isExclusive": true,
+        "catValue": "9",
+        "catName": "I"
+      }
+    ]
+  },
+  {
+    "routing": "line_check_3a1=1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aFUR_RADIO_3A1A1_1 - In the last working week, did you re-line, clean or maintain industrial furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1 =1#qstart#",
+    "qname": "LINE_aFUR_CHECK_3A1A1_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aFUR_CHECK_3A1A1_1A1 - What did you use to re-line the furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A1A Refractory bricks",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFUR_1A1B Ceramic fibres or alumino-silicate wools (ASW)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFUR_1A1C Other types of rockwool",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFUR_1A1D Other, please specify",
+        "isOther": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFUR_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 LINE_aFUR_RADIO_3A1A1_1A2 - In the last working week, did you remove or maintain lining made out of asbestos?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 LINE_aFUR_RADIO_3A1A1_1A3 - Was there a ventilated hood over the furnace when you were working on it?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aFUR_RADIO_3A1A1_1A4 - In the last working week, did you use respiratory protection equipment when re-lining, cleaning or maintaining furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1a4 =1#qstart#",
+    "qname": "LINE_aFUR_CHECK_3A1A1_1A4A1",
+    "qtype": "multi",
+    "qlabel": "1A4A1 LINE_aFUR_CHECK_3A1A1_1A4A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A4A1A Rubber face mask fitted with a particle filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFUR_1A4A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFUR_1A4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFUR_1A4A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFUR_1A4A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aFUR_1A4A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 LINE_aFUR_RADIO_3A1A1_1A5 - In the last working week, did you manually clean out ash or scale from the furnace?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1a5 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A5A1",
+    "qtype": "single",
+    "qlabel": "1A5A1 LINE_aFUR_RADIO_3A1A1_1A5A1 - In the last working week, did you use an ash vacuum cleaner fitted with a HEPA filter to clean out the ash or scale from the furnace?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1a5 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A5A2",
+    "qtype": "single",
+    "qlabel": "1A5A2 LINE_aFUR_RADIO_3A1A1_1A5A2 - In the last working week, were dust suppression precautions taken to minimise dust levels (e.g., by controlled damping of the ash)?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1a5 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A5A3",
+    "qtype": "single",
+    "qlabel": "1A5A3 LINE_aFUR_RADIO_3A1A1_1A5A3 - In the last working week, did you wear respiratory protection when manually cleaning ash or scale from the furnace?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A5A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A5A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1a5a3 =1#qstart#",
+    "qname": "LINE_aFUR_CHECK_3A1A1_1A5A3A1",
+    "qtype": "multi",
+    "qlabel": "1A5A3A1 LINE_aFUR_CHECK_3A1A1_1A5A3A1 - What types of respiratory protective equipment (RPE) did you use?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A5A3A1A Rubber face mask fitted with a particle/vapour filter or a cartridge",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1B Powered Air Purifying Respirator (PAPR)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1D A filtering face piece mask or dust mask (called an FFP)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aFUR_1A5A3A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "line_afur_radio_3a1a1_1 =1#qstart#",
+    "qname": "LINE_aFUR_RADIO_3A1A1_1A6",
+    "qtype": "single",
+    "qlabel": "1A6 LINE_aFUR_RADIO_3A1A1_1A6 - Did you receive specific training related to relining or maintaining industrial furnaces?",
+    "categories": [
+      {
+        "catLabel": "aFUR_1A6A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFUR_1A6B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFUR_1A6C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_check_3a1=3#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aENU_RADIO_3A1C1_1 - In the last working week did you carry out any work that may have the risk of higher ionising radiation exposure or did you have to wear a real-time electronic dosimeter? INTERVIEWER: Higher ionising radiation exposure could be due to handling radiation sources or radioactive material including waste products, working near the reactor, emergency intervention.",
+    "categories": [
+      {
+        "catLabel": "aENU_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 LINE_aENU_RADIO_3A1C1_1A1 - Did you use radio-protective garments (such as lead aprons, gloves, leaded glasses, whole protection suit) when conducting this work?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 LINE_aENU_RADIO_3A1C1_1A2 - In the last working week, did you wear an individual dosimetry badge when handling radioactive sources or radioactive materials including waste, working near the reactor or during an emergency intervention?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1a2 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A2A1",
+    "qtype": "single",
+    "qlabel": "1A2A1 LINE_aENU_RADIO_3A1C1_1A2A1 - Do you know the dose you had on your badge for the past year?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A2A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1a2a1 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A2A1A1",
+    "qtype": "single",
+    "qlabel": "1A2A1A1 LINE_aENU_RADIO_3A1C1_1A2A1A1 - What is the dose you had last year?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A2A1A1A Less than 2 milisievert per year",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A2A1A1B Between 2 millisievert and less than 6 millisievert per year",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A2A1A1C Between 6 and less than 20 millisievert per year",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aENU_1A2A1A1D Equal to or more than 20 millisievert per year",
+        "catValue": "4",
+        "catName": "_4"
+      },
+      {
+        "catLabel": "aENU_1A2A1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "_5"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1a2a1 =2#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A2A1B1",
+    "qtype": "single",
+    "qlabel": "1A2A1B1 LINE_aENU_RADIO_3A1C1_1A2A1B1 - In the last year, was there an investigation carried out by the national authority due to your individual dosimeter reading?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A2A1B1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A2A1B1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A2A1B1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 LINE_aENU_RADIO_3A1C1_1A3 - In the last year, were you restricted to work because of excessive exposure to ionising radiation?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aENU_RADIO_3A1C1_1A4 - In the last year, were you a victim of a radiation accident at work?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aenu_radio_3a1c1_1 =1#qstart#",
+    "qname": "LINE_aENU_RADIO_3A1C1_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 LINE_aENU_RADIO_3A1C1_1A5 - In the last year, did you attend any workplace training on radiation protection?",
+    "categories": [
+      {
+        "catLabel": "aENU_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aENU_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aENU_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_radio_3=1#qstart#",
+    "qname": "LINE_RADIO_3A2",
+    "qtype": "single",
+    "qlabel": "3A2 LINE_RADIO_3A2 - In the last working week, did you undertake maintenance activities at the power station?",
+    "categories": [
+      {
+        "catLabel": "LINE_3A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "LINE_3A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "LINE_3A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_radio_3a2 =1#qstart#",
+    "qname": "LINE_RADIO_3A3",
+    "qtype": "single",
+    "qlabel": "3A3 LINE_RADIO_3A3 - Was the power station you worked at built before 2002?",
+    "categories": [
+      {
+        "catLabel": "LINE_3A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "LINE_3A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "LINE_3A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "aFPE_RADIO_4_1",
+    "qtype": "single",
+    "qlabel": "1 aFPE_RADIO_4_1 - In the last working week, did you use or repair any fuel-powered equipment other than vehicles or generators (e.g., concrete cutter, metal cutter, truck mount, chainsaws, lawnmowers, concrete mixer, brush cutter)?",
+    "categories": [
+      {
+        "catLabel": "aFPE_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFPE_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFPE_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "afpe_radio_4_1 #qstart#",
+    "qname": "aFPE_CHECK_4_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 aFPE_CHECK_4_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
+    "categories": [
+      {
+        "catLabel": "aFPE_1A1A Diesel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFPE_1A1B Petrol",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFPE_1A1C Propane or Liquefied Petroleum Gas (LPG)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFPE_1A1D Other",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFPE_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "afpe_radio_4_1 #qstart#",
+    "qname": "aFPE_RADIO_4_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 aFPE_RADIO_4_1A2 - Were you indoors when you were using or repairing the equipment?",
+    "categories": [
+      {
+        "catLabel": "aFPE_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFPE_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFPE_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "afpe_radio_4_1a2 #qstart#",
+    "qname": "aFPE_CHECK_4_1A2A1",
+    "qtype": "multi",
+    "qlabel": "1A2A1 aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?",
+    "categories": [
+      {
+        "catLabel": "aFPE_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aFPE_1A2A1B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aFPE_1A2A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aFPE_1A2A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aFPE_1A2A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aFPE_1A2A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aFPE_1A2A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aFPE_1A2A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "afpe_radio_4_1 #qstart#",
+    "qname": "aFPE_RADIO_4_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 aFPE_RADIO_4_1A3 - In the last working week, did you refuel the equipment?",
+    "categories": [
+      {
+        "catLabel": "aFPE_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aFPE_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aFPE_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aXRY_RADIO_5_1 - In the last working week, did you use x-rays, radar, or other radiation sources for quality assurance?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_radio_5_1 =1#qstart#",
+    "qname": "LINE_aXRY_CHECK_5_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aXRY_CHECK_5_1A1 - What types of radiation sources did you use?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1A Radar",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aXRY_1A1B X-ray equipment or linear accelerators",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aXRY_1A1C Gammagraphy equipment",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aXRY_1A1D Other, please specify",
+        "isOther": true,
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aXRY_1A1E Don’t know",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_check_5_1a1 =2#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A1B1",
+    "qtype": "single",
+    "qlabel": "1A1B1 LINE_aXRY_RADIO_5_1A1B1 - Were you protected by a lead partition/wall when using X-ray equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1B1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A1B1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A1B1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_check_5_1a1 =2#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A1B2",
+    "qtype": "single",
+    "qlabel": "1A1B2 LINE_aXRY_RADIO_5_1A1B2 - In the last working week, did you use radio-protective garments (such as lead aprons, gloves, thyroid guards) when using x-ray equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1B2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A1B2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A1B2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_check_5_1a1 =2#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A1B3",
+    "qtype": "single",
+    "qlabel": "1A1B3 LINE_aXRY_RADIO_5_1A1B3 - In the last working week, did you wear an individual dosimetry badge when using X-ray equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1B3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A1B3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A1B3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_check_5_1a1=3#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A1C1",
+    "qtype": "single",
+    "qlabel": "1A1C1 LINE_aXRY_RADIO_5_1A1C1 - Were you protected by a lead, concrete or steel shielding or wall when using gammagraphy equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1C1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A1C1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A1C1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_check_5_1a1=3#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A1C2",
+    "qtype": "single",
+    "qlabel": "1A1C2 LINE_aXRY_RADIO_5_1A1C2 - In the last working week, did you use radio-protective garments (such as lead aprons, gloves, thyroid guards) when using gammagraphy equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1C2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A1C2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A1C2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_check_5_1a1=3#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A1C3",
+    "qtype": "single",
+    "qlabel": "1A1C3 LINE_aXRY_RADIO_5_1A1C3 - In the last working week, did you wear an individual dosimetry badge when using gammagraphy equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A1C3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A1C3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A1C3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_radio_5_1 =1#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 LINE_aXRY_RADIO_5_1A2 - In the last working week, did you work with mobile X-ray or gammagraphy equipment?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_axry_radio_5_1a2 =1#qstart#",
+    "qname": "LINE_aXRY_RADIO_5_1A2A1",
+    "qtype": "single",
+    "qlabel": "1A2A1 LINE_aXRY_RADIO_5_1A2A1 - Did you wear a real-time electronic dosimeter?",
+    "categories": [
+      {
+        "catLabel": "aXRY_1A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aXRY_1A2A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aXRY_1A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aCTO_RADIO_6_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aCTO_RADIO_6_1 - In the last working week, did you use cutting or cooling oils?",
+    "categories": [
+      {
+        "catLabel": "aCTO_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTO_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTO_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_acto_radio_6_1 =1#qstart#",
+    "qname": "LINE_aCTO_CHECK_6_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aCTO_CHECK_6_1A1 - What types of cutting or cooling oils did you use? (May also be referred to as lubricating or machine oils or fluids.)",
+    "categories": [
+      {
+        "catLabel": "aCTO_1A1A Straight cutting oils (clear and feels oily)",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aCTO_1A1B Soluble cutting oils (milky white and feels watery)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aCTO_1A1C Semi-synthetic cutting oils (forms a semi-transparent fluid when mixed with water)",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aCTO_1A1D Synthetic oils which are water soluble (forms a clear fluid when mixed with water)",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aCTO_1A1E None of these",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aCTO_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "line_acto_radio_6_1 =1#qstart#",
+    "qname": "LINE_aCTO_CHECK_6_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 LINE_aCTO_CHECK_6_1A2 - In the last working week, did you use cutting or cooling oils with hand tools or with a fixed machine?",
+    "categories": [
+      {
+        "catLabel": "aCTO_1A2A Hand tools",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aCTO_1A2B Fixed machine",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aCTO_1A2C Other",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aCTO_1A2D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "line_acto_check_6_1a2 =2#qstart#",
+    "qname": "LINE_aCTO_RADIO_6_1A2B1",
+    "qtype": "single",
+    "qlabel": "1A2B1 LINE_aCTO_RADIO_6_1A2B1 - In the last working week, did you use an enclosed machine (you had to open a door on the machine to see the machining fluid)?",
+    "categories": [
+      {
+        "catLabel": "aCTO_1A2B1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTO_1A2B1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTO_1A2B1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_acto_radio_6_1a2b1 =2#qstart#",
+    "qname": "LINE_aCTO_RADIO_6_1A2B1B1",
+    "qtype": "single",
+    "qlabel": "1A2B1B1 LINE_aCTO_RADIO_6_1A2B1B1 - Did you allow time for the mist or droplets to settle before opening the machine?",
+    "categories": [
+      {
+        "catLabel": "aCTO_1A2B1B1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCTO_1A2B1B1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCTO_1A2B1B1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aDVM_RADIO_7_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1=1#qstart#",
+    "qname": "LINE_aDVM_CHECK_7_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aDVM_CHECK_7_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A1A Diesel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A1B Petrol",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDVM_1A1D Battery or electricity",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDVM_1A1E None of these",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDVM_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1=1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A2",
+    "qtype": "single",
+    "qlabel": "1A2 LINE_aDVM_RADIO_7_1A2 - In the last working week, did you fuel the vehicles yourself?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1=1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 LINE_aDVM_RADIO_7_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a3 =1#qstart#",
+    "qname": "LINE_aDVM_CHECK_7_1A3A1",
+    "qtype": "multi",
+    "qlabel": "1A3A1 LINE_aDVM_CHECK_7_1A3A1 - What types of roads or areas did you drive or travel on?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A3A1A Any public street or road in an urban area",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A3A1C Agricultural land",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDVM_1A3A1D Forestry areas",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDVM_1A3A1E Underground in a mine",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDVM_1A3A1F Surface driving in an open mine or in a quarry",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aDVM_1A3A1G Construction sites",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aDVM_1A3A1H Inside a building (e.g., warehouse)",
+        "catValue": "8",
+        "catName": "H"
+      },
+      {
+        "catLabel": "aDVM_1A3A1I Other industrial sites",
+        "catValue": "9",
+        "catName": "I"
+      },
+      {
+        "catLabel": "aDVM_1A3A1J Other",
+        "catValue": "10",
+        "catName": "J"
+      },
+      {
+        "catLabel": "aDVM_1A3A1K Don’t know",
+        "isExclusive": true,
+        "catValue": "11",
+        "catName": "K"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1=1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aDVM_RADIO_7_1A4 - In the last working week, did you perform any maintenance work on vehicles?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a4 =1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A4A1",
+    "qtype": "single",
+    "qlabel": "1A4A1 LINE_aDVM_RADIO_7_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a4a1 =1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A4A1A1",
+    "qtype": "single",
+    "qlabel": "1A4A1A1 LINE_aDVM_RADIO_7_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a4 =1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A4A2",
+    "qtype": "single",
+    "qlabel": "1A4A2 LINE_aDVM_RADIO_7_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a4a2=1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A4A2A1",
+    "qtype": "single",
+    "qlabel": "1A4A2A1 LINE_aDVM_RADIO_7_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A2A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A2A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A2A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a4 =1#qstart#",
+    "qname": "LINE_aDVM_RADIO_7_1A4A4",
+    "qtype": "single",
+    "qlabel": "1A4A4 LINE_aDVM_RADIO_7_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aDVM_1A4A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aDVM_1A4A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_radio_7_1a4 =1#qstart#",
+    "qname": "LINE_aDVM_CHECK_7_1A4A5",
+    "qtype": "multi",
+    "qlabel": "1A4A5 LINE_aDVM_CHECK_7_1A4A5 - In the last working week, did you work indoors or outdoors?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A5A Indoors",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A4A5B Outdoors",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A4A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "line_advm_check_7_1a4a5 =1#qstart#",
+    "qname": "LINE_aDVM_CHECK_7_1A4A5A1",
+    "qtype": "multi",
+    "qlabel": "1A4A5A1 LINE_aDVM_CHECK_7_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?",
+    "categories": [
+      {
+        "catLabel": "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aDVM_1A4A5A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "agal_radio_7_1a4 =1#qstart#",
+    "qname": "LINE_aVEX_RADIO_8_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aVEX_RADIO_8_1 - In the last working week, did you work in an area where there were vehicles driven or had their engines running?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aVEX_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aVEX_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_avex_radio_8_1 =1#qstart#",
+    "qname": "LINE_aVEX_CHECK_8_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aVEX_CHECK_8_1A1 - What types of fuel were used in these vehicles?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A1A Diesel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aVEX_1A1B Petrol",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aVEX_1A1C Liquefied Petroleum Gas (LPG) or propane",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aVEX_1A1D Battery or electricity",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aVEX_1A1E Other",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aVEX_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  },
+  {
+    "routing": "line_avex_radio_8_1 =1#qstart#",
+    "qname": "LINE_aVEX_CHECK_8_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 LINE_aVEX_CHECK_8_1A2 - Were these vehicles indoors or outdoors?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A2A Indoors",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aVEX_1A2B Outdoors",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aVEX_1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "line_avex_check_8_1a2 =1#qstart#",
+    "qname": "LINE_aVEX_CHECK_8_1A2A1",
+    "qtype": "multi",
+    "qlabel": "1A2A1 LINE_aVEX_CHECK_8_1A2A1 - How was the area ventilated?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aVEX_1A2A1B By a general ventilation system",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aVEX_1A2A1C By fans in the window or doorway",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aVEX_1A2A1D By open doors or windows",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aVEX_1A2A1E No ventilation was applied to the area",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aVEX_1A2A1F Other",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aVEX_1A2A1G Don’t know",
+        "isExclusive": true,
+        "catValue": "7",
+        "catName": "G"
+      }
+    ]
+  },
+  {
+    "routing": "line_avex_radio_8_1 =1#qstart#",
+    "qname": "LINE_aVEX_RADIO_8_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 LINE_aVEX_RADIO_8_1A3 - How far away did you work from these vehicles?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A3A Less than 20 metres",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aVEX_1A3B 20 - 50 metres",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aVEX_1A3C More than 50 metres",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aVEX_1A3D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "line_avex_radio_8_1 =1#qstart#",
+    "qname": "LINE_aVEX_RADIO_8_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aVEX_RADIO_8_1A4 - In the last working week, did you smell exhaust from the vehicles?",
+    "categories": [
+      {
+        "catLabel": "aVEX_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aVEX_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aVEX_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aGEX_RADIO_9_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aGEX_RADIO_9_1 - In the last working week, were there generators running in the area(s) where you worked?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGEX_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGEX_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_radio_9_1 =1#qstart#",
+    "qname": "LINE_aGEX_CHECK_9_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aGEX_CHECK_9_1A1 - Where were these generators located?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A1A Indoors",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aGEX_1A1B Outdoors",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aGEX_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "C"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_check_9_1a1=1#qstart#",
+    "qname": "LINE_aGEX_CHECK_9_1A1A1",
+    "qtype": "multi",
+    "qlabel": "1A1A1 LINE_aGEX_CHECK_9_1A1A1 - How was the area ventilated?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A1A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aGEX_1A1A1B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aGEX_1A1A1C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aGEX_1A1A1D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aGEX_1A1A1E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aGEX_1A1A1F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aGEX_1A1A1G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aGEX_1A1A1H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_radio_9_1 =1#qstart#",
+    "qname": "LINE_aGEX_CHECK_9_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 LINE_aGEX_CHECK_9_1A2 - What were these generators powered by?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A2A Diesel",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aGEX_1A2B Petrol",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aGEX_1A2C Other",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aGEX_1A2D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_check_9_1a2 =3#qstart#",
+    "qname": "LINE_aGEX_RADIO_9_1A2C1",
+    "qtype": "single",
+    "qlabel": "1A2C1 LINE_aGEX_RADIO_9_1A2C1 - Were these generators portable?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A2C1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGEX_1A2C1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGEX_1A2C1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_radio_9_1 =1#qstart#",
+    "qname": "LINE_aGEX_RADIO_9_1A3",
+    "qtype": "single",
+    "qlabel": "1A3 LINE_aGEX_RADIO_9_1A3 - In the last working week, did you refuel the generator yourself?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGEX_1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGEX_1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_radio_9_1 =1#qstart#",
+    "qname": "LINE_aGEX_RADIO_9_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aGEX_RADIO_9_1A4 - How far away were you working from these generators?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A4A Less than 20 metres",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGEX_1A4B 20-50 metres",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGEX_1A4C More than 50 metres",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aGEX_1A4D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "line_agex_radio_9_1 =1#qstart#",
+    "qname": "LINE_aGEX_RADIO_9_1A5",
+    "qtype": "single",
+    "qlabel": "1A5 LINE_aGEX_RADIO_9_1A5 - In the last working week, did you smell exhaust from the generators?",
+    "categories": [
+      {
+        "catLabel": "aGEX_1A5A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aGEX_1A5B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aGEX_1A5C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aSER_RADIO_10_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aSER_RADIO_10_1 - In the last working week, did you access service tunnels to do activities of removal, assembling or maintenance?",
+    "categories": [
+      {
+        "catLabel": "aSER_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSER_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSER_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aser_radio_10_1 =1#qstart#",
+    "qname": "LINE_aSER_RADIO_10_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 LINE_aSER_RADIO_10_1A1 - Were the tunnels in a building which was constructed before 2005? [IPSOS: DE, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU: 2005]",
+    "categories": [
+      {
+        "catLabel": "aSER_1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSER_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSER_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aser_radio_10_1a1 =1#qstart#",
+    "qname": "LINE_aSER_RADIO_10_1A1A1",
+    "qtype": "single",
+    "qlabel": "1A1A1 LINE_aSER_RADIO_10_1A1A1 - In the last working week, did you see pipes with lagging or insulation around where you were working in the tunnels?",
+    "categories": [
+      {
+        "catLabel": "aSER_1A1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSER_1A1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSER_1A1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aser_radio_10_1a1a1 =1#qstart#",
+    "qname": "LINE_aSER_RADIO_10_1A1A1A1",
+    "qtype": "single",
+    "qlabel": "1A1A1A1 LINE_aSER_RADIO_10_1A1A1A1 - Was the insulation crumbly or fibrous?",
+    "categories": [
+      {
+        "catLabel": "aSER_1A1A1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aSER_1A1A1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aSER_1A1A1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aser_radio_10_1 =1#qstart#",
+    "qname": "LINE_aSER_CHECK_10_1A2",
+    "qtype": "multi",
+    "qlabel": "1A2 LINE_aSER_CHECK_10_1A2 - How were the service tunnels ventilated?",
+    "categories": [
+      {
+        "catLabel": "aSER_1A2A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aSER_1A2B By on-tool extraction to remove dust and fumes away from your face",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aSER_1A2C By a general ventilation system",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aSER_1A2D By fans in the window or doorway",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aSER_1A2E By open doors or windows",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aSER_1A2F No ventilation was applied to the area",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aSER_1A2G Other",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aSER_1A2H Don’t know",
+        "isExclusive": true,
+        "catValue": "8",
+        "catName": "H"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aUVR_RADIO_11_1 - In the last working week, did you work outside during the day (includes being in a vehicle that is outside)?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1 #qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A1",
+    "qtype": "single",
+    "qlabel": "1A1 LINE_aUVR_RADIO_11_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1a1 =1#qstart#",
+    "qname": "LINE_aUVR_CHECK_11_1A1A1",
+    "qtype": "multi",
+    "qlabel": "1A1A1 LINE_aUVR_CHECK_11_1A1A1 - In the last working week, did you work with or near any of the following reflective surfaces?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A1A1A Sand",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aUVR_1A1A1B Glass (including windscreens)",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aUVR_1A1A1C Roofing iron",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aUVR_1A1A1D Water",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aUVR_1A1A1E Concrete or cement",
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aUVR_1A1A1F Bitumen or ashphalt",
+        "catValue": "6",
+        "catName": "F"
+      },
+      {
+        "catLabel": "aUVR_1A1A1G Snow",
+        "catValue": "7",
+        "catName": "G"
+      },
+      {
+        "catLabel": "aUVR_1A1A1H Plastic",
+        "catValue": "8",
+        "catName": "H"
+      },
+      {
+        "catLabel": "aUVR_1A1A1I None of these",
+        "isExclusive": true,
+        "catValue": "9",
+        "catName": "I"
+      },
+      {
+        "catLabel": "aUVR_1A1A1J Don’t know",
+        "isExclusive": true,
+        "catValue": "10",
+        "catName": "J"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1 #qstart#",
+    "qname": "LINE_aUVR_CHECK_11_1A3",
+    "qtype": "multi",
+    "qlabel": "1A3 LINE_aUVR_CHECK_11_1A3 - When you were working outdoors, were you:",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3A Under partial shade (e.g., sun shade sail, under trees)",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aUVR_1A3B In the open",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aUVR_1A3C In a vehicle",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aUVR_1A3D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "D"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3A1",
+    "qtype": "single",
+    "qlabel": "1A3A1 LINE_aUVR_RADIO_11_1A3A1 - How many hours per day did you spend working under partial shade?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3A1A More than 4 hours",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3A1B Between 1 and 4 hours",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3A1C Less than 1 hour",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aUVR_1A3A1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3A2",
+    "qtype": "single",
+    "qlabel": "1A3A2 LINE_aUVR_RADIO_11_1A3A2 - In the last working week, did you wear clothing that covered most of your body (i.e., trousers and shirts or t-shirts with sleeves) when working under partial shade?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3A3",
+    "qtype": "single",
+    "qlabel": "1A3A3 LINE_aUVR_RADIO_11_1A3A3 - In the last working week, did you wear sunscreen when working under partial shade?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3A4",
+    "qtype": "single",
+    "qlabel": "1A3A4 LINE_aUVR_RADIO_11_1A3A4 - In the last working week did you wear a hat or other sun protection head cover when working out under partial shade?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =2#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3B1",
+    "qtype": "single",
+    "qlabel": "1A3B1 LINE_aUVR_RADIO_11_1A3B1 - In the last working week, how many hours per day did you spend working out in the open?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3B1A More than 4 hours",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3B1B Between 1 and 4 hours",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3B1C Less than 1 hour",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aUVR_1A3B1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =2#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3B2",
+    "qtype": "single",
+    "qlabel": "1A3B2 LINE_aUVR_RADIO_11_1A3B2 - In the last working week, did you wear clothing that covered most of your body (i.e., trousers and shirts or t-shirts with sleeves) when working out in the open?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3B2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3B2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3B2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =2#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3B3",
+    "qtype": "single",
+    "qlabel": "1A3B3 LINE_aUVR_RADIO_11_1A3B3 - In the last working week, did you wear sunscreen when working out in the open?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3B3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3B3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3B3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =2#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3B4",
+    "qtype": "single",
+    "qlabel": "1A3B4 LINE_aUVR_RADIO_11_1A3B4 - In the last working week, did you wear a hat or other sun protection head cover when working out in the open?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3B4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3B4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3B4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_check_11_1a3 =3#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3C1",
+    "qtype": "single",
+    "qlabel": "1A3C1 LINE_aUVR_RADIO_11_1A3C1 - In the last working week, did you have your windows open in the vehicle you were working in?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3C1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3C1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3C1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1a3c1 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3C1A1",
+    "qtype": "single",
+    "qlabel": "1A3C1A1 LINE_aUVR_RADIO_11_1A3C1A1 - In the last working week, how many hours per day did you spend working in a vehicle with your windows down?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3C1A1A More than 4 hours",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A1B Between 1 and 4 hours",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A1C Less than 1 hour",
+        "catValue": "3",
+        "catName": "_3"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A1D Don’t know",
+        "isExclusive": true,
+        "catValue": "4",
+        "catName": "_4"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1a3c1 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3C1A2",
+    "qtype": "single",
+    "qlabel": "1A3C1A2 LINE_aUVR_RADIO_11_1A3C1A2 - In the last working week, did you wear clothing that covered most of your body (i.e., long sleeve shirts) when working in the vehicle?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3C1A2A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A2B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A2C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1a3c1 =1#qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A3C1A3",
+    "qtype": "single",
+    "qlabel": "1A3C1A3 LINE_aUVR_RADIO_11_1A3C1A3 - In the last working week, did you wear sunscreen when working in the vehicle?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A3C1A3A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A3B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A3C1A3C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_auvr_radio_11_1 #qstart#",
+    "qname": "LINE_aUVR_RADIO_11_1A4",
+    "qtype": "single",
+    "qlabel": "1A4 LINE_aUVR_RADIO_11_1A4 - In the last working week, did you wear sunglasses when you were working outside?",
+    "categories": [
+      {
+        "catLabel": "aUVR_1A4A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aUVR_1A4B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aUVR_1A4C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
+    "qname": "LINE_aCLH_RADIO_12_1",
+    "qtype": "single",
+    "qlabel": "1 LINE_aCLH_RADIO_12_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?",
+    "categories": [
+      {
+        "catLabel": "aCLH_1A Yes",
+        "catValue": "1",
+        "catName": "_1"
+      },
+      {
+        "catLabel": "aCLH_1B No",
+        "catValue": "2",
+        "catName": "_2"
+      },
+      {
+        "catLabel": "aCLH_1C Don’t know",
+        "isExclusive": true,
+        "catValue": "3",
+        "catName": "_3"
+      }
+    ]
+  },
+  {
+    "routing": "line_aclh_radio_12_1 =1#qstart#",
+    "qname": "LINE_aCLH_CHECK_12_1A1",
+    "qtype": "multi",
+    "qlabel": "1A1 LINE_aCLH_CHECK_12_1A1 - In the last working week, did you use any of the following to clean your hands at work?",
+    "categories": [
+      {
+        "catLabel": "aCLH_1A1A Industrial hand cleaner",
+        "catValue": "1",
+        "catName": "A"
+      },
+      {
+        "catLabel": "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner",
+        "catValue": "2",
+        "catName": "B"
+      },
+      {
+        "catLabel": "aCLH_1A1C Petrol",
+        "catValue": "3",
+        "catName": "C"
+      },
+      {
+        "catLabel": "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub",
+        "catValue": "4",
+        "catName": "D"
+      },
+      {
+        "catLabel": "aCLH_1A1E None of these",
+        "isExclusive": true,
+        "catValue": "5",
+        "catName": "E"
+      },
+      {
+        "catLabel": "aCLH_1A1F Don’t know",
+        "isExclusive": true,
+        "catValue": "6",
+        "catName": "F"
+      }
+    ]
+  }
+]

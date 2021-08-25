@@ -1,0 +1,39 @@
+'LEAT_RADIO_1
+LEAT_RADIO_1.Ask()
+if leat_radio_1 * {_1} then
+	LEAT_CHECK_1A1.Ask()
+end if
+'LEAT_RADIO_2
+LEAT_RADIO_2.Ask()
+if leat_radio_2 * {_1} then
+	LEAT_RADIO_2A1.Ask()
+end if
+'LEAT_RADIO_3
+LEAT_RADIO_3.Ask()
+'LEAT_RADIO_4
+LEAT_RADIO_4.Ask()
+if leat_radio_4 * {_1} then
+	LEAT_CHECK_4A1.Ask()
+end if
+'LEAT_RADIO_5
+LEAT_RADIO_5.Ask()
+if leat_radio_5 * {_1} then
+	LEAT_RADIO_5A1.Ask()
+end if
+'LEAT_RADIO_6
+LEAT_RADIO_6.Ask()
+if leat_radio_6 * {_1} then
+	LEAT_CHECK_6A1.Ask()
+end if
+'LEAT_CHECK_7
+LEAT_CHECK_7.Ask()
+'LEAT_RADIO_8
+LEAT_RADIO_8.Ask()
+if leat_radio_8 * {_1} then
+	LEAT_CHECK_8A1.Ask()
+end if
+'LEAT_aCLH_RADIO_9_1
+LEAT_aCLH_RADIO_9_1.Ask()
+if leat_aclh_radio_9_1 * {_1} then
+	LEAT_aCLH_CHECK_9_1A1.Ask()
+end if

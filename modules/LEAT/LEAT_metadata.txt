@@ -1,0 +1,132 @@
+Questions count: 16
+LEAT_RADIO_1 "1 LEAT_RADIO_1 - In the last working week, did you work in the area where raw hides and skins were tanned?"
+categorical [1..1]
+{
+	_1 "LEAT_1A Yes" [Value=1],
+	_2 "LEAT_1B No" [Value=2],
+	_3 "LEAT_1C Don’t know" [Value=3] exclusive
+};
+LEAT_CHECK_1A1 "1A1 LEAT_CHECK_1A1 - What was used as the tanning agent?"
+categorical [1..]
+{
+	A "LEAT_1A1A Chromium products" [Value=1],
+	B "LEAT_1A1B Vegetable tannins" [Value=2],
+	C "LEAT_1A1C Aluminium salts" [Value=3],
+	D "LEAT_1A1D Syntans (synthetic tannins)" [Value=4],
+	E "LEAT_1A1E Formaldehyde" [Value=5],
+	F "LEAT_1A1F Other" [Value=6],
+	G "LEAT_1A1G Don’t know" [Value=7] exclusive
+};
+LEAT_RADIO_2 "2 LEAT_RADIO_2 - In the last working week, did you work in the area where tanned hides and skins were split and shaved?"
+categorical [1..1]
+{
+	_1 "LEAT_2A Yes" [Value=1],
+	_2 "LEAT_2B No" [Value=2],
+	_3 "LEAT_2C Don’t know" [Value=3] exclusive
+};
+LEAT_RADIO_2A1 "2A1 LEAT_RADIO_2A1 - Were the hides and skins split or shaved while dry?"
+categorical [1..1]
+{
+	_1 "LEAT_2A1A Yes" [Value=1],
+	_2 "LEAT_2A1B No" [Value=2],
+	_3 "LEAT_2A1C Don’t know" [Value=3] exclusive
+};
+LEAT_RADIO_3 "3 LEAT_RADIO_3 - In the last working week, did you work in the area where leather was dried, set out, stretched and softened?"
+categorical [1..1]
+{
+	_1 "LEAT_3A Yes" [Value=1],
+	_2 "LEAT_3B No" [Value=2],
+	_3 "LEAT_3C Don’t know" [Value=3] exclusive
+};
+LEAT_RADIO_4 "4 LEAT_RADIO_4 - In the last working week, did you apply formaldehyde-releasing finishers to the leather?"
+categorical [1..1]
+{
+	_1 "LEAT_4A Yes" [Value=1],
+	_2 "LEAT_4B No" [Value=2],
+	_3 "LEAT_4C Don’t know" [Value=3] exclusive
+};
+LEAT_CHECK_4A1 "4A1 LEAT_CHECK_4A1 - How did you apply the leather finisher?"
+categorical [1..]
+{
+	A "LEAT_4A1A By using pads" [Value=1],
+	B "LEAT_4A1B By flow coating" [Value=2],
+	C "LEAT_4A1C By spraying" [Value=3],
+	D "LEAT_4A1D Other" [Value=4],
+	E "LEAT_4A1E Don’t know" [Value=5] exclusive
+};
+LEAT_RADIO_5 "5 LEAT_RADIO_5 - In the last working week, did you sand, grind or buff leather?"
+categorical [1..1]
+{
+	_1 "LEAT_5A Yes" [Value=1],
+	_2 "LEAT_5B No" [Value=2],
+	_3 "LEAT_5C Don’t know" [Value=3] exclusive
+};
+LEAT_RADIO_5A1 "5A1 LEAT_RADIO_5A1 - In the last working week, did you use a sanding drum to buff the leather?"
+categorical [1..1]
+{
+	_1 "LEAT_5A1A Yes" [Value=1],
+	_2 "LEAT_5A1B No" [Value=2],
+	_3 "LEAT_5A1C Don’t know" [Value=3] exclusive
+};
+LEAT_RADIO_6 "6 LEAT_RADIO_6 - In the last working week, did you apply formaldehyde-releasing varnishes to the leather?"
+categorical [1..1]
+{
+	_1 "LEAT_6A Yes" [Value=1],
+	_2 "LEAT_6B No" [Value=2],
+	_3 "LEAT_6C Don’t know" [Value=3] exclusive
+};
+LEAT_CHECK_6A1 "6A1 LEAT_CHECK_6A1 - How did you apply the varnish?"
+categorical [1..]
+{
+	A "LEAT_6A1A By spraying" [Value=1],
+	B "LEAT_6A1B By brushing" [Value=2],
+	C "LEAT_6A1C By using a cloth" [Value=3],
+	D "LEAT_6A1D Other, please specify" [Value=4] other (FREETEXT "" text),
+	E "LEAT_6A1E Don’t know" [Value=5] exclusive
+};
+LEAT_CHECK_7 "7 LEAT_CHECK_7 - How was the area where you worked ventilated?"
+categorical [1..]
+{
+	A "LEAT_7A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "LEAT_7B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "LEAT_7C By a general ventilation system" [Value=3],
+	D "LEAT_7D By fans  in the doorway or windows" [Value=4],
+	E "LEAT_7E By open doors or windows" [Value=5],
+	F "LEAT_7F No ventilation was applied to the area" [Value=6],
+	G "LEAT_7G Other" [Value=7],
+	H "LEAT_7H Don’t know" [Value=8] exclusive
+};
+LEAT_RADIO_8 "8 LEAT_RADIO_8 - In the last working week, did you use respiratory protection when doing your job?"
+categorical [1..1]
+{
+	_1 "LEAT_8A Yes" [Value=1],
+	_2 "LEAT_8B No" [Value=2],
+	_3 "LEAT_8C Don’t know" [Value=3] exclusive
+};
+LEAT_CHECK_8A1 "8A1 LEAT_CHECK_8A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "LEAT_8A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "LEAT_8A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "LEAT_8A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "LEAT_8A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "LEAT_8A1E Other" [Value=5],
+	F "LEAT_8A1F Don’t know" [Value=6] exclusive
+};
+LEAT_aCLH_RADIO_9_1 "1 LEAT_aCLH_RADIO_9_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?"
+categorical [1..1]
+{
+	_1 "aCLH_1A Yes" [Value=1],
+	_2 "aCLH_1B No" [Value=2],
+	_3 "aCLH_1C Don’t know" [Value=3] exclusive
+};
+LEAT_aCLH_CHECK_9_1A1 "1A1 LEAT_aCLH_CHECK_9_1A1 - In the last working week, did you use any of the following to clean your hands at work?"
+categorical [1..]
+{
+	A "aCLH_1A1A Industrial hand cleaner" [Value=1],
+	B "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner" [Value=2],
+	C "aCLH_1A1C Petrol" [Value=3],
+	D "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub" [Value=4],
+	E "aCLH_1A1E None of these" [Value=5] exclusive,
+	F "aCLH_1A1F Don’t know" [Value=6] exclusive
+};

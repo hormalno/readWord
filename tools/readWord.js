@@ -148,7 +148,11 @@ function questionModel(q) {
             if (question.qname === 'AIRT_RADIO_1G1') {
                 // check with research
             } else {
-                cat.catValue = item.match(/\s+\([\d]+\)/g)[0].match(/[\d]+/)[0];
+                if (item.match(/\s+\([\d]+\)/g)) {
+                    cat.catValue = item.match(/\s+\([\d]+\)/g)[0].match(/[\d]+/)[0];
+                } else {
+                    cat.catValue = item + "#CHECK_CATEGORY#"
+                }
             }
 
             // category name

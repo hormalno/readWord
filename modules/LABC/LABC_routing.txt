@@ -1,0 +1,368 @@
+'LABC_aPTL_RADIO_1_1
+LABC_aPTL_RADIO_1_1.Ask()
+if labc_aptl_radio_1_1 * {_1} then
+	LABC_aPTL_RADIO_1_1A1.Ask()
+end if
+if labc_aptl_radio_1_1a1 * {_1} then
+	LABC_aPTL_RADIO_1_1A1A1.Ask()
+end if
+if labc_aptl_radio_1_1 * {_1} then
+	LABC_aPTL_RADIO_1_1A2.Ask()
+end if
+if labc_aptl_radio_1_1a2 * {_1} then
+	LABC_aPTL_CHECK_1_1A2A1.Ask()
+end if
+if labc_aptl_radio_1_1a2 * {_1} then
+	LABC_aPTL_RADIO_1_1A2A2.Ask()
+end if
+if labc_aptl_radio_1_1 * {_1} then
+	LABC_aPTL_CHECK_1_1A3.Ask()
+end if
+if labc_aptl_radio_1_1 * {_1} then
+	LABC_aPTL_RADIO_1_1A4.Ask()
+end if
+if labc_aptl_radio_1_1a4 * {_1} then
+	LABC_aPTL_CHECK_1_1A4A1.Ask()
+end if
+'LABC_aGAL_RADIO_2_1
+LABC_aGAL_RADIO_2_1.Ask()
+if labc_agal_radio_2_1 * {_1} then
+	LABC_aGAL_RADIO_2_1A1.Ask()
+end if
+if labc_agal_radio_2_1a1 * {_1} then
+	LABC_aGAL_RADIO_2_1A1A1.Ask()
+end if
+if labc_agal_radio_2_1a1a1 * {_1} then
+	LABC_aGAL_RADIO_2_1A1A1A1.Ask()
+end if
+if labc_agal_radio_2_1a1a1 * {_1} then
+	LABC_aGAL_RADIO_2_1A1A1A2.Ask()
+end if
+if labc_agal_radio_2_1 * {_1} then
+	LABC_aGAL_RADIO_2_1A2.Ask()
+end if
+if labc_agal_radio_2_1a2 * {_1} then
+	LABC_aGAL_RADIO_2_1A2A1.Ask()
+end if
+if labc_agal_radio_2_1a2 * {_1} then
+	LABC_aGAL_RADIO_2_1A2A2.Ask()
+end if
+if labc_agal_radio_2_1 * {_1} then
+	LABC_aGAL_CHECK_2_1A3.Ask()
+end if
+if labc_agal_radio_2_1 * {_1} then
+	LABC_aGAL_RADIO_2_1A4.Ask()
+end if
+if labc_agal_radio_2_1a4 * {_1} then
+	LABC_aGAL_CHECK_2_1A4A1.Ask()
+end if
+'LABC_RADIO_3
+LABC_RADIO_3.Ask()
+if labc_radio_3 * {_1} then
+	LABC_aCTW_RADIO_3A1_1.Ask()
+end if
+if labc_actw_radio_3a1_1 * {_1} then
+	LABC_aCTW_RADIO_3A1_1A1.Ask()
+end if
+if labc_actw_radio_3a1_1 * {_1} then
+	LABC_aCTW_RADIO_3A1_1A2.Ask()
+end if
+if labc_actw_radio_3a1_1 * {_1} then
+	LABC_aCTW_CHECK_3A1_1A4.Ask()
+end if
+if labc_actw_check_3a1_1a4 * {A} then
+	LABC_aCTW_CHECK_3A1_1A4A1.Ask()
+end if
+if labc_actw_radio_3a1_1 * {_1} then
+	LABC_aCTW_RADIO_3A1_1A5.Ask()
+end if
+if labc_actw_radio_3a1_1a5 * {_1} then
+	LABC_aCTW_CHECK_3A1_1A5A1.Ask()
+end if
+if labc_actw_radio_3a1_1 * {_1} then
+	LABC_aCTW_CHECK_3A1_1A6.Ask()
+end if
+if labc_actw_radio_3a1_1 * {_1} then
+	LABC_aCTW_RADIO_3A1_1A7.Ask()
+end if
+if labc_agal_radio_3a1_1a4 * {_1} then
+	LABC_RADIO_4.Ask()
+end if
+if labc_radio_4 * {_1} then
+	LABC_CHECK_4A1.Ask()
+end if
+'LABC_aPES_RADIO_5_1
+LABC_aPES_RADIO_5_1.Ask()
+if labc_apes_radio_5_1 * {_1} then
+	LABC_aPES_RADIO_5_1A1.Ask()
+end if
+if labc_apes_radio_5_1a1 * {_1} then
+	LABC_aPES_RADIO_5_1A1A1.Ask()
+end if
+if labc_apes_radio_5_1a1 * {_1} then
+	LABC_aPES_RADIO_5_1A1A2.Ask()
+end if
+if labc_apes_radio_5_1a1 * {_1} then
+	LABC_aPES_CHECK_5_1A1A3.Ask()
+end if
+if labc_apes_check_5_1a1a3 * {A} then
+	LABC_aPES_CHECK_5_1A1A3A1.Ask()
+end if
+if labc_apes_radio_5_1a1 * {_1} then
+	LABC_aPES_RADIO_5_1A1A4.Ask()
+end if
+if labc_apes_radio_5_1a1a4 * {_1} then
+	LABC_aPES_CHECK_5_1A1A4A1.Ask()
+end if
+if labc_apes_radio_5_1a1 * {_1} then
+	LABC_aPES_RADIO_5_1A1A5.Ask()
+end if
+if labc_apes_radio_5_1 * {_1} then
+	LABC_aPES_RADIO_5_1A2.Ask()
+end if
+if labc_apes_radio_5_1a2 * {_1} then
+	LABC_aPES_CHECK_5_1A2A1.Ask()
+end if
+if labc_apes_radio_5_1a2 * {_1} then
+	LABC_aPES_RADIO_5_1A2A2.Ask()
+end if
+if labc_apes_radio_5_1a2a2 * {_1} then
+	LABC_aPES_RADIO_5_1A2A2A1.Ask()
+end if
+if labc_apes_radio_5_1a2 * {_1} then
+	LABC_aPES_RADIO_5_1A2A3.Ask()
+end if
+'LABC_RADIO_6
+LABC_RADIO_6.Ask()
+if labc_radio_6 * {_1} then
+	LABC_CHECK_6A1.Ask()
+end if
+'LABC_RADIO_7
+LABC_RADIO_7.Ask()
+'LABC_CHECK_8
+LABC_CHECK_8.Ask()
+'LABC_RADIO_9
+LABC_RADIO_9.Ask()
+if labc_radio_9 * {_1} then
+	LABC_CHECK_9A1.Ask()
+end if
+'LABC_aMXR_RADIO_10_1
+LABC_aMXR_RADIO_10_1.Ask()
+if labc_amxr_radio_10_1 * {_1} then
+	LABC_aMXR_RADIO_10_1A1.Ask()
+end if
+if labc_amxr_radio_10_1a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A1A1.Ask()
+end if
+if labc_amxr_radio_10_1a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A1A2.Ask()
+end if
+if labc_amxr_radio_10_1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2.Ask()
+end if
+if labc_amxr_radio_10_1a2 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1.Ask()
+end if
+if labc_amxr_radio_10_1a2a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A1.Ask()
+end if
+if labc_amxr_radio_10_1a2a1a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A1A1.Ask()
+end if
+if labc_amxr_radio_10_1a2a1a1a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A1A1B1.Ask()
+end if
+if labc_amxr_radio_10_1a2a1a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A1A2.Ask()
+end if
+if labc_amxr_radio_10_1a2a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A2.Ask()
+end if
+if labc_amxr_radio_10_1a2a1a2 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A2A1.Ask()
+end if
+if labc_amxr_radio_10_1a2a1a2 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A1A2A2.Ask()
+end if
+if labc_amxr_radio_10_1a2 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A2.Ask()
+end if
+if labc_amxr_radio_10_1a2a2 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A2A1.Ask()
+end if
+if labc_amxr_radio_10_1a2a2 * {_1} then
+	LABC_aMXR_RADIO_10_1A2A2A2.Ask()
+end if
+if labc_amxr_radio_10_1a2 * {_2} then
+	LABC_aMXR_RADIO_10_1A2B1.Ask()
+end if
+if labc_amxr_radio_10_1a2b1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2B1A1.Ask()
+end if
+if labc_amxr_radio_10_1a2b1a1 * {_2} then
+	LABC_aMXR_RADIO_10_1A2B1A1B1.Ask()
+end if
+if labc_amxr_radio_10_1a2b1 * {_1} then
+	LABC_aMXR_RADIO_10_1A2B1A2.Ask()
+end if
+if labc_amxr_radio_10_1 * {_1} then
+	LABC_aMXR_RADIO_10_1A3.Ask()
+end if
+if labc_amxr_radio_10_1a3 * {_1} then
+	LABC_aMXR_RADIO_10_1A3A1.Ask()
+end if
+if labc_amxr_radio_10_1a3a1 * {_1} then
+	LABC_aMXR_RADIO_10_1A3A1A1.Ask()
+end if
+'LABC_RADIO_11
+LABC_RADIO_11.Ask()
+if labc_radio_11 * {_1} then
+	LABC_aAUV_RADIO_11A1_1.Ask()
+end if
+if labc_aauv_radio_11a1_1 * {_1} then
+	LABC_aAUV_CHECK_11A1_1A1.Ask()
+end if
+if labc_aauv_radio_11a1_1 * {_1} then
+	LABC_aAUV_RADIO_11A1_1A2.Ask()
+end if
+'LABC_CHECK_12
+LABC_CHECK_12.Ask()
+'LABC_RADIO_13
+LABC_RADIO_13.Ask()
+if labc_radio_13 * {_1} then
+	LABC_CHECK_13A1.Ask()
+end if
+'LABC_aSTE_RADIO_14_1
+LABC_aSTE_RADIO_14_1.Ask()
+if labc_aste_radio_14_1 * {_1} then
+	LABC_aSTE_CHECK_14_1A1.Ask()
+end if
+if labc_aste_check_14_1a1 * {C} then
+	LABC_aSTE_RADIO_14_1A1C1.Ask()
+end if
+if labc_aste_radio_14_1 * {_1} then
+	LABC_aSTE_RADIO_14_1A2.Ask()
+end if
+if labc_aste_radio_14_1a2 * {_1} then
+	LABC_aSTE_CHECK_14_1A2A1.Ask()
+end if
+if labc_aste_radio_14_1 * {_1} then
+	LABC_aSTE_CHECK_14_1A3.Ask()
+end if
+if labc_aste_radio_14_1 * {_1} then
+	LABC_aSTE_RADIO_14_1A4.Ask()
+end if
+if labc_aste_radio_14_1a4} then
+	LABC_aSTE_CHECK_14_1A4A1.Ask()
+end if
+'LABC_aDVM_RADIO_15_1
+LABC_aDVM_RADIO_15_1.Ask()
+if labc_advm_radio_15_1 * {_1} then
+	LABC_aDVM_CHECK_15_1A1.Ask()
+end if
+if labc_advm_radio_15_1 * {_1} then
+	LABC_aDVM_RADIO_15_1A2.Ask()
+end if
+if labc_advm_radio_15_1 * {_1} then
+	LABC_aDVM_RADIO_15_1A3.Ask()
+end if
+if labc_advm_radio_15_1a3 * {_1} then
+	LABC_aDVM_CHECK_15_1A3A1.Ask()
+end if
+if labc_advm_radio_15_1 * {_1} then
+	LABC_aDVM_RADIO_15_1A4.Ask()
+end if
+if labc_advm_radio_15_1a4 * {_1} then
+	LABC_aDVM_RADIO_15_1A4A1.Ask()
+end if
+if labc_advm_radio_15_1a4a1 * {_1} then
+	LABC_aDVM_RADIO_15_1A4A1A1.Ask()
+end if
+if labc_advm_radio_15_1a4 * {_1} then
+	LABC_aDVM_RADIO_15_1A4A2.Ask()
+end if
+if labc_advm_radio_15_1a4a2 * {_1} then
+	LABC_aDVM_RADIO_15_1A4A2A1.Ask()
+end if
+if labc_advm_radio_15_1a4 * {_1} then
+	LABC_aDVM_RADIO_15_1A4A4.Ask()
+end if
+if labc_advm_radio_15_1a4 * {_1} then
+	LABC_aDVM_CHECK_15_1A4A5.Ask()
+end if
+if labc_advm_check_15_1a4a5 * {A} then
+	LABC_aDVM_CHECK_15_1A4A5A1.Ask()
+end if
+'LABC_aVEX_RADIO_16_1
+LABC_aVEX_RADIO_16_1.Ask()
+if labc_avex_radio_16_1 * {_1} then
+	LABC_aVEX_CHECK_16_1A1.Ask()
+end if
+if labc_avex_radio_16_1 * {_1} then
+	LABC_aVEX_CHECK_16_1A2.Ask()
+end if
+if labc_avex_check_16_1a2 * {A} then
+	LABC_aVEX_CHECK_16_1A2A1.Ask()
+end if
+if labc_avex_radio_16_1 * {_1} then
+	LABC_aVEX_RADIO_16_1A3.Ask()
+end if
+if labc_avex_radio_16_1 * {_1} then
+	LABC_aVEX_RADIO_16_1A4.Ask()
+end if
+if labc_agal_radio_16_1a4 * {_1} then
+	LABC_aUVR_RADIO_17_1.Ask()
+end if
+if labc_auvr_radio_17_1} then
+	LABC_aUVR_RADIO_17_1A1.Ask()
+end if
+if labc_auvr_radio_17_1a1 * {_1} then
+	LABC_aUVR_CHECK_17_1A1A1.Ask()
+end if
+if labc_auvr_radio_17_1} then
+	LABC_aUVR_CHECK_17_1A3.Ask()
+end if
+if labc_auvr_check_17_1a3 * {A} then
+	LABC_aUVR_RADIO_17_1A3A1.Ask()
+end if
+if labc_auvr_check_17_1a3 * {A} then
+	LABC_aUVR_RADIO_17_1A3A2.Ask()
+end if
+if labc_auvr_check_17_1a3 * {A} then
+	LABC_aUVR_RADIO_17_1A3A3.Ask()
+end if
+if labc_auvr_check_17_1a3 * {A} then
+	LABC_aUVR_RADIO_17_1A3A4.Ask()
+end if
+if labc_auvr_check_17_1a3 * {B} then
+	LABC_aUVR_RADIO_17_1A3B1.Ask()
+end if
+if labc_auvr_check_17_1a3 * {B} then
+	LABC_aUVR_RADIO_17_1A3B2.Ask()
+end if
+if labc_auvr_check_17_1a3 * {B} then
+	LABC_aUVR_RADIO_17_1A3B3.Ask()
+end if
+if labc_auvr_check_17_1a3 * {B} then
+	LABC_aUVR_RADIO_17_1A3B4.Ask()
+end if
+if labc_auvr_check_17_1a3 * {C} then
+	LABC_aUVR_RADIO_17_1A3C1.Ask()
+end if
+if labc_auvr_radio_17_1a3c1 * {_1} then
+	LABC_aUVR_RADIO_17_1A3C1A1.Ask()
+end if
+if labc_auvr_radio_17_1a3c1 * {_1} then
+	LABC_aUVR_RADIO_17_1A3C1A2.Ask()
+end if
+if labc_auvr_radio_17_1a3c1 * {_1} then
+	LABC_aUVR_RADIO_17_1A3C1A3.Ask()
+end if
+if labc_auvr_radio_17_1} then
+	LABC_aUVR_RADIO_17_1A4.Ask()
+end if
+'LABC_aCLH_RADIO_18_1
+LABC_aCLH_RADIO_18_1.Ask()
+if labc_aclh_radio_18_1 * {_1} then
+	LABC_aCLH_CHECK_18_1A1.Ask()
+end if
