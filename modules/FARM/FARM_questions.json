@@ -282,7 +282,7 @@
     ]
   },
   {
-    "routing": "1a1a5 farm_radio_1a1a5 =1#qstart#",
+    "routing": "farm_radio_1a1a5 =1#qstart#",
     "qname": "FARM_RADIO_1A1A5A1",
     "qtype": "single",
     "qlabel": "1A1A5A1 FARM_RADIO_1A1A5A1 - Was the soil sandy where you herded or gathered in the livestock?",
@@ -584,7 +584,8 @@
         "catName": "_8"
       },
       {
-        "catLabel": "aPES_1A1A5I Don't  know",
+        "catLabel": "aPES_1A1A5I Don’t know",
+        "isExclusive": true,
         "catValue": "9",
         "catName": "_9"
       }
@@ -1026,9 +1027,9 @@
   },
   {
     "routing": "farm_actw_check_5_1a4 =1#qstart#",
-    "qname": "aCTW_CHECK_5_1A4A1",
+    "qname": "FARM_aCTW_CHECK_5_1A4A1",
     "qtype": "multi",
-    "qlabel": "1A4A1 aCTW_CHECK_5_1A4A1 - Was there a ventilation system that removed dust or fume from where you worked in the last working week (local exhaust ventilation or on-tool extraction)?",
+    "qlabel": "1A4A1 FARM_aCTW_CHECK_5_1A4A1 - Was there a ventilation system that removed dust or fume from where you worked in the last working week (local exhaust ventilation or on-tool extraction)?",
     "categories": [
       {
         "catLabel": "aCTW_1A4A1A Yes",
@@ -1651,7 +1652,7 @@
     ]
   },
   {
-    "routing": "farm_afpe_radio_8_1 #qstart#",
+    "routing": "farm_afpe_radio_8_1 =1#qstart#",
     "qname": "FARM_aFPE_CHECK_8_1A1",
     "qtype": "multi",
     "qlabel": "1A1 FARM_aFPE_CHECK_8_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
@@ -1685,7 +1686,7 @@
     ]
   },
   {
-    "routing": "farm_afpe_radio_8_1 #qstart#",
+    "routing": "farm_afpe_radio_8_1 =1#qstart#",
     "qname": "FARM_aFPE_RADIO_8_1A2",
     "qtype": "single",
     "qlabel": "1A2 FARM_aFPE_RADIO_8_1A2 - Were you indoors when you were using or repairing the equipment?",
@@ -1709,7 +1710,7 @@
     ]
   },
   {
-    "routing": "farm_afpe_radio_8_1a2 #qstart#",
+    "routing": "farm_afpe_radio_8_1a2 =1#qstart#",
     "qname": "FARM_aFPE_CHECK_8_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 FARM_aFPE_CHECK_8_1A2A1 - How was the area where you worked ventilated?",
@@ -1758,7 +1759,7 @@
     ]
   },
   {
-    "routing": "farm_afpe_radio_8_1 #qstart#",
+    "routing": "farm_afpe_radio_8_1 =1#qstart#",
     "qname": "FARM_aFPE_RADIO_8_1A3",
     "qtype": "single",
     "qlabel": "1A3 FARM_aFPE_RADIO_8_1A3 - In the last working week, did you refuel the equipment?",
@@ -2686,7 +2687,7 @@
     ]
   },
   {
-    "routing": "farm_aasr_check_10_1a1b8a1 = 5#qstart#",
+    "routing": "farm_aasr_radio_10_1a1 = 3#qstart#",
     "qname": "FARM_aASR_RADIO_10_1A1C1",
     "qtype": "single",
     "qlabel": "1A1C1 FARM_aASR_RADIO_10_1A1C1 - Please specify",
@@ -4070,7 +4071,7 @@
     ]
   },
   {
-    "routing": "farm_astp_radio_13a3_1a1#qstart#",
+    "routing": "farm_astp_radio_13a3_1a1=1#qstart#",
     "qname": "FARM_aSTP_CHECK_13A3_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 FARM_aSTP_CHECK_13A3_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
@@ -4356,7 +4357,7 @@
     ]
   },
   {
-    "routing": "farm_asld_radio_1a4_1 =1#qstart#",
+    "routing": "farm_asld_radio_14a1_1 =1#qstart#",
     "qname": "FARM_aSLD_CHECK_14A1_1A1",
     "qtype": "multi",
     "qlabel": "1A1 FARM_aSLD_CHECK_14A1_1A1 - In the last working week, did you handle or come in contact with any of the following types of solder?",
@@ -4391,7 +4392,7 @@
     ]
   },
   {
-    "routing": "farm_asld_check_1a4_1a1 =3#qstart#",
+    "routing": "farm_asld_check_14a1_1a1 =3#qstart#",
     "qname": "FARM_aSLD_RADIO_14A1_1A1C1",
     "qtype": "single",
     "qlabel": "1A1C1 FARM_aSLD_RADIO_14A1_1A1C1 - Did the silver solder contain cadmium?",
@@ -4415,7 +4416,7 @@
     ]
   },
   {
-    "routing": "farm_asld_radio_1a4_1 =1#qstart#",
+    "routing": "farm_asld_radio_14a1_1 =1#qstart#",
     "qname": "FARM_aSLD_RADIO_14A1_1A3",
     "qtype": "single",
     "qlabel": "1A3 FARM_aSLD_RADIO_14A1_1A3 - In the last working week, were you indoors while soldering?",
@@ -4439,7 +4440,7 @@
     ]
   },
   {
-    "routing": "farm_asld_radio_1a4_1a3 =1#qstart#",
+    "routing": "farm_asld_radio_14a1_1a3 =1#qstart#",
     "qname": "FARM_aSLD_CHECK_14A1_1A3A1",
     "qtype": "multi",
     "qlabel": "1A3A1 FARM_aSLD_CHECK_14A1_1A3A1 - How was the area ventilated?",
@@ -4488,7 +4489,7 @@
     ]
   },
   {
-    "routing": "farm_asld_radio_1a4_1 =1#qstart#",
+    "routing": "farm_asld_radio_14a1_1 =1#qstart#",
     "qname": "FARM_aSLD_RADIO_14A1_1A4",
     "qtype": "single",
     "qlabel": "1A4 FARM_aSLD_RADIO_14A1_1A4 - In the last working week, did you use respiratory protective equipment when soldering?",
@@ -4512,7 +4513,7 @@
     ]
   },
   {
-    "routing": "farm_asld_radio_1a4_1a4 =1#qstart#",
+    "routing": "farm_asld_radio_14a1_1a4 =1#qstart#",
     "qname": "FARM_aSLD_CHECK_14A1_1A4A1",
     "qtype": "multi",
     "qlabel": "1A4A1 FARM_aSLD_CHECK_14A1_1A4A1 - What types of respiratory protective equipment (RPE) did you use?",
@@ -5707,7 +5708,7 @@
     ]
   },
   {
-    "routing": "farm_auvr_radio_17_1 #qstart#",
+    "routing": "farm_auvr_radio_17_1 =1#qstart#",
     "qname": "FARM_aUVR_RADIO_17_1A1",
     "qtype": "single",
     "qlabel": "1A1 FARM_aUVR_RADIO_17_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -5791,7 +5792,7 @@
     ]
   },
   {
-    "routing": "farm_auvr_radio_17_1 #qstart#",
+    "routing": "farm_auvr_radio_17_1 =1#qstart#",
     "qname": "FARM_aUVR_CHECK_17_1A3",
     "qtype": "multi",
     "qlabel": "1A3 FARM_aUVR_CHECK_17_1A3 - When you were working outdoors, were you:",
@@ -6123,7 +6124,7 @@
     ]
   },
   {
-    "routing": "farm_auvr_radio_17_1 #qstart#",
+    "routing": "farm_auvr_radio_17_1 =1#qstart#",
     "qname": "FARM_aUVR_RADIO_17_1A4",
     "qtype": "single",
     "qlabel": "1A4 FARM_aUVR_RADIO_17_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

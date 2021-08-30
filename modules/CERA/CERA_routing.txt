@@ -9,26 +9,21 @@ end if
 if cera_check_1 * {G} then
 	CERA_aCTS_RADIO_1G1_1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if cera_acts_radio_1g1_1 then
-'	CERA_aCTS_RADIO_1G1_1A1.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if cera_acts_radio_1g1_1 1 then
-'	CERA_aCTS_RADIO_1G1_1A2.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if cera_acts_radio_1g1_1 then
-'	CERA_aCTS_RADIO_1G1_1A3.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if cera_acts_radio_1g1_1 then
-'	CERA_aCTS_RADIO_1G1_1A4.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if cera_acts_radio_1g1_1 then
-'	CERA_aCTS_RADIO_1G1_1A5.Ask()
-'end if
+if cera_acts_radio_1g1_1 * {_1} then
+	CERA_aCTS_RADIO_1G1_1A1.Ask()
+end if
+if cera_acts_radio_1g1_1 * {_1} then
+	CERA_aCTS_RADIO_1G1_1A2.Ask()
+end if
+if cera_acts_radio_1g1_1 * {_1} then
+	CERA_aCTS_RADIO_1G1_1A3.Ask()
+end if
+if cera_acts_radio_1g1_1 * {_1} then
+	CERA_aCTS_RADIO_1G1_1A4.Ask()
+end if
+if cera_acts_radio_1g1_1 * {_1} then
+	CERA_aCTS_RADIO_1G1_1A5.Ask()
+end if
 'CERA_RADIO_2
 CERA_RADIO_2.Ask()
 if cera_radio_2 * {_1} then
@@ -95,10 +90,9 @@ end if
 if cera_astp_radio_7a2_1 * {_1} then
 	CERA_aSTP_RADIO_7A2_1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if cera_astp_radio_7a2_1a1 then
-'	CERA_aSTP_CHECK_7A2_1A1A1.Ask()
-'end if
+if cera_astp_radio_7a2_1a1 * {_1} then
+	CERA_aSTP_CHECK_7A2_1A1A1.Ask()
+end if
 if cera_astp_radio_7a2_1 * {_1} then
 	CERA_aSTP_RADIO_7A2_1A2.Ask()
 end if

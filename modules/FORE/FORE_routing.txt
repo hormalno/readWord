@@ -3,22 +3,18 @@ FORE_RADIO_1.Ask()
 if fore_radio_1 * {_1} then
 	FORE_aFPE_RADIO_1A1_1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_afpe_radio_1a1_1 then
-'	FORE_aFPE_CHECK_1A1_1A1.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_afpe_radio_1a1_1 then
-'	FORE_aFPE_RADIO_1A1_1A2.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_afpe_radio_1a1_1a2 then
-'	FORE_aFPE_CHECK_1A1_1A2A1.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_afpe_radio_1a1_1 then
-'	FORE_aFPE_RADIO_1A1_1A3.Ask()
-'end if
+if fore_afpe_radio_1a1_1 * {_1} then
+	FORE_aFPE_CHECK_1A1_1A1.Ask()
+end if
+if fore_afpe_radio_1a1_1 * {_1} then
+	FORE_aFPE_RADIO_1A1_1A2.Ask()
+end if
+if fore_afpe_radio_1a1_1a2 * {_1} then
+	FORE_aFPE_CHECK_1A1_1A2A1.Ask()
+end if
+if fore_afpe_radio_1a1_1 * {_1} then
+	FORE_aFPE_RADIO_1A1_1A3.Ask()
+end if
 if fore_radio_1 * {_1} then
 	FORE_RADIO_1A2.Ask()
 end if
@@ -271,17 +267,15 @@ if fore_acon_radio_10_1 * {_1} then
 end if
 'FORE_aUVR_RADIO_11_1
 FORE_aUVR_RADIO_11_1.Ask()
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_auvr_radio_11_1 then
-'	FORE_aUVR_RADIO_11_1A1.Ask()
-'end if
+if fore_auvr_radio_11_1 * {_1} then
+	FORE_aUVR_RADIO_11_1A1.Ask()
+end if
 if fore_auvr_radio_11_1a1 * {_1} then
 	FORE_aUVR_CHECK_11_1A1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_auvr_radio_11_1 then
-'	FORE_aUVR_CHECK_11_1A3.Ask()
-'end if
+if fore_auvr_radio_11_1 * {_1} then
+	FORE_aUVR_CHECK_11_1A3.Ask()
+end if
 if fore_auvr_check_11_1a3 * {A} then
 	FORE_aUVR_RADIO_11_1A3A1.Ask()
 end if
@@ -318,10 +312,9 @@ end if
 if fore_auvr_radio_11_1a3c1 * {_1} then
 	FORE_aUVR_RADIO_11_1A3C1A3.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if fore_auvr_radio_11_1 then
-'	FORE_aUVR_RADIO_11_1A4.Ask()
-'end if
+if fore_auvr_radio_11_1 * {_1} then
+	FORE_aUVR_RADIO_11_1A4.Ask()
+end if
 'FORE_aCLH_RADIO_12_1
 FORE_aCLH_RADIO_12_1.Ask()
 if fore_aclh_radio_12_1 * {_1} then

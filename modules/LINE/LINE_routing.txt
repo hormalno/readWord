@@ -59,10 +59,9 @@ if line_awel_radio_2a2_1a7 * {_1} then
 end if
 'LINE_RADIO_3
 LINE_RADIO_3.Ask()
-'to do question doesnt exists
-'if line_radio_3 -=1 then
-'	LINE_CHECK_3A1.Ask()
-'end if
+if line_radio_3 * {_1} then
+	LINE_CHECK_3A1.Ask()
+end if
 if line_check_3a1 * {A} then
 	LINE_aFUR_RADIO_3A1A1_1.Ask()
 end if
@@ -129,26 +128,26 @@ end if
 if line_radio_3 * {_1} then
 	LINE_RADIO_3A2.Ask()
 end if
-if line_radio_3a2 * {_1} then
+if line_radio_3 * {_1} then
 	LINE_RADIO_3A3.Ask()
 end if
-'aFPE_RADIO_4_1
-aFPE_RADIO_4_1.Ask()
-'to do Incorrect instruction (doesnt have = symbol)
-'if afpe_radio_4_1 then
-'	aFPE_CHECK_4_1A1.Ask()
+'LINE_aFPE_RADIO_4_1
+LINE_aFPE_RADIO_4_1.Ask()
+'to do question doesnt exists
+'if lineafpe_radio_4_1 =1 then
+'	LINE_aFPE_CHECK_4_1A1.Ask()
 'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if afpe_radio_4_1 then
-'	aFPE_RADIO_4_1A2.Ask()
+'to do question doesnt exists
+'if lineafpe_radio_4_1 =1 then
+'	LINE_aFPE_RADIO_4_1A2.Ask()
 'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if afpe_radio_4_1a2 then
-'	aFPE_CHECK_4_1A2A1.Ask()
+'to do question doesnt exists
+'if lineafpe_radio_4_1a2 =1 then
+'	.Ask()
 'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if afpe_radio_4_1 then
-'	aFPE_RADIO_4_1A3.Ask()
+'to do question doesnt exists
+'if lineafpe_radio_4_1 =1 then
+'	LINE_aFPE_RADIO_4_1A3.Ask()
 'end if
 'LINE_aXRY_RADIO_5_1
 LINE_aXRY_RADIO_5_1.Ask()
@@ -231,10 +230,8 @@ end if
 if line_advm_check_7_1a4a5 * {A} then
 	LINE_aDVM_CHECK_7_1A4A5A1.Ask()
 end if
-'to do question doesnt exists
-'if agal_radio_7_1a4 =1 then
-'	LINE_aVEX_RADIO_8_1.Ask()
-'end if
+'LINE_aVEX_RADIO_8_1
+LINE_aVEX_RADIO_8_1.Ask()
 if line_avex_radio_8_1 * {_1} then
 	LINE_aVEX_CHECK_8_1A1.Ask()
 end if
@@ -289,17 +286,15 @@ if line_aser_radio_10_1 * {_1} then
 end if
 'LINE_aUVR_RADIO_11_1
 LINE_aUVR_RADIO_11_1.Ask()
-'to do Incorrect instruction (doesnt have = symbol)
-'if line_auvr_radio_11_1 then
-'	LINE_aUVR_RADIO_11_1A1.Ask()
-'end if
+if line_auvr_radio_11_1 * {_1} then
+	LINE_aUVR_RADIO_11_1A1.Ask()
+end if
 if line_auvr_radio_11_1a1 * {_1} then
 	LINE_aUVR_CHECK_11_1A1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if line_auvr_radio_11_1 then
-'	LINE_aUVR_CHECK_11_1A3.Ask()
-'end if
+if line_auvr_radio_11_1 * {_1} then
+	LINE_aUVR_CHECK_11_1A3.Ask()
+end if
 if line_auvr_check_11_1a3 * {A} then
 	LINE_aUVR_RADIO_11_1A3A1.Ask()
 end if
@@ -336,10 +331,9 @@ end if
 if line_auvr_radio_11_1a3c1 * {_1} then
 	LINE_aUVR_RADIO_11_1A3C1A3.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if line_auvr_radio_11_1 then
-'	LINE_aUVR_RADIO_11_1A4.Ask()
-'end if
+if line_auvr_radio_11_1 * {_1} then
+	LINE_aUVR_RADIO_11_1A4.Ask()
+end if
 'LINE_aCLH_RADIO_12_1
 LINE_aCLH_RADIO_12_1.Ask()
 if line_aclh_radio_12_1 * {_1} then

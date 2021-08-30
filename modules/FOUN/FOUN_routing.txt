@@ -38,10 +38,10 @@ end if
 if foun_check_2 * {C} then
 	FOUN_CHECK_2C1.Ask()
 end if
-if foun_check_2c1 * {B} then
+if foun_check_2c1 * {F} then
 	FOUN_CHECK_2C1F1.Ask()
 end if
-if foun_check_2c1 * {B} then
+if foun_check_2c1 * {F} then
 	FOUN_RADIO_2C1F2.Ask()
 end if
 if foun_check_2 * {C} then

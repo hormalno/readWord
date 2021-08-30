@@ -1,8 +1,0 @@
-'to do Incorrect instruction (doesnt have = symbol)
-'if imar_astp_radio_5a1_1a1 then
-'	IMAR_aSTP_CHECK_5A1_1A1A1.Ask()
-'end if
-'to do question doesnt exists
-'if imar_agex_radio_13_1 =1 then
-'	IMAR_aGEX_CHECK_14_1A1.Ask()
-'end if

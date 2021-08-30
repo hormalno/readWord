@@ -122,17 +122,15 @@ if food_agex_radio_4_1 * {_1} then
 end if
 'FOOD_aUVR_RADIO_5_1
 FOOD_aUVR_RADIO_5_1.Ask()
-'to do Incorrect instruction (doesnt have = symbol)
-'if food_auvr_radio_5_1 then
-'	FOOD_aUVR_RADIO_5_1A1.Ask()
-'end if
+if food_auvr_radio_5_1 * {_1} then
+	FOOD_aUVR_RADIO_5_1A1.Ask()
+end if
 if food_auvr_radio_5_1a1 * {_1} then
 	FOOD_aUVR_CHECK_5_1A1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if food_auvr_radio_5_1 then
-'	FOOD_aUVR_CHECK_5_1A3.Ask()
-'end if
+if food_auvr_radio_5_1 * {_1} then
+	FOOD_aUVR_CHECK_5_1A3.Ask()
+end if
 if food_auvr_check_5_1a3 * {A} then
 	FOOD_aUVR_RADIO_5_1A3A1.Ask()
 end if
@@ -169,10 +167,9 @@ end if
 if food_auvr_radio_5_1a3c1 * {_1} then
 	FOOD_aUVR_RADIO_5_1A3C1A3.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if food_auvr_radio_5_1 then
-'	FOOD_aUVR_RADIO_5_1A4.Ask()
-'end if
+if food_auvr_radio_5_1 * {_1} then
+	FOOD_aUVR_RADIO_5_1A4.Ask()
+end if
 'FOOD_aCLH_RADIO_6_1
 FOOD_aCLH_RADIO_6_1.Ask()
 if food_aclh_radio_6_1 * {_1} then

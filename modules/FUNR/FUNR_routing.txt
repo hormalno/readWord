@@ -243,13 +243,13 @@ if funr_afab_radio_13_1 * {_1} then
 end if
 'FUNR_aUVR_RADIO_14_1
 FUNR_aUVR_RADIO_14_1.Ask()
-if funr_auvr_radio_14_1} then
+if funr_auvr_radio_14_1 * {_1} then
 	FUNR_aUVR_RADIO_14_1A1.Ask()
 end if
 if funr_auvr_radio_14_1a1 * {_1} then
 	FUNR_aUVR_CHECK_14_1A1A1.Ask()
 end if
-if funr_auvr_radio_14_1} then
+if funr_auvr_radio_14_1 * {_1} then
 	FUNR_aUVR_CHECK_14_1A3.Ask()
 end if
 if funr_auvr_check_14_1a3 * {A} then
@@ -288,6 +288,6 @@ end if
 if funr_auvr_radio_14_1a3c1 * {_1} then
 	FUNR_aUVR_RADIO_14_1A3C1A3.Ask()
 end if
-if funr_auvr_radio_14_1} then
+if funr_auvr_radio_14_1 * {_1} then
 	FUNR_aUVR_RADIO_14_1A4.Ask()
 end if

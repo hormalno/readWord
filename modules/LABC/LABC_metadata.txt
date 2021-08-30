@@ -94,7 +94,7 @@ categorical [1..1]
 {
 	_1 "aGAL_1A1A1A1A Yes" [Value=1],
 	_2 "aGAL_1A1A1A1B No" [Value=2],
-	_3 "aGAL_1A1A1A1C Don't  know" [Value=3]
+	_3 "aGAL_1A1A1A1C Don’t know" [Value=3] exclusive
 };
 LABC_aGAL_RADIO_2_1A1A1A2 "1A1A1A2 LABC_aGAL_RADIO_2_1A1A1A2 - Did you or your colleagues fill the recipients with formalin in an open workspace (without local extraction)?"
 categorical [1..1]
@@ -321,7 +321,7 @@ categorical [1..1]
 	_6 "aPES_1A1A5F Shirts or t-shirts with sleeves" [Value=6],
 	_7 "aPES_1A1A5G Long trousers" [Value=7],
 	_8 "aPES_1A1A5H Other protective clothing" [Value=8],
-	_9 "aPES_1A1A5I Don't  know" [Value=9]
+	_9 "aPES_1A1A5I Don’t know" [Value=9] exclusive
 };
 LABC_aPES_RADIO_5_1A2 "1A2 LABC_aPES_RADIO_5_1A2 - In the last working week, did you apply fumigants to kill pests on stored crops?"
 categorical [1..1]

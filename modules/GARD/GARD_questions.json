@@ -278,7 +278,8 @@
         "catName": "_8"
       },
       {
-        "catLabel": "aPES_1A1A5I Don't  know",
+        "catLabel": "aPES_1A1A5I Don’t know",
+        "isExclusive": true,
         "catValue": "9",
         "catName": "_9"
       }
@@ -1356,7 +1357,7 @@
     ]
   },
   {
-    "routing": "gard_aasr_check_5a1_1a1b8a1 = 5#qstart#",
+    "routing": "gard_aasr_radio_5a1_1a1 = 3#qstart#",
     "qname": "GARD_aASR_RADIO_5A1_1A1C1",
     "qtype": "single",
     "qlabel": "1A1C1 GARD_aASR_RADIO_5A1_1A1C1 - Please specify",
@@ -2148,7 +2149,7 @@
     "qlabel": "1A1 GARD_aSTP_RADIO_5A3A2_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?",
     "categories": [
       {
-        "catLabel": "aSTP_1A1A Yes If GARD_aSTP_RADIO_7A2_1A1",
+        "catLabel": "aSTP_1A1A Yes",
         "catValue": "1",
         "catName": "_1"
       },
@@ -2166,7 +2167,7 @@
     ]
   },
   {
-    "routing": "gard_astp_radio_5a3a2_1a1#qstart#",
+    "routing": "gard_astp_radio_5a3a2_1a1 =1#qstart#",
     "qname": "GARD_aSTP_CHECK_5A3A2_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 GARD_aSTP_CHECK_5A3A2_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
@@ -4107,7 +4108,7 @@
     ]
   },
   {
-    "routing": "gard_afpe_radio_6_1 #qstart#",
+    "routing": "gard_afpe_radio_6_1 =1#qstart#",
     "qname": "GARD_aFPE_CHECK_6_1A1",
     "qtype": "multi",
     "qlabel": "1A1 GARD_aFPE_CHECK_6_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
@@ -4141,7 +4142,7 @@
     ]
   },
   {
-    "routing": "gard_afpe_radio_6_1 #qstart#",
+    "routing": "gard_afpe_radio_6_1 =1#qstart#",
     "qname": "GARD_aFPE_RADIO_6_1A2",
     "qtype": "single",
     "qlabel": "1A2 GARD_aFPE_RADIO_6_1A2 - Were you indoors when you were using or repairing the equipment?",
@@ -4165,7 +4166,7 @@
     ]
   },
   {
-    "routing": "gard_afpe_radio_6_1a2 #qstart#",
+    "routing": "gard_afpe_radio_6_1a2=1#qstart#",
     "qname": "GARD_aFPE_CHECK_6_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 GARD_aFPE_CHECK_6_1A2A1 - How was the area where you worked ventilated?",
@@ -4214,7 +4215,7 @@
     ]
   },
   {
-    "routing": "gard_afpe_radio_6_1 #qstart#",
+    "routing": "gard_afpe_radio_6_1 =1#qstart#",
     "qname": "GARD_aFPE_RADIO_6_1A3",
     "qtype": "single",
     "qlabel": "1A3 GARD_aFPE_RADIO_6_1A3 - In the last working week, did you refuel the equipment?",
@@ -5562,7 +5563,7 @@
     ]
   },
   {
-    "routing": "gard_auvr_radio_13_1 #qstart#",
+    "routing": "gard_auvr_radio_13_1 =1#qstart#",
     "qname": "GARD_aUVR_RADIO_13_1A1",
     "qtype": "single",
     "qlabel": "1A1 GARD_aUVR_RADIO_13_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -5646,7 +5647,7 @@
     ]
   },
   {
-    "routing": "gard_auvr_radio_13_1 #qstart#",
+    "routing": "gard_auvr_radio_13_1 =1#qstart#",
     "qname": "GARD_aUVR_CHECK_13_1A3",
     "qtype": "multi",
     "qlabel": "1A3 GARD_aUVR_CHECK_13_1A3 - When you were working outdoors, were you:",
@@ -5978,7 +5979,7 @@
     ]
   },
   {
-    "routing": "gard_auvr_radio_13_1 #qstart#",
+    "routing": "gard_auvr_radio_13_1 =1#qstart#",
     "qname": "GARD_aUVR_RADIO_13_1A4",
     "qtype": "single",
     "qlabel": "1A4 GARD_aUVR_RADIO_13_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

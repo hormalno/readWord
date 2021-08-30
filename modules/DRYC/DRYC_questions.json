@@ -229,7 +229,7 @@
     ]
   },
   {
-    "routing": " dryc_check_1a4a1=5#qstart#",
+    "routing": "dryc_check_1a4a1=5#qstart#",
     "qname": "DRYC_RADIO_1A4A1E1",
     "qtype": "single",
     "qlabel": "1A4A1E1 DRYC_RADIO_1A4A1E1 - Please specify",

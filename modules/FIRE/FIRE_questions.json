@@ -185,7 +185,7 @@
     ]
   },
   {
-    "routing": "fire_afpe_radio_2_1 #qstart#",
+    "routing": "fire_afpe_radio_2_1 =1#qstart#",
     "qname": "FIRE_aFPE_CHECK_2_1A1",
     "qtype": "multi",
     "qlabel": "1A1 FIRE_aFPE_CHECK_2_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
@@ -219,7 +219,7 @@
     ]
   },
   {
-    "routing": "fire_afpe_radio_2_1 #qstart#",
+    "routing": "fire_afpe_radio_2_1 =1#qstart#",
     "qname": "FIRE_aFPE_RADIO_2_1A2",
     "qtype": "single",
     "qlabel": "1A2 FIRE_aFPE_RADIO_2_1A2 - Were you indoors when you were using or repairing the equipment?",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "routing": "fire_afpe_radio_2_1a2 #qstart#",
+    "routing": "fire_afpe_radio_2_1a2 =1#qstart#",
     "qname": "FIRE_aFPE_CHECK_2_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 FIRE_aFPE_CHECK_2_1A2A1 - How was the area where you worked ventilated?",
@@ -292,7 +292,7 @@
     ]
   },
   {
-    "routing": "fire_afpe_radio_2_1 #qstart#",
+    "routing": "fire_afpe_radio_2_1 =1#qstart#",
     "qname": "FIRE_aFPE_RADIO_2_1A3",
     "qtype": "single",
     "qlabel": "1A3 FIRE_aFPE_RADIO_2_1A3 - In the last working week, did you refuel the equipment?",
@@ -1387,7 +1387,7 @@
     ]
   },
   {
-    "routing": "1a1a1 = fire_aasr_1a1a1g other#qstart#",
+    "routing": "fire_aasr_check_7_1a1a1=1#qstart#",
     "qname": "FIRE_aASR_RADIO_7_1A1A1G1",
     "qtype": "single",
     "qlabel": "1A1A1G1 FIRE_aASR_RADIO_7_1A1A1G1 - Please specify",
@@ -1908,7 +1908,7 @@
     ]
   },
   {
-    "routing": "fire_aasr_check_7_1a1b8a1 = 5#qstart#",
+    "routing": "fire_aasr_radio_7_1 = 3#qstart#",
     "qname": "FIRE_aASR_RADIO_7_1A1C1",
     "qtype": "single",
     "qlabel": "1A1C1 FIRE_aASR_RADIO_7_1A1C1 - Please specify",
@@ -1946,7 +1946,7 @@
     ]
   },
   {
-    "routing": "fire_auvr_radio_8_1 #qstart#",
+    "routing": "fire_auvr_radio_8_1 =1#qstart#",
     "qname": "FIRE_aUVR_RADIO_8_1A1",
     "qtype": "single",
     "qlabel": "1A1 FIRE_aUVR_RADIO_8_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -2030,7 +2030,7 @@
     ]
   },
   {
-    "routing": "fire_auvr_radio_8_1 #qstart#",
+    "routing": "fire_auvr_radio_8_1 =1#qstart#",
     "qname": "FIRE_aUVR_CHECK_8_1A3",
     "qtype": "multi",
     "qlabel": "1A3 FIRE_aUVR_CHECK_8_1A3 - When you were working outdoors, were you:",
@@ -2362,7 +2362,7 @@
     ]
   },
   {
-    "routing": "fire_auvr_radio_8_1 #qstart#",
+    "routing": "fire_auvr_radio_8_1 =1#qstart#",
     "qname": "FIRE_aUVR_RADIO_8_1A4",
     "qtype": "single",
     "qlabel": "1A4 FIRE_aUVR_RADIO_8_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

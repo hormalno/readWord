@@ -270,7 +270,7 @@
     ]
   },
   {
-    "routing": " leat_radio_6=1#qstart#",
+    "routing": "leat_radio_6=1#qstart#",
     "qname": "LEAT_CHECK_6A1",
     "qtype": "multi",
     "qlabel": "6A1 LEAT_CHECK_6A1 - How did you apply the varnish?",

@@ -154,10 +154,9 @@ end if
 if chem_amah_check_10_1a1 * {D} then
 	CHEM_aMAH_RADIO_10_1A1D2.Ask()
 end if
-'to do question doesnt exists
-'if chem_amah_check_2_1a1 =5 then
-'	CHEM_aMAH_RADIO_10_1A1E1.Ask()
-'end if
+if chem_amah_check_10_1a1 * {E} then
+	CHEM_aMAH_RADIO_10_1A1E1.Ask()
+end if
 if chem_amah_radio_10_1 * {_1} then
 	CHEM_aMAH_CHECK_10_1A2.Ask()
 end if

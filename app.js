@@ -1,9 +1,7 @@
-const readWord = require('./tools/readWord.js').readWord;
-const writeMDD = require('./tools/writeMDD.js').writeMDD;
+const wordTool = require('./tools/wordTool.js').wordTool;
 
-const moduleName = "MECH"
+const wordFilePath = "C:/Users/yasen.ivanov/Desktop/OSHA/Materials/Modules/";
 
-const modulePath = "C:/Users/yasen.ivanov/Documents/readWord_v2/readWord/modules/"+moduleName+"/"+moduleName+"_"
+const moduleName = "MUSI"
 
-readWord(modulePath);
-writeMDD(modulePath);
+wordTool(wordFilePath,moduleName)

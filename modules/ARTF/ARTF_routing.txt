@@ -1,6 +1,5 @@
-if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
-	ARTF_CHECK_1.Ask()
-end if
+'ARTF_CHECK_1
+ARTF_CHECK_1.Ask()
 if artf_check_1 * {A} then
 	ARTF_aART_RADIO_1A1_1.Ask()
 end if
@@ -187,28 +186,28 @@ end if
 if artf_awel_radio_1a3a1a1_1 * {_1} then
 	ARTF_aWEL_RADIO_1A3A1A1_1A7.Ask()
 end if
-if artf_awel_radio_5a1_1a7 * {_1} then
+if artf_awel_radio_1a3a1a1_1a7 * {_1} then
 	ARTF_aWEL_RADIO_1A3A1A1_1A7A1.Ask()
 end if
 if artf_check_1a3a1 * {A} then
 	ARTF_aCTO_RADIO_1A3A1A2_1.Ask()
 end if
-if artf_acto_radio_1c6_1 * {_1} then
+if artf_acto_radio_1a3a1a2_1 * {_1} then
 	ARTF_aCTO_CHECK_1A3A1A2_1A1.Ask()
 end if
-if artf_acto_radio_1c6_1 * {_1} then
+if artf_acto_radio_1a3a1a2_1 * {_1} then
 	ARTF_aCTO_CHECK_1A3A1A2_1A2.Ask()
 end if
-if artf_acto_check_1c6_1a2 * {B} then
+if artf_acto_check_1a3a1a2_1a2 * {B} then
 	ARTF_aCTO_RADIO_1A3A1A2_1A2B1.Ask()
 end if
-if artf_acto_radio_1c6_1a2b1 * {_2} then
+if artf_acto_radio_1a3a1a2_1a2b1 * {_2} then
 	ARTF_aCTO_RADIO_1A3A1A2_1A2B1B1.Ask()
 end if
 if artf_check_1a3a1 * {A} then
 	ARTF_aDEG_RADIO_1A3A1A3_1.Ask()
 end if
-if artf_adeg_radio_1c5_1 * {_1} then
+if artf_adeg_radio_1a3a1a3_1 * {_1} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A1.Ask()
 end if
 if artf_adeg_radio_1a3a1a3_1a1 * {_1} then
@@ -217,40 +216,40 @@ end if
 if artf_adeg_check_1a3a1a3_1a1a1 * {A} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A1A1A1.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {B} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {B} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A1A1B1.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {C} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {C} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A1A1C1.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {D} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {D} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A1A1D1.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {D} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {D} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A1A1D2.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {D} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {D} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A1A1D3.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {E} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {E} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A1A1E1.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {E} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {E} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A1A1E2.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {E} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {E} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A1A1E3.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {E} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {E} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A1A1E4.Ask()
 end if
-if artf_adeg_check_1c5_1a1a1 * {F} then
+if artf_adeg_check_1a3a1a3_1a1a1 * {F} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A1A1F1.Ask()
 end if
-if artf_adeg_radio_1c5_1 * {_1} then
+if artf_adeg_radio_1a3a1a3_1 * {_1} then
 	ARTF_aDEG_RADIO_1A3A1A3_1A2.Ask()
 end if
-if artf_adeg_radio_1c5_1a2 * {_1} then
+if artf_adeg_radio_1a3a1a3_1a2 * {_1} then
 	ARTF_aDEG_CHECK_1A3A1A3_1A2A1.Ask()
 end if
 if artf_check_1a3a1 * {B} then
@@ -283,34 +282,34 @@ end if
 if artf_check_1a3a1 * {B} then
 	ARTF_aFPE_RADIO_1A3A1B2_1.Ask()
 end if
-if artf_afpe_radio_1a3a1b2_1} then
+if artf_afpe_radio_1a3a1b2_1 * {_1} then
 	ARTF_aFPE_CHECK_1A3A1B2_1A1.Ask()
 end if
-if artf_afpe_radio_1a3a1b2_1} then
+if artf_afpe_radio_1a3a1b2_1 * {_1} then
 	ARTF_aFPE_RADIO_1A3A1B2_1A2.Ask()
 end if
-if artf_afpe_radio_1a3a1b2_1a2} then
+if artf_afpe_radio_1a3a1b2_1a2 * {_1} then
 	ARTF_aFPE_CHECK_1A3A1B2_1A2A1.Ask()
 end if
-if artf_afpe_radio_1a3a1b2_1} then
+if artf_afpe_radio_1a3a1b2_1 * {_1} then
 	ARTF_aFPE_RADIO_1A3A1B2_1A3.Ask()
 end if
 if artf_check_1a3a1 * {C} then
 	ARTF_aCTS_RADIO_1A3A1C1_1.Ask()
 end if
-if artf_acts_radio_1a3a1c1_1} then
+if artf_acts_radio_1a3a1c1_1 * {_1} then
 	ARTF_aCTS_RADIO_1A3A1C1_1A1.Ask()
 end if
-if artf_acts_radio_1a3a1c1_1} then
+if artf_acts_radio_1a3a1c1_1 * {_1} then
 	ARTF_aCTS_RADIO_1A3A1C1_1A2.Ask()
 end if
-if artf_acts_radio_1a3a1c1_1} then
+if artf_acts_radio_1a3a1c1_1 * {_1} then
 	ARTF_aCTS_RADIO_1A3A1C1_1A3.Ask()
 end if
-if artf_acts_radio_1a3a1c1_1} then
+if artf_acts_radio_1a3a1c1_1 * {_1} then
 	ARTF_aCTS_RADIO_1A3A1C1_1A4.Ask()
 end if
-if artf_acts_radio_1a3a1c1_1} then
+if artf_acts_radio_1a3a1c1_1 * {_1} then
 	ARTF_aCTS_RADIO_1A3A1C1_1A5.Ask()
 end if
 if artf_check_1 * {A} then
@@ -361,9 +360,8 @@ end if
 if artf_radio_1b5 * {_1} then
 	ARTF_CHECK_1B5A1.Ask()
 end if
-if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
-	ARTF_aGLU_RADIO_2_1.Ask()
-end if
+'ARTF_aGLU_RADIO_2_1
+ARTF_aGLU_RADIO_2_1.Ask()
 if artf_aglu_radio_2_1 * {_1} then
 	ARTF_aGLU_RADIO_2_1A1.Ask()
 end if
@@ -385,12 +383,12 @@ end if
 if artf_aglu_radio_2_1a5 * {_1} then
 	ARTF_aGLU_CHECK_2_1A5A1.Ask()
 end if
-if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
-	ARTF_aUVR_RADIO_3_1.Ask()
-end if
-if artf_auvr_radio_2a3_1 * {_1} then
-	ARTF_aUVR_RADIO_3_1A1.Ask()
-end if
+'ARTF_aUVR_RADIO_3_1
+ARTF_aUVR_RADIO_3_1.Ask()
+'to do question doesnt exists
+'if artf_auvr_radio_2a3_1 =1 then
+'	ARTF_aUVR_RADIO_3_1A1.Ask()
+'end if
 if artf_auvr_radio_3_1a1 * {_1} then
 	ARTF_aUVR_CHECK_3_1A1A1.Ask()
 end if
@@ -436,9 +434,8 @@ end if
 if artf_auvr_radio_3_1 * {_1} then
 	ARTF_aUVR_RADIO_3_1A4.Ask()
 end if
-if jobcat4 * {_21 or jobcat5 = 25 or jobcat5 = 195 or jobcat8 = 11 or jobcat8 = 35} then
-	ARTF_aCLH_RADIO_4_1.Ask()
-end if
+'ARTF_aCLH_RADIO_4_1
+ARTF_aCLH_RADIO_4_1.Ask()
 if artf_aclh_radio_4_1 * {_1} then
 	ARTF_aCLH_CHECK_4_1A1.Ask()
 end if

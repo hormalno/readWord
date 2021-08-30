@@ -154,7 +154,7 @@ categorical [1..1]
 CONS_aSTP_RADIO_3A1A1_1A1 "1A1 CONS_aSTP_RADIO_3A1A1_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?"
 categorical [1..1]
 {
-	_1 "aSTP_1A1A Yes If CONS_aSTP_RADIO_7A2_1A1" [Value=1],
+	_1 "aSTP_1A1A Yes" [Value=1],
 	_2 "aSTP_1A1B No" [Value=2],
 	_3 "aSTP_1A1C Don’t know" [Value=3] exclusive
 };

@@ -385,7 +385,8 @@
         "catName": "_8"
       },
       {
-        "catLabel": "aPES_1A1A5I Don't  know",
+        "catLabel": "aPES_1A1A5I Don't know",
+        "isExclusive": true,
         "catValue": "9",
         "catName": "_9"
       }

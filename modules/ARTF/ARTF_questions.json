@@ -1734,7 +1734,7 @@
     ]
   },
   {
-    "routing": "artf_awel_radio_5a1_1a7 =1#qstart#",
+    "routing": "artf_awel_radio_1a3a1a1_1a7=1#qstart#",
     "qname": "ARTF_aWEL_RADIO_1A3A1A1_1A7A1",
     "qtype": "single",
     "qlabel": "1A7A1 ARTF_aWEL_RADIO_1A3A1A1_1A7A1 - How many other welders were there in the area where you worked?",
@@ -1787,7 +1787,7 @@
     ]
   },
   {
-    "routing": "artf_acto_radio_1c6_1=1#qstart#",
+    "routing": "artf_acto_radio_1a3a1a2_1=1#qstart#",
     "qname": "ARTF_aCTO_CHECK_1A3A1A2_1A1",
     "qtype": "multi",
     "qlabel": "1A1 ARTF_aCTO_CHECK_1A3A1A2_1A1 - What types of cutting or cooling oils did you use? (May also be referred to as lubricating or machine oils or fluids.)",
@@ -1827,7 +1827,7 @@
     ]
   },
   {
-    "routing": "artf_acto_radio_1c6_1=1#qstart#",
+    "routing": "artf_acto_radio_1a3a1a2_1=1#qstart#",
     "qname": "ARTF_aCTO_CHECK_1A3A1A2_1A2",
     "qtype": "multi",
     "qlabel": "1A2 ARTF_aCTO_CHECK_1A3A1A2_1A2 - In the last working week, did you use cutting or cooling oils with hand tools or with a fixed machine?",
@@ -1856,7 +1856,7 @@
     ]
   },
   {
-    "routing": "artf_acto_check_1c6_1a2 =2#qstart#",
+    "routing": "artf_acto_check_1a3a1a2_1a2=2#qstart#",
     "qname": "ARTF_aCTO_RADIO_1A3A1A2_1A2B1",
     "qtype": "single",
     "qlabel": "1A2B1 ARTF_aCTO_RADIO_1A3A1A2_1A2B1 - In the last working week, did you use an enclosed machine (you had to open a door on the machine to see the machining fluid)?",
@@ -1880,7 +1880,7 @@
     ]
   },
   {
-    "routing": "artf_acto_radio_1c6_1a2b1=2#qstart#",
+    "routing": "artf_acto_radio_1a3a1a2_1a2b1=2#qstart#",
     "qname": "ARTF_aCTO_RADIO_1A3A1A2_1A2B1B1",
     "qtype": "single",
     "qlabel": "1A2B1B1 ARTF_aCTO_RADIO_1A3A1A2_1A2B1B1 - Did you allow time for the mist or droplets to settle before opening the machine?",
@@ -1928,7 +1928,7 @@
     ]
   },
   {
-    "routing": " artf_adeg_radio_1c5_1=1#qstart#",
+    "routing": "artf_adeg_radio_1a3a1a3_1=1#qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A1",
     "qtype": "single",
     "qlabel": "1A1 ARTF_aDEG_RADIO_1A3A1A3_1A1 - In the last working week, did you degrease using chemicals other than detergents?",
@@ -2046,7 +2046,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =2#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =2#qstart#",
     "qname": "ARTF_aDEG_CHECK_1A3A1A3_1A1A1B1",
     "qtype": "multi",
     "qlabel": "1A1A1B1 ARTF_aDEG_CHECK_1A3A1A3_1A1A1B1 - What chemicals did you use to spray parts?",
@@ -2086,7 +2086,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =3#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =3#qstart#",
     "qname": "ARTF_aDEG_CHECK_1A3A1A3_1A1A1C1",
     "qtype": "multi",
     "qlabel": "1A1A1C1 ARTF_aDEG_CHECK_1A3A1A3_1A1A1C1 - What chemicals did you use in the conveyorised degreaser?",
@@ -2126,7 +2126,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =4 #qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =4 #qstart#",
     "qname": "ARTF_aDEG_CHECK_1A3A1A3_1A1A1D1",
     "qtype": "multi",
     "qlabel": "1A1A1D1 ARTF_aDEG_CHECK_1A3A1A3_1A1A1D1 - What chemicals did you use in the dip tank?",
@@ -2166,7 +2166,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =4 #qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =4 #qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A1A1D2",
     "qtype": "single",
     "qlabel": "1A1A1D2 ARTF_aDEG_RADIO_1A3A1A3_1A1A1D2 - Was the dip tank kept covered when not in use?",
@@ -2190,7 +2190,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =4 #qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =4 #qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A1A1D3",
     "qtype": "single",
     "qlabel": "1A1A1D3 ARTF_aDEG_RADIO_1A3A1A3_1A1A1D3 - Was there a ventilation system on the dip tank?",
@@ -2214,7 +2214,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =5#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =5#qstart#",
     "qname": "ARTF_aDEG_CHECK_1A3A1A3_1A1A1E1",
     "qtype": "multi",
     "qlabel": "1A1A1E1 ARTF_aDEG_CHECK_1A3A1A3_1A1A1E1 - What chemicals did you use in the vapour degreaser?",
@@ -2254,7 +2254,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =5#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =5#qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A1A1E2",
     "qtype": "single",
     "qlabel": "1A1A1E2 ARTF_aDEG_RADIO_1A3A1A3_1A1A1E2 - Was the vapour degreaser covered when not in use?",
@@ -2278,7 +2278,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =5#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =5#qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A1A1E3",
     "qtype": "single",
     "qlabel": "1A1A1E3 ARTF_aDEG_RADIO_1A3A1A3_1A1A1E3 - Was there a ventilation system on the vapour degreaser?",
@@ -2302,7 +2302,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =5#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =5#qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A1A1E4",
     "qtype": "single",
     "qlabel": "1A1A1E4 ARTF_aDEG_RADIO_1A3A1A3_1A1A1E4 - Were there cooling coils around the vapour degreaser?",
@@ -2326,7 +2326,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_check_1c5_1a1a1 =6#qstart#",
+    "routing": "artf_adeg_check_1a3a1a3_1a1a1 =6#qstart#",
     "qname": "ARTF_aDEG_CHECK_1A3A1A3_1A1A1F1",
     "qtype": "multi",
     "qlabel": "1A1A1F1 ARTF_aDEG_CHECK_1A3A1A3_1A1A1F1 - What chemicals did you use in the ultrasonic cleaner?",
@@ -2366,7 +2366,7 @@
     ]
   },
   {
-    "routing": " artf_adeg_radio_1c5_1=1#qstart#",
+    "routing": "artf_adeg_radio_1a3a1a3_1=1#qstart#",
     "qname": "ARTF_aDEG_RADIO_1A3A1A3_1A2",
     "qtype": "single",
     "qlabel": "1A2 ARTF_aDEG_RADIO_1A3A1A3_1A2 - In the last working week, did you use respiratory protection?",
@@ -2390,7 +2390,7 @@
     ]
   },
   {
-    "routing": "artf_adeg_radio_1c5_1a2 =1#qstart#",
+    "routing": "artf_adeg_radio_1a3a1a3_1a2 =1#qstart#",
     "qname": "ARTF_aDEG_CHECK_1A3A1A3_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 ARTF_aDEG_CHECK_1A3A1A3_1A2A1 - What types of respiratory protective equipment (RPE) did you use?",
@@ -2706,7 +2706,7 @@
     ]
   },
   {
-    "routing": "artf_afpe_radio_1a3a1b2_1 #qstart#",
+    "routing": "artf_afpe_radio_1a3a1b2_1 =1#qstart#",
     "qname": "ARTF_aFPE_CHECK_1A3A1B2_1A1",
     "qtype": "multi",
     "qlabel": "1A1 ARTF_aFPE_CHECK_1A3A1B2_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
@@ -2740,7 +2740,7 @@
     ]
   },
   {
-    "routing": "artf_afpe_radio_1a3a1b2_1 #qstart#",
+    "routing": "artf_afpe_radio_1a3a1b2_1 =1#qstart#",
     "qname": "ARTF_aFPE_RADIO_1A3A1B2_1A2",
     "qtype": "single",
     "qlabel": "1A2 ARTF_aFPE_RADIO_1A3A1B2_1A2 - Were you indoors when you were using or repairing the equipment?",
@@ -2764,7 +2764,7 @@
     ]
   },
   {
-    "routing": "artf_afpe_radio_1a3a1b2_1a2 #qstart#",
+    "routing": "artf_afpe_radio_1a3a1b2_1a2 =1#qstart#",
     "qname": "ARTF_aFPE_CHECK_1A3A1B2_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 ARTF_aFPE_CHECK_1A3A1B2_1A2A1 - How was the area where you worked ventilated?",
@@ -2813,7 +2813,7 @@
     ]
   },
   {
-    "routing": "artf_afpe_radio_1a3a1b2_1 #qstart#",
+    "routing": "artf_afpe_radio_1a3a1b2_1 =1#qstart#",
     "qname": "ARTF_aFPE_RADIO_1A3A1B2_1A3",
     "qtype": "single",
     "qlabel": "1A3 ARTF_aFPE_RADIO_1A3A1B2_1A3 - In the last working week, did you refuel the equipment?",
@@ -2861,7 +2861,7 @@
     ]
   },
   {
-    "routing": "artf_acts_radio_1a3a1c1_1 #qstart#",
+    "routing": "artf_acts_radio_1a3a1c1_1 =1#qstart#",
     "qname": "ARTF_aCTS_RADIO_1A3A1C1_1A1",
     "qtype": "single",
     "qlabel": "1A1 ARTF_aCTS_RADIO_1A3A1C1_1A1 - Which of the following materials did you work with?",
@@ -2896,7 +2896,7 @@
     ]
   },
   {
-    "routing": "artf_acts_radio_1a3a1c1_1 #qstart#",
+    "routing": "artf_acts_radio_1a3a1c1_1 =1#qstart#",
     "qname": "ARTF_aCTS_RADIO_1A3A1C1_1A2",
     "qtype": "single",
     "qlabel": "1A2 ARTF_aCTS_RADIO_1A3A1C1_1A2 - In the last working week, did you use water suppression all the time when you were working on these materials?",
@@ -2920,7 +2920,7 @@
     ]
   },
   {
-    "routing": "artf_acts_radio_1a3a1c1_1 #qstart#",
+    "routing": "artf_acts_radio_1a3a1c1_1 =1#qstart#",
     "qname": "ARTF_aCTS_RADIO_1A3A1C1_1A3",
     "qtype": "single",
     "qlabel": "1A3 ARTF_aCTS_RADIO_1A3A1C1_1A3 - In the last working week, did you use on tool ventilation or dust collection when you worked with these materials?",
@@ -2944,7 +2944,7 @@
     ]
   },
   {
-    "routing": "artf_acts_radio_1a3a1c1_1 #qstart#",
+    "routing": "artf_acts_radio_1a3a1c1_1 =1#qstart#",
     "qname": "ARTF_aCTS_RADIO_1A3A1C1_1A4",
     "qtype": "single",
     "qlabel": "1A4 ARTF_aCTS_RADIO_1A3A1C1_1A4 - In the last working week, did you always work in the open air when you worked with these materials?",
@@ -2968,7 +2968,7 @@
     ]
   },
   {
-    "routing": "artf_acts_radio_1a3a1c1_1 #qstart#",
+    "routing": "artf_acts_radio_1a3a1c1_1 =1#qstart#",
     "qname": "ARTF_aCTS_RADIO_1A3A1C1_1A5",
     "qtype": "single",
     "qlabel": "1A5 ARTF_aCTS_RADIO_1A3A1C1_1A5 - In the last working week, did you use a filtering or air-supplied respirator when you worked with these materials (including if you were working in the open air)?",

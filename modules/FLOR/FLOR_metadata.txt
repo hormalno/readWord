@@ -320,7 +320,7 @@ categorical [1..1]
 	_6 "aPES_1A1A5F Shirts or t-shirts with sleeves" [Value=6],
 	_7 "aPES_1A1A5G Long trousers" [Value=7],
 	_8 "aPES_1A1A5H Other protective clothing" [Value=8],
-	_9 "aPES_1A1A5I Don't  know" [Value=9]
+	_9 "aPES_1A1A5I Don’t know" [Value=9] exclusive
 };
 FLOR_aPES_RADIO_6_1A2 "1A2 FLOR_aPES_RADIO_6_1A2 - In the last working week, did you apply fumigants to kill pests on stored crops?"
 categorical [1..1]

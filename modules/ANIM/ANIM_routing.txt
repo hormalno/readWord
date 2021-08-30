@@ -1,18 +1,15 @@
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_RADIO_1.Ask()
-end if
+'ANIM_RADIO_1
+ANIM_RADIO_1.Ask()
 if anim_radio_1 * {_1} then
 	ANIM_RADIO_1A1.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aBED_RADIO_2_1.Ask()
-end if
+'ANIM_aBED_RADIO_2_1
+ANIM_aBED_RADIO_2_1.Ask()
 if anim_abed_radio_2_1 * {_1} then
 	ANIM_aBED_CHECK_2_1A1.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aPES_RADIO_3_1.Ask()
-end if
+'ANIM_aPES_RADIO_3_1
+ANIM_aPES_RADIO_3_1.Ask()
 if anim_apes_radio_3_1 * {_1} then
 	ANIM_aPES_RADIO_3_1A1.Ask()
 end if
@@ -52,9 +49,8 @@ end if
 if anim_apes_radio_3_1a2 * {_1} then
 	ANIM_aPES_RADIO_3_1A2A3.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aFPE_RADIO_4_1.Ask()
-end if
+'ANIM_aFPE_RADIO_4_1
+ANIM_aFPE_RADIO_4_1.Ask()
 if anim_afpe_radio_4_1 * {_1} then
 	ANIM_aFPE_CHECK_4_1A1.Ask()
 end if
@@ -67,9 +63,8 @@ end if
 if anim_afpe_radio_4_1 * {_1} then
 	ANIM_aFPE_RADIO_4_1A3.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aUVR_RADIO_5_1.Ask()
-end if
+'ANIM_aUVR_RADIO_5_1
+ANIM_aUVR_RADIO_5_1.Ask()
 if anim_auvr_radio_5_1 * {_1} then
 	ANIM_aUVR_RADIO_5_1A1.Ask()
 end if
@@ -118,9 +113,8 @@ end if
 if anim_auvr_radio_5_1 * {_1} then
 	ANIM_aUVR_RADIO_5_1A4.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aDVM_RADIO_6_1.Ask()
-end if
+'ANIM_aDVM_RADIO_6_1
+ANIM_aDVM_RADIO_6_1.Ask()
 if anim_advm_radio_6_1 * {_1} then
 	ANIM_aDVM_CHECK_6_1A1.Ask()
 end if
@@ -157,9 +151,8 @@ end if
 if anim_advm_check_6_1a4a5 * {A} then
 	ANIM_aDVM_CHECK_6_1A4A5A1.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aVEX_RADIO_7_1.Ask()
-end if
+'ANIM_aVEX_RADIO_7_1
+ANIM_aVEX_RADIO_7_1.Ask()
 if anim_avex_radio_7_1 * {_1} then
 	ANIM_aVEX_CHECK_7_1A1.Ask()
 end if
@@ -175,9 +168,8 @@ end if
 if anim_avex_radio_7_1 * {_1} then
 	ANIM_aVEX_RADIO_7_1A4.Ask()
 end if
-if jobcat1 * {_3 or jobcat5 = 16 or jobcat9 = 18} then
-	ANIM_aCLH_RADIO_8_1.Ask()
-end if
+'ANIM_aCLH_RADIO_8_1
+ANIM_aCLH_RADIO_8_1.Ask()
 if anim_aclh_radio_8_1 * {_1} then
 	ANIM_aCLH_CHECK_8_1A1.Ask()
 end if

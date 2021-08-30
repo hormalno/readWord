@@ -176,10 +176,9 @@ end if
 if imar_astp_radio_5a1_1 * {_1} then
 	IMAR_aSTP_RADIO_5A1_1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if imar_astp_radio_5a1_1a1 then
-'	IMAR_aSTP_CHECK_5A1_1A1A1.Ask()
-'end if
+if imar_astp_radio_5a1_1a1 * {_1} then
+	IMAR_aSTP_CHECK_5A1_1A1A1.Ask()
+end if
 if imar_astp_radio_5a1_1 * {_1} then
 	IMAR_aSTP_RADIO_5A1_1A2.Ask()
 end if
@@ -519,10 +518,9 @@ if imar_avex_radio_13_1 * {_1} then
 end if
 'IMAR_aGEX_RADIO_14_1
 IMAR_aGEX_RADIO_14_1.Ask()
-'to do question doesnt exists
-'if imar_agex_radio_13_1 =1 then
-'	IMAR_aGEX_CHECK_14_1A1.Ask()
-'end if
+if imar_agex_radio_14_1 * {_1} then
+	IMAR_aGEX_CHECK_14_1A1.Ask()
+end if
 if imar_agex_check_14_1a1 * {A} then
 	IMAR_aGEX_CHECK_14_1A1A1.Ask()
 end if

@@ -285,10 +285,9 @@ end if
 if mech_astp_radio_7a2_1 * {_1} then
 	MECH_aSTP_RADIO_7A2_1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if mech_astp_radio_7a2_1a1 then
-'	MECH_aSTP_CHECK_7A2_1A1A1.Ask()
-'end if
+if mech_astp_radio_7a2_1a1 * {_1} then
+	MECH_aSTP_CHECK_7A2_1A1A1.Ask()
+end if
 if mech_astp_radio_7a2_1 * {_1} then
 	MECH_aSTP_RADIO_7A2_1A2.Ask()
 end if
@@ -382,17 +381,15 @@ if mech_aftc_radio_10_1a4 * {_1} then
 end if
 'MECH_aUVR_RADIO_11_1
 MECH_aUVR_RADIO_11_1.Ask()
-'to do Incorrect instruction (doesnt have = symbol)
-'if mech_auvr_radio_11_1 then
-'	MECH_aUVR_RADIO_11_1A1.Ask()
-'end if
+if mech_auvr_radio_11_1 * {_1} then
+	MECH_aUVR_RADIO_11_1A1.Ask()
+end if
 if mech_auvr_radio_11_1a1 * {_1} then
 	MECH_aUVR_CHECK_11_1A1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if mech_auvr_radio_11_1 then
-'	MECH_aUVR_CHECK_11_1A3.Ask()
-'end if
+if mech_auvr_radio_11_1 * {_1} then
+	MECH_aUVR_CHECK_11_1A3.Ask()
+end if
 if mech_auvr_check_11_1a3 * {A} then
 	MECH_aUVR_RADIO_11_1A3A1.Ask()
 end if
@@ -429,10 +426,9 @@ end if
 if mech_auvr_radio_11_1a3c1 * {_1} then
 	MECH_aUVR_RADIO_11_1A3C1A3.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if mech_auvr_radio_11_1 then
-'	MECH_aUVR_RADIO_11_1A4.Ask()
-'end if
+if mech_auvr_radio_11_1 * {_1} then
+	MECH_aUVR_RADIO_11_1A4.Ask()
+end if
 'MECH_aCLH_RADIO_12_1
 MECH_aCLH_RADIO_12_1.Ask()
 if mech_aclh_radio_12_1 * {_1} then

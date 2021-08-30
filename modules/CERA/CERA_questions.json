@@ -126,7 +126,7 @@
     ]
   },
   {
-    "routing": "cera_acts_radio_1g1_1 #qstart#",
+    "routing": "cera_acts_radio_1g1_1 =1#qstart#",
     "qname": "CERA_aCTS_RADIO_1G1_1A1",
     "qtype": "single",
     "qlabel": "1A1 CERA_aCTS_RADIO_1G1_1A1 - Which of the following materials did you work with?",
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "routing": "cera_acts_radio_1g1_1 1 #qstart#",
+    "routing": "cera_acts_radio_1g1_1 =1#qstart#",
     "qname": "CERA_aCTS_RADIO_1G1_1A2",
     "qtype": "single",
     "qlabel": "1A2 CERA_aCTS_RADIO_1G1_1A2 - In the last working week, did you use water suppression all the time when you were working on these materials?",
@@ -185,7 +185,7 @@
     ]
   },
   {
-    "routing": "cera_acts_radio_1g1_1#qstart#",
+    "routing": "cera_acts_radio_1g1_1 =1#qstart#",
     "qname": "CERA_aCTS_RADIO_1G1_1A3",
     "qtype": "single",
     "qlabel": "1A3 CERA_aCTS_RADIO_1G1_1A3 - In the last working week, did you use on tool ventilation or dust collection when you worked with these materials?",
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "routing": "cera_acts_radio_1g1_1#qstart#",
+    "routing": "cera_acts_radio_1g1_1 =1#qstart#",
     "qname": "CERA_aCTS_RADIO_1G1_1A4",
     "qtype": "single",
     "qlabel": "1A4 CERA_aCTS_RADIO_1G1_1A4 - In the last working week, did you always work in the open air when you worked with these materials?",
@@ -233,7 +233,7 @@
     ]
   },
   {
-    "routing": "cera_acts_radio_1g1_1#qstart#",
+    "routing": "cera_acts_radio_1g1_1 =1#qstart#",
     "qname": "CERA_aCTS_RADIO_1G1_1A5",
     "qtype": "single",
     "qlabel": "1A5 CERA_aCTS_RADIO_1G1_1A5 - In the last working week, did you use a filtering or air-supplied respirator when you worked with these materials (including if you were working in the open air)?",
@@ -907,7 +907,7 @@
     "qlabel": "1A1 CERA_aSTP_RADIO_7A2_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?",
     "categories": [
       {
-        "catLabel": "aSTP_1A1A Yes If CERA_aSTP_RADIO_7A2_1A1",
+        "catLabel": "aSTP_1A1A Yes",
         "catValue": "1",
         "catName": "_1"
       },
@@ -925,7 +925,7 @@
     ]
   },
   {
-    "routing": "cera_astp_radio_7a2_1a1#qstart#",
+    "routing": "cera_astp_radio_7a2_1a1=1#qstart#",
     "qname": "CERA_aSTP_CHECK_7A2_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 CERA_aSTP_CHECK_7A2_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
@@ -1124,7 +1124,7 @@
     ]
   },
   {
-    "routing": "cera_astp_radio_7a2_1a5 =1 #qstart#",
+    "routing": "cera_astp_radio_7a2_1a5 =1#qstart#",
     "qname": "CERA_aSTP_CHECK_7A2_1A5A1",
     "qtype": "multi",
     "qlabel": "1A5A1 CERA_aSTP_CHECK_7A2_1A5A1 - What types of respiratory protective equipment (RPE) did you use?",

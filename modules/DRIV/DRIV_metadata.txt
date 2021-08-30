@@ -169,7 +169,7 @@ categorical [1..1]
 {
 	_1 "aMAH_1A1A1B3A Yes" [Value=1],
 	_2 "aMAH_1A1A1B3B No" [Value=2],
-	_3 "aMAH_1A1A1B3C Don't  know" [Value=3]
+	_3 "aMAH_1A1A1B3C Don’t know" [Value=3] exclusive
 };
 DRIV_aMAH_RADIO_2_1A1A1B3A1 "1A1A1B3A1 DRIV_aMAH_RADIO_2_1A1A1B3A1 - What protective clothing did you wear?"
 categorical [1..1]

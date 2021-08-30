@@ -484,7 +484,7 @@
     ]
   },
   {
-    "routing": "foun_check_2c1 =2#qstart#",
+    "routing": "foun_check_2c1 =6#qstart#",
     "qname": "FOUN_CHECK_2C1F1",
     "qtype": "multi",
     "qlabel": "2C1F1 FOUN_CHECK_2C1F1 - How did you set or cure the sand with resin binder moulds?",
@@ -523,7 +523,7 @@
     ]
   },
   {
-    "routing": "foun_check_2c1 =2#qstart#",
+    "routing": "foun_check_2c1 =6#qstart#",
     "qname": "FOUN_RADIO_2C1F2",
     "qtype": "single",
     "qlabel": "2C1F2 FOUN_RADIO_2C1F2 - In the last working week, did you apply silica parting powder to the moulds or cores?",

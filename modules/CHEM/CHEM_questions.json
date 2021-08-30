@@ -1,6 +1,6 @@
 [
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_RADIO_1",
     "qtype": "single",
     "qlabel": "1 CHEM_RADIO_1 - In the last working week, what kind of products were made or processed in the company you worked for?",
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_CHECK_2",
     "qtype": "multi",
     "qlabel": "2 CHEM_CHECK_2 - In the last working week, did you work with any of the following solvents?",
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_CHECK_3",
     "qtype": "multi",
     "qlabel": "3 CHEM_CHECK_3 - In the last working week, did you work with any of the following metals?",
@@ -308,7 +308,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_CHECK_4",
     "qtype": "multi",
     "qlabel": "4 CHEM_CHECK_4 - In the last working week, did you work with any of the following industrial chemicals?",
@@ -643,7 +643,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_CHECK_5",
     "qtype": "multi",
     "qlabel": "5 CHEM_CHECK_5 - In the last working week, did your work involve the following?",
@@ -677,7 +677,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_CHECK_6",
     "qtype": "multi",
     "qlabel": "6 CHEM_CHECK_6 - In the last working week, did you work with any of the following radiation sources?",
@@ -1041,7 +1041,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_RADIO_7",
     "qtype": "single",
     "qlabel": "7 CHEM_RADIO_7 - In the last working week, did you use respiratory protection while making, formulating or processing chemicals or pharmaceuticals?",
@@ -1104,7 +1104,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_CHECK_8",
     "qtype": "multi",
     "qlabel": "8 CHEM_CHECK_8 - In the last working week, what types of personal protective clothing did you wear while making, formulating or processing chemicals?",
@@ -1148,7 +1148,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aSTE_RADIO_9_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aSTE_RADIO_9_1 - In the last working week, did you sterilise instruments or other equipment yourself?",
@@ -1406,7 +1406,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aMAH_RADIO_10_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aMAH_RADIO_10_1 - In the last working week, did you load and/or unload vehicles yourself?",
@@ -1636,7 +1636,8 @@
         "catName": "_2"
       },
       {
-        "catLabel": "aMAH_1A1A1B3C Don't  know",
+        "catLabel": "aMAH_1A1A1B3C Don't know",
+        "isExclusive": true,
         "catValue": "3",
         "catName": "_3"
       }
@@ -1794,7 +1795,7 @@
     ]
   },
   {
-    "routing": "chem_amah_check_2_1a1 =5#qstart#",
+    "routing": "chem_amah_check_10_1a1 =5#qstart#",
     "qname": "CHEM_aMAH_RADIO_10_1A1E1",
     "qtype": "single",
     "qlabel": "1A1E1 CHEM_aMAH_RADIO_10_1A1E1 - Please specify the type of ore",
@@ -1886,7 +1887,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aDEG_RADIO_11_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aDEG_RADIO_11_1 - In the last working week, did you degrease items?",
@@ -2407,7 +2408,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aVEX_RADIO_12_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aVEX_RADIO_12_1 - In the last working week, did you work in an area where there were vehicles driven or had their engines running?",
@@ -2591,7 +2592,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aDVM_RADIO_13_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aDVM_RADIO_13_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?",
@@ -2984,7 +2985,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aCTO_RADIO_14_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aCTO_RADIO_14_1 - In the last working week, did you use cutting or cooling oils?",
@@ -3125,7 +3126,7 @@
     ]
   },
   {
-    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 11#qstart#",
+    "routing": "jobcat2 = 131 or jobcat4 = 31 or jobcat11 = 111#qstart#",
     "qname": "CHEM_aCLH_RADIO_15_1",
     "qtype": "single",
     "qlabel": "1 CHEM_aCLH_RADIO_15_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?",

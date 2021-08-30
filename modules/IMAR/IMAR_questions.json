@@ -1848,7 +1848,7 @@
     "qlabel": "1A1 IMAR_aSTP_RADIO_5A1_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?",
     "categories": [
       {
-        "catLabel": "aSTP_1A1A Yes If IMAR_aSTP_RADIO_7A2_1A1",
+        "catLabel": "aSTP_1A1A Yes",
         "catValue": "1",
         "catName": "_1"
       },
@@ -1866,7 +1866,7 @@
     ]
   },
   {
-    "routing": "imar_astp_radio_5a1_1a1#qstart#",
+    "routing": "imar_astp_radio_5a1_1a1=1#qstart#",
     "qname": "IMAR_aSTP_CHECK_5A1_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 IMAR_aSTP_CHECK_5A1_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
@@ -5277,7 +5277,7 @@
     ]
   },
   {
-    "routing": "imar_agex_radio_13_1 =1#qstart#",
+    "routing": "imar_agex_radio_14_1 =1#qstart#",
     "qname": "IMAR_aGEX_CHECK_14_1A1",
     "qtype": "multi",
     "qlabel": "1A1 IMAR_aGEX_CHECK_14_1A1 - Where were these generators located?",

@@ -48,7 +48,7 @@
     ]
   },
   {
-    "routing": "fore_afpe_radio_1a1_1 #qstart#",
+    "routing": "fore_afpe_radio_1a1_1 =1#qstart#",
     "qname": "FORE_aFPE_CHECK_1A1_1A1",
     "qtype": "multi",
     "qlabel": "1A1 FORE_aFPE_CHECK_1A1_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
@@ -82,7 +82,7 @@
     ]
   },
   {
-    "routing": "fore_afpe_radio_1a1_1 #qstart#",
+    "routing": "fore_afpe_radio_1a1_1 =1#qstart#",
     "qname": "FORE_aFPE_RADIO_1A1_1A2",
     "qtype": "single",
     "qlabel": "1A2 FORE_aFPE_RADIO_1A1_1A2 - Were you indoors when you were using or repairing the equipment?",
@@ -106,7 +106,7 @@
     ]
   },
   {
-    "routing": "fore_afpe_radio_1a1_1a2 #qstart#",
+    "routing": "fore_afpe_radio_1a1_1a2 =1#qstart#",
     "qname": "FORE_aFPE_CHECK_1A1_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 FORE_aFPE_CHECK_1A1_1A2A1 - How was the area where you worked ventilated?",
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "routing": "fore_afpe_radio_1a1_1 #qstart#",
+    "routing": "fore_afpe_radio_1a1_1 =1#qstart#",
     "qname": "FORE_aFPE_RADIO_1A1_1A3",
     "qtype": "single",
     "qlabel": "1A3 FORE_aFPE_RADIO_1A1_1A3 - In the last working week, did you refuel the equipment?",
@@ -2546,7 +2546,7 @@
     ]
   },
   {
-    "routing": "fore_auvr_radio_11_1 #qstart#",
+    "routing": "fore_auvr_radio_11_1 =1#qstart#",
     "qname": "FORE_aUVR_RADIO_11_1A1",
     "qtype": "single",
     "qlabel": "1A1 FORE_aUVR_RADIO_11_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -2630,7 +2630,7 @@
     ]
   },
   {
-    "routing": "fore_auvr_radio_11_1 #qstart#",
+    "routing": "fore_auvr_radio_11_1 =1#qstart#",
     "qname": "FORE_aUVR_CHECK_11_1A3",
     "qtype": "multi",
     "qlabel": "1A3 FORE_aUVR_CHECK_11_1A3 - When you were working outdoors, were you:",
@@ -2962,7 +2962,7 @@
     ]
   },
   {
-    "routing": "fore_auvr_radio_11_1 #qstart#",
+    "routing": "fore_auvr_radio_11_1 =1#qstart#",
     "qname": "FORE_aUVR_RADIO_11_1A4",
     "qtype": "single",
     "qlabel": "1A4 FORE_aUVR_RADIO_11_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

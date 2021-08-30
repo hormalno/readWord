@@ -186,17 +186,15 @@ if driv_acto_radio_6_1a2b1 * {_2} then
 end if
 'DRIV_aUVR_RADIO_7_1
 DRIV_aUVR_RADIO_7_1.Ask()
-'to do Incorrect instruction (doesnt have = symbol)
-'if driv_auvr_radio_7_1 then
-'	DRIV_aUVR_RADIO_7_1A1.Ask()
-'end if
+if driv_auvr_radio_7_1 * {_1} then
+	DRIV_aUVR_RADIO_7_1A1.Ask()
+end if
 if driv_auvr_radio_7_1a1 * {_1} then
 	DRIV_aUVR_CHECK_7_1A1A1.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if driv_auvr_radio_7_1 then
-'	DRIV_aUVR_CHECK_7_1A3.Ask()
-'end if
+if driv_auvr_radio_7_1 * {_1} then
+	DRIV_aUVR_CHECK_7_1A3.Ask()
+end if
 if driv_auvr_check_7_1a3 * {A} then
 	DRIV_aUVR_RADIO_7_1A3A1.Ask()
 end if
@@ -233,10 +231,9 @@ end if
 if driv_auvr_radio_7_1a3c1 * {_1} then
 	DRIV_aUVR_RADIO_7_1A3C1A3.Ask()
 end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if driv_auvr_radio_7_1 then
-'	DRIV_aUVR_RADIO_7_1A4.Ask()
-'end if
+if driv_auvr_radio_7_1 * {_1} then
+	DRIV_aUVR_RADIO_7_1A4.Ask()
+end if
 'DRIV_aCLH_RADIO_8_1
 DRIV_aCLH_RADIO_8_1.Ask()
 if driv_aclh_radio_8_1 * {_1} then

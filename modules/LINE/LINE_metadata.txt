@@ -357,14 +357,14 @@ categorical [1..1]
 	_2 "LINE_3A3B No" [Value=2],
 	_3 "LINE_3A3C Don’t know" [Value=3] exclusive
 };
-aFPE_RADIO_4_1 "1 aFPE_RADIO_4_1 - In the last working week, did you use or repair any fuel-powered equipment other than vehicles or generators (e.g., concrete cutter, metal cutter, truck mount, chainsaws, lawnmowers, concrete mixer, brush cutter)?"
+LINE_aFPE_RADIO_4_1 "1 LINE_aFPE_RADIO_4_1 - In the last working week, did you use or repair any fuel-powered equipment other than vehicles or generators (e.g., concrete cutter, metal cutter, truck mount, chainsaws, lawnmowers, concrete mixer, brush cutter)?"
 categorical [1..1]
 {
 	_1 "aFPE_1A Yes" [Value=1],
 	_2 "aFPE_1B No" [Value=2],
 	_3 "aFPE_1C Don’t know" [Value=3] exclusive
 };
-aFPE_CHECK_4_1A1 "1A1 aFPE_CHECK_4_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?"
+LINE_aFPE_CHECK_4_1A1 "1A1 LINE_aFPE_CHECK_4_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?"
 categorical [1..]
 {
 	A "aFPE_1A1A Diesel" [Value=1],
@@ -373,14 +373,14 @@ categorical [1..]
 	D "aFPE_1A1D Other" [Value=4],
 	E "aFPE_1A1E Don’t know" [Value=5] exclusive
 };
-aFPE_RADIO_4_1A2 "1A2 aFPE_RADIO_4_1A2 - Were you indoors when you were using or repairing the equipment?"
+LINE_aFPE_RADIO_4_1A2 "1A2 LINE_aFPE_RADIO_4_1A2 - Were you indoors when you were using or repairing the equipment?"
 categorical [1..1]
 {
 	_1 "aFPE_1A2A Yes" [Value=1],
 	_2 "aFPE_1A2B No" [Value=2],
 	_3 "aFPE_1A2C Don’t know" [Value=3] exclusive
 };
-aFPE_CHECK_4_1A2A1 "1A2A1 aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?"
+ "1A2A1  LINE_aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?"
 categorical [1..]
 {
 	A "aFPE_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
@@ -392,7 +392,7 @@ categorical [1..]
 	G "aFPE_1A2A1G Other" [Value=7],
 	H "aFPE_1A2A1H Don’t know" [Value=8] exclusive
 };
-aFPE_RADIO_4_1A3 "1A3 aFPE_RADIO_4_1A3 - In the last working week, did you refuel the equipment?"
+LINE_aFPE_RADIO_4_1A3 "1A3 LINE_aFPE_RADIO_4_1A3 - In the last working week, did you refuel the equipment?"
 categorical [1..1]
 {
 	_1 "aFPE_1A3A Yes" [Value=1],

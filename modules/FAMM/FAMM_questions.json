@@ -1407,7 +1407,7 @@
     ]
   },
   {
-    "routing": " famm_radio_6 =1#qstart#",
+    "routing": "famm_radio_6 =1#qstart#",
     "qname": "FAMM_aSTP_RADIO_6A1_1",
     "qtype": "single",
     "qlabel": "1 FAMM_aSTP_RADIO_6A1_1 - In the last working week, did you strip paint from existing surfaces?",
@@ -1437,7 +1437,7 @@
     "qlabel": "1A1 FAMM_aSTP_RADIO_6A1_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?",
     "categories": [
       {
-        "catLabel": "aSTP_1A1A Yes If FAMM_aSTP_RADIO_7A2_1A1",
+        "catLabel": "aSTP_1A1A Yes",
         "catValue": "1",
         "catName": "_1"
       },
@@ -1455,7 +1455,7 @@
     ]
   },
   {
-    "routing": "famm_astp_radio_6a1_1a1#qstart#",
+    "routing": "famm_astp_radio_6a1_1a1=1#qstart#",
     "qname": "FAMM_aSTP_CHECK_6A1_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 FAMM_aSTP_CHECK_6A1_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
@@ -1693,7 +1693,7 @@
     ]
   },
   {
-    "routing": " famm_radio_6 =1#qstart#",
+    "routing": "famm_radio_6 =1#qstart#",
     "qname": "FAMM_aSAN_RADIO_6A2_1",
     "qtype": "single",
     "qlabel": "1 FAMM_aSAN_RADIO_6A2_1 - In the last working week, did you sand or polish items?",
@@ -1896,7 +1896,7 @@
     ]
   },
   {
-    "routing": " famm_radio_6 =1#qstart#",
+    "routing": "famm_radio_6 =1#qstart#",
     "qname": "FAMM_aPAI_RADIO_6A3_1",
     "qtype": "single",
     "qlabel": "1 FAMM_aPAI_RADIO_6A3_1 - In the last working week, did you use paints, stains, varnishes, polishes, or sealers?",
@@ -4159,7 +4159,7 @@
     ]
   },
   {
-    "routing": "famm_aasr_check_12_1a1b8a1 = 5#qstart#",
+    "routing": "famm_aasr_radio_12_1a1 = 3#qstart#",
     "qname": "FAMM_aASR_RADIO_12_1A1C1",
     "qtype": "single",
     "qlabel": "1A1C1 FAMM_aASR_RADIO_12_1A1C1 - Please specify",
@@ -4578,7 +4578,7 @@
     ]
   },
   {
-    "routing": "iaenu_radio_13_1a2a1b1  =1#qstart#",
+    "routing": "famm_aenu_radio_13_1a2a1b1 =1#qstart#",
     "qname": "FAMM_aDVM_CHECK_15_1A1",
     "qtype": "multi",
     "qlabel": "1A1 FAMM_aDVM_CHECK_15_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?",
@@ -4618,7 +4618,7 @@
     ]
   },
   {
-    "routing": "iaenu_radio_13_1a2a1b1  =1#qstart#",
+    "routing": "famm_aenu_radio_13_1a2a1b1 =1#qstart#",
     "qname": "FAMM_aDVM_RADIO_15_1A2",
     "qtype": "single",
     "qlabel": "1A2 FAMM_aDVM_RADIO_15_1A2 - In the last working week, did you fuel the vehicles yourself?",
@@ -4642,7 +4642,7 @@
     ]
   },
   {
-    "routing": "iaenu_radio_13_1a2a1b1  =1#qstart#",
+    "routing": "famm_aenu_radio_13_1a2a1b1 =1#qstart#",
     "qname": "FAMM_aDVM_RADIO_15_1A3",
     "qtype": "single",
     "qlabel": "1A3 FAMM_aDVM_RADIO_15_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?",
@@ -4730,7 +4730,7 @@
     ]
   },
   {
-    "routing": "iaenu_radio_13_1a2a1b1  =1#qstart#",
+    "routing": "famm_aenu_radio_13_1a2a1b1 =1#qstart#",
     "qname": "FAMM_aDVM_RADIO_15_1A4",
     "qtype": "single",
     "qlabel": "1A4 FAMM_aDVM_RADIO_15_1A4 - In the last working week, did you perform any maintenance work on vehicles?",
@@ -4778,7 +4778,7 @@
     ]
   },
   {
-    "routing": "famm_afpe_radio_1a3a1b2_1a2 #qstart#",
+    "routing": "famm_afpe_radio_14_1a2=1#qstart#",
     "qname": "FAMM_aDVM_RADIO_15_1A4A1A1",
     "qtype": "single",
     "qlabel": "1A4A1A1 FAMM_aDVM_RADIO_15_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?",
@@ -4826,7 +4826,7 @@
     ]
   },
   {
-    "routing": "famm_advm_radio_15_1a3  =1#qstart#",
+    "routing": "famm_afpe_radio_14_1a3 =1#qstart#",
     "qname": "FAMM_aDVM_RADIO_15_1A4A2A1",
     "qtype": "single",
     "qlabel": "1A4A2A1 FAMM_aDVM_RADIO_15_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?",
@@ -5171,7 +5171,7 @@
     ]
   },
   {
-    "routing": "famm_advm_check_16_1a3a1 =1#qstart#",
+    "routing": "famm_advm_check_15_1a3a1 =1#qstart#",
     "qname": "FAMM_aFTC_RADIO_16_1A4",
     "qtype": "single",
     "qlabel": "1A4 FAMM_aFTC_RADIO_16_1A4 - In the last working week, did you use respiratory protection?",
@@ -6382,7 +6382,7 @@
     ]
   },
   {
-    "routing": "famm_adeg_check_20_1a1a1e1=1#qstart#",
+    "routing": "famm_adeg_check_20_1a1a1c1 =1#qstart#",
     "qname": "FAMM_aDEG_CHECK_20_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 FAMM_aDEG_CHECK_20_1A2A1 - What types of respiratory protective equipment (RPE) did you use?",
@@ -6529,7 +6529,7 @@
     ]
   },
   {
-    "routing": " famm_adeg_radio_20_1a1a1e2 =1#qstart#",
+    "routing": "famm_adeg_radio_20_1a1a1e2 =1#qstart#",
     "qname": "FAMM_aUVR_CHECK_22_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 FAMM_aUVR_CHECK_22_1A1A1 - In the last working week, did you work with or near any of the following reflective surfaces?",

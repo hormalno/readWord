@@ -640,7 +640,7 @@
     ]
   },
   {
-    "routing": "line_radio_3 -=1#qstart#",
+    "routing": "line_radio_3 =1#qstart#",
     "qname": "LINE_CHECK_3A1",
     "qtype": "multi",
     "qlabel": "3A1 LINE_CHECK_3A1 - In the last working week, what types of power plant/stations did you work at?",
@@ -1273,7 +1273,7 @@
     ]
   },
   {
-    "routing": "line_radio_3a2 =1#qstart#",
+    "routing": "line_radio_3 =1#qstart#",
     "qname": "LINE_RADIO_3A3",
     "qtype": "single",
     "qlabel": "3A3 LINE_RADIO_3A3 - Was the power station you worked at built before 2002?",
@@ -1298,9 +1298,9 @@
   },
   {
     "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
-    "qname": "aFPE_RADIO_4_1",
+    "qname": "LINE_aFPE_RADIO_4_1",
     "qtype": "single",
-    "qlabel": "1 aFPE_RADIO_4_1 - In the last working week, did you use or repair any fuel-powered equipment other than vehicles or generators (e.g., concrete cutter, metal cutter, truck mount, chainsaws, lawnmowers, concrete mixer, brush cutter)?",
+    "qlabel": "1 LINE_aFPE_RADIO_4_1 - In the last working week, did you use or repair any fuel-powered equipment other than vehicles or generators (e.g., concrete cutter, metal cutter, truck mount, chainsaws, lawnmowers, concrete mixer, brush cutter)?",
     "categories": [
       {
         "catLabel": "aFPE_1A Yes",
@@ -1321,10 +1321,10 @@
     ]
   },
   {
-    "routing": "afpe_radio_4_1 #qstart#",
-    "qname": "aFPE_CHECK_4_1A1",
+    "routing": "lineafpe_radio_4_1 =1#qstart#",
+    "qname": "LINE_aFPE_CHECK_4_1A1",
     "qtype": "multi",
-    "qlabel": "1A1 aFPE_CHECK_4_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
+    "qlabel": "1A1 LINE_aFPE_CHECK_4_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
     "categories": [
       {
         "catLabel": "aFPE_1A1A Diesel",
@@ -1355,10 +1355,10 @@
     ]
   },
   {
-    "routing": "afpe_radio_4_1 #qstart#",
-    "qname": "aFPE_RADIO_4_1A2",
+    "routing": "lineafpe_radio_4_1 =1#qstart#",
+    "qname": "LINE_aFPE_RADIO_4_1A2",
     "qtype": "single",
-    "qlabel": "1A2 aFPE_RADIO_4_1A2 - Were you indoors when you were using or repairing the equipment?",
+    "qlabel": "1A2 LINE_aFPE_RADIO_4_1A2 - Were you indoors when you were using or repairing the equipment?",
     "categories": [
       {
         "catLabel": "aFPE_1A2A Yes",
@@ -1379,10 +1379,10 @@
     ]
   },
   {
-    "routing": "afpe_radio_4_1a2 #qstart#",
-    "qname": "aFPE_CHECK_4_1A2A1",
+    "routing": "lineafpe_radio_4_1a2 =1#qstart#",
+    "qname": "",
     "qtype": "multi",
-    "qlabel": "1A2A1 aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?",
+    "qlabel": "1A2A1  LINE_aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?",
     "categories": [
       {
         "catLabel": "aFPE_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point",
@@ -1428,10 +1428,10 @@
     ]
   },
   {
-    "routing": "afpe_radio_4_1 #qstart#",
-    "qname": "aFPE_RADIO_4_1A3",
+    "routing": "lineafpe_radio_4_1 =1#qstart#",
+    "qname": "LINE_aFPE_RADIO_4_1A3",
     "qtype": "single",
-    "qlabel": "1A3 aFPE_RADIO_4_1A3 - In the last working week, did you refuel the equipment?",
+    "qlabel": "1A3 LINE_aFPE_RADIO_4_1A3 - In the last working week, did you refuel the equipment?",
     "categories": [
       {
         "catLabel": "aFPE_1A3A Yes",
@@ -2237,7 +2237,7 @@
     ]
   },
   {
-    "routing": "agal_radio_7_1a4 =1#qstart#",
+    "routing": "jobcat2 = 7 or jobcat3 = 5 or jobcat5 = 4 or jobcat7 = 1 or jobcat12 = 7#qstart#",
     "qname": "LINE_aVEX_RADIO_8_1",
     "qtype": "single",
     "qlabel": "1 LINE_aVEX_RADIO_8_1 - In the last working week, did you work in an area where there were vehicles driven or had their engines running?",
@@ -2817,7 +2817,7 @@
     ]
   },
   {
-    "routing": "line_auvr_radio_11_1 #qstart#",
+    "routing": "line_auvr_radio_11_1 =1#qstart#",
     "qname": "LINE_aUVR_RADIO_11_1A1",
     "qtype": "single",
     "qlabel": "1A1 LINE_aUVR_RADIO_11_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -2901,7 +2901,7 @@
     ]
   },
   {
-    "routing": "line_auvr_radio_11_1 #qstart#",
+    "routing": "line_auvr_radio_11_1 =1#qstart#",
     "qname": "LINE_aUVR_CHECK_11_1A3",
     "qtype": "multi",
     "qlabel": "1A3 LINE_aUVR_CHECK_11_1A3 - When you were working outdoors, were you:",
@@ -3233,7 +3233,7 @@
     ]
   },
   {
-    "routing": "line_auvr_radio_11_1 #qstart#",
+    "routing": "line_auvr_radio_11_1 =1#qstart#",
     "qname": "LINE_aUVR_RADIO_11_1A4",
     "qtype": "single",
     "qlabel": "1A4 LINE_aUVR_RADIO_11_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

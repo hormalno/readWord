@@ -410,7 +410,8 @@
         "catName": "_8"
       },
       {
-        "catLabel": "aPES_1A1A5I Don't  know",
+        "catLabel": "aPES_1A1A5I Don’t know",
+        "isExclusive": true,
         "catValue": "9",
         "catName": "_9"
       }
@@ -901,7 +902,7 @@
     "qlabel": "1A1 JANI_aSTP_RADIO_3A1_1A1 - In the last working week, did you use sanding, blasting or grinding methods to strip paint from existing surfaces?",
     "categories": [
       {
-        "catLabel": "aSTP_1A1A Yes If JANI_aSTP_RADIO_7A2_1A1",
+        "catLabel": "aSTP_1A1A Yes",
         "catValue": "1",
         "catName": "_1"
       },
@@ -919,7 +920,7 @@
     ]
   },
   {
-    "routing": "jani_astp_radio_3a1_1a1#qstart#",
+    "routing": "jani_astp_radio_3a1_1a1=1#qstart#",
     "qname": "JANI_aSTP_CHECK_3A1_1A1A1",
     "qtype": "multi",
     "qlabel": "1A1A1 JANI_aSTP_CHECK_3A1_1A1A1 - Which of the following measures did you use while sanding, blasting or grinding?",
@@ -2069,9 +2070,9 @@
   },
   {
     "routing": "jani_radio_5 =1#qstart#",
-    "qname": "aWL_RADIO_5A2_1",
+    "qname": "JANI_aWL_RADIO_5A2_1",
     "qtype": "single",
-    "qlabel": "1 aWL_RADIO_5A2_1 - In the last working week, did you weld, torch, braze, cut, or laser metals?",
+    "qlabel": "1 JANI_aWL_RADIO_5A2_1 - In the last working week, did you weld, torch, braze, cut, or laser metals?",
     "categories": [
       {
         "catLabel": "aWEL_1A Yes",
@@ -2708,7 +2709,7 @@
     ]
   },
   {
-    "routing": "jani_afpe_radio_6a1_1 #qstart#",
+    "routing": "jani_afpe_radio_6a1_1 =1#qstart#",
     "qname": "JANI_aFPE_CHECK_6A1_1A1",
     "qtype": "multi",
     "qlabel": "1A1 JANI_aFPE_CHECK_6A1_1A1 - What type of fuel was used in the equipment (other than vehicles) you used or repaired?",
@@ -2742,7 +2743,7 @@
     ]
   },
   {
-    "routing": "jani_afpe_radio_6a1_1 #qstart#",
+    "routing": "jani_afpe_radio_6a1_1 =1#qstart#",
     "qname": "JANI_aFPE_RADIO_6A1_1A2",
     "qtype": "single",
     "qlabel": "1A2 JANI_aFPE_RADIO_6A1_1A2 - Were you indoors when you were using or repairing the equipment?",
@@ -2766,7 +2767,7 @@
     ]
   },
   {
-    "routing": "jani_afpe_radio_6a1_1a2 #qstart#",
+    "routing": "jani_afpe_radio_6a1_1a2 =1#qstart#",
     "qname": "JANI_aFPE_CHECK_6A1_1A2A1",
     "qtype": "multi",
     "qlabel": "1A2A1 JANI_aFPE_CHECK_6A1_1A2A1 - How was the area where you worked ventilated?",
@@ -2815,7 +2816,7 @@
     ]
   },
   {
-    "routing": "jani_afpe_radio_6a1_1 #qstart#",
+    "routing": "jani_afpe_radio_6a1_1 =1#qstart#",
     "qname": "JANI_aFPE_RADIO_6A1_1A3",
     "qtype": "single",
     "qlabel": "1A3 JANI_aFPE_RADIO_6A1_1A3 - In the last working week, did you refuel the equipment?",
@@ -4502,7 +4503,7 @@
     ]
   },
   {
-    "routing": "jani_aasr_check_8_1a1b8a1 = 5#qstart#",
+    "routing": "jani_aasr_radio_8_1a1 = 3#qstart#",
     "qname": "JANI_aASR_RADIO_8_1A1C1",
     "qtype": "single",
     "qlabel": "1A1C1 JANI_aASR_RADIO_8_1A1C1 - Please specify",
@@ -5489,7 +5490,7 @@
     ]
   },
   {
-    "routing": "jani_auvr_radio_13_1 #qstart#",
+    "routing": "jani_auvr_radio_13_1 =1#qstart#",
     "qname": "JANI_aUVR_RADIO_13_1A1",
     "qtype": "single",
     "qlabel": "1A1 JANI_aUVR_RADIO_13_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -5573,7 +5574,7 @@
     ]
   },
   {
-    "routing": "jani_auvr_radio_13_1 #qstart#",
+    "routing": "jani_auvr_radio_13_1 =1#qstart#",
     "qname": "JANI_aUVR_CHECK_13_1A3",
     "qtype": "multi",
     "qlabel": "1A3 JANI_aUVR_CHECK_13_1A3 - When you were working outdoors, were you:",
@@ -5905,7 +5906,7 @@
     ]
   },
   {
-    "routing": "jani_auvr_radio_13_1 #qstart#",
+    "routing": "jani_auvr_radio_13_1 =1#qstart#",
     "qname": "JANI_aUVR_RADIO_13_1A4",
     "qtype": "single",
     "qlabel": "1A4 JANI_aUVR_RADIO_13_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

@@ -1181,7 +1181,8 @@
         "catName": "_8"
       },
       {
-        "catLabel": "aPES_1A1A5I Don't  know",
+        "catLabel": "aPES_1A1A5I Don’t know",
+        "isExclusive": true,
         "catValue": "9",
         "catName": "_9"
       }
@@ -1337,7 +1338,7 @@
     ]
   },
   {
-    "routing": "flor_auvr_radio_7_1 #qstart#",
+    "routing": "flor_auvr_radio_7_1 =1#qstart#",
     "qname": "FLOR_aUVR_RADIO_7_1A1",
     "qtype": "single",
     "qlabel": "1A1 FLOR_aUVR_RADIO_7_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -1421,7 +1422,7 @@
     ]
   },
   {
-    "routing": "flor_auvr_radio_7_1 #qstart#",
+    "routing": "flor_auvr_radio_7_1 =1#qstart#",
     "qname": "FLOR_aUVR_CHECK_7_1A3",
     "qtype": "multi",
     "qlabel": "1A3 FLOR_aUVR_CHECK_7_1A3 - When you were working outdoors, were you:",
@@ -1753,7 +1754,7 @@
     ]
   },
   {
-    "routing": "flor_auvr_radio_7_1 #qstart#",
+    "routing": "flor_auvr_radio_7_1 =1#qstart#",
     "qname": "FLOR_aUVR_RADIO_7_1A4",
     "qtype": "single",
     "qlabel": "1A4 FLOR_aUVR_RADIO_7_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

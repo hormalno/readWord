@@ -14,15 +14,3 @@
 'if clnr_afpe_radio_6_1 then
 '	CLNR_aFPE_RADIO_6_1A3.Ask()
 'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if clnr_auvr_radio_8_1 then
-'	CLNR_aUVR_RADIO_8_1A1.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if clnr_auvr_radio_8_1 then
-'	CLNR_aUVR_CHECK_8_1A3.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if clnr_auvr_radio_8_1 then
-'	CLNR_aUVR_RADIO_8_1A4.Ask()
-'end if

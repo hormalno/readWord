@@ -1,7 +1,3 @@
-'to do Incorrect instruction (doesnt have = symbol)
-'if famm_astp_radio_6a1_1a1 then
-'	FAMM_aSTP_CHECK_6A1_1A1A1.Ask()
-'end if
 'to do question doesnt exists
 'if famm_aenu_radio_14_1 =1 then
 '	FAMM_aFPE_CHECK_14_1A1.Ask()
@@ -17,30 +13,6 @@
 'to do question doesnt exists
 'if famm_aenu_radio_14_1 =1 then
 '	FAMM_aFPE_RADIO_14_1A3.Ask()
-'end if
-'to do question doesnt exists
-'if iaenu_radio_13_1a2a1b1  =1 then
-'	FAMM_aDVM_CHECK_15_1A1.Ask()
-'end if
-'to do question doesnt exists
-'if iaenu_radio_13_1a2a1b1  =1 then
-'	FAMM_aDVM_RADIO_15_1A2.Ask()
-'end if
-'to do question doesnt exists
-'if iaenu_radio_13_1a2a1b1  =1 then
-'	FAMM_aDVM_RADIO_15_1A3.Ask()
-'end if
-'to do question doesnt exists
-'if iaenu_radio_13_1a2a1b1  =1 then
-'	FAMM_aDVM_RADIO_15_1A4.Ask()
-'end if
-'to do Incorrect instruction (doesnt have = symbol)
-'if famm_afpe_radio_1a3a1b2_1a2 then
-'	FAMM_aDVM_RADIO_15_1A4A1A1.Ask()
-'end if
-'to do question doesnt exists
-'if famm_advm_check_16_1a3a1 =1 then
-'	FAMM_aFTC_RADIO_16_1A4.Ask()
 'end if
 'to do Incorrect instruction (the question name is incorrect)
 'if 1a1b2 = then

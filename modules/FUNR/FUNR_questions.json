@@ -2366,7 +2366,7 @@
     ]
   },
   {
-    "routing": "funr_auvr_radio_14_1 #qstart#",
+    "routing": "funr_auvr_radio_14_1 =1#qstart#",
     "qname": "FUNR_aUVR_RADIO_14_1A1",
     "qtype": "single",
     "qlabel": "1A1 FUNR_aUVR_RADIO_14_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -2450,7 +2450,7 @@
     ]
   },
   {
-    "routing": "funr_auvr_radio_14_1 #qstart#",
+    "routing": "funr_auvr_radio_14_1 =1#qstart#",
     "qname": "FUNR_aUVR_CHECK_14_1A3",
     "qtype": "multi",
     "qlabel": "1A3 FUNR_aUVR_CHECK_14_1A3 - When you were working outdoors, were you:",
@@ -2782,7 +2782,7 @@
     ]
   },
   {
-    "routing": "funr_auvr_radio_14_1 #qstart#",
+    "routing": "funr_auvr_radio_14_1 =1#qstart#",
     "qname": "FUNR_aUVR_RADIO_14_1A4",
     "qtype": "single",
     "qlabel": "1A4 FUNR_aUVR_RADIO_14_1A4 - In the last working week, did you wear sunglasses when you were working outside?",

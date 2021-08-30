@@ -1,6 +1,6 @@
 [
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_RADIO_1",
     "qtype": "single",
     "qlabel": "1 GENE_RADIO_1 - In the last working week, what kind of tasks did you perform daily at work?",
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_RADIO_2",
     "qtype": "single",
     "qlabel": "2 GENE_RADIO_2 - In the last working week, did you drive, maintain, load or unload vehicles or work around idling vehicles?",
@@ -845,7 +845,8 @@
         "catName": "_2"
       },
       {
-        "catLabel": "aMAH_1A1A1B3C Don't  know",
+        "catLabel": "aMAH_1A1A1B3C Don’t know",
+        "isExclusive": true,
         "catValue": "3",
         "catName": "_3"
       }
@@ -1095,7 +1096,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_aDEG_RADIO_3_1",
     "qtype": "single",
     "qlabel": "1 GENE_aDEG_RADIO_3_1 - In the last working week, did you degrease items?",
@@ -1616,7 +1617,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_RADIO_4",
     "qtype": "single",
     "qlabel": "4 GENE_RADIO_4 - In the last working week, did you paint, varnish, seal items, prepare them for painting, or use glues?",
@@ -2765,7 +2766,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_RADIO_5",
     "qtype": "single",
     "qlabel": "5 GENE_RADIO_5 - In the last working week, did you solder or weld?",
@@ -3381,7 +3382,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_aCTW_RADIO_6_1",
     "qtype": "single",
     "qlabel": "1 GENE_aCTW_RADIO_6_1 - In the last working week, did you chop, cut, saw, sand or otherwise work with wood?",
@@ -3638,7 +3639,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_aCTS_RADIO_7_1",
     "qtype": "single",
     "qlabel": "1 GENE_aCTS_RADIO_7_1 - In the last working week, did you cut, drill, grind, polish or work with concrete, stone, artificial stone, slate, ceramic tiles or bricks?",
@@ -3662,7 +3663,7 @@
     ]
   },
   {
-    "routing": "gene_acts_radio_6_1 #qstart#",
+    "routing": "gene_acts_radio_7_1 =1#qstart#",
     "qname": "GENE_aCTS_RADIO_7_1A1",
     "qtype": "single",
     "qlabel": "1A1 GENE_aCTS_RADIO_7_1A1 - Which of the following materials did you work with?",
@@ -3697,7 +3698,7 @@
     ]
   },
   {
-    "routing": "gene_acts_radio_6_1 #qstart#",
+    "routing": "gene_acts_radio_7_1 =1#qstart#",
     "qname": "GENE_aCTS_RADIO_7_1A2",
     "qtype": "single",
     "qlabel": "1A2 GENE_aCTS_RADIO_7_1A2 - In the last working week, did you use water suppression all the time when you were working on these materials?",
@@ -3721,7 +3722,7 @@
     ]
   },
   {
-    "routing": "gene_acts_radio_6_1 #qstart#",
+    "routing": "gene_acts_radio_7_1 =1#qstart#",
     "qname": "GENE_aCTS_RADIO_7_1A3",
     "qtype": "single",
     "qlabel": "1A3 GENE_aCTS_RADIO_7_1A3 - In the last working week, did you use on tool ventilation or dust collection when you worked with these materials?",
@@ -3745,7 +3746,7 @@
     ]
   },
   {
-    "routing": "gene_acts_radio_6_1 #qstart#",
+    "routing": "gene_acts_radio_7_1 =1#qstart#",
     "qname": "GENE_aCTS_RADIO_7_1A4",
     "qtype": "single",
     "qlabel": "1A4 GENE_aCTS_RADIO_7_1A4 - In the last working week, did you always work in the open air when you worked with these materials?",
@@ -3769,7 +3770,7 @@
     ]
   },
   {
-    "routing": "gene_acts_radio_6_1 #qstart#",
+    "routing": "gene_acts_radio_7_1 =1#qstart#",
     "qname": "GENE_aCTS_RADIO_7_1A5",
     "qtype": "single",
     "qlabel": "1A5 GENE_aCTS_RADIO_7_1A5 - In the last working week, did you use a filtering or air-supplied respirator when you worked with these materials (including if you were working in the open air)?",
@@ -3793,7 +3794,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_aUVR_RADIO_8_1",
     "qtype": "single",
     "qlabel": "1 GENE_aUVR_RADIO_8_1 - In the last working week, did you work outside during the day (includes being in a vehicle that is outside)?",
@@ -3817,7 +3818,7 @@
     ]
   },
   {
-    "routing": "gene_auvr_radio_8_1 #qstart#",
+    "routing": "gene_auvr_radio_8_1 =1#qstart#",
     "qname": "GENE_aUVR_RADIO_8_1A1",
     "qtype": "single",
     "qlabel": "1A1 GENE_aUVR_RADIO_8_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?",
@@ -3901,7 +3902,7 @@
     ]
   },
   {
-    "routing": "gene_auvr_radio_8_1 #qstart#",
+    "routing": "gene_auvr_radio_8_1 =1#qstart#",
     "qname": "GENE_aUVR_CHECK_8_1A3",
     "qtype": "multi",
     "qlabel": "1A3 GENE_aUVR_CHECK_8_1A3 - When you were working outdoors, were you:",
@@ -4233,7 +4234,7 @@
     ]
   },
   {
-    "routing": "gene_auvr_radio_8_1 #qstart#",
+    "routing": "gene_auvr_radio_8_1 =1#qstart#",
     "qname": "GENE_aUVR_RADIO_8_1A4",
     "qtype": "single",
     "qlabel": "1A4 GENE_aUVR_RADIO_8_1A4 - In the last working week, did you wear sunglasses when you were working outside?",
@@ -4257,7 +4258,7 @@
     ]
   },
   {
-    "routing": "jobcatx = y#qstart#",
+    "routing": "jobcat14=1#qstart#",
     "qname": "GENE_aCLH_RADIO_10_1",
     "qtype": "single",
     "qlabel": "1 GENE_aCLH_RADIO_10_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?",
