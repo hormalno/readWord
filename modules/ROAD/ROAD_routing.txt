@@ -1,0 +1,296 @@
+'ROAD_CHECK_1
+ROAD_CHECK_1.Ask()
+if road_check_1 * {B} then
+	ROAD_RADIO_1B1.Ask()
+end if
+if road_check_1 * {C} then
+	ROAD_CHECK_1C1.Ask()
+end if
+if road_check_1 * {H} then
+	ROAD_RADIO_1H1.Ask()
+end if
+'ROAD_RADIO_2
+ROAD_RADIO_2.Ask()
+if road_radio_2 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A1.Ask()
+end if
+if road_apai_radio_2a1_1a1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A1A1.Ask()
+end if
+if road_apai_radio_2a1_1a1a1 * {_1} then
+	ROAD_aPAI_CHECK_2A1_1A1A1A1.Ask()
+end if
+if road_apai_radio_2a1_1a1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A1A2.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A2.Ask()
+end if
+if road_apai_radio_2a1_1a2 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A2A1.Ask()
+end if
+if road_apai_radio_2a1_1a2 * {_1} then
+	ROAD_aPAI_CHECK_2A1_1A2A2.Ask()
+end if
+if road_apai_radio_2a1_1a2 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A2A3.Ask()
+end if
+if road_apai_radio_2a1_1a2a3 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A2A3A1.Ask()
+end if
+if road_apai_radio_2a1_1a2a3 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A2A3A2.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3.Ask()
+end if
+if road_apai_radio_2a1_1a3 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3A1.Ask()
+end if
+if road_apai_radio_2a1_1a3a1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3A1A1.Ask()
+end if
+if road_apai_radio_2a1_1a3a1 * {_1} then
+	ROAD_aPAI_CHECK_2A1_1A3A1A2.Ask()
+end if
+if road_apai_radio_2a1_1a3 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3A2.Ask()
+end if
+if road_apai_radio_2a1_1a3a2 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3A2A1.Ask()
+end if
+if road_apai_radio_2a1_1a3a2 * {_1} then
+	ROAD_aPAI_CHECK_2A1_1A3A2A2.Ask()
+end if
+if road_apai_radio_2a1_1a3a2 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3A2A3.Ask()
+end if
+if road_apai_radio_2a1_1a3a2 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A3A2A4.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A4.Ask()
+end if
+if road_apai_radio_2a1_1a4 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A4A1.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A5.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A6.Ask()
+end if
+if road_apai_radio_2a1_1a6 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A6A1.Ask()
+end if
+if road_apai_radio_2a1_1 * {_1} then
+	ROAD_aPAI_RADIO_2A1_1A7.Ask()
+end if
+if road_apai_radio_2a1_1a7 * {_1} then
+	ROAD_aPAI_CHECK_2A1_1A7A1.Ask()
+end if
+'ROAD_RADIO_3
+ROAD_RADIO_3.Ask()
+'ROAD_aASR_RADIO_4_1
+ROAD_aASR_RADIO_4_1.Ask()
+if road_aasr_radio_4_1 * {_1} then
+	ROAD_aASR_RADIO_4_1A1.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_1} then
+	ROAD_aASR_CHECK_4_1A1A1.Ask()
+end if
+if road_aasr_check_4_1a1a1 * {G} then
+	ROAD_aASR_RADIO_4_1A1A1G1.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_1} then
+	ROAD_aASR_RADIO_4_1A1A2.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_1} then
+	ROAD_aASR_RADIO_4_1A1A3.Ask()
+end if
+if road_aasr_radio_4_1a1a3 * {_1} then
+	ROAD_aASR_CHECK_4_1A1A3A1.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_1} then
+	ROAD_aASR_CHECK_4_1A1A4.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_CHECK_4_1A1B1.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_CHECK_4_1A1B2.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_RADIO_4_1A1B3.Ask()
+end if
+if road_aasr_radio_4_1a1b3 * {_1} then
+	ROAD_aASR_RADIO_4_1A1B3A1.Ask()
+end if
+if road_aasr_radio_4_1a1b3a1 * {_1} then
+	ROAD_aASR_RADIO_4_1A1B3A1A1.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_RADIO_4_1A1B4.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_CHECK_4_1A1B5.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_RADIO_4_1A1B6.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_RADIO_4_1A1B7.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_2} then
+	ROAD_aASR_RADIO_4_1A1B8.Ask()
+end if
+if road_aasr_radio_4_1a1b8 * {_1} then
+	ROAD_aASR_CHECK_4_1A1B8A1.Ask()
+end if
+if road_aasr_radio_4_1a1 * {_3} then
+	ROAD_aASR_RADIO_4_1A1C1.Ask()
+end if
+'ROAD_aCTS_RADIO_5_1
+ROAD_aCTS_RADIO_5_1.Ask()
+if road_acts_radio_5_1 * {_1} then
+	ROAD_aCTS_RADIO_5_1A1.Ask()
+end if
+if road_acts_radio_5_1 * {_1} then
+	ROAD_aCTS_RADIO_5_1A2.Ask()
+end if
+if road_acts_radio_5_1 * {_1} then
+	ROAD_aCTS_RADIO_5_1A3.Ask()
+end if
+if road_acts_radio_5_1 * {_1} then
+	ROAD_aCTS_RADIO_5_1A4.Ask()
+end if
+if road_acts_radio_5_1 * {_1} then
+	ROAD_aCTS_RADIO_5_1A5.Ask()
+end if
+'ROAD_aDVM_RADIO_6_1
+ROAD_aDVM_RADIO_6_1.Ask()
+if road_advm_radio_6_1 * {_1} then
+	ROAD_aDVM_CHECK_6_1A1.Ask()
+end if
+if road_advm_radio_6_1 * {_1} then
+	ROAD_aDVM_RADIO_6_1A2.Ask()
+end if
+if road_advm_radio_6_1 * {_1} then
+	ROAD_aDVM_RADIO_6_1A3.Ask()
+end if
+if road_advm_radio_6_1a3 * {_1} then
+	ROAD_aDVM_CHECK_6_1A3A1.Ask()
+end if
+if road_advm_radio_6_1 * {_1} then
+	ROAD_aDVM_RADIO_6_1A4.Ask()
+end if
+if road_advm_radio_6_1a4 * {_1} then
+	ROAD_aDVM_RADIO_6_1A4A1.Ask()
+end if
+if road_advm_radio_6_1a4a1 * {_1} then
+	ROAD_aDVM_RADIO_6_1A4A1A1.Ask()
+end if
+if road_advm_radio_6_1a4 * {_1} then
+	ROAD_aDVM_RADIO_6_1A4A2.Ask()
+end if
+if road_advm_radio_6_1a4a2 * {_1} then
+	ROAD_aDVM_RADIO_6_1A4A2A1.Ask()
+end if
+if road_advm_radio_6_1a4 * {_1} then
+	ROAD_aDVM_RADIO_6_1A4A4.Ask()
+end if
+if road_advm_radio_6_1a4 * {_1} then
+	ROAD_aDVM_CHECK_6_1A4A5.Ask()
+end if
+if road_advm_check_6_1a4a5 * {A} then
+	ROAD_aDVM_CHECK_6_1A4A5A1.Ask()
+end if
+'ROAD_aVEX_RADIO_7_1
+ROAD_aVEX_RADIO_7_1.Ask()
+if road_avex_radio_7_1 * {_1} then
+	ROAD_aVEX_CHECK_7_1A1.Ask()
+end if
+if road_avex_radio_7_1 * {_1} then
+	ROAD_aVEX_CHECK_7_1A2.Ask()
+end if
+if road_avex_check_7_1a2 * {A} then
+	ROAD_aVEX_CHECK_7_1A2A1.Ask()
+end if
+if road_avex_radio_7_1 * {_1} then
+	ROAD_aVEX_RADIO_7_1A3.Ask()
+end if
+if road_avex_radio_7_1 * {_1} then
+	ROAD_aVEX_RADIO_7_1A4.Ask()
+end if
+'ROAD_aFPE_RADIO_8_1
+ROAD_aFPE_RADIO_8_1.Ask()
+if road_afpe_radio_8_1 * {_1} then
+	ROAD_aFPE_CHECK_8_1A1.Ask()
+end if
+if road_afpe_radio_8_1 * {_1} then
+	ROAD_aFPE_RADIO_8_1A2.Ask()
+end if
+if road_afpe_radio_8_1a2 * {_1} then
+	ROAD_aFPE_CHECK_8_1A2A1.Ask()
+end if
+if road_afpe_radio_8_1 * {_1} then
+	ROAD_aFPE_RADIO_8_1A3.Ask()
+end if
+'ROAD_aUVR_RADIO_9_1
+ROAD_aUVR_RADIO_9_1.Ask()
+if road_auvr_radio_9_1 * {_1} then
+	ROAD_aUVR_RADIO_9_1A1.Ask()
+end if
+if road_auvr_radio_9_1a1 * {_1} then
+	ROAD_aUVR_CHECK_9_1A1A1.Ask()
+end if
+if road_auvr_radio_9_1 * {_1} then
+	ROAD_aUVR_CHECK_9_1A3.Ask()
+end if
+if road_auvr_check_9_1a3 * {A} then
+	ROAD_aUVR_RADIO_9_1A3A1.Ask()
+end if
+if road_auvr_check_9_1a3 * {A} then
+	ROAD_aUVR_RADIO_9_1A3A2.Ask()
+end if
+if road_auvr_check_9_1a3 * {A} then
+	ROAD_aUVR_RADIO_9_1A3A3.Ask()
+end if
+if road_auvr_check_9_1a3 * {A} then
+	ROAD_aUVR_RADIO_9_1A3A4.Ask()
+end if
+if road_auvr_check_9_1a3 * {B} then
+	ROAD_aUVR_RADIO_9_1A3B1.Ask()
+end if
+if road_auvr_check_9_1a3 * {B} then
+	ROAD_aUVR_RADIO_9_1A3B2.Ask()
+end if
+if road_auvr_check_9_1a3 * {B} then
+	ROAD_aUVR_RADIO_9_1A3B3.Ask()
+end if
+if road_auvr_check_9_1a3 * {B} then
+	ROAD_aUVR_RADIO_9_1A3B4.Ask()
+end if
+if road_auvr_check_9_1a3 * {C} then
+	ROAD_aUVR_RADIO_9_1A3C1.Ask()
+end if
+if road_auvr_radio_9_1a3c1 * {_1} then
+	ROAD_aUVR_RADIO_9_1A3C1A1.Ask()
+end if
+if road_auvr_radio_9_1a3c1 * {_1} then
+	ROAD_aUVR_RADIO_9_1A3C1A2.Ask()
+end if
+if road_auvr_radio_9_1a3c1 * {_1} then
+	ROAD_aUVR_RADIO_9_1A3C1A3.Ask()
+end if
+if road_auvr_radio_9_1 * {_1} then
+	ROAD_aUVR_RADIO_9_1A4.Ask()
+end if
+'ROAD_aCLH_RADIO_10_1
+ROAD_aCLH_RADIO_10_1.Ask()
+if road_aclh_radio_10_1 * {_1} then
+	ROAD_aCLH_CHECK_10_1A1.Ask()
+end if

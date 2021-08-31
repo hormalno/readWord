@@ -35,7 +35,7 @@ module.exports = {
         writeRouting.end() // close string
         writeRoutingErrors.end()
 
-        console.log('This is after the read call');
+        console.log('Questions: '+questions.length);
 
     }
 }

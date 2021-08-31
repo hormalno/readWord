@@ -1,0 +1,344 @@
+'WAMA_RADIO_1
+WAMA_RADIO_1.Ask()
+if wama_radio_1 * {_1} then
+	WAMA_RADIO_1A1.Ask()
+end if
+if wama_radio_1 * {_1} then
+	WAMA_RADIO_1A2.Ask()
+end if
+'WAMA_RADIO_2
+WAMA_RADIO_2.Ask()
+if wama_radio_2 * {_1} then
+	WAMA_CHECK_2A1.Ask()
+end if
+if wama_check_2a1 * {B} then
+	WAMA_RADIO_2A1B1.Ask()
+end if
+if wama_radio_2a1b1 * {_2} then
+	WAMA_CHECK_2A1B1B1.Ask()
+end if
+if wama_check_2a1b1b1 * {B} then
+	WAMA_CHECK_2A1B1B1B1.Ask()
+end if
+if wama_radio_2a1b1 * {_2} then
+	WAMA_RADIO_2A1B1B2.Ask()
+end if
+if wama_radio_2a1b1b2 * {_1} then
+	WAMA_CHECK_2A1B1B2A1.Ask()
+end if
+if wama_radio_2a1b1 * {_2} then
+	WAMA_RADIO_2A1B1B3.Ask()
+end if
+if wama_radio_2a1b1b3 * {_1} then
+	WAMA_RADIO_2A1B1B3A1.Ask()
+end if
+'WAMA_RADIO_3
+WAMA_RADIO_3.Ask()
+'WAMA_aCTW_RADIO_4_1
+WAMA_aCTW_RADIO_4_1.Ask()
+if wama_actw_radio_4_1 * {_1} then
+	WAMA_aCTW_RADIO_4_1A1.Ask()
+end if
+if wama_actw_radio_4_1 * {_1} then
+	WAMA_aCTW_RADIO_4_1A2.Ask()
+end if
+if wama_actw_radio_4_1 * {_1} then
+	WAMA_aCTW_CHECK_4_1A4.Ask()
+end if
+if wama_actw_check_4_1a4 * {A} then
+	WAMA_aCTW_CHECK_4_1A4A1.Ask()
+end if
+if wama_actw_radio_4_1 * {_1} then
+	WAMA_aCTW_RADIO_4_1A5.Ask()
+end if
+if wama_actw_radio_4_1a5 * {_1} then
+	WAMA_aCTW_CHECK_4_1A5A1.Ask()
+end if
+if wama_actw_radio_4_1 * {_1} then
+	WAMA_aCTW_CHECK_4_1A6.Ask()
+end if
+if wama_actw_radio_4_1 * {_1} then
+	WAMA_aCTW_RADIO_4_1A7.Ask()
+end if
+'WAMA_aFPE_RADIO_5_1
+WAMA_aFPE_RADIO_5_1.Ask()
+if wama_afpe_radio_5_1 * {_1} then
+	WAMA_aFPE_CHECK_5_1A1.Ask()
+end if
+if wama_afpe_radio_5_1 * {_1} then
+	WAMA_aFPE_RADIO_5_1A2.Ask()
+end if
+if wama_afpe_radio_5_1a2 * {_1} then
+	WAMA_aFPE_CHECK_5_1A2A1.Ask()
+end if
+if wama_afpe_radio_5_1 * {_1} then
+	WAMA_aFPE_RADIO_5_1A3.Ask()
+end if
+'WAMA_RADIO_7
+WAMA_RADIO_7.Ask()
+if wama_radio_7 * {_1} then
+	WAMA_aWEL_RADIO_7A1_1.Ask()
+end if
+if wama_awel_radio_7a1_1 * {_1} then
+	WAMA_aWEL_CHECK_7A1_1A1.Ask()
+end if
+if wama_awel_radio_7a1_1 * {_1} then
+	WAMA_aWEL_CHECK_7A1_1A2.Ask()
+end if
+if wama_awel_check_7a1_1a2 * {F} then
+	WAMA_aWEL_CHECK_7A1_1A2F1.Ask()
+end if
+if wama_awel_radio_7a1_1 * {_1} then
+	WAMA_aWEL_RADIO_7A1_1A4.Ask()
+end if
+if wama_awel_radio_7a1_1 * {_1} then
+	WAMA_aWEL_RADIO_7A1_1A5.Ask()
+end if
+if wama_awel_radio_7a1_1a5 * {_2} then
+	WAMA_aWEL_RADIO_7A1_1A5B1.Ask()
+end if
+if wama_awel_radio_7a1_1a5 * {_2} then
+	WAMA_aWEL_RADIO_7A1_1A5B2.Ask()
+end if
+if wama_awel_radio_7a1_1a5 * {_2} then
+	WAMA_aWEL_RADIO_7A1_1A5B3.Ask()
+end if
+if wama_awel_radio_7a1_1 * {_1} then
+	WAMA_aWEL_RADIO_7A1_1A6.Ask()
+end if
+if wama_awel_radio_7a1_1 * {_1} then
+	WAMA_aWEL_RADIO_7A1_1A7.Ask()
+end if
+if wama_awel_radio_7a1_1a7 * {_1} then
+	WAMA_aWEL_RADIO_7A1_1A7A1.Ask()
+end if
+if wama_radio_7 * {_1} then
+	WAMA_aCTO_RADIO_7A2_1.Ask()
+end if
+if wama_acto_radio_7a2_1 * {_1} then
+	WAMA_aCTO_CHECK_7A2_1A1.Ask()
+end if
+if wama_acto_radio_7a2_1 * {_1} then
+	WAMA_aCTO_CHECK_7A2_1A2.Ask()
+end if
+if wama_acto_check_7a2_1a2 * {B} then
+	WAMA_aCTO_RADIO_7A2_1A2B1.Ask()
+end if
+if wama_acto_radio_7a2_1a2b1 * {_2} then
+	WAMA_aCTO_RADIO_7A2_1A2B1B1.Ask()
+end if
+'WAMA_aPES_RADIO_8_1
+WAMA_aPES_RADIO_8_1.Ask()
+if wama_apes_radio_8_1 * {_1} then
+	WAMA_aPES_RADIO_8_1A1.Ask()
+end if
+if wama_apes_radio_8_1a1 * {_1} then
+	WAMA_aPES_RADIO_8_1A1A1.Ask()
+end if
+if wama_apes_radio_8_1a1 * {_1} then
+	WAMA_aPES_RADIO_8_1A1A2.Ask()
+end if
+if wama_apes_radio_8_1a1 * {_1} then
+	WAMA_aPES_CHECK_8_1A1A3.Ask()
+end if
+if wama_apes_check_8_1a1a3 * {A} then
+	WAMA_aPES_CHECK_8_1A1A3A1.Ask()
+end if
+if wama_apes_radio_8_1a1 * {_1} then
+	WAMA_aPES_RADIO_8_1A1A4.Ask()
+end if
+if wama_apes_radio_8_1a1a4 * {_1} then
+	WAMA_aPES_CHECK_8_1A1A4A1.Ask()
+end if
+if wama_apes_radio_8_1a1 * {_1} then
+	WAMA_aPES_RADIO_8_1A1A5.Ask()
+end if
+if wama_apes_radio_8_1 * {_1} then
+	WAMA_aPES_RADIO_8_1A2.Ask()
+end if
+if wama_apes_radio_8_1a2 * {_1} then
+	WAMA_aPES_CHECK_8_1A2A1.Ask()
+end if
+if wama_apes_radio_8_1a2 * {_1} then
+	WAMA_aPES_RADIO_8_1A2A2.Ask()
+end if
+'to do question doesnt exists
+'if wama_apes_radio_2_1a2a2 =1 then
+'	WAMA_aPES_RADIO_8_1A2A2A1.Ask()
+'end if
+if wama_apes_radio_8_1a2 * {_1} then
+	WAMA_aPES_RADIO_8_1A2A3.Ask()
+end if
+'WAMA_aDVM_RADIO_9_1
+WAMA_aDVM_RADIO_9_1.Ask()
+if wama_advm_radio_9_1 * {_1} then
+	WAMA_aDVM_CHECK_9_1A1.Ask()
+end if
+if wama_advm_radio_9_1 * {_1} then
+	WAMA_aDVM_RADIO_9_1A2.Ask()
+end if
+if wama_advm_radio_9_1 * {_1} then
+	WAMA_aDVM_RADIO_9_1A3.Ask()
+end if
+if wama_advm_radio_9_1a3 * {_1} then
+	WAMA_aDVM_CHECK_9_1A3A1.Ask()
+end if
+if wama_advm_radio_9_1 * {_1} then
+	WAMA_aDVM_RADIO_9_1A4.Ask()
+end if
+if wama_advm_radio_9_1a4 * {_1} then
+	WAMA_aDVM_RADIO_9_1A4A1.Ask()
+end if
+if wama_advm_radio_9_1a4a1 * {_1} then
+	WAMA_aDVM_RADIO_9_1A4A1A1.Ask()
+end if
+if wama_advm_radio_9_1a4 * {_1} then
+	WAMA_aDVM_RADIO_9_1A4A2.Ask()
+end if
+if wama_advm_radio_9_1a4a2 * {_1} then
+	WAMA_aDVM_RADIO_9_1A4A2A1.Ask()
+end if
+if wama_advm_radio_9_1a4 * {_1} then
+	WAMA_aDVM_RADIO_9_1A4A4.Ask()
+end if
+if wama_advm_radio_9_1a4 * {_1} then
+	WAMA_aDVM_CHECK_9_1A4A5.Ask()
+end if
+if wama_advm_check_9_1a4a5 * {A} then
+	WAMA_aDVM_CHECK_9_1A4A5A1.Ask()
+end if
+'WAMA_aGEX_RADIO_10_1
+WAMA_aGEX_RADIO_10_1.Ask()
+if wama_agex_radio_10_1 * {_1} then
+	WAMA_aGEX_CHECK_10_1A1.Ask()
+end if
+if wama_agex_check_10_1a1 * {A} then
+	WAMA_aGEX_CHECK_10_1A1A1.Ask()
+end if
+if wama_agex_radio_10_1 * {_1} then
+	WAMA_aGEX_CHECK_10_1A2.Ask()
+end if
+if wama_agex_check_10_1a2 * {C} then
+	WAMA_aGEX_RADIO_10_1A2C1.Ask()
+end if
+if wama_agex_radio_10_1 * {_1} then
+	WAMA_aGEX_RADIO_10_1A3.Ask()
+end if
+if wama_agex_radio_10_1 * {_1} then
+	WAMA_aGEX_RADIO_10_1A4.Ask()
+end if
+if wama_agex_radio_10_1 * {_1} then
+	WAMA_aGEX_RADIO_10_1A5.Ask()
+end if
+'WAMA_aVEX_RADIO_11_1
+WAMA_aVEX_RADIO_11_1.Ask()
+if wama_avex_radio_11_1 * {_1} then
+	WAMA_aVEX_CHECK_11_1A1.Ask()
+end if
+if wama_avex_radio_11_1 * {_1} then
+	WAMA_aVEX_CHECK_11_1A2.Ask()
+end if
+if wama_avex_check_11_1a2 * {A} then
+	WAMA_aVEX_CHECK_11_1A2A1.Ask()
+end if
+if wama_avex_radio_11_1 * {_1} then
+	WAMA_aVEX_RADIO_11_1A3.Ask()
+end if
+if wama_avex_radio_11_1 * {_1} then
+	WAMA_aVEX_RADIO_11_1A4.Ask()
+end if
+'WAMA_aSER_RADIO_12_1
+WAMA_aSER_RADIO_12_1.Ask()
+if wama_aser_radio_12_1 * {_1} then
+	WAMA_aSER_RADIO_12_1A1.Ask()
+end if
+if wama_aser_radio_12_1a1 * {_1} then
+	WAMA_aSER_RADIO_12_1A1A1.Ask()
+end if
+if wama_aser_radio_12_1a1a1 * {_1} then
+	WAMA_aSER_RADIO_12_1A1A1A1.Ask()
+end if
+if wama_aser_radio_12_1 * {_1} then
+	WAMA_aSER_CHECK_12_1A2.Ask()
+end if
+'WAMA_aENU_RADIO_13_1
+WAMA_aENU_RADIO_13_1.Ask()
+if wama_aenu_radio_13_1 * {_1} then
+	WAMA_aENU_RADIO_13_1A1.Ask()
+end if
+if wama_aenu_radio_13_1 * {_1} then
+	WAMA_aENU_RADIO_13_1A2.Ask()
+end if
+if wama_aenu_radio_13_1a2 * {_1} then
+	WAMA_aENU_RADIO_13_1A2A1.Ask()
+end if
+if wama_aenu_radio_13_1a2a1 * {_1} then
+	WAMA_aENU_RADIO_13_1A2A1A1.Ask()
+end if
+if wama_aenu_radio_13_1a2a1 * {_2} then
+	WAMA_aENU_RADIO_13_1A2A1B1.Ask()
+end if
+if wama_aenu_radio_13_1 * {_1} then
+	WAMA_aENU_RADIO_13_1A3.Ask()
+end if
+if wama_aenu_radio_13_1 * {_1} then
+	WAMA_aENU_RADIO_13_1A4.Ask()
+end if
+if wama_aenu_radio_13_1 * {_1} then
+	WAMA_aENU_RADIO_13_1A5.Ask()
+end if
+'WAMA_aCLH_RADIO_14_1
+WAMA_aCLH_RADIO_14_1.Ask()
+if wama_aclh_radio_14_1 * {_1} then
+	WAMA_aCLH_CHECK_14_1A1.Ask()
+end if
+'WAMA_aUVR_RADIO_15_1
+WAMA_aUVR_RADIO_15_1.Ask()
+if wama_auvr_radio_15_1 * {_1} then
+	WAMA_aUVR_RADIO_15_1A1.Ask()
+end if
+if wama_auvr_radio_15_1a1 * {_1} then
+	WAMA_aUVR_CHECK_15_1A1A1.Ask()
+end if
+if wama_auvr_radio_15_1 * {_1} then
+	WAMA_aUVR_CHECK_15_1A3.Ask()
+end if
+if wama_auvr_check_15_1a3 * {A} then
+	WAMA_aUVR_RADIO_15_1A3A1.Ask()
+end if
+if wama_auvr_check_15_1a3 * {A} then
+	WAMA_aUVR_RADIO_15_1A3A2.Ask()
+end if
+if wama_auvr_check_15_1a3 * {A} then
+	WAMA_aUVR_RADIO_15_1A3A3.Ask()
+end if
+if wama_auvr_check_15_1a3 * {A} then
+	WAMA_aUVR_RADIO_15_1A3A4.Ask()
+end if
+if wama_auvr_check_15_1a3 * {B} then
+	WAMA_aUVR_RADIO_15_1A3B1.Ask()
+end if
+if wama_auvr_check_15_1a3 * {B} then
+	WAMA_aUVR_RADIO_15_1A3B2.Ask()
+end if
+if wama_auvr_check_15_1a3 * {B} then
+	WAMA_aUVR_RADIO_15_1A3B3.Ask()
+end if
+if wama_auvr_check_15_1a3 * {B} then
+	WAMA_aUVR_RADIO_15_1A3B4.Ask()
+end if
+if wama_auvr_check_15_1a3 * {C} then
+	WAMA_aUVR_RADIO_15_1A3C1.Ask()
+end if
+if wama_auvr_radio_15_1a3c1 * {_1} then
+	WAMA_aUVR_RADIO_15_1A3C1A1.Ask()
+end if
+if wama_auvr_radio_15_1a3c1 * {_1} then
+	WAMA_aUVR_RADIO_15_1A3C1A2.Ask()
+end if
+if wama_auvr_radio_15_1a3c1 * {_1} then
+	WAMA_aUVR_RADIO_15_1A3C1A3.Ask()
+end if
+if wama_auvr_radio_15_1 * {_1} then
+	WAMA_aUVR_RADIO_15_1A4.Ask()
+end if

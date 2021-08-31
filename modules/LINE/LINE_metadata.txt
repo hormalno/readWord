@@ -380,7 +380,7 @@ categorical [1..1]
 	_2 "aFPE_1A2B No" [Value=2],
 	_3 "aFPE_1A2C Don’t know" [Value=3] exclusive
 };
- "1A2A1  LINE_aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?"
+LINE_aFPE_CHECK_4_1A2A1 "1A2A1  LINE_aFPE_CHECK_4_1A2A1 - How was the area where you worked ventilated?"
 categorical [1..]
 {
 	A "aFPE_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],

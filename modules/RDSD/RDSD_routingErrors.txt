@@ -1,0 +1,4 @@
+'to do question doesnt exists
+'if 1 = agex_1a yes ifrdsd_agex_radio_3_1 =1 then
+'	RDSD_aGEX_RADIO_3_1A4.Ask()
+'end if

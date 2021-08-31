@@ -114,7 +114,7 @@ function questionModel(q) {
 
     question.routing = q[0];
 
-    question.qname = q[1].split(' ')[1];
+    question.qname = q[1].split(/\s{1,}/)[1];
 
     if (question.qname.toLowerCase().indexOf('radio') > 0) {
         question.qtype = 'single'

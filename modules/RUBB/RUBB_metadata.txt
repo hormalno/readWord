@@ -1,0 +1,713 @@
+Questions count: 86
+RUBB_CHECK_1 "1 RUBB_CHECK_1 - In the last working week, were synthetic rubber, plastics or resins made where you worked?"
+categorical [1..]
+{
+	A "RUBB_1A Yes" [Value=1],
+	B "RUBB_1B No" [Value=2],
+	C "RUBB_1C Don’t know" [Value=3] exclusive
+};
+RUBB_CHECK_1A1 "1A1 RUBB_CHECK_1A1 - What kind of synthetic rubber or plastic/resins was made or processed where you worked in the last working week?"
+categorical [1..]
+{
+	A "RUBB_1A1A ABS (Acrylonitrile butadiene styrene)" [Value=1],
+	B "RUBB_1A1B Acrylic (plastic or resin)" [Value=2],
+	C "RUBB_1A1C Polypropylene, polyethylene or polytetrafluoroethylene" [Value=3],
+	D "RUBB_1A1D Styrene-butadiene, polybutadiene, SBR (styrene-butadiene rubber), or BR (butadiene rubber)" [Value=4],
+	E "RUBB_1A1E Urethane or polyurethane" [Value=5],
+	F "RUBB_1A1F Rubber where epichlorhydrin was used" [Value=6],
+	G "RUBB_1A1G Formaldehyde-urea, formaldehyde-phenol or melamine-formaldehyde resins" [Value=7],
+	H "RUBB_1A1H Polyvinyl chloride (PVC)" [Value=8],
+	I "RUBB_1A1I PVAc/PVAcA (Polyvinyl acetate)" [Value=9],
+	J "RUBB_1A1J Polyacetal or polyformaldehyde" [Value=10],
+	K "RUBB_1A1K Polyoxymethylene (POM)" [Value=11],
+	L "RUBB_1A1L Polyethylene glycol (PEG)" [Value=12],
+	M "RUBB_1A1M Other" [Value=13],
+	N "RUBB_1A1N Don’t know" [Value=14] exclusive
+};
+RUBB_RADIO_1A2 "1A2 RUBB_RADIO_1A2 - In the last working week, did you work in the tank farm?"
+categorical [1..1]
+{
+	_1 "RUBB_1A2A Yes" [Value=1],
+	_2 "RUBB_1A2B No" [Value=2],
+	_3 "RUBB_1A2C Don’t know" [Value=3] exclusive
+};
+RUBB_RADIO_1A3 "1A3 RUBB_RADIO_1A3 - In the last working week, did you work cleaning out reactors?"
+categorical [1..1]
+{
+	_1 "RUBB_1A3A Yes" [Value=1],
+	_2 "RUBB_1A3B No" [Value=2],
+	_3 "RUBB_1A3C Don’t know" [Value=3] exclusive
+};
+RUBB_RADIO_1A4 "1A4 RUBB_RADIO_1A4 - In the last working week, did you work on samples in the laboratory?"
+categorical [1..1]
+{
+	_1 "RUBB_1A4A Yes" [Value=1],
+	_2 "RUBB_1A4B No" [Value=2],
+	_3 "RUBB_1A4C Don’t know" [Value=3] exclusive
+};
+RUBB_RADIO_2 "2 RUBB_RADIO_2 - In the last working week, did you work in the area where rubber was mixed with other substances such as in a banbury or two-roll mill?"
+categorical [1..1]
+{
+	_1 "RUBB_2A Yes" [Value=1],
+	_2 "RUBB_2B No" [Value=2],
+	_3 "RUBB_2C Don’t know" [Value=3] exclusive
+};
+RUBB_RADIO_2A1 "2A1 RUBB_RADIO_2A1 - In the last working week, did you handle or come in contact with reagents that were mixed with the rubber?"
+categorical [1..1]
+{
+	_1 "RUBB_2A1A Yes" [Value=1],
+	_2 "RUBB_2A1B No" [Value=2],
+	_3 "RUBB_2A1C Don’t know" [Value=3] exclusive
+};
+RUBB_CHECK_2A1A1 "2A1A1 RUBB_CHECK_2A1A1 - In the last working week, which of the following reagents did you add to the rubber?"
+categorical [1..]
+{
+	A "RUBB_2A1A1A Cadmium or cadmium compounds" [Value=1],
+	B "RUBB_2A1A1B Lead" [Value=2],
+	C "RUBB_2A1A1C Formaldehyde" [Value=3],
+	D "RUBB_2A1A1D Pigments" [Value=4],
+	E "RUBB_2A1A1E None of these" [Value=5] exclusive,
+	F "RUBB_2A1A1F Don’t know" [Value=6] exclusive
+};
+RUBB_CHECK_2A1A1D1 "2A1A1D1 RUBB_CHECK_2A1A1D1 - Did the pigments contain chromium?"
+categorical [1..]
+{
+	A "RUBB_2A1A1D1A Yes" [Value=1],
+	B "RUBB_2A1A1D1B No" [Value=2],
+	C "RUBB_2A1A1D1C Don’t know" [Value=3] exclusive
+};
+RUBB_RADIO_3 "3 RUBB_RADIO_3 - In the last working week, did you work in the area where off-gases, monomers, or solvents were recovered and purified so that they could be used again?"
+categorical [1..1]
+{
+	_1 "RUBB_3A Yes" [Value=1],
+	_2 "RUBB_3B No" [Value=2],
+	_3 "RUBB_3C Don’t know" [Value=3] exclusive
+};
+RUBB_RADIO_4 "4 RUBB_RADIO_4 - In the last working week, did you work in the area where sheets or other parts were glued together?"
+categorical [1..1]
+{
+	_1 "RUBB_4A Yes" [Value=1],
+	_2 "RUBB_4B No" [Value=2],
+	_3 "RUBB_4C Don’t know" [Value=3] exclusive
+};
+RUBB_aGLU_RADIO_4A1_1 "1 RUBB_aGLU_RADIO_4A1_1 - In the last working week, did you handle or come in contact with glues, resins, bogs, or fillers?"
+categorical [1..1]
+{
+	_1 "aGLU_1A Yes" [Value=1],
+	_2 "aGLU_1B No" [Value=2],
+	_3 "aGLU_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aGLU_RADIO_4A1_1A1 "1A1 RUBB_aGLU_RADIO_4A1_1A1 - In the last working week, did you use glues or adhesives?"
+categorical [1..1]
+{
+	_1 "aGLU_1A1A Yes" [Value=1],
+	_2 "aGLU_1A1B No" [Value=2],
+	_3 "aGLU_1A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aGLU_CHECK_4A1_1A1A2 "1A1A2 RUBB_aGLU_CHECK_4A1_1A1A2 - In the last working week, did you use any of the following types of glues or adhesives?"
+categorical [1..]
+{
+	A "aGLU_1A1A2A 2-part glues" [Value=1],
+	B "aGLU_1A1A2B Plastic resin wood glue (also called urea-formaldehyde resin)" [Value=2],
+	C "aGLU_1A1A2C None of these" [Value=3] exclusive,
+	D "aGLU_1A1A2D Don’t know" [Value=4] exclusive
+};
+RUBB_aGLU_RADIO_4A1_1A1A2A1 "1A1A2A1 RUBB_aGLU_RADIO_4A1_1A1A2A1 - In the last working week, did you use epoxy two-part glues?"
+categorical [1..1]
+{
+	_1 "aGLU_1A1A2A1A Yes" [Value=1],
+	_2 "aGLU_1A1A2A1B No" [Value=2],
+	_3 "aGLU_1A1A2A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aGLU_RADIO_4A1_1A4 "1A4 RUBB_aGLU_RADIO_4A1_1A4 - In the last working week, were you indoors while handling or coming in contact with glues, resins, bogs, or fillers?"
+categorical [1..1]
+{
+	_1 "aGLU_1A4A Yes" [Value=1],
+	_2 "aGLU_1A4B No" [Value=2],
+	_3 "aGLU_1A4C Don’t know" [Value=3] exclusive
+};
+RUBB_aGLU_CHECK_4A1_1A4A1 "1A4A1 RUBB_aGLU_CHECK_4A1_1A4A1 - How was the area ventilated?"
+categorical [1..]
+{
+	A "aGLU_1A4A1A By local exhaust ventilation which captured the vapour at the emission point" [Value=1],
+	B "aGLU_1A4A1B By on-tool extraction to remove vapours away from your face" [Value=2],
+	C "aGLU_1A4A1C By a general ventilation system" [Value=3],
+	D "aGLU_1A4A1D By fans in the window or doorway" [Value=4],
+	E "aGLU_1A4A1E By open doors or windows" [Value=5],
+	F "aGLU_1A4A1F No ventilation was applied to the area" [Value=6],
+	G "aGLU_1A4A1G Other" [Value=7],
+	H "aGLU_1A4A1H Don’t know" [Value=8] exclusive
+};
+RUBB_aGLU_RADIO_4A1_1A5 "1A5 RUBB_aGLU_RADIO_4A1_1A5 - In the last working week, did you use respiratory protection while handling or coming in contact with glues, resins, bogs, or fillers?"
+categorical [1..1]
+{
+	_1 "aGLU_1A5A Yes" [Value=1],
+	_2 "aGLU_1A5B No" [Value=2],
+	_3 "aGLU_1A5C Don’t know" [Value=3] exclusive
+};
+RUBB_aGLU_CHECK_4A1_1A5A1 "1A5A1 RUBB_aGLU_CHECK_4A1_1A5A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aGLU_1A5A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aGLU_1A5A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "aGLU_1A5A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aGLU_1A5A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "aGLU_1A5A1E Other" [Value=5],
+	F "aGLU_1A5A1F Don’t know" [Value=6] exclusive
+};
+RUBB_RADIO_5 "5 RUBB_RADIO_5 - In the last working week, did you work in the vulcanisation or curing area?"
+categorical [1..1]
+{
+	_1 "RUBB_5A Yes" [Value=1],
+	_2 "RUBB_5B No" [Value=2],
+	_3 "RUBB_5C Don’t know" [Value=3] exclusive
+};
+RUBB_CHECK_5A1 "5A1 RUBB_CHECK_5A1 - In the last working week, did you handle or come into contact with lead oxide?"
+categorical [1..]
+{
+	A "RUBB_5A1A Yes" [Value=1],
+	B "RUBB_5A1B No" [Value=2],
+	C "RUBB_5A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1 "1 RUBB_aXRY_RADIO_6_1 - In the last working week, did you use x-rays, radar, or other radiation sources for quality assurance?"
+categorical [1..1]
+{
+	_1 "aXRY_1A Yes" [Value=1],
+	_2 "aXRY_1B No" [Value=2],
+	_3 "aXRY_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_CHECK_6_1A1 "1A1 RUBB_aXRY_CHECK_6_1A1 - What types of radiation sources did you use?"
+categorical [1..]
+{
+	A "aXRY_1A1A Radar" [Value=1],
+	B "aXRY_1A1B X-ray equipment or linear accelerators" [Value=2],
+	C "aXRY_1A1C Gammagraphy equipment" [Value=3],
+	D "aXRY_1A1D Other, please specify" [Value=4] other (FREETEXT "" text),
+	E "aXRY_1A1E Don’t know" [Value=5] exclusive
+};
+RUBB_aXRY_RADIO_6_1A1B1 "1A1B1 RUBB_aXRY_RADIO_6_1A1B1 - Were you protected by a lead partition/wall when using X-ray equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A1B1A Yes" [Value=1],
+	_2 "aXRY_1A1B1B No" [Value=2],
+	_3 "aXRY_1A1B1C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A1B2 "1A1B2 RUBB_aXRY_RADIO_6_1A1B2 - In the last working week, did you use radio-protective garments (such as lead aprons, gloves, thyroid guards) when using x-ray equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A1B2A Yes" [Value=1],
+	_2 "aXRY_1A1B2B No" [Value=2],
+	_3 "aXRY_1A1B2C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A1B3 "1A1B3 RUBB_aXRY_RADIO_6_1A1B3 - In the last working week, did you wear an individual dosimetry badge when using X-ray equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A1B3A Yes" [Value=1],
+	_2 "aXRY_1A1B3B No" [Value=2],
+	_3 "aXRY_1A1B3C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A1C1 "1A1C1 RUBB_aXRY_RADIO_6_1A1C1 - Were you protected by a lead, concrete or steel shielding or wall when using gammagraphy equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A1C1A Yes" [Value=1],
+	_2 "aXRY_1A1C1B No" [Value=2],
+	_3 "aXRY_1A1C1C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A1C2 "1A1C2 RUBB_aXRY_RADIO_6_1A1C2 - In the last working week, did you use radio-protective garments (such as lead aprons, gloves, thyroid guards) when using gammagraphy equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A1C2A Yes" [Value=1],
+	_2 "aXRY_1A1C2B No" [Value=2],
+	_3 "aXRY_1A1C2C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A1C3 "1A1C3 RUBB_aXRY_RADIO_6_1A1C3 - In the last working week, did you wear an individual dosimetry badge when using gammagraphy equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A1C3A Yes" [Value=1],
+	_2 "aXRY_1A1C3B No" [Value=2],
+	_3 "aXRY_1A1C3C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A2 "1A2 RUBB_aXRY_RADIO_6_1A2 - In the last working week, did you work with mobile X-ray or gammagraphy equipment?"
+categorical [1..1]
+{
+	_1 "aXRY_1A2A Yes" [Value=1],
+	_2 "aXRY_1A2B No" [Value=2],
+	_3 "aXRY_1A2C Don’t know" [Value=3] exclusive
+};
+RUBB_aXRY_RADIO_6_1A2A1 "1A2A1 RUBB_aXRY_RADIO_6_1A2A1 - Did you wear a real-time electronic dosimeter?"
+categorical [1..1]
+{
+	_1 "aXRY_1A2A1A Yes" [Value=1],
+	_2 "aXRY_1A2A1B No" [Value=2],
+	_3 "aXRY_1A2A1C Don’t know" [Value=3] exclusive
+};
+RUBB_CHECK_7 "7 RUBB_CHECK_7 - How was the area where you worked ventilated in the last working week?"
+categorical [1..]
+{
+	A "RUBB_7A By local exhaust ventilation which captured the vapour, fume at the emission point" [Value=1],
+	B "RUBB_7B By on-tool extraction to remove fumes away from your face" [Value=2],
+	C "RUBB_7C By a general ventilation" [Value=3],
+	D "RUBB_7D By fans in the window or doorway" [Value=4],
+	E "RUBB_7E By open doors or windows" [Value=5],
+	F "RUBB_7F No ventilation was applied to the area" [Value=6],
+	G "RUBB_7G Other" [Value=7],
+	H "RUBB_7H Don’t know" [Value=8] exclusive
+};
+RUBB_RADIO_8 "8 RUBB_RADIO_8 - In the last working week, did you use respiratory protection when doing your job?"
+categorical [1..1]
+{
+	_1 "RUBB_8A Yes" [Value=1],
+	_2 "RUBB_8B No" [Value=2],
+	_3 "RUBB_8C Don’t know" [Value=3] exclusive
+};
+RUBB_CHECK_8A1 "8A1 RUBB_CHECK_8A1 - What type of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "RUBB_8A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "RUBB_8A1B Powered Air-Purifying Respirator (PAPR)" [Value=2],
+	C "RUBB_8A1C Air-supplied or SCBA respirator" [Value=3],
+	D "RUBB_8A1D A filtering face piece mask or a dust mask (called an FFP)" [Value=4],
+	E "RUBB_8A1E Other" [Value=5],
+	F "RUBB_8A1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDVM_RADIO_9_1 "1 RUBB_aDVM_RADIO_9_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A Yes" [Value=1],
+	_2 "aDVM_1B No" [Value=2],
+	_3 "aDVM_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_CHECK_9_1A1 "1A1 RUBB_aDVM_CHECK_9_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?"
+categorical [1..]
+{
+	A "aDVM_1A1A Diesel" [Value=1],
+	B "aDVM_1A1B Petrol" [Value=2],
+	C "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane" [Value=3],
+	D "aDVM_1A1D Battery or electricity" [Value=4],
+	E "aDVM_1A1E None of these" [Value=5] exclusive,
+	F "aDVM_1A1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDVM_RADIO_9_1A2 "1A2 RUBB_aDVM_RADIO_9_1A2 - In the last working week, did you fuel the vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aDVM_1A2A Yes" [Value=1],
+	_2 "aDVM_1A2B No" [Value=2],
+	_3 "aDVM_1A2C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_RADIO_9_1A3 "1A3 RUBB_aDVM_RADIO_9_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A3A Yes" [Value=1],
+	_2 "aDVM_1A3B No" [Value=2],
+	_3 "aDVM_1A3C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_CHECK_9_1A3A1 "1A3A1 RUBB_aDVM_CHECK_9_1A3A1 - What types of roads or areas did you drive or travel on?"
+categorical [1..]
+{
+	A "aDVM_1A3A1A Any public street or road in an urban area" [Value=1],
+	B "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)" [Value=2],
+	C "aDVM_1A3A1C Agricultural land" [Value=3],
+	D "aDVM_1A3A1D Forestry areas" [Value=4],
+	E "aDVM_1A3A1E Underground in a mine" [Value=5],
+	F "aDVM_1A3A1F Surface driving in an open mine or in a quarry" [Value=6],
+	G "aDVM_1A3A1G Construction sites" [Value=7],
+	H "aDVM_1A3A1H Inside a building (e.g., warehouse)" [Value=8],
+	I "aDVM_1A3A1I Other industrial sites" [Value=9],
+	J "aDVM_1A3A1J Other" [Value=10],
+	K "aDVM_1A3A1K Don’t know" [Value=11] exclusive
+};
+RUBB_aDVM_RADIO_9_1A4 "1A4 RUBB_aDVM_RADIO_9_1A4 - In the last working week, did you perform any maintenance work on vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A Yes" [Value=1],
+	_2 "aDVM_1A4B No" [Value=2],
+	_3 "aDVM_1A4C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_RADIO_9_1A4A1 "1A4A1 RUBB_aDVM_RADIO_9_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1B No" [Value=2],
+	_3 "aDVM_1A4A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_RADIO_9_1A4A1A1 "1A4A1A1 RUBB_aDVM_RADIO_9_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1A1B No" [Value=2],
+	_3 "aDVM_1A4A1A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_RADIO_9_1A4A2 "1A4A2 RUBB_aDVM_RADIO_9_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A Yes" [Value=1],
+	_2 "aDVM_1A4A2B No" [Value=2],
+	_3 "aDVM_1A4A2C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_RADIO_9_1A4A2A1 "1A4A2A1 RUBB_aDVM_RADIO_9_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A1A Yes" [Value=1],
+	_2 "aDVM_1A4A2A1B No" [Value=2],
+	_3 "aDVM_1A4A2A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_RADIO_9_1A4A4 "1A4A4 RUBB_aDVM_RADIO_9_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A4A Yes" [Value=1],
+	_2 "aDVM_1A4A4B No" [Value=2],
+	_3 "aDVM_1A4A4C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_CHECK_9_1A4A5 "1A4A5 RUBB_aDVM_CHECK_9_1A4A5 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A Indoors" [Value=1],
+	B "aDVM_1A4A5B Outdoors" [Value=2],
+	C "aDVM_1A4A5C Don’t know" [Value=3] exclusive
+};
+RUBB_aDVM_CHECK_9_1A4A5A1 "1A4A5A1 RUBB_aDVM_CHECK_9_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aDVM_1A4A5A1C By a general ventilation system" [Value=3],
+	D "aDVM_1A4A5A1D By fans in the window or doorway" [Value=4],
+	E "aDVM_1A4A5A1E By open doors or windows" [Value=5],
+	F "aDVM_1A4A5A1F No ventilation was applied to the area" [Value=6],
+	G "aDVM_1A4A5A1G Other" [Value=7],
+	H "aDVM_1A4A5A1H Don’t know" [Value=8] exclusive
+};
+RUBB_aMAH_RADIO_10_1 "1 RUBB_aMAH_RADIO_10_1 - In the last working week, did you load and/or unload vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aMAH_1A Yes" [Value=1],
+	_2 "aMAH_1B No" [Value=2],
+	_3 "aMAH_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_CHECK_10_1A1 "1A1 RUBB_aMAH_CHECK_10_1A1 - What materials or goods did you load or unload in the last working week?"
+categorical [1..]
+{
+	A "aMAH_1A1A Asbestos-containing products" [Value=1],
+	B "aMAH_1A1B Petroleum products" [Value=2],
+	C "aMAH_1A1C Materials containing hardwood such as wood chips, pellets" [Value=3],
+	D "aMAH_1A1D Chemicals" [Value=4],
+	E "aMAH_1A1E Ores, such as coal, bauxite, iron ore" [Value=5],
+	F "aMAH_1A1F Soils/sand/gravel etc." [Value=6],
+	G "aMAH_1A1G Radioactive goods" [Value=7],
+	H "aMAH_1A1H None of these" [Value=8] exclusive,
+	I "aMAH_1A1I Don’t know" [Value=9] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1A1 "1A1A1 RUBB_aMAH_RADIO_10_1A1A1 - Were the asbestos-containing products you loaded or unloaded wrapped (double bag, sealed)?"
+categorical [1..1]
+{
+	_1 "aMAH_1A1A1A Yes" [Value=1],
+	_2 "aMAH_1A1A1B No" [Value=2],
+	_3 "aMAH_1A1A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_CHECK_10_1A1A1B1 "1A1A1B1 RUBB_aMAH_CHECK_10_1A1A1B1 - Were the asbestos-containing products you loaded/unloaded friable or non-friable?"
+categorical [1..]
+{
+	A "aMAH_1A1A1B1A Friable (e.g., pipe lagging, insulation)" [Value=1],
+	B "aMAH_1A1A1B1B Non-friable (e.g., asbestos cement sheeting)" [Value=2],
+	C "aMAH_1A1A1B1C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_CHECK_10_1A1A1B1B1 "1A1A1B1B1 RUBB_aMAH_CHECK_10_1A1A1B1B1 - In what condition was the asbestos?"
+categorical [1..]
+{
+	A "aMAH_1A1A1B1B1A Good (where you could see loose fibres and dust)" [Value=1],
+	B "aMAH_1A1A1B1B1B Poor (where release of fibres is likely)" [Value=2],
+	C "aMAH_1A1A1B1B1C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1A1B2 "1A1A1B2 RUBB_aMAH_RADIO_10_1A1A1B2 - In the last working week, did you wear respiratory protection when you loaded/unloaded asbestos-containing products?"
+categorical [1..1]
+{
+	_1 "aMAH_1A1A1B2A Yes" [Value=1],
+	_2 "aMAH_1A1A1B2B No" [Value=2],
+	_3 "aMAH_1A1A1B2C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_CHECK_10_1A1A1B2A1 "1A1A1B2A1 RUBB_aMAH_CHECK_10_1A1A1B2A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aMAH_1A1A1B2A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aMAH_1A1A1B2A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "aMAH_1A1A1B2A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aMAH_1A1A1B2A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "aMAH_1A1A1B2A1E Other" [Value=5],
+	F "aMAH_1A1A1B2A1F Don’t know" [Value=6] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1A1B3 "1A1A1B3 RUBB_aMAH_RADIO_10_1A1A1B3 - In the last working week, did you wear protective clothing when loading/unloading asbestos-containing products?"
+categorical [1..1]
+{
+	_1 "aMAH_1A1A1B3A Yes" [Value=1],
+	_2 "aMAH_1A1A1B3B No" [Value=2],
+	_3 "aMAH_1A1A1B3C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1A1B3A1 "1A1A1B3A1 RUBB_aMAH_RADIO_10_1A1A1B3A1 - What protective clothing did you wear?"
+categorical [1..1]
+{
+	_1 "aMAH_1A1A1B3A1A Gloves" [Value=1],
+	_2 "aMAH_1A1A1B3A1B Footwear" [Value=2],
+	_3 "aMAH_1A1A1B3A1C Overalls" [Value=3],
+	_4 "aMAH_1A1A1B3A1D Apron" [Value=4],
+	_5 "aMAH_1A1A1B3A1E Goggles/glasses" [Value=5],
+	_6 "aMAH_1A1A1B3A1F Other protective clothing" [Value=6],
+	_7 "aMAH_1A1A1B3A1G Don’t know" [Value=7] exclusive
+};
+RUBB_aMAH_CHECK_10_1A1B1 "1A1B1 RUBB_aMAH_CHECK_10_1A1B1 - What products did you load, unload or carry in the last working week?"
+categorical [1..]
+{
+	A "aMAH_1A1B1A Petroleum" [Value=1],
+	B "aMAH_1A1B1B Diesel" [Value=2],
+	C "aMAH_1A1B1C Other" [Value=3],
+	D "aMAH_1A1B1D Don’t know" [Value=4] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1D1 "1A1D1 RUBB_aMAH_RADIO_10_1A1D1 - What type of chemical(s) did you carry?"
+categorical [1..1]
+{
+	_1 "aMAH_1A1D1A Acrylamide" [Value=1],
+	_2 "aMAH_1A1D1B 1,3 butadiene" [Value=2],
+	_3 "aMAH_1A1D1C Benzene" [Value=3],
+	_4 "aMAH_1A1D1D Epichlorohydrin" [Value=4],
+	_5 "aMAH_1A1D1E Ethylene oxide" [Value=5],
+	_6 "aMAH_1A1D1F Formaldehyde" [Value=6],
+	_7 "aMAH_1A1D1G Trichloroethylene" [Value=7],
+	_8 "aMAH_1A1D1H Other" [Value=8],
+	_9 "aMAH_1A1D1I Don’t know" [Value=9] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1D2 "1A1D2 RUBB_aMAH_RADIO_10_1A1D2 - In the last working week, did you load, unload or transport these chemicals in sealed containers?"
+categorical [1..1]
+{
+	_1 "aMAH_1A1D2A Yes" [Value=1],
+	_2 "aMAH_1A1D2B No" [Value=2],
+	_3 "aMAH_1A1D2C Don’t know" [Value=3] exclusive
+};
+RUBB_aMAH_RADIO_10_1A1E1 "1A1E1 RUBB_aMAH_RADIO_10_1A1E1 - Please specify the type of ore"
+categorical [1..1]
+{
+	_1 "aMAH_1A1E1A Please specify" [Value=1] other (FREETEXT "" text)
+};
+RUBB_aMAH_CHECK_10_1A2 "1A2 RUBB_aMAH_CHECK_10_1A2 - How was the loading and/or unloading done?"
+categorical [1..]
+{
+	A "aMAH_1A2A Hand, handcart or handtruck, or other mechanical devices" [Value=1],
+	B "aMAH_1A2B Front loader" [Value=2],
+	C "aMAH_1A2C Forklift" [Value=3],
+	D "aMAH_1A2D Conveyor belt" [Value=4],
+	E "aMAH_1A2E Hose or fill tube" [Value=5],
+	F "aMAH_1A2F Other" [Value=6],
+	G "aMAH_1A2G Don’t know" [Value=7] exclusive
+};
+RUBB_aMAH_RADIO_10_1A2E1 "1A2E1 RUBB_aMAH_RADIO_10_1A2E1 - In the last working week, how was the loading done when you loaded the tank truck using a hose or fill tube?"
+categorical [1..1]
+{
+	_1 "aMAH_1A2E1A From the top of the tanker with an open hatch" [Value=1],
+	_2 "aMAH_1A2E1B From the top of the tanker with a closed hatch" [Value=2],
+	_3 "aMAH_1A2E1C Underneath the tanker" [Value=3],
+	_4 "aMAH_1A2E1D Other" [Value=4],
+	_5 "aMAH_1A2E1E Don’t know" [Value=5] exclusive
+};
+RUBB_aDEG_RADIO_11_1 "1 RUBB_aDEG_RADIO_11_1 - In the last working week, did you degrease items?"
+categorical [1..1]
+{
+	_1 "aDEG_1A Yes" [Value=1],
+	_2 "aDEG_1B No" [Value=2],
+	_3 "aDEG_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_RADIO_11_1A1 "1A1 RUBB_aDEG_RADIO_11_1A1 - In the last working week, did you degrease using chemicals other than detergents?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A Yes" [Value=1],
+	_2 "aDEG_1A1B No" [Value=2],
+	_3 "aDEG_1A1C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1 "1A1A1 RUBB_aDEG_CHECK_11_1A1A1 - In the last working week, did you use any of the following methods to degrease?"
+categorical [1..]
+{
+	A "aDEG_1A1A1A By hand e.g., with rag, cloth or brush" [Value=1],
+	B "aDEG_1A1A1B Sprayed parts manually" [Value=2],
+	C "aDEG_1A1A1C Conveyorised degreaser (automatic closed machine)" [Value=3],
+	D "aDEG_1A1A1D Dip tank" [Value=4],
+	E "aDEG_1A1A1E Vapour degreaser" [Value=5],
+	F "aDEG_1A1A1F Ultrasonic cleaner" [Value=6],
+	G "aDEG_1A1A1G Other" [Value=7],
+	H "aDEG_1A1A1H Don’t know" [Value=8] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1A1 "1A1A1A1 RUBB_aDEG_CHECK_11_1A1A1A1 - What chemicals did you use to clean by hand?"
+categorical [1..]
+{
+	A "aDEG_1A1A1A1A Water" [Value=1],
+	B "aDEG_1A1A1A1B Trichloroethylene (Trike)" [Value=2],
+	C "aDEG_1A1A1A1C Perchloroethylene or Tetrachloroethylene (perc)" [Value=3],
+	D "aDEG_1A1A1A1D Methylene chloride" [Value=4],
+	E "aDEG_1A1A1A1E Petrol" [Value=5],
+	F "aDEG_1A1A1A1F Other, please specify" [Value=6] other (FREETEXT "" text),
+	G "aDEG_1A1A1A1G Don’t know" [Value=7] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1B1 "1A1A1B1 RUBB_aDEG_CHECK_11_1A1A1B1 - What chemicals did you use to spray parts?"
+categorical [1..]
+{
+	A "aDEG_1A1A1B1A Water" [Value=1],
+	B "aDEG_1A1A1B1B Trichlorethylene (Trike)" [Value=2],
+	C "aDEG_1A1A1B1C Perchloroethylene or Tetrachloroethylene (perc)" [Value=3],
+	D "aDEG_1A1A1B1D Methylene Chloride" [Value=4],
+	E "aDEG_1A1A1B1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1B1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1C1 "1A1A1C1 RUBB_aDEG_CHECK_11_1A1A1C1 - What chemicals did you use in the conveyorised degreaser?"
+categorical [1..]
+{
+	A "aDEG_1A1A1C1A Water" [Value=1],
+	B "aDEG_1A1A1C1B Trichloroethylene (trike)" [Value=2],
+	C "aDEG_1A1A1C1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1C1D Methylene Chloride" [Value=4],
+	E "aDEG_1A1A1C1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1C1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1D1 "1A1A1D1 RUBB_aDEG_CHECK_11_1A1A1D1 - What chemicals did you use in the dip tank?"
+categorical [1..]
+{
+	A "aDEG_1A1A1D1A Water" [Value=1],
+	B "aDEG_1A1A1D1B Trichlorethylene (trike)" [Value=2],
+	C "aDEG_1A1A1D1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1D1D Methylene Chloride" [Value=4],
+	E "aDEG_1A1A1D1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1D1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDEG_RADIO_11_1A1A1D2 "1A1A1D2 RUBB_aDEG_RADIO_11_1A1A1D2 - Was the dip tank kept covered when not in use?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1D2A Yes" [Value=1],
+	_2 "aDEG_1A1A1D2B No" [Value=2],
+	_3 "aDEG_1A1A1D2C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_RADIO_11_1A1A1D3 "1A1A1D3 RUBB_aDEG_RADIO_11_1A1A1D3 - Was there a ventilation system on the dip tank?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1D3A Yes" [Value=1],
+	_2 "aDEG_1A1A1D3B No" [Value=2],
+	_3 "aDEG_1A1A1D3C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1E1 "1A1A1E1 RUBB_aDEG_CHECK_11_1A1A1E1 - What chemicals did you use in the vapour degreaser?"
+categorical [1..]
+{
+	A "aDEG_1A1A1E1A Water" [Value=1],
+	B "aDEG_1A1A1E1B Trichlorethylene (trike)" [Value=2],
+	C "aDEG_1A1A1E1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1E1D Methylene chloride" [Value=4],
+	E "aDEG_1A1A1E1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1E1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDEG_RADIO_11_1A1A1E2 "1A1A1E2 RUBB_aDEG_RADIO_11_1A1A1E2 - Was the vapour degreaser covered when not in use?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1E2A Yes" [Value=1],
+	_2 "aDEG_1A1A1E2B No" [Value=2],
+	_3 "aDEG_1A1A1E2C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_RADIO_11_1A1A1E3 "1A1A1E3 RUBB_aDEG_RADIO_11_1A1A1E3 - Was there a ventilation system on the vapour degreaser?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1E3A Yes" [Value=1],
+	_2 "aDEG_1A1A1E3B No" [Value=2],
+	_3 "aDEG_1A1A1E3C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_RADIO_11_1A1A1E4 "1A1A1E4 RUBB_aDEG_RADIO_11_1A1A1E4 - Were there cooling coils around the vapour degreaser?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1E4A Yes" [Value=1],
+	_2 "aDEG_1A1A1E4B No" [Value=2],
+	_3 "aDEG_1A1A1E4C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_CHECK_11_1A1A1F1 "1A1A1F1 RUBB_aDEG_CHECK_11_1A1A1F1 - What chemicals did you use in the ultrasonic cleaner?"
+categorical [1..]
+{
+	A "aDEG_1A1A1F1A Water" [Value=1],
+	B "aDEG_1A1A1F1B Trichlorethylene (trike)" [Value=2],
+	C "aDEG_1A1A1F1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1F1D Methylene chloride" [Value=4],
+	E "aDEG_1A1A1F1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1F1F Don’t know" [Value=6] exclusive
+};
+RUBB_aDEG_RADIO_11_1A2 "1A2 RUBB_aDEG_RADIO_11_1A2 - In the last working week, did you use respiratory protection?"
+categorical [1..1]
+{
+	_1 "aDEG_1A2A Yes" [Value=1],
+	_2 "aDEG_1A2B No" [Value=2],
+	_3 "aDEG_1A2C Don’t know" [Value=3] exclusive
+};
+RUBB_aDEG_CHECK_11_1A2A1 "1A2A1 RUBB_aDEG_CHECK_11_1A2A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aDEG_1A2A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aDEG_1A2A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "aDEG_1A2A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aDEG_1A2A1D None of these" [Value=4] exclusive,
+	E "aDEG_1A2A1E Don’t know" [Value=5] exclusive
+};
+RUBB_aVEX_RADIO_12_1 "1 RUBB_aVEX_RADIO_12_1 - In the last working week, did you work in an area where there were vehicles driven or had their engines running?"
+categorical [1..1]
+{
+	_1 "aVEX_1A Yes" [Value=1],
+	_2 "aVEX_1B No" [Value=2],
+	_3 "aVEX_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aVEX_CHECK_12_1A1 "1A1 RUBB_aVEX_CHECK_12_1A1 - What types of fuel were used in these vehicles?"
+categorical [1..]
+{
+	A "aVEX_1A1A Diesel" [Value=1],
+	B "aVEX_1A1B Petrol" [Value=2],
+	C "aVEX_1A1C Liquefied Petroleum Gas (LPG) or propane" [Value=3],
+	D "aVEX_1A1D Battery or electricity" [Value=4],
+	E "aVEX_1A1E Other" [Value=5],
+	F "aVEX_1A1F Don’t know" [Value=6] exclusive
+};
+RUBB_aVEX_CHECK_12_1A2 "1A2 RUBB_aVEX_CHECK_12_1A2 - Were these vehicles indoors or outdoors?"
+categorical [1..]
+{
+	A "aVEX_1A2A Indoors" [Value=1],
+	B "aVEX_1A2B Outdoors" [Value=2],
+	C "aVEX_1A2C Don’t know" [Value=3] exclusive
+};
+RUBB_aVEX_CHECK_12_1A2A1 "1A2A1 RUBB_aVEX_CHECK_12_1A2A1 - How was the area ventilated?"
+categorical [1..]
+{
+	A "aVEX_1A2A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aVEX_1A2A1B By a general ventilation system" [Value=2],
+	C "aVEX_1A2A1C By fans in the window or doorway" [Value=3],
+	D "aVEX_1A2A1D By open doors or windows" [Value=4],
+	E "aVEX_1A2A1E No ventilation was applied to the area" [Value=5],
+	F "aVEX_1A2A1F Other" [Value=6],
+	G "aVEX_1A2A1G Don’t know" [Value=7] exclusive
+};
+RUBB_aVEX_RADIO_12_1A3 "1A3 RUBB_aVEX_RADIO_12_1A3 - How far away did you work from these vehicles?"
+categorical [1..1]
+{
+	_1 "aVEX_1A3A Less than 20 metres" [Value=1],
+	_2 "aVEX_1A3B 20 - 50 metres" [Value=2],
+	_3 "aVEX_1A3C More than 50 metres" [Value=3],
+	_4 "aVEX_1A3D Don’t know" [Value=4] exclusive
+};
+RUBB_aVEX_RADIO_12_1A4 "1A4 RUBB_aVEX_RADIO_12_1A4 - In the last working week, did you smell exhaust from the vehicles?"
+categorical [1..1]
+{
+	_1 "aVEX_1A4A Yes" [Value=1],
+	_2 "aVEX_1A4B No" [Value=2],
+	_3 "aVEX_1A4C Don’t know" [Value=3] exclusive
+};
+RUBB_aCLH_RADIO_13_1 "1 RUBB_aCLH_RADIO_13_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?"
+categorical [1..1]
+{
+	_1 "aCLH_1A Yes" [Value=1],
+	_2 "aCLH_1B No" [Value=2],
+	_3 "aCLH_1C Don’t know" [Value=3] exclusive
+};
+RUBB_aCLH_CHECK_13_1A1 "1A1 RUBB_aCLH_CHECK_13_1A1 - In the last working week, did you use any of the following to clean your hands at work?"
+categorical [1..]
+{
+	A "aCLH_1A1A Industrial hand cleaner" [Value=1],
+	B "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner" [Value=2],
+	C "aCLH_1A1C Petrol" [Value=3],
+	D "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub" [Value=4],
+	E "aCLH_1A1E None of these" [Value=5] exclusive,
+	F "aCLH_1A1F Don’t know" [Value=6] exclusive
+};

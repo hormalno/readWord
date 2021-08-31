@@ -1,0 +1,251 @@
+'RUBB_CHECK_1
+RUBB_CHECK_1.Ask()
+if rubb_check_1 * {A} then
+	RUBB_CHECK_1A1.Ask()
+end if
+if rubb_check_1 * {A} then
+	RUBB_RADIO_1A2.Ask()
+end if
+if rubb_check_1 * {A} then
+	RUBB_RADIO_1A3.Ask()
+end if
+if rubb_check_1 * {A} then
+	RUBB_RADIO_1A4.Ask()
+end if
+'RUBB_RADIO_2
+RUBB_RADIO_2.Ask()
+if rubb_radio_2 * {_1} then
+	RUBB_RADIO_2A1.Ask()
+end if
+'to do question doesnt exists
+'if 2a1 = rubb_2a1a yesifrubb_radio_2a1=1 then
+'	RUBB_CHECK_2A1A1.Ask()
+'end if
+'to do question doesnt exists
+'if 2a1a1 = rubb_2a1a1d pigmentsifrubb_check_2a1a1=4 then
+'	RUBB_CHECK_2A1A1D1.Ask()
+'end if
+'RUBB_RADIO_3
+RUBB_RADIO_3.Ask()
+'RUBB_RADIO_4
+RUBB_RADIO_4.Ask()
+'to do question doesnt exists
+'if 4 = rubb_4a yesifrubb_radio_4=1 then
+'	RUBB_aGLU_RADIO_4A1_1.Ask()
+'end if
+if rubb_aglu_radio_4a1_1 * {_1} then
+	RUBB_aGLU_RADIO_4A1_1A1.Ask()
+end if
+if rubb_aglu_radio_4a1_1a1 * {_1} then
+	RUBB_aGLU_CHECK_4A1_1A1A2.Ask()
+end if
+if rubb_aglu_check_4a1_1a1a2 * {A} then
+	RUBB_aGLU_RADIO_4A1_1A1A2A1.Ask()
+end if
+if rubb_aglu_radio_4a1_1 * {_1} then
+	RUBB_aGLU_RADIO_4A1_1A4.Ask()
+end if
+if rubb_aglu_radio_4a1_1a4 * {_1} then
+	RUBB_aGLU_CHECK_4A1_1A4A1.Ask()
+end if
+if rubb_aglu_radio_4a1_1 * {_1} then
+	RUBB_aGLU_RADIO_4A1_1A5.Ask()
+end if
+if rubb_aglu_radio_4a1_1a5 * {_1} then
+	RUBB_aGLU_CHECK_4A1_1A5A1.Ask()
+end if
+'RUBB_RADIO_5
+RUBB_RADIO_5.Ask()
+'to do question doesnt exists
+'if 5 = rubb_5a yes ifrubb_radio_5=1 then
+'	RUBB_CHECK_5A1.Ask()
+'end if
+'RUBB_aXRY_RADIO_6_1
+RUBB_aXRY_RADIO_6_1.Ask()
+if rubb_axry_radio_6_1 * {_1} then
+	RUBB_aXRY_CHECK_6_1A1.Ask()
+end if
+if rubb_axry_check_6_1a1 * {B} then
+	RUBB_aXRY_RADIO_6_1A1B1.Ask()
+end if
+if rubb_axry_check_6_1a1 * {B} then
+	RUBB_aXRY_RADIO_6_1A1B2.Ask()
+end if
+if rubb_axry_check_6_1a1 * {B} then
+	RUBB_aXRY_RADIO_6_1A1B3.Ask()
+end if
+if rubb_axry_check_6_1a1 * {C} then
+	RUBB_aXRY_RADIO_6_1A1C1.Ask()
+end if
+if rubb_axry_check_6_1a1 * {C} then
+	RUBB_aXRY_RADIO_6_1A1C2.Ask()
+end if
+if rubb_axry_check_6_1a1 * {C} then
+	RUBB_aXRY_RADIO_6_1A1C3.Ask()
+end if
+if rubb_axry_radio_6_1 * {_1} then
+	RUBB_aXRY_RADIO_6_1A2.Ask()
+end if
+'to do question doesnt exists
+'if 1a2 = rubb_axry_1a2a yesifrubb_axry_radio_6_1a2 =1 then
+'	RUBB_aXRY_RADIO_6_1A2A1.Ask()
+'end if
+'RUBB_CHECK_7
+RUBB_CHECK_7.Ask()
+'RUBB_RADIO_8
+RUBB_RADIO_8.Ask()
+'to do question doesnt exists
+'if 8 = rubb_8a yesifrubb_radio_8=1 then
+'	RUBB_CHECK_8A1.Ask()
+'end if
+'RUBB_aDVM_RADIO_9_1
+RUBB_aDVM_RADIO_9_1.Ask()
+if rubb_advm_radio_9_1 * {_1} then
+	RUBB_aDVM_CHECK_9_1A1.Ask()
+end if
+if rubb_advm_radio_9_1 * {_1} then
+	RUBB_aDVM_RADIO_9_1A2.Ask()
+end if
+if rubb_advm_radio_9_1 * {_1} then
+	RUBB_aDVM_RADIO_9_1A3.Ask()
+end if
+if rubb_advm_radio_9_1a3 * {_1} then
+	RUBB_aDVM_CHECK_9_1A3A1.Ask()
+end if
+if rubb_advm_radio_9_1 * {_1} then
+	RUBB_aDVM_RADIO_9_1A4.Ask()
+end if
+if rubb_advm_radio_9_1a4 * {_1} then
+	RUBB_aDVM_RADIO_9_1A4A1.Ask()
+end if
+if rubb_advm_radio_9_1a4a1 * {_1} then
+	RUBB_aDVM_RADIO_9_1A4A1A1.Ask()
+end if
+if rubb_advm_radio_9_1a4 * {_1} then
+	RUBB_aDVM_RADIO_9_1A4A2.Ask()
+end if
+if rubb_advm_radio_9_1a4a2 * {_1} then
+	RUBB_aDVM_RADIO_9_1A4A2A1.Ask()
+end if
+if rubb_advm_radio_9_1a4 * {_1} then
+	RUBB_aDVM_RADIO_9_1A4A4.Ask()
+end if
+if rubb_advm_radio_9_1a4 * {_1} then
+	RUBB_aDVM_CHECK_9_1A4A5.Ask()
+end if
+if rubb_advm_check_9_1a4a5 * {A} then
+	RUBB_aDVM_CHECK_9_1A4A5A1.Ask()
+end if
+'RUBB_aMAH_RADIO_10_1
+RUBB_aMAH_RADIO_10_1.Ask()
+if rubb_amah_radio_10_1 * {_1} then
+	RUBB_aMAH_CHECK_10_1A1.Ask()
+end if
+if rubb_amah_check_10_1a1 * {A} then
+	RUBB_aMAH_RADIO_10_1A1A1.Ask()
+end if
+if rubb_amah_radio_10_1a1a1 * {_2} then
+	RUBB_aMAH_CHECK_10_1A1A1B1.Ask()
+end if
+if rubb_amah_check_10_1a1a1b1 * {B} then
+	RUBB_aMAH_CHECK_10_1A1A1B1B1.Ask()
+end if
+if rubb_amah_radio_10_1a1a1 * {_2} then
+	RUBB_aMAH_RADIO_10_1A1A1B2.Ask()
+end if
+if rubb_amah_radio_10_1a1a1b2 * {_1} then
+	RUBB_aMAH_CHECK_10_1A1A1B2A1.Ask()
+end if
+if rubb_amah_radio_10_1a1a1 * {_2} then
+	RUBB_aMAH_RADIO_10_1A1A1B3.Ask()
+end if
+if rubb_amah_radio_10_1a1a1b3 * {_1} then
+	RUBB_aMAH_RADIO_10_1A1A1B3A1.Ask()
+end if
+if rubb_amah_check_10_1a1 * {B} then
+	RUBB_aMAH_CHECK_10_1A1B1.Ask()
+end if
+if rubb_amah_check_10_1a1 * {D} then
+	RUBB_aMAH_RADIO_10_1A1D1.Ask()
+end if
+if rubb_amah_check_10_1a1 * {D} then
+	RUBB_aMAH_RADIO_10_1A1D2.Ask()
+end if
+if rubb_amah_check_10_1a1 * {E} then
+	RUBB_aMAH_RADIO_10_1A1E1.Ask()
+end if
+if rubb_amah_radio_10_1 * {_1} then
+	RUBB_aMAH_CHECK_10_1A2.Ask()
+end if
+if rubb_amah_check_10_1a2 * {E} then
+	RUBB_aMAH_RADIO_10_1A2E1.Ask()
+end if
+'RUBB_aDEG_RADIO_11_1
+RUBB_aDEG_RADIO_11_1.Ask()
+if rubb_adeg_radio_11_1 * {_1} then
+	RUBB_aDEG_RADIO_11_1A1.Ask()
+end if
+if rubb_adeg_radio_11_1a1 * {_1} then
+	RUBB_aDEG_CHECK_11_1A1A1.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {A} then
+	RUBB_aDEG_CHECK_11_1A1A1A1.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {B} then
+	RUBB_aDEG_CHECK_11_1A1A1B1.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {C} then
+	RUBB_aDEG_CHECK_11_1A1A1C1.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {D} then
+	RUBB_aDEG_CHECK_11_1A1A1D1.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {D} then
+	RUBB_aDEG_RADIO_11_1A1A1D2.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {D} then
+	RUBB_aDEG_RADIO_11_1A1A1D3.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {E} then
+	RUBB_aDEG_CHECK_11_1A1A1E1.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {E} then
+	RUBB_aDEG_RADIO_11_1A1A1E2.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {E} then
+	RUBB_aDEG_RADIO_11_1A1A1E3.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {E} then
+	RUBB_aDEG_RADIO_11_1A1A1E4.Ask()
+end if
+if rubb_adeg_check_11_1a1a1 * {F} then
+	RUBB_aDEG_CHECK_11_1A1A1F1.Ask()
+end if
+if rubb_adeg_radio_11_1 * {_1} then
+	RUBB_aDEG_RADIO_11_1A2.Ask()
+end if
+if rubb_adeg_radio_11_1a2 * {_1} then
+	RUBB_aDEG_CHECK_11_1A2A1.Ask()
+end if
+'RUBB_aVEX_RADIO_12_1
+RUBB_aVEX_RADIO_12_1.Ask()
+if rubb_avex_radio_12_1 * {_1} then
+	RUBB_aVEX_CHECK_12_1A1.Ask()
+end if
+if rubb_avex_radio_12_1 * {_1} then
+	RUBB_aVEX_CHECK_12_1A2.Ask()
+end if
+if rubb_avex_check_12_1a2 * {A} then
+	RUBB_aVEX_CHECK_12_1A2A1.Ask()
+end if
+if rubb_avex_radio_12_1 * {_1} then
+	RUBB_aVEX_RADIO_12_1A3.Ask()
+end if
+if rubb_avex_radio_12_1 * {_1} then
+	RUBB_aVEX_RADIO_12_1A4.Ask()
+end if
+'RUBB_aCLH_RADIO_13_1
+RUBB_aCLH_RADIO_13_1.Ask()
+if rubb_aclh_radio_13_1 * {_1} then
+	RUBB_aCLH_CHECK_13_1A1.Ask()
+end if

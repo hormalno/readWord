@@ -1,0 +1,259 @@
+Questions count: 33
+OFFW_aUVR_RADIO_1_1 "1 OFFW_aUVR_RADIO_1_1 - In the last working week, did you work outside during the day (includes being in a vehicle that is outside)?"
+categorical [1..1]
+{
+	_1 "aUVR_1A Yes" [Value=1],
+	_2 "aUVR_1B No" [Value=2],
+	_3 "aUVR_1C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A1 "1A1 OFFW_aUVR_RADIO_1_1A1 - In the last working week, did you work with or near reflective surfaces, such as sand, glass, roofing iron, water?"
+categorical [1..1]
+{
+	_1 "aUVR_1A1A Yes" [Value=1],
+	_2 "aUVR_1A1B No" [Value=2],
+	_3 "aUVR_1A1C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_CHECK_1_1A1A1 "1A1A1 OFFW_aUVR_CHECK_1_1A1A1 - In the last working week, did you work with or near any of the following reflective surfaces?"
+categorical [1..]
+{
+	A "aUVR_1A1A1A Sand" [Value=1],
+	B "aUVR_1A1A1B Glass (including windscreens)" [Value=2],
+	C "aUVR_1A1A1C Roofing iron" [Value=3],
+	D "aUVR_1A1A1D Water" [Value=4],
+	E "aUVR_1A1A1E Concrete or cement" [Value=5],
+	F "aUVR_1A1A1F Bitumen or ashphalt" [Value=6],
+	G "aUVR_1A1A1G Snow" [Value=7],
+	H "aUVR_1A1A1H Plastic" [Value=8],
+	I "aUVR_1A1A1I None of these" [Value=9] exclusive,
+	J "aUVR_1A1A1J Don’t know" [Value=10] exclusive
+};
+OFFW_aUVR_CHECK_1_1A3 "1A3 OFFW_aUVR_CHECK_1_1A3 - When you were working outdoors, were you:"
+categorical [1..]
+{
+	A "aUVR_1A3A Under partial shade (e.g., sun shade sail, under trees)" [Value=1],
+	B "aUVR_1A3B In the open" [Value=2],
+	C "aUVR_1A3C In a vehicle" [Value=3],
+	D "aUVR_1A3D Don’t know" [Value=4] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3A1 "1A3A1 OFFW_aUVR_RADIO_1_1A3A1 - How many hours per day did you spend working under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A1A More than 4 hours" [Value=1],
+	_2 "aUVR_1A3A1B Between 1 and 4 hours" [Value=2],
+	_3 "aUVR_1A3A1C Less than 1 hour" [Value=3],
+	_4 "aUVR_1A3A1D Don’t know" [Value=4] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3A2 "1A3A2 OFFW_aUVR_RADIO_1_1A3A2 - In the last working week, did you wear clothing that covered most of your body (i.e., trousers and shirts or t-shirts with sleeves) when working under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A2A Yes" [Value=1],
+	_2 "aUVR_1A3A2B No" [Value=2],
+	_3 "aUVR_1A3A2C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3A3 "1A3A3 OFFW_aUVR_RADIO_1_1A3A3 - In the last working week, did you wear sunscreen when working under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A3A Yes" [Value=1],
+	_2 "aUVR_1A3A3B No" [Value=2],
+	_3 "aUVR_1A3A3C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3A4 "1A3A4 OFFW_aUVR_RADIO_1_1A3A4 - In the last working week did you wear a hat or other sun protection head cover when working out under partial shade?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3A4A Yes" [Value=1],
+	_2 "aUVR_1A3A4B No" [Value=2],
+	_3 "aUVR_1A3A4C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3B1 "1A3B1 OFFW_aUVR_RADIO_1_1A3B1 - In the last working week, how many hours per day did you spend working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B1A More than 4 hours" [Value=1],
+	_2 "aUVR_1A3B1B Between 1 and 4 hours" [Value=2],
+	_3 "aUVR_1A3B1C Less than 1 hour" [Value=3],
+	_4 "aUVR_1A3B1D Don’t know" [Value=4] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3B2 "1A3B2 OFFW_aUVR_RADIO_1_1A3B2 - In the last working week, did you wear clothing that covered most of your body (i.e., trousers and shirts or t-shirts with sleeves) when working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B2A Yes" [Value=1],
+	_2 "aUVR_1A3B2B No" [Value=2],
+	_3 "aUVR_1A3B2C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3B3 "1A3B3 OFFW_aUVR_RADIO_1_1A3B3 - In the last working week, did you wear sunscreen when working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B3A Yes" [Value=1],
+	_2 "aUVR_1A3B3B No" [Value=2],
+	_3 "aUVR_1A3B3C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3B4 "1A3B4 OFFW_aUVR_RADIO_1_1A3B4 - In the last working week, did you wear a hat or other sun protection head cover when working out in the open?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3B4A Yes" [Value=1],
+	_2 "aUVR_1A3B4B No" [Value=2],
+	_3 "aUVR_1A3B4C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3C1 "1A3C1 OFFW_aUVR_RADIO_1_1A3C1 - In the last working week, did you have your windows open in the vehicle you were working in?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A Yes" [Value=1],
+	_2 "aUVR_1A3C1B No" [Value=2],
+	_3 "aUVR_1A3C1C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3C1A1 "1A3C1A1 OFFW_aUVR_RADIO_1_1A3C1A1 - In the last working week, how many hours per day did you spend working in a vehicle with your windows down?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A1A More than 4 hours" [Value=1],
+	_2 "aUVR_1A3C1A1B Between 1 and 4 hours" [Value=2],
+	_3 "aUVR_1A3C1A1C Less than 1 hour" [Value=3],
+	_4 "aUVR_1A3C1A1D Don’t know" [Value=4] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3C1A2 "1A3C1A2 OFFW_aUVR_RADIO_1_1A3C1A2 - In the last working week, did you wear clothing that covered most of your body (i.e., long sleeve shirts) when working in the vehicle?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A2A Yes" [Value=1],
+	_2 "aUVR_1A3C1A2B No" [Value=2],
+	_3 "aUVR_1A3C1A2C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A3C1A3 "1A3C1A3 OFFW_aUVR_RADIO_1_1A3C1A3 - In the last working week, did you wear sunscreen when working in the vehicle?"
+categorical [1..1]
+{
+	_1 "aUVR_1A3C1A3A Yes" [Value=1],
+	_2 "aUVR_1A3C1A3B No" [Value=2],
+	_3 "aUVR_1A3C1A3C Don’t know" [Value=3] exclusive
+};
+OFFW_aUVR_RADIO_1_1A4 "1A4 OFFW_aUVR_RADIO_1_1A4 - In the last working week, did you wear sunglasses when you were working outside?"
+categorical [1..1]
+{
+	_1 "aUVR_1A4A Yes" [Value=1],
+	_2 "aUVR_1A4B No" [Value=2],
+	_3 "aUVR_1A4C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1 "1 OFFW_aDVM_RADIO_2_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A Yes" [Value=1],
+	_2 "aDVM_1B No" [Value=2],
+	_3 "aDVM_1C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_CHECK_2_1A1 "1A1 OFFW_aDVM_CHECK_2_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?"
+categorical [1..]
+{
+	A "aDVM_1A1A Diesel" [Value=1],
+	B "aDVM_1A1B Petrol" [Value=2],
+	C "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane" [Value=3],
+	D "aDVM_1A1D Battery or electricity" [Value=4],
+	E "aDVM_1A1E None of these" [Value=5] exclusive,
+	F "aDVM_1A1F Don’t know" [Value=6] exclusive
+};
+OFFW_aDVM_RADIO_2_1A2 "1A2 OFFW_aDVM_RADIO_2_1A2 - In the last working week, did you fuel the vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aDVM_1A2A Yes" [Value=1],
+	_2 "aDVM_1A2B No" [Value=2],
+	_3 "aDVM_1A2C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1A3 "1A3 OFFW_aDVM_RADIO_2_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A3A Yes" [Value=1],
+	_2 "aDVM_1A3B No" [Value=2],
+	_3 "aDVM_1A3C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_CHECK_2_1A3A1 "1A3A1 OFFW_aDVM_CHECK_2_1A3A1 - What types of roads or areas did you drive or travel on?"
+categorical [1..]
+{
+	A "aDVM_1A3A1A Any public street or road in an urban area" [Value=1],
+	B "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)" [Value=2],
+	C "aDVM_1A3A1C Agricultural land" [Value=3],
+	D "aDVM_1A3A1D Forestry areas" [Value=4],
+	E "aDVM_1A3A1E Underground in a mine" [Value=5],
+	F "aDVM_1A3A1F Surface driving in an open mine or in a quarry" [Value=6],
+	G "aDVM_1A3A1G Construction sites" [Value=7],
+	H "aDVM_1A3A1H Inside a building (e.g., warehouse)" [Value=8],
+	I "aDVM_1A3A1I Other industrial sites" [Value=9],
+	J "aDVM_1A3A1J Other" [Value=10],
+	K "aDVM_1A3A1K Don’t know" [Value=11] exclusive
+};
+OFFW_aDVM_RADIO_2_1A4 "1A4 OFFW_aDVM_RADIO_2_1A4 - In the last working week, did you perform any maintenance work on vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A Yes" [Value=1],
+	_2 "aDVM_1A4B No" [Value=2],
+	_3 "aDVM_1A4C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1A4A1 "1A4A1 OFFW_aDVM_RADIO_2_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1B No" [Value=2],
+	_3 "aDVM_1A4A1C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1A4A1A1 "1A4A1A1 OFFW_aDVM_RADIO_2_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1A1B No" [Value=2],
+	_3 "aDVM_1A4A1A1C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1A4A2 "1A4A2 OFFW_aDVM_RADIO_2_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A Yes" [Value=1],
+	_2 "aDVM_1A4A2B No" [Value=2],
+	_3 "aDVM_1A4A2C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1A4A2A1 "1A4A2A1 OFFW_aDVM_RADIO_2_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A1A Yes" [Value=1],
+	_2 "aDVM_1A4A2A1B No" [Value=2],
+	_3 "aDVM_1A4A2A1C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_RADIO_2_1A4A4 "1A4A4 OFFW_aDVM_RADIO_2_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A4A Yes" [Value=1],
+	_2 "aDVM_1A4A4B No" [Value=2],
+	_3 "aDVM_1A4A4C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_CHECK_2_1A4A5 "1A4A5 OFFW_aDVM_CHECK_2_1A4A5 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A Indoors" [Value=1],
+	B "aDVM_1A4A5B Outdoors" [Value=2],
+	C "aDVM_1A4A5C Don’t know" [Value=3] exclusive
+};
+OFFW_aDVM_CHECK_2_1A4A5A1 "1A4A5A1 OFFW_aDVM_CHECK_2_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aDVM_1A4A5A1C By a general ventilation system" [Value=3],
+	D "aDVM_1A4A5A1D By fans in the window or doorway" [Value=4],
+	E "aDVM_1A4A5A1E By open doors or windows" [Value=5],
+	F "aDVM_1A4A5A1F No ventilation was applied to the area" [Value=6],
+	G "aDVM_1A4A5A1G Other" [Value=7],
+	H "aDVM_1A4A5A1H Don’t know" [Value=8] exclusive
+};
+OFFW_aFFL_RADIO_5_1 "1 OFFW_aFFL_RADIO_5_1 - In the last month, did you take any flights with more than 6 hours duration?"
+categorical [1..1]
+{
+	_1 "aFFL_1A Yes" [Value=1],
+	_2 "aFFL_1B No" [Value=2],
+	_3 "aFFL_1C Don’t know" [Value=3] exclusive
+};
+OFFW_aFFL_RADIO_5_1A1 "1A1 OFFW_aFFL_RADIO_5_1A1 - How many flights did you take which had more than 6 hours time difference between your departure and arrival locations?"
+categorical [1..1]
+{
+	_1 "aFFL_1A1A 1 to 7" [Value=1],
+	_2 "aFFL_1A1B 8 or more" [Value=2],
+	_3 "aFFL_1A1C Don’t know" [Value=3] exclusive
+};
+OFFW_aFFL_RADIO_5_1A2 "1A2 OFFW_aFFL_RADIO_5_1A2 - In the last month, did you fly over the South or North poles?"
+categorical [1..1]
+{
+	_1 "aFFL_1A2A Yes" [Value=1],
+	_2 "aFFL_1A2B No" [Value=2],
+	_3 "aFFL_1A2C Don’t know" [Value=3] exclusive
+};

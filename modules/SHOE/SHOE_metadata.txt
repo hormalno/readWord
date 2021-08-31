@@ -1,0 +1,308 @@
+Questions count: 38
+SHOE_RADIO_1 "1 SHOE_RADIO_1 - In the last working week, did you manufacture or repair footwear?"
+categorical [1..1]
+{
+	_1 "SHOE_1A Yes" [Value=1],
+	_2 "SHOE_1B No" [Value=2],
+	_3 "SHOE_1C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_1A1 "1A1 SHOE_RADIO_1A1 - In the last working week, did you make rubber boots?"
+categorical [1..1]
+{
+	_1 "SHOE_1A1A Yes" [Value=1],
+	_2 "SHOE_1A1B No" [Value=2],
+	_3 "SHOE_1A1C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_1A1A1 "1A1A1 SHOE_RADIO_1A1A1 - Did you mix rubber and other ingredients in the last working week?"
+categorical [1..1]
+{
+	_1 "SHOE_1A1A1A Yes" [Value=1],
+	_2 "SHOE_1A1A1B No" [Value=2],
+	_3 "SHOE_1A1A1C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_1A2 "1A2 SHOE_RADIO_1A2 - In the last working week, did you make shoes or boots made of materials other than just rubber?"
+categorical [1..1]
+{
+	_1 "SHOE_1A2A Yes" [Value=1],
+	_2 "SHOE_1A2B No" [Value=2],
+	_3 "SHOE_1A2C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_1A2A1 "1A2A1 SHOE_RADIO_1A2A1 - Did you work in the finishing process during the last working week?"
+categorical [1..1]
+{
+	_1 "SHOE_1A2A1A Yes" [Value=1],
+	_2 "SHOE_1A2A1B No" [Value=2],
+	_3 "SHOE_1A2A1C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_1A3 "1A3 SHOE_RADIO_1A3 - In the last working week, did you make or repair leather shoe heels or soles?"
+categorical [1..1]
+{
+	_1 "SHOE_1A3A Yes" [Value=1],
+	_2 "SHOE_1A3B No" [Value=2],
+	_3 "SHOE_1A3C Don’t know" [Value=3] exclusive
+};
+SHOE_aGLU_RADIO_2_1 "1 SHOE_aGLU_RADIO_2_1 - In the last working week, did you handle or come in contact with glues, resins, bogs, or fillers?"
+categorical [1..1]
+{
+	_1 "aGLU_1A Yes" [Value=1],
+	_2 "aGLU_1B No" [Value=2],
+	_3 "aGLU_1C Don’t know" [Value=3] exclusive
+};
+SHOE_aGLU_RADIO_2_1A1 "1A1 SHOE_aGLU_RADIO_2_1A1 - In the last working week, did you use glues or adhesives?"
+categorical [1..1]
+{
+	_1 "aGLU_1A1A Yes" [Value=1],
+	_2 "aGLU_1A1B No" [Value=2],
+	_3 "aGLU_1A1C Don’t know" [Value=3] exclusive
+};
+SHOE_aGLU_CHECK_2_1A1A2 "1A1A2 SHOE_aGLU_CHECK_2_1A1A2 - In the last working week, did you use any of the following types of glues or adhesives?"
+categorical [1..]
+{
+	A "aGLU_1A1A2A 2-part glues" [Value=1],
+	B "aGLU_1A1A2B Plastic resin wood glue (also called urea-formaldehyde resin)" [Value=2],
+	C "aGLU_1A1A2C None of these" [Value=3] exclusive,
+	D "aGLU_1A1A2D Don’t know" [Value=4] exclusive
+};
+SHOE_aGLU_RADIO_2_1A1A2A1 "1A1A2A1 SHOE_aGLU_RADIO_2_1A1A2A1 - In the last working week, did you use epoxy two-part glues?"
+categorical [1..1]
+{
+	_1 "aGLU_1A1A2A1A Yes" [Value=1],
+	_2 "aGLU_1A1A2A1B No" [Value=2],
+	_3 "aGLU_1A1A2A1C Don’t know" [Value=3] exclusive
+};
+SHOE_aGLU_RADIO_2_1A4 "1A4 SHOE_aGLU_RADIO_2_1A4 - In the last working week, were you indoors while handling or coming in contact with glues, resins, bogs, or fillers?"
+categorical [1..1]
+{
+	_1 "aGLU_1A4A Yes" [Value=1],
+	_2 "aGLU_1A4B No" [Value=2],
+	_3 "aGLU_1A4C Don’t know" [Value=3] exclusive
+};
+SHOE_aGLU_CHECK_2_1A4A1 "1A4A1 SHOE_aGLU_CHECK_2_1A4A1 - How was the area ventilated?"
+categorical [1..]
+{
+	A "aGLU_1A4A1A By local exhaust ventilation which captured the vapour at the emission point" [Value=1],
+	B "aGLU_1A4A1B By on-tool extraction to remove vapours away from your face" [Value=2],
+	C "aGLU_1A4A1C By a general ventilation system" [Value=3],
+	D "aGLU_1A4A1D By fans in the window or doorway" [Value=4],
+	E "aGLU_1A4A1E By open doors or windows" [Value=5],
+	F "aGLU_1A4A1F No ventilation was applied to the area" [Value=6],
+	G "aGLU_1A4A1G Other" [Value=7],
+	H "aGLU_1A4A1H Don’t know" [Value=8] exclusive
+};
+SHOE_aGLU_RADIO_2_1A5 "1A5 SHOE_aGLU_RADIO_2_1A5 - In the last working week, did you use respiratory protection while handling or coming in contact with glues, resins, bogs, or fillers?"
+categorical [1..1]
+{
+	_1 "aGLU_1A5A Yes" [Value=1],
+	_2 "aGLU_1A5B No" [Value=2],
+	_3 "aGLU_1A5C Don’t know" [Value=3] exclusive
+};
+SHOE_aGLU_CHECK_2_1A5A1 "1A5A1 SHOE_aGLU_CHECK_2_1A5A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aGLU_1A5A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aGLU_1A5A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "aGLU_1A5A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aGLU_1A5A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "aGLU_1A5A1E Other" [Value=5],
+	F "aGLU_1A5A1F Don’t know" [Value=6] exclusive
+};
+SHOE_aDVM_RADIO_3_1 "1 SHOE_aDVM_RADIO_3_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A Yes" [Value=1],
+	_2 "aDVM_1B No" [Value=2],
+	_3 "aDVM_1C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_CHECK_3_1A1 "1A1 SHOE_aDVM_CHECK_3_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?"
+categorical [1..]
+{
+	A "aDVM_1A1A Diesel" [Value=1],
+	B "aDVM_1A1B Petrol" [Value=2],
+	C "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane" [Value=3],
+	D "aDVM_1A1D Battery or electricity" [Value=4],
+	E "aDVM_1A1E None of these" [Value=5] exclusive,
+	F "aDVM_1A1F Don’t know" [Value=6] exclusive
+};
+SHOE_aDVM_RADIO_3_1A2 "1A2 SHOE_aDVM_RADIO_3_1A2 - In the last working week, did you fuel the vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aDVM_1A2A Yes" [Value=1],
+	_2 "aDVM_1A2B No" [Value=2],
+	_3 "aDVM_1A2C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_RADIO_3_1A3 "1A3 SHOE_aDVM_RADIO_3_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A3A Yes" [Value=1],
+	_2 "aDVM_1A3B No" [Value=2],
+	_3 "aDVM_1A3C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_CHECK_3_1A3A1 "1A3A1 SHOE_aDVM_CHECK_3_1A3A1 - What types of roads or areas did you drive or travel on?"
+categorical [1..]
+{
+	A "aDVM_1A3A1A Any public street or road in an urban area" [Value=1],
+	B "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)" [Value=2],
+	C "aDVM_1A3A1C Agricultural land" [Value=3],
+	D "aDVM_1A3A1D Forestry areas" [Value=4],
+	E "aDVM_1A3A1E Underground in a mine" [Value=5],
+	F "aDVM_1A3A1F Surface driving in an open mine or in a quarry" [Value=6],
+	G "aDVM_1A3A1G Construction sites" [Value=7],
+	H "aDVM_1A3A1H Inside a building (e.g., warehouse)" [Value=8],
+	I "aDVM_1A3A1I Other industrial sites" [Value=9],
+	J "aDVM_1A3A1J Other" [Value=10],
+	K "aDVM_1A3A1K Don’t know" [Value=11] exclusive
+};
+SHOE_aDVM_RADIO_3_1A4 "1A4 SHOE_aDVM_RADIO_3_1A4 - In the last working week, did you perform any maintenance work on vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A Yes" [Value=1],
+	_2 "aDVM_1A4B No" [Value=2],
+	_3 "aDVM_1A4C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_RADIO_3_1A4A1 "1A4A1 SHOE_aDVM_RADIO_3_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1B No" [Value=2],
+	_3 "aDVM_1A4A1C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_RADIO_3_1A4A1A1 "1A4A1A1 SHOE_aDVM_RADIO_3_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1A1B No" [Value=2],
+	_3 "aDVM_1A4A1A1C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_RADIO_3_1A4A2 "1A4A2 SHOE_aDVM_RADIO_3_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A Yes" [Value=1],
+	_2 "aDVM_1A4A2B No" [Value=2],
+	_3 "aDVM_1A4A2C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_RADIO_3_1A4A2A1 "1A4A2A1 SHOE_aDVM_RADIO_3_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A1A Yes" [Value=1],
+	_2 "aDVM_1A4A2A1B No" [Value=2],
+	_3 "aDVM_1A4A2A1C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_RADIO_3_1A4A4 "1A4A4 SHOE_aDVM_RADIO_3_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A4A Yes" [Value=1],
+	_2 "aDVM_1A4A4B No" [Value=2],
+	_3 "aDVM_1A4A4C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_CHECK_3_1A4A5 "1A4A5 SHOE_aDVM_CHECK_3_1A4A5 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A Indoors" [Value=1],
+	B "aDVM_1A4A5B Outdoors" [Value=2],
+	C "aDVM_1A4A5C Don’t know" [Value=3] exclusive
+};
+SHOE_aDVM_CHECK_3_1A4A5A1 "1A4A5A1 SHOE_aDVM_CHECK_3_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aDVM_1A4A5A1C By a general ventilation system" [Value=3],
+	D "aDVM_1A4A5A1D By fans in the window or doorway" [Value=4],
+	E "aDVM_1A4A5A1E By open doors or windows" [Value=5],
+	F "aDVM_1A4A5A1F No ventilation was applied to the area" [Value=6],
+	G "aDVM_1A4A5A1G Other" [Value=7],
+	H "aDVM_1A4A5A1H Don’t know" [Value=8] exclusive
+};
+SHOE_aCLH_RADIO_4_1 "1 SHOE_aCLH_RADIO_4_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?"
+categorical [1..1]
+{
+	_1 "aCLH_1A Yes" [Value=1],
+	_2 "aCLH_1B No" [Value=2],
+	_3 "aCLH_1C Don’t know" [Value=3] exclusive
+};
+SHOE_aCLH_CHECK_4_1A1 "1A1 SHOE_aCLH_CHECK_4_1A1 - In the last working week, did you use any of the following to clean your hands at work?"
+categorical [1..]
+{
+	A "aCLH_1A1A Industrial hand cleaner" [Value=1],
+	B "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner" [Value=2],
+	C "aCLH_1A1C Petrol" [Value=3],
+	D "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub" [Value=4],
+	E "aCLH_1A1E None of these" [Value=5] exclusive,
+	F "aCLH_1A1F Don’t know" [Value=6] exclusive
+};
+SHOE_RADIO_5 "5 SHOE_RADIO_5 - In the last working week, did you work with leather?"
+categorical [1..1]
+{
+	_1 "SHOE_5A Yes" [Value=1],
+	_2 "SHOE_5B No" [Value=2],
+	_3 "SHOE_5C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_5A1 "5A1 SHOE_RADIO_5A1 - In the last working week, did you rough, scour, finish or cut the leather?"
+categorical [1..1]
+{
+	_1 "SHOE_5A1A Yes" [Value=1],
+	_2 "SHOE_5A1B No" [Value=2],
+	_3 "SHOE_5A1C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_5A2 "5A2 SHOE_RADIO_5A2 - In the last working week, did you work in an area where there was leather dust?"
+categorical [1..1]
+{
+	_1 "SHOE_5A2A Yes" [Value=1],
+	_2 "SHOE_5A2B No" [Value=2],
+	_3 "SHOE_5A2C Don’t know" [Value=3] exclusive
+};
+SHOE_CHECK_5A2A1 "5A2A1 SHOE_CHECK_5A2A1 - How was the working area cleaned of dust?"
+categorical [1..]
+{
+	A "SHOE_5A2A1A Using vacuum cleaner" [Value=1],
+	B "SHOE_5A2A1B Using vacuum cleaner fitted with a HEPA filter" [Value=2],
+	C "SHOE_5A2A1C Using compressed air" [Value=3],
+	D "SHOE_5A2A1D Using a brush or sweeping the area with a broom" [Value=4],
+	E "SHOE_5A2A1E Mopping the area with water" [Value=5],
+	F "SHOE_5A2A1F None of these" [Value=6] exclusive,
+	G "SHOE_5A2A1G The working area was not cleaned of dust" [Value=7],
+	H "SHOE_5A2A1H Don’t know" [Value=8] exclusive
+};
+SHOE_RADIO_5A2A2 "5A2A2 SHOE_RADIO_5A2A2 - In the last working week, was water spray or water suppression used to reduce the amount of dust in your work area?"
+categorical [1..1]
+{
+	_1 "SHOE_5A2A2A Yes" [Value=1],
+	_2 "SHOE_5A2A2B No" [Value=2],
+	_3 "SHOE_5A2A2C Don’t know" [Value=3] exclusive
+};
+SHOE_RADIO_6 "6 SHOE_RADIO_6 - In the last working week, where did you work?"
+categorical [1..1]
+{
+	_1 "SHOE_6A Indoors" [Value=1],
+	_2 "SHOE_6B Outdoors" [Value=2],
+	_3 "SHOE_6C Don’t know" [Value=3] exclusive
+};
+SHOE_CHECK_6A1 "6A1 SHOE_CHECK_6A1 - How was the area where you worked ventilated?"
+categorical [1..]
+{
+	A "SHOE_6A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "SHOE_6A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "SHOE_6A1C By a general ventilation system" [Value=3],
+	D "SHOE_6A1D By fans in the window or doorway" [Value=4],
+	E "SHOE_6A1E By open doors or windows" [Value=5],
+	F "SHOE_6A1F No ventilation was applied to the area" [Value=6],
+	G "SHOE_6A1G Other" [Value=7],
+	H "SHOE_6A1H Don’t know" [Value=8] exclusive
+};
+SHOE_RADIO_7 "7 SHOE_RADIO_7 - In the last working week, did you use respiratory protection?"
+categorical [1..1]
+{
+	_1 "SHOE_7A Yes" [Value=1],
+	_2 "SHOE_7B No" [Value=2],
+	_3 "SHOE_7C Don’t know" [Value=3] exclusive
+};
+SHOE_CHECK_7A1 "7A1 SHOE_CHECK_7A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "SHOE_7A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "SHOE_7A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "SHOE_7A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "SHOE_7A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "SHOE_7A1E Other" [Value=5],
+	F "SHOE_7A1F Don’t know" [Value=6] exclusive
+};

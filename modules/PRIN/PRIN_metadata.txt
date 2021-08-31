@@ -1,0 +1,719 @@
+Questions count: 90
+PRIN_CHECK_1 "1 PRIN_CHECK_1 - In the last working week, what types of printing processes did you use?"
+categorical [1..]
+{
+	A "PRIN_1A Lithography, planographic or offset" [Value=1],
+	B "PRIN_1B Letterpress or relief" [Value=2],
+	C "PRIN_1C Screen printing or porous printing" [Value=3],
+	D "PRIN_1D Other" [Value=4],
+	E "PRIN_1E Don’t know" [Value=5] exclusive
+};
+PRIN_CHECK_1A1 "1A1 PRIN_CHECK_1A1 - In the last working week, which area did you primarily work in?"
+categorical [1..]
+{
+	A "PRIN_1A1A Pre-press" [Value=1],
+	B "PRIN_1A1B Press/printing" [Value=2],
+	C "PRIN_1A1C Post press/finishing" [Value=3],
+	D "PRIN_1A1D Press cleaning" [Value=4],
+	E "PRIN_1A1E Press maintenance" [Value=5],
+	F "PRIN_1A1F Photocopying or retail print shop" [Value=6],
+	G "PRIN_1A1G Other" [Value=7],
+	H "PRIN_1A1H Don’t know" [Value=8] exclusive
+};
+PRIN_CHECK_1A1A1 "1A1A1 PRIN_CHECK_1A1A1 - Which of the following pre-press tasks did you work on?"
+categorical [1..]
+{
+	A "PRIN_1A1A1A Design and composition" [Value=1],
+	B "PRIN_1A1A1B Graphic reproduction, photographic film development" [Value=2],
+	C "PRIN_1A1A1C Image carrier, plate, or cylinder preparation" [Value=3],
+	D "PRIN_1A1A1D Don’t know" [Value=4] exclusive
+};
+PRIN_RADIO_1A1A1B1 "1A1A1B1 PRIN_RADIO_1A1A1B1 - In the last working week, did you handle any photographic chemicals?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1A1B1A Yes" [Value=1],
+	_2 "PRIN_1A1A1B1B No" [Value=2],
+	_3 "PRIN_1A1A1B1C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_1A1A1B1A1 "1A1A1B1A1 PRIN_RADIO_1A1A1B1A1 - In the last working week, did you mix the developer, stabiliser, or hardener solutions yourself?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1A1B1A1A Yes" [Value=1],
+	_2 "PRIN_1A1A1B1A1B No" [Value=2],
+	_3 "PRIN_1A1A1B1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1A1A1B1A1A1 "1A1A1B1A1A1 PRIN_CHECK_1A1A1B1A1A1 - How was the area where you mixed chemicals ventilated?"
+categorical [1..]
+{
+	A "PRIN_1A1A1B1A1A1A By local exhaust ventilation which captured the vapour at the emission point" [Value=1],
+	B "PRIN_1A1A1B1A1A1B By using a ventilated booth" [Value=2],
+	C "PRIN_1A1A1B1A1A1C By a general ventilation system" [Value=3],
+	D "PRIN_1A1A1B1A1A1D By fans in the window or doorway" [Value=4],
+	E "PRIN_1A1A1B1A1A1E By open doors or windows" [Value=5],
+	F "PRIN_1A1A1B1A1A1F No ventilation was applied to the area" [Value=6],
+	G "PRIN_1A1A1B1A1A1G Other" [Value=7],
+	H "PRIN_1A1A1B1A1A1H Don’t know" [Value=8] exclusive
+};
+PRIN_RADIO_1A1A1C1 "1A1A1C1 PRIN_RADIO_1A1A1C1 - In the last working week, did you clean the plates before use?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1A1C1A Yes" [Value=1],
+	_2 "PRIN_1A1A1C1B No" [Value=2],
+	_3 "PRIN_1A1A1C1C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1A1A1C1A1 "1A1A1C1A1 PRIN_CHECK_1A1A1C1A1 - What did you use to clean the plates?"
+categorical [1..]
+{
+	A "PRIN_1A1A1C1A1A Water or water-based cleaners" [Value=1],
+	B "PRIN_1A1A1C1A1B Citrus, soy or vegetable-based cleaners" [Value=2],
+	C "PRIN_1A1A1C1A1C Solvent-based cleaners (e.g Petroleum distillates / hydrocarbon cleaners)" [Value=3],
+	D "PRIN_1A1A1C1A1D Other" [Value=4],
+	E "PRIN_1A1A1C1A1E Don’t know" [Value=5] exclusive
+};
+PRIN_CHECK_1A1A1C1A1C1 "1A1A1C1A1C1 PRIN_CHECK_1A1A1C1A1C1 - In the last working week, how did you use the cleaners?"
+categorical [1..]
+{
+	A "PRIN_1A1A1C1A1C1A By running the cleaners through the printing machine" [Value=1],
+	B "PRIN_1A1A1C1A1C1B By dipping the plates" [Value=2],
+	C "PRIN_1A1A1C1A1C1C By manually cleaning the plates" [Value=3],
+	D "PRIN_1A1A1C1A1C1D By spraying" [Value=4],
+	E "PRIN_1A1A1C1A1C1E Other" [Value=5],
+	F "PRIN_1A1A1C1A1C1F Don’t know" [Value=6] exclusive
+};
+PRIN_RADIO_1A1A1C2 "1A1A1C2 PRIN_RADIO_1A1A1C2 - In the last working week, did you use diazo coatings?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1A1C2A Yes" [Value=1],
+	_2 "PRIN_1A1A1C2B No" [Value=2],
+	_3 "PRIN_1A1A1C2C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_1A1D1 "1A1D1 PRIN_RADIO_1A1D1 - In the last working week, did you clean any part of the printing press, including plates, cylinders, rollers, blankets?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1D1A Yes" [Value=1],
+	_2 "PRIN_1A1D1B No" [Value=2],
+	_3 "PRIN_1A1D1C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1A1D1A1 "1A1D1A1 PRIN_CHECK_1A1D1A1 - In the last working week, did you clean the parts on or off press?"
+categorical [1..]
+{
+	A "PRIN_1A1D1A1A On press" [Value=1],
+	B "PRIN_1A1D1A1B Off press" [Value=2],
+	C "PRIN_1A1D1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1A1D1A1B1 "1A1D1A1B1 PRIN_CHECK_1A1D1A1B1 - What did you use to clean the parts in the last working week?"
+categorical [1..]
+{
+	A "PRIN_1A1D1A1B1A Water or water-based cleaners" [Value=1],
+	B "PRIN_1A1D1A1B1B Citrus, soy or vegetable-based cleaners" [Value=2],
+	C "PRIN_1A1D1A1B1C Solvent based cleaners (e.g Petroleum distillates / hydrocarbon cleaners)" [Value=3],
+	D "PRIN_1A1D1A1B1D Other" [Value=4],
+	E "PRIN_1A1D1A1B1E Don’t know" [Value=5] exclusive
+};
+PRIN_RADIO_1A1D1A1B2 "1A1D1A1B2 PRIN_RADIO_1A1D1A1B2 - In the last working week, did you clean the parts manually or did you use an automated cleaning machine?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1D1A1B2A Manually" [Value=1],
+	_2 "PRIN_1A1D1A1B2B Automated cleaning machine" [Value=2],
+	_3 "PRIN_1A1D1A1B2C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_1A1D1A1B2A1 "1A1D1A1B2A1 PRIN_RADIO_1A1D1A1B2A1 - Was a local exhaust ventilation system fitted to the area where the cleaning was done?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1D1A1B2A1A Yes" [Value=1],
+	_2 "PRIN_1A1D1A1B2A1B No" [Value=2],
+	_3 "PRIN_1A1D1A1B2A1C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_1A1D1A1B2B1 "1A1D1A1B2B1 PRIN_RADIO_1A1D1A1B2B1 - Was the cleaning machine or booth enclosed and self-contained?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1D1A1B2B1A Yes" [Value=1],
+	_2 "PRIN_1A1D1A1B2B1B No" [Value=2],
+	_3 "PRIN_1A1D1A1B2B1C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_1A1E1 "1A1E1 PRIN_RADIO_1A1E1 - In the last working week, did you perform maintenance work on printing machinery?"
+categorical [1..1]
+{
+	_1 "PRIN_1A1E1A Yes" [Value=1],
+	_2 "PRIN_1A1E1B No" [Value=2],
+	_3 "PRIN_1A1E1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1 "1 PRIN_aDEG_RADIO_1A1E1A1_1 - In the last working week, did you degrease items?"
+categorical [1..1]
+{
+	_1 "aDEG_1A Yes" [Value=1],
+	_2 "aDEG_1B No" [Value=2],
+	_3 "aDEG_1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A1 "1A1 PRIN_aDEG_RADIO_1A1E1A1_1A1 - In the last working week, did you degrease using chemicals other than detergents?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A Yes" [Value=1],
+	_2 "aDEG_1A1B No" [Value=2],
+	_3 "aDEG_1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1 "1A1A1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1 - In the last working week, did you use any of the following methods to degrease?"
+categorical [1..]
+{
+	A "aDEG_1A1A1A By hand e.g., with rag, cloth or brush" [Value=1],
+	B "aDEG_1A1A1B Sprayed parts manually" [Value=2],
+	C "aDEG_1A1A1C Conveyorised degreaser (automatic closed machine)" [Value=3],
+	D "aDEG_1A1A1D Dip tank" [Value=4],
+	E "aDEG_1A1A1E Vapour degreaser" [Value=5],
+	F "aDEG_1A1A1F Ultrasonic cleaner" [Value=6],
+	G "aDEG_1A1A1G Other" [Value=7],
+	H "aDEG_1A1A1H Don’t know" [Value=8] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1A1 "1A1A1A1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1A1 - What chemicals did you use to clean by hand?"
+categorical [1..]
+{
+	A "aDEG_1A1A1A1A Water" [Value=1],
+	B "aDEG_1A1A1A1B Trichloroethylene (Trike)" [Value=2],
+	C "aDEG_1A1A1A1C Perchloroethylene or Tetrachloroethylene (perc)" [Value=3],
+	D "aDEG_1A1A1A1D Methylene chloride" [Value=4],
+	E "aDEG_1A1A1A1E Petrol" [Value=5],
+	F "aDEG_1A1A1A1F Other, please specify" [Value=6] other (FREETEXT "" text),
+	G "aDEG_1A1A1A1G Don’t know" [Value=7] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1B1 "1A1A1B1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1B1 - What chemicals did you use to spray parts?"
+categorical [1..]
+{
+	A "aDEG_1A1A1B1A Water" [Value=1],
+	B "aDEG_1A1A1B1B Trichlorethylene (Trike)" [Value=2],
+	C "aDEG_1A1A1B1C Perchloroethylene or Tetrachloroethylene (perc)" [Value=3],
+	D "aDEG_1A1A1B1D Methylene Chloride" [Value=4],
+	E "aDEG_1A1A1B1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1B1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1C1 "1A1A1C1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1C1 - What chemicals did you use in the conveyorised degreaser?"
+categorical [1..]
+{
+	A "aDEG_1A1A1C1A Water" [Value=1],
+	B "aDEG_1A1A1C1B Trichloroethylene (trike)" [Value=2],
+	C "aDEG_1A1A1C1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1C1D Methylene Chloride" [Value=4],
+	E "aDEG_1A1A1C1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1C1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1D1 "1A1A1D1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1D1 - What chemicals did you use in the dip tank?"
+categorical [1..]
+{
+	A "aDEG_1A1A1D1A Water" [Value=1],
+	B "aDEG_1A1A1D1B Trichlorethylene (trike)" [Value=2],
+	C "aDEG_1A1A1D1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1D1D Methylene Chloride" [Value=4],
+	E "aDEG_1A1A1D1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1D1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A1A1D2 "1A1A1D2 PRIN_aDEG_RADIO_1A1E1A1_1A1A1D2 - Was the dip tank kept covered when not in use?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1D2A Yes" [Value=1],
+	_2 "aDEG_1A1A1D2B No" [Value=2],
+	_3 "aDEG_1A1A1D2C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A1A1D3 "1A1A1D3 PRIN_aDEG_RADIO_1A1E1A1_1A1A1D3 - Was there a ventilation system on the dip tank?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1D3A Yes" [Value=1],
+	_2 "aDEG_1A1A1D3B No" [Value=2],
+	_3 "aDEG_1A1A1D3C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1E1 "1A1A1E1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1E1 - What chemicals did you use in the vapour degreaser?"
+categorical [1..]
+{
+	A "aDEG_1A1A1E1A Water" [Value=1],
+	B "aDEG_1A1A1E1B Trichlorethylene (trike)" [Value=2],
+	C "aDEG_1A1A1E1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1E1D Methylene chloride" [Value=4],
+	E "aDEG_1A1A1E1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1E1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A1A1E2 "1A1A1E2 PRIN_aDEG_RADIO_1A1E1A1_1A1A1E2 - Was the vapour degreaser covered when not in use?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1E2A Yes" [Value=1],
+	_2 "aDEG_1A1A1E2B No" [Value=2],
+	_3 "aDEG_1A1A1E2C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A1A1E3 "1A1A1E3 PRIN_aDEG_RADIO_1A1E1A1_1A1A1E3 - Was there a ventilation system on the vapour degreaser?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1E3A Yes" [Value=1],
+	_2 "aDEG_1A1A1E3B No" [Value=2],
+	_3 "aDEG_1A1A1E3C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A1A1E4 "1A1A1E4 PRIN_aDEG_RADIO_1A1E1A1_1A1A1E4 - Were there cooling coils around the vapour degreaser?"
+categorical [1..1]
+{
+	_1 "aDEG_1A1A1E4A Yes" [Value=1],
+	_2 "aDEG_1A1A1E4B No" [Value=2],
+	_3 "aDEG_1A1A1E4C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A1A1F1 "1A1A1F1 PRIN_aDEG_CHECK_1A1E1A1_1A1A1F1 - What chemicals did you use in the ultrasonic cleaner?"
+categorical [1..]
+{
+	A "aDEG_1A1A1F1A Water" [Value=1],
+	B "aDEG_1A1A1F1B Trichlorethylene (trike)" [Value=2],
+	C "aDEG_1A1A1F1C Perchloroethylene or Tetrachloroethylene (PERC)" [Value=3],
+	D "aDEG_1A1A1F1D Methylene chloride" [Value=4],
+	E "aDEG_1A1A1F1E Other, please specify" [Value=5] other (FREETEXT "" text),
+	F "aDEG_1A1A1F1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDEG_RADIO_1A1E1A1_1A2 "1A2 PRIN_aDEG_RADIO_1A1E1A1_1A2 - In the last working week, did you use respiratory protection?"
+categorical [1..1]
+{
+	_1 "aDEG_1A2A Yes" [Value=1],
+	_2 "aDEG_1A2B No" [Value=2],
+	_3 "aDEG_1A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aDEG_CHECK_1A1E1A1_1A2A1 "1A2A1 PRIN_aDEG_CHECK_1A1E1A1_1A2A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "aDEG_1A2A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "aDEG_1A2A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "aDEG_1A2A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "aDEG_1A2A1D None of these" [Value=4] exclusive,
+	E "aDEG_1A2A1E Don’t know" [Value=5] exclusive
+};
+PRIN_RADIO_1B1 "1B1 PRIN_RADIO_1B1 - Did you use mineral-oil based inks when doing letterpress or relief printing in the last working week?"
+categorical [1..1]
+{
+	_1 "PRIN_1B1A Yes" [Value=1],
+	_2 "PRIN_1B1B No" [Value=2],
+	_3 "PRIN_1B1C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_1B2 "1B2 PRIN_RADIO_1B2 - In the last working week, did you pour lead when doing letterpress or relief printing?"
+categorical [1..1]
+{
+	_1 "PRIN_1B2A Yes" [Value=1],
+	_2 "PRIN_1B2B No" [Value=2],
+	_3 "PRIN_1B2C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1B2A1 "1B2A1 PRIN_CHECK_1B2A1 - How was the area ventilated while pouring lead?"
+categorical [1..]
+{
+	A "PRIN_1B2A1A By local exhaust ventilation which captured the vapour / fume at the emission point" [Value=1],
+	B "PRIN_1B2A1B By using a ventilated booth" [Value=2],
+	C "PRIN_1B2A1C By a general ventilation system" [Value=3],
+	D "PRIN_1B2A1D By fans in the window or doorway" [Value=4],
+	E "PRIN_1B2A1E By open doors or windows" [Value=5],
+	F "PRIN_1B2A1F No ventilation was applied to the area" [Value=6],
+	G "PRIN_1B2A1G Other" [Value=7],
+	H "PRIN_1B2A1H Don’t know" [Value=8] exclusive
+};
+PRIN_RADIO_1B2A2 "1B2A2 PRIN_RADIO_1B2A2 - In the last working week, did you use respiratory protection while pouring lead?"
+categorical [1..1]
+{
+	_1 "PRIN_1B2A2A Yes" [Value=1],
+	_2 "PRIN_1B2A2B No" [Value=2],
+	_3 "PRIN_1B2A2C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1B2A2A1 "1B2A2A1 PRIN_CHECK_1B2A2A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "PRIN_1B2A2A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "PRIN_1B2A2A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "PRIN_1B2A2A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "PRIN_1B2A2A1D Other" [Value=4],
+	E "PRIN_1B2A2A1E Don’t know" [Value=5] exclusive
+};
+PRIN_RADIO_1C1 "1C1 PRIN_RADIO_1C1 - In the last working week, did you use chemicals to manually clean and degrease the screen mesh?"
+categorical [1..1]
+{
+	_1 "PRIN_1C1A Yes" [Value=1],
+	_2 "PRIN_1C1B No" [Value=2],
+	_3 "PRIN_1C1C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_1C1A1 "1C1A1 PRIN_CHECK_1C1A1 - In the last working week, what did you use to clean the screens?"
+categorical [1..]
+{
+	A "PRIN_1C1A1A Water or water-based cleaners" [Value=1],
+	B "PRIN_1C1A1B Citrus, soy or vegetable-based cleaners" [Value=2],
+	C "PRIN_1C1A1C Solvent-based cleaners (e.g Petroleum distillates / hydrocarbon cleaners)" [Value=3],
+	D "PRIN_1C1A1D Other" [Value=4],
+	E "PRIN_1C1A1E Don’t know" [Value=5] exclusive
+};
+PRIN_aPAI_RADIO_2_1 "1 PRIN_aPAI_RADIO_2_1 - In the last working week, did you use paints, stains, varnishes, polishes, or sealers?"
+categorical [1..1]
+{
+	_1 "aPAI_1A Yes" [Value=1],
+	_2 "aPAI_1B No" [Value=2],
+	_3 "aPAI_1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A1 "1A1 PRIN_aPAI_RADIO_2_1A1 - In the last working week, did you mix or thin paints?"
+categorical [1..1]
+{
+	_1 "aPAI_1A1A Yes" [Value=1],
+	_2 "aPAI_1A1B No" [Value=2],
+	_3 "aPAI_1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A1A1 "1A1A1 PRIN_aPAI_RADIO_2_1A1A1 - In the last working week, did you mix or thin solvent-based or oil-based paints?"
+categorical [1..1]
+{
+	_1 "aPAI_1A1A1A Yes" [Value=1],
+	_2 "aPAI_1A1A1B No (I used water-based or non-toxic paint)" [Value=2],
+	_3 "aPAI_1A1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_CHECK_2_1A1A1A1 "1A1A1A1 PRIN_aPAI_CHECK_2_1A1A1A1 - What did you use to mix or thin paints?"
+categorical [1..]
+{
+	A "aPAI_1A1A1A1A Water" [Value=1],
+	B "aPAI_1A1A1A1B Oil or solvent-based thinners" [Value=2],
+	C "aPAI_1A1A1A1C Other" [Value=3],
+	D "aPAI_1A1A1A1D Don’t know" [Value=4] exclusive
+};
+PRIN_aPAI_RADIO_2_1A1A2 "1A1A2 PRIN_aPAI_RADIO_2_1A1A2 - In the last working week, did you use a cartridge filter respirator, a powered air-purifying respirator (PAPR) or an air-supplied respirator when mixing and thinning paints? or air-supplied respirator when mixing and thinning paints?"
+categorical [1..1]
+{
+	_1 "aPAI_1A1A2A Yes" [Value=1],
+	_2 "aPAI_1A1A2B No" [Value=2],
+	_3 "aPAI_1A1A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A2 "1A2 PRIN_aPAI_RADIO_2_1A2 - In the last working week, did you apply a primer or undercoat prior to painting?"
+categorical [1..1]
+{
+	_1 "aPAI_1A2A Yes" [Value=1],
+	_2 "aPAI_1A2B No" [Value=2],
+	_3 "aPAI_1A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A2A1 "1A2A1 PRIN_aPAI_RADIO_2_1A2A1 - In the last working week, did you use oil/solvent-based or water-based/non-toxic primer or undercoat?"
+categorical [1..1]
+{
+	_1 "aPAI_1A2A1A Oil or solvent-based" [Value=1],
+	_2 "aPAI_1A2A1B Water-based or non-toxic" [Value=2],
+	_3 "aPAI_1A2A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_CHECK_2_1A2A2 "1A2A2 PRIN_aPAI_CHECK_2_1A2A2 - In the last working week, did you use chromate primers or red lead?"
+categorical [1..]
+{
+	A "aPAI_1A2A2A Zinc chromate or other chromate primers" [Value=1],
+	B "aPAI_1A2A2B Red lead" [Value=2],
+	C "aPAI_1A2A2C Neither" [Value=3],
+	D "aPAI_1A2A2D Don’t know" [Value=4] exclusive
+};
+PRIN_aPAI_RADIO_2_1A2A3 "1A2A3 PRIN_aPAI_RADIO_2_1A2A3 - In the last working week, did you use a spray/gun to apply the primer or undercoat?"
+categorical [1..1]
+{
+	_1 "aPAI_1A2A3A Yes" [Value=1],
+	_2 "aPAI_1A2A3B No" [Value=2],
+	_3 "aPAI_1A2A3C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A2A3A1 "1A2A3A1 PRIN_aPAI_RADIO_2_1A2A3A1 - In the last working week, did you spray the primer or undercoat in a spray booth?"
+categorical [1..1]
+{
+	_1 "aPAI_1A2A3A1A Yes" [Value=1],
+	_2 "aPAI_1A2A3A1B No" [Value=2],
+	_3 "aPAI_1A2A3A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A2A3A2 "1A2A3A2 PRIN_aPAI_RADIO_2_1A2A3A2 - In the last working week, did you use a cartridge filter respirator, a powered air-purifying respirator (PAPR) or an air-supplied respirator when applying primers or undercoats with a spray/gun?"
+categorical [1..1]
+{
+	_1 "aPAI_1A2A3A2A Yes" [Value=1],
+	_2 "aPAI_1A2A3A2B No" [Value=2],
+	_3 "aPAI_1A2A3A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3 "1A3 PRIN_aPAI_RADIO_2_1A3 - In the last working week, did you paint?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A Yes" [Value=1],
+	_2 "aPAI_1A3B No" [Value=2],
+	_3 "aPAI_1A3C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3A1 "1A3A1 PRIN_aPAI_RADIO_2_1A3A1 - In the last working week, did you paint with a brush, roller or any other painting equipment (not spray)?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A1A Yes" [Value=1],
+	_2 "aPAI_1A3A1B No" [Value=2],
+	_3 "aPAI_1A3A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3A1A1 "1A3A1A1 PRIN_aPAI_RADIO_2_1A3A1A1 - In the last working week, did you paint with solvent or oil-based paints?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A1A1A Yes" [Value=1],
+	_2 "aPAI_1A3A1A1B No (water-based or non-toxic)" [Value=2],
+	_3 "aPAI_1A3A1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_CHECK_2_1A3A1A2 "1A3A1A2 PRIN_aPAI_CHECK_2_1A3A1A2 - In the last working week, did you paint with any of the following paints?"
+categorical [1..]
+{
+	A "aPAI_1A3A1A2A Nitrocellulose paints" [Value=1],
+	B "aPAI_1A3A1A2B Acid cured paints or lacquers" [Value=2],
+	C "aPAI_1A3A1A2C Latex paints" [Value=3],
+	D "aPAI_1A3A1A2D Other" [Value=4],
+	E "aPAI_1A3A1A2E Don’t know" [Value=5] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3A2 "1A3A2 PRIN_aPAI_RADIO_2_1A3A2 - In the last working week, did you use spray or powder coat paint?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A2A Yes" [Value=1],
+	_2 "aPAI_1A3A2B No" [Value=2],
+	_3 "aPAI_1A3A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3A2A1 "1A3A2A1 PRIN_aPAI_RADIO_2_1A3A2A1 - In the last working week, did you spray/powder coat solvent or oil-based paints?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A2A1A Yes" [Value=1],
+	_2 "aPAI_1A3A2A1B No (water-based or non-toxic)" [Value=2],
+	_3 "aPAI_1A3A2A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_CHECK_2_1A3A2A2 "1A3A2A2 PRIN_aPAI_CHECK_2_1A3A2A2 - In the last working week, did you spray or powder coat with any of the following paints?"
+categorical [1..]
+{
+	A "aPAI_1A3A2A2A Nitrocellulose paints" [Value=1],
+	B "aPAI_1A3A2A2B Acid cured paints" [Value=2],
+	C "aPAI_1A3A2A2C Latex paints" [Value=3],
+	D "aPAI_1A3A2A2D Other" [Value=4],
+	E "aPAI_1A3A2A2E Don’t know" [Value=5] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3A2A3 "1A3A2A3 PRIN_aPAI_RADIO_2_1A3A2A3 - In the last working week, did you spray/powder coat in a booth?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A2A3A Yes" [Value=1],
+	_2 "aPAI_1A3A2A3B No" [Value=2],
+	_3 "aPAI_1A3A2A3C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A3A2A4 "1A3A2A4 PRIN_aPAI_RADIO_2_1A3A2A4 - In the last working week, did you use a cartridge filter respirator, a powered air-purifying respirator (PAPR) or an air-supplied respirator when painting or applying coats?"
+categorical [1..1]
+{
+	_1 "aPAI_1A3A2A4A Yes" [Value=1],
+	_2 "aPAI_1A3A2A4B No" [Value=2],
+	_3 "aPAI_1A3A2A4C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A4 "1A4 PRIN_aPAI_RADIO_2_1A4 - In the last working week, did you use stains, varnishes or polishes?"
+categorical [1..1]
+{
+	_1 "aPAI_1A4A Yes" [Value=1],
+	_2 "aPAI_1A4B No" [Value=2],
+	_3 "aPAI_1A4C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A4A1 "1A4A1 PRIN_aPAI_RADIO_2_1A4A1 - What type of stain or varnish did you use in the last working week?"
+categorical [1..1]
+{
+	_1 "aPAI_1A4A1A Water-based" [Value=1],
+	_2 "aPAI_1A4A1B Oil or solvent-based" [Value=2],
+	_3 "aPAI_1A4A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A5 "1A5 PRIN_aPAI_RADIO_2_1A5 - In the last working week, did you apply lacquers?"
+categorical [1..1]
+{
+	_1 "aPAI_1A5A Yes" [Value=1],
+	_2 "aPAI_1A5B No" [Value=2],
+	_3 "aPAI_1A5C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A6 "1A6 PRIN_aPAI_RADIO_2_1A6 - In the last working week, did you use UV lamps for drying paints, varnishes, stains, polishes or lacquers?"
+categorical [1..1]
+{
+	_1 "aPAI_1A6A Yes" [Value=1],
+	_2 "aPAI_1A6B No" [Value=2],
+	_3 "aPAI_1A6C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A6A1 "1A6A1 PRIN_aPAI_RADIO_2_1A6A1 - Did you have any measures in place to protect you from the UV light?"
+categorical [1..1]
+{
+	_1 "aPAI_1A6A1A Yes" [Value=1],
+	_2 "aPAI_1A6A1B No" [Value=2],
+	_3 "aPAI_1A6A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_RADIO_2_1A7 "1A7 PRIN_aPAI_RADIO_2_1A7 - In the last working week, did you clean painting equipment?"
+categorical [1..1]
+{
+	_1 "aPAI_1A7A Yes" [Value=1],
+	_2 "aPAI_1A7B No" [Value=2],
+	_3 "aPAI_1A7C Don’t know" [Value=3] exclusive
+};
+PRIN_aPAI_CHECK_2_1A7A1 "1A7A1 PRIN_aPAI_CHECK_2_1A7A1 - In the last working week, did you use any of the following products to clean painting equipment?"
+categorical [1..]
+{
+	A "aPAI_1A7A1A Water" [Value=1],
+	B "aPAI_1A7A1B Solvent or oil-based thinners" [Value=2],
+	C "aPAI_1A7A1C None of these" [Value=3] exclusive,
+	D "aPAI_1A7A1D Don’t know" [Value=4] exclusive
+};
+PRIN_RADIO_3 "3 PRIN_RADIO_3 - In the last working week, did you handle inks/dyes yourself (e.g. mixing or dispensing)?"
+categorical [1..1]
+{
+	_1 "PRIN_3A Yes" [Value=1],
+	_2 "PRIN_3B No" [Value=2],
+	_3 "PRIN_3C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_3A1 "3A1 PRIN_CHECK_3A1 - What types of inks/dyes did you use?"
+categorical [1..]
+{
+	A "PRIN_3A1A Solvent-based inks" [Value=1],
+	B "PRIN_3A1B Water-based inks" [Value=2],
+	C "PRIN_3A1C UV curable" [Value=3],
+	D "PRIN_3A1D Other" [Value=4],
+	E "PRIN_3A1E Don’t know" [Value=5] exclusive
+};
+PRIN_RADIO_3A1C1 "3A1C1 PRIN_RADIO_3A1C1 - In the last working week, did you use a UV curing system?"
+categorical [1..1]
+{
+	_1 "PRIN_3A1C1A Yes" [Value=1],
+	_2 "PRIN_3A1C1B No" [Value=2],
+	_3 "PRIN_3A1C1C Don’t know" [Value=3] exclusive
+};
+PRIN_aAUV_RADIO_3A1C1A1_1 "1 PRIN_aAUV_RADIO_3A1C1A1_1 - Did you have any measures in place to protect you from the UV light?"
+categorical [1..1]
+{
+	_1 "aAUV_1A Yes" [Value=1],
+	_2 "aAUV_1B No" [Value=2],
+	_3 "aAUV_1C Don’t know" [Value=3] exclusive
+};
+PRIN_aAUV_CHECK_3A1C1A1_1A1 "1A1 PRIN_aAUV_CHECK_3A1C1A1_1A1 - Which of the following measures were in place?"
+categorical [1..]
+{
+	A "aAUV_1A1A Time delay before the equipment could be opened after switching it off" [Value=1],
+	B "aAUV_1A1B Equipment could not be opened when it was switched on" [Value=2],
+	C "aAUV_1A1C The UV units you used were fully enclosed or contained behind glass or plexiglass screens" [Value=3],
+	D "aAUV_1A1D None of these" [Value=4] exclusive,
+	E "aAUV_1A1E Don’t know" [Value=5] exclusive
+};
+PRIN_aAUV_RADIO_3A1C1A1_1A2 "1A2 PRIN_aAUV_RADIO_3A1C1A1_1A2 - Did you wear safety goggles, glasses or a similar eye protective equipment to protect you from the UV light?"
+categorical [1..1]
+{
+	_1 "aAUV_1A2A Yes" [Value=1],
+	_2 "aAUV_1A2B No" [Value=2],
+	_3 "aAUV_1A2C Don’t know" [Value=3] exclusive
+};
+PRIN_RADIO_4 "4 PRIN_RADIO_4 - In the last working week, did you use respiratory protection?"
+categorical [1..1]
+{
+	_1 "PRIN_4A Yes" [Value=1],
+	_2 "PRIN_4B No" [Value=2],
+	_3 "PRIN_4C Don’t know" [Value=3] exclusive
+};
+PRIN_CHECK_4A1 "4A1 PRIN_CHECK_4A1 - What types of respiratory protective equipment (RPE) did you use?"
+categorical [1..]
+{
+	A "PRIN_4A1A Rubber face mask fitted with a particle/vapour filter or a cartridge" [Value=1],
+	B "PRIN_4A1B Powered Air Purifying Respirator (PAPR)" [Value=2],
+	C "PRIN_4A1C Air-supplied respirator or SCBA (self-contained breathing apparatus)" [Value=3],
+	D "PRIN_4A1D A filtering face piece mask or dust mask (called an FFP)" [Value=4],
+	E "PRIN_4A1E Other" [Value=5],
+	F "PRIN_4A1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDVM_RADIO_5_1 "1 PRIN_aDVM_RADIO_5_1 - In the last working week, did you drive, maintain, or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A Yes" [Value=1],
+	_2 "aDVM_1B No" [Value=2],
+	_3 "aDVM_1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_CHECK_5_1A1 "1A1 PRIN_aDVM_CHECK_5_1A1 - What types of fuel did the vehicles that you drove, maintained or travelled in use?"
+categorical [1..]
+{
+	A "aDVM_1A1A Diesel" [Value=1],
+	B "aDVM_1A1B Petrol" [Value=2],
+	C "aDVM_1A1C Liquified Petroleum Gas (LPG) or propane" [Value=3],
+	D "aDVM_1A1D Battery or electricity" [Value=4],
+	E "aDVM_1A1E None of these" [Value=5] exclusive,
+	F "aDVM_1A1F Don’t know" [Value=6] exclusive
+};
+PRIN_aDVM_RADIO_5_1A2 "1A2 PRIN_aDVM_RADIO_5_1A2 - In the last working week, did you fuel the vehicles yourself?"
+categorical [1..1]
+{
+	_1 "aDVM_1A2A Yes" [Value=1],
+	_2 "aDVM_1A2B No" [Value=2],
+	_3 "aDVM_1A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_RADIO_5_1A3 "1A3 PRIN_aDVM_RADIO_5_1A3 - In the last working week, did you drive or travel in vehicles as part of your work?"
+categorical [1..1]
+{
+	_1 "aDVM_1A3A Yes" [Value=1],
+	_2 "aDVM_1A3B No" [Value=2],
+	_3 "aDVM_1A3C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_CHECK_5_1A3A1 "1A3A1 PRIN_aDVM_CHECK_5_1A3A1 - What types of roads or areas did you drive or travel on?"
+categorical [1..]
+{
+	A "aDVM_1A3A1A Any public street or road in an urban area" [Value=1],
+	B "aDVM_1A3A1B National, regional, district or municipal roads outside an urban area (including motorways)" [Value=2],
+	C "aDVM_1A3A1C Agricultural land" [Value=3],
+	D "aDVM_1A3A1D Forestry areas" [Value=4],
+	E "aDVM_1A3A1E Underground in a mine" [Value=5],
+	F "aDVM_1A3A1F Surface driving in an open mine or in a quarry" [Value=6],
+	G "aDVM_1A3A1G Construction sites" [Value=7],
+	H "aDVM_1A3A1H Inside a building (e.g., warehouse)" [Value=8],
+	I "aDVM_1A3A1I Other industrial sites" [Value=9],
+	J "aDVM_1A3A1J Other" [Value=10],
+	K "aDVM_1A3A1K Don’t know" [Value=11] exclusive
+};
+PRIN_aDVM_RADIO_5_1A4 "1A4 PRIN_aDVM_RADIO_5_1A4 - In the last working week, did you perform any maintenance work on vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A Yes" [Value=1],
+	_2 "aDVM_1A4B No" [Value=2],
+	_3 "aDVM_1A4C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_RADIO_5_1A4A1 "1A4A1 PRIN_aDVM_RADIO_5_1A4A1 - In the last working week, did you do tune ups, exhaust pipe work, or engine overhauls on the vehicles?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1B No" [Value=2],
+	_3 "aDVM_1A4A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_RADIO_5_1A4A1A1 "1A4A1A1 PRIN_aDVM_RADIO_5_1A4A1A1 - In the last working week, did you attach a hose to the exhaust pipe of the vehicle you maintained to lead the exhaust fumes outside?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A1A1A Yes" [Value=1],
+	_2 "aDVM_1A4A1A1B No" [Value=2],
+	_3 "aDVM_1A4A1A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_RADIO_5_1A4A2 "1A4A2 PRIN_aDVM_RADIO_5_1A4A2 - In the last working week, did you service/repair/replace brakes or clutches?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A Yes" [Value=1],
+	_2 "aDVM_1A4A2B No" [Value=2],
+	_3 "aDVM_1A4A2C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_RADIO_5_1A4A2A1 "1A4A2A1 PRIN_aDVM_RADIO_5_1A4A2A1 - In the last working week, did you service/repair/replace brakes or clutches on vehicles older than [DE: 2005, FI: 1993; FR: 1997; IE: 2000; ES: 2002 ; HU:  2005]?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A2A1A Yes" [Value=1],
+	_2 "aDVM_1A4A2A1B No" [Value=2],
+	_3 "aDVM_1A4A2A1C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_RADIO_5_1A4A4 "1A4A4 PRIN_aDVM_RADIO_5_1A4A4 - In the last working week, did you drain fuel tanks or change fuel filters?"
+categorical [1..1]
+{
+	_1 "aDVM_1A4A4A Yes" [Value=1],
+	_2 "aDVM_1A4A4B No" [Value=2],
+	_3 "aDVM_1A4A4C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_CHECK_5_1A4A5 "1A4A5 PRIN_aDVM_CHECK_5_1A4A5 - In the last working week, did you work indoors or outdoors?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A Indoors" [Value=1],
+	B "aDVM_1A4A5B Outdoors" [Value=2],
+	C "aDVM_1A4A5C Don’t know" [Value=3] exclusive
+};
+PRIN_aDVM_CHECK_5_1A4A5A1 "1A4A5A1 PRIN_aDVM_CHECK_5_1A4A5A1 - How was the area where you carried out vehicle maintenance ventilated?"
+categorical [1..]
+{
+	A "aDVM_1A4A5A1A By local exhaust ventilation which captured the vapour, dust, fume at the emission point" [Value=1],
+	B "aDVM_1A4A5A1B By on-tool extraction to remove dust and fumes away from your face" [Value=2],
+	C "aDVM_1A4A5A1C By a general ventilation system" [Value=3],
+	D "aDVM_1A4A5A1D By fans in the window or doorway" [Value=4],
+	E "aDVM_1A4A5A1E By open doors or windows" [Value=5],
+	F "aDVM_1A4A5A1F No ventilation was applied to the area" [Value=6],
+	G "aDVM_1A4A5A1G Other" [Value=7],
+	H "aDVM_1A4A5A1H Don’t know" [Value=8] exclusive
+};
+PRIN_aCLH_RADIO_6_1 "1 PRIN_aCLH_RADIO_6_1 - In the last working week, did you clean your hands with anything other than water, soap, detergent, or antibacterial gel/spray at work?"
+categorical [1..1]
+{
+	_1 "aCLH_1A Yes" [Value=1],
+	_2 "aCLH_1B No" [Value=2],
+	_3 "aCLH_1C Don’t know" [Value=3] exclusive
+};
+PRIN_aCLH_CHECK_6_1A1 "1A1 PRIN_aCLH_CHECK_6_1A1 - In the last working week, did you use any of the following to clean your hands at work?"
+categorical [1..]
+{
+	A "aCLH_1A1A Industrial hand cleaner" [Value=1],
+	B "aCLH_1A1B Mineral turpentine, mineral spirits or white spirit or paint thinner" [Value=2],
+	C "aCLH_1A1C Petrol" [Value=3],
+	D "aCLH_1A1D Chlorhexidine, hibitane, or hibiscrub" [Value=4],
+	E "aCLH_1A1E None of these" [Value=5] exclusive,
+	F "aCLH_1A1F Don’t know" [Value=6] exclusive
+};

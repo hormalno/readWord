@@ -33,7 +33,6 @@ module.exports = {
             if (err) {
                 console.log(err);
             } else {
-                console.log('Word file read')
                 resultJSON = result.document;
             }
         });
@@ -47,7 +46,6 @@ module.exports = {
 
         fs.writeFileSync(modulePath+'questions.json', data, (err) => {
             if (err) throw err;
-            console.log('Data written to file');
         });
 
     },
@@ -55,7 +53,6 @@ module.exports = {
         // read JSOn
         const fs = require('fs');
         let rawdata = fs.readFileSync(modulePath+'questions.json');
-        console.log('JSON file read')
         return JSON.parse(rawdata);
     }
 }

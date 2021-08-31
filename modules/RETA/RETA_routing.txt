@@ -1,0 +1,127 @@
+'RETA_aDVM_RADIO_1_1
+RETA_aDVM_RADIO_1_1.Ask()
+if reta_advm_radio_1_1 * {_1} then
+	RETA_aDVM_CHECK_1_1A1.Ask()
+end if
+if reta_advm_radio_1_1 * {_1} then
+	RETA_aDVM_RADIO_1_1A2.Ask()
+end if
+if reta_advm_radio_1_1 * {_1} then
+	RETA_aDVM_RADIO_1_1A3.Ask()
+end if
+if reta_advm_radio_1_1a3 * {_1} then
+	RETA_aDVM_CHECK_1_1A3A1.Ask()
+end if
+if reta_advm_radio_1_1 * {_1} then
+	RETA_aDVM_RADIO_1_1A4.Ask()
+end if
+if reta_advm_radio_1_1a4 * {_1} then
+	RETA_aDVM_RADIO_1_1A4A1.Ask()
+end if
+if reta_advm_radio_1_1a4a1 * {_1} then
+	RETA_aDVM_RADIO_1_1A4A1A1.Ask()
+end if
+if reta_advm_radio_1_1a4 * {_1} then
+	RETA_aDVM_RADIO_1_1A4A2.Ask()
+end if
+if reta_advm_radio_1_1a4a2 * {_1} then
+	RETA_aDVM_RADIO_1_1A4A2A1.Ask()
+end if
+if reta_advm_radio_1_1a4 * {_1} then
+	RETA_aDVM_RADIO_1_1A4A4.Ask()
+end if
+if reta_advm_radio_1_1a4 * {_1} then
+	RETA_aDVM_CHECK_1_1A4A5.Ask()
+end if
+if reta_advm_check_1_1a4a5 * {A} then
+	RETA_aDVM_CHECK_1_1A4A5A1.Ask()
+end if
+'RETA_aVEX_RADIO_2_1
+RETA_aVEX_RADIO_2_1.Ask()
+if reta_avex_radio_2_1 * {_1} then
+	RETA_aVEX_CHECK_2_1A1.Ask()
+end if
+if reta_avex_radio_2_1 * {_1} then
+	RETA_aVEX_CHECK_2_1A2.Ask()
+end if
+if reta_avex_check_2_1a2 * {A} then
+	RETA_aVEX_CHECK_2_1A2A1.Ask()
+end if
+if reta_avex_radio_2_1 * {_1} then
+	RETA_aVEX_RADIO_2_1A3.Ask()
+end if
+if reta_avex_radio_2_1 * {_1} then
+	RETA_aVEX_RADIO_2_1A4.Ask()
+end if
+'RETA_aCON_RADIO_3_1
+RETA_aCON_RADIO_3_1.Ask()
+if reta_acon_radio_3_1 * {_1} then
+	RETA_aCON_RADIO_3_1A1.Ask()
+end if
+if reta_acon_radio_3_1 * {_1} then
+	RETA_aCON_RADIO_3_1A2.Ask()
+end if
+if reta_acon_radio_3_1a2 * {_1} then
+	RETA_aCON_RADIO_3_1A2A1.Ask()
+end if
+if reta_acon_radio_3_1a2 * {_1} then
+	RETA_aCON_RADIO_3_1A2A2.Ask()
+end if
+if reta_acon_radio_3_1 * {_1} then
+	RETA_aCON_RADIO_3_1A3.Ask()
+end if
+'RETA_aUVR_RADIO_4_1
+RETA_aUVR_RADIO_4_1.Ask()
+if reta_auvr_radio_4_1 * {_1} then
+	RETA_aUVR_RADIO_4_1A1.Ask()
+end if
+if reta_auvr_radio_4_1a1 * {_1} then
+	RETA_aUVR_CHECK_4_1A1A1.Ask()
+end if
+if reta_auvr_radio_4_1 * {_1} then
+	RETA_aUVR_CHECK_4_1A3.Ask()
+end if
+if reta_auvr_check_4_1a3 * {A} then
+	RETA_aUVR_RADIO_4_1A3A1.Ask()
+end if
+if reta_auvr_check_4_1a3 * {A} then
+	RETA_aUVR_RADIO_4_1A3A2.Ask()
+end if
+if reta_auvr_check_4_1a3 * {A} then
+	RETA_aUVR_RADIO_4_1A3A3.Ask()
+end if
+if reta_auvr_check_4_1a3 * {A} then
+	RETA_aUVR_RADIO_4_1A3A4.Ask()
+end if
+if reta_auvr_check_4_1a3 * {B} then
+	RETA_aUVR_RADIO_4_1A3B1.Ask()
+end if
+if reta_auvr_check_4_1a3 * {B} then
+	RETA_aUVR_RADIO_4_1A3B2.Ask()
+end if
+if reta_auvr_check_4_1a3 * {B} then
+	RETA_aUVR_RADIO_4_1A3B3.Ask()
+end if
+if reta_auvr_check_4_1a3 * {B} then
+	RETA_aUVR_RADIO_4_1A3B4.Ask()
+end if
+if reta_auvr_check_4_1a3 * {C} then
+	RETA_aUVR_RADIO_4_1A3C1.Ask()
+end if
+if reta_auvr_radio_4_1a3c1 * {_1} then
+	RETA_aUVR_RADIO_4_1A3C1A1.Ask()
+end if
+if reta_auvr_radio_4_1a3c1 * {_1} then
+	RETA_aUVR_RADIO_4_1A3C1A2.Ask()
+end if
+if reta_auvr_radio_4_1a3c1 * {_1} then
+	RETA_aUVR_RADIO_4_1A3C1A3.Ask()
+end if
+if reta_auvr_radio_4_1 * {_1} then
+	RETA_aUVR_RADIO_4_1A4.Ask()
+end if
+'RETA_aCLH_RADIO_5_1
+RETA_aCLH_RADIO_5_1.Ask()
+if reta_aclh_radio_5_1 * {_1} then
+	RETA_aCLH_CHECK_5_1A1.Ask()
+end if
