@@ -4,7 +4,7 @@ module.exports = {
         const writeMDD = require('./writeMDD.js').writeMDD;        
         const getDocumentXML = require('./controlData.js').getDocumentXML;
 
-        const modulePath = "C:/Users/yasen.ivanov/Documents/readWord_v2/readWord/modules/"+moduleName+"/"+moduleName+"_"
+        const modulePath = wordFilePath+moduleName
 
         //getDocumentXML(wordFilePath,moduleName,modulePath);
         readWord(modulePath);

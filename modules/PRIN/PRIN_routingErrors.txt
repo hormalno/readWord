@@ -1,4 +1,0 @@
-'to do question doesnt exists
-'if in_radio_1a1d1=1 then
-'	PRIN_CHECK_1A1D1A1.Ask()
-'end if

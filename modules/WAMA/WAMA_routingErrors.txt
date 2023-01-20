@@ -1,4 +1,0 @@
-'to do question doesnt exists
-'if wama_apes_radio_2_1a2a2 =1 then
-'	WAMA_aPES_RADIO_8_1A2A2A1.Ask()
-'end if

@@ -6,11 +6,10 @@ module.exports = {
         const StreamZip = require('node-stream-zip');
 
         (async () => {
-            console.log('Loading zip...');
-        
+
             const zip = new StreamZip.async({ file: wordFilePath+moduleName+'.docx' });
         
-            console.log(`Done in ${process.uptime()}s.`);
+            //console.log(`Done in ${process.uptime()}s.`);
             
             // extractEntry(modulePath).catch(console.error)
             // async function extractEntry(modulePath) {
@@ -19,13 +18,17 @@ module.exports = {
             await zip.close();
         })().catch(console.error);
 
-        console.log('Extracted');
+        console.log('Extracted: '+moduleName);
     },
     readDocument: function (modulePath) {
         // read the xml
-        const fs = require('fs');
+        const fs = require('fs');        
         const rawXML = fs.readFileSync(modulePath+'document.xml', {encoding: 'utf-8'});
 
+        // const xmlSrz = require('xmlserializer')
+        // const xmlString = xmlSrz.serializeToString(rawXML);
+        // console.log(xmlString)
+        
         // convert xml to json
         const parseString = require('xml2js').parseString;
         let resultJSON = {};

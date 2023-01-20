@@ -1,4 +1,0 @@
-'to do question doesnt exists
-'if 1a1a1 farm_check_1a1a1 =4 then
-'	FARM_RADIO_1A1A1D1.Ask()
-'end if

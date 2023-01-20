@@ -1,8 +1,0 @@
-'to do question doesnt exists
-'if ship_auvr_radio_8_1a3c1 =1 then
-'	SHIP_aUVR_RADIO_9_1A3C1A2.Ask()
-'end if
-'to do question doesnt exists
-'if ship_auvr_radio_8_1a3c1 =1 then
-'	SHIP_aUVR_RADIO_9_1A3C1A3.Ask()
-'end if

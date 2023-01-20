@@ -1,7 +1,7 @@
 const wordTool = require('./tools/wordTool.js').wordTool;
 
-const wordFilePath = "C:/Users/yasen.ivanov/Desktop/OSHA/Materials/Modules/";
+const wordFilePath = "C:/Users/yasen.ivanov/Desktop/ISR/";
 
-const moduleName = "WELD"
+const moduleName = "ECB"
 
 wordTool(wordFilePath,moduleName)

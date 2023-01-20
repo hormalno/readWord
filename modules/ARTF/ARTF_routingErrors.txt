@@ -1,4 +1,0 @@
-'to do question doesnt exists
-'if artf_auvr_radio_2a3_1 =1 then
-'	ARTF_aUVR_RADIO_3_1A1.Ask()
-'end if

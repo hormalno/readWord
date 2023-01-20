@@ -35,7 +35,8 @@ module.exports = {
         writeRouting.end() // close string
         writeRoutingErrors.end()
 
-        console.log('Questions: '+questions.length);
+        console.log(modulePath.slice(-5,-1)+' Questions: '+questions.length);
+        console.log('asdasd asda')
 
     }
 }
@@ -44,32 +45,48 @@ function writeQuestionMetadata(question) {
 
     let result = question.qname + ' "' + question.qlabel + '"' + '\n';
 
-    if (question.qtype === 'single') {
+    if (question.qtype === 'info') {
+        result += 'info;\n' 
+    }else if (question.qtype === 'single') {
         result += 'categorical [1..1]\n{\n'
-    } else {
+    } else if (question.qtype === 'multi') {
         result += 'categorical [1..]\n{\n'
+    } else if (question.qtype === 'loop') {
+        result += 'loop\n{\n'
+        let resultSlice = '';
+        question.slices.forEach((slice,index,arr) => {
+            resultSlice += '\t' + slice.catName + ' "' + slice.catLabel + '"' + ' [Value=' + slice.catValue + ']';
+
+            if (index !== arr.length - 1) {
+                resultSlice += ',\n'
+            }
+
+        })
+
+        result += resultSlice;
+        result += '\n} fields\n(\n\t_scale """"\n{\n';
     }
 
-    let resultCat = '';
-    question.categories.forEach((cat,index,arr) => {
+    if (question.qtype === 'single' || question.qtype === 'multi' || question.qtype === 'loop') {
+        let resultCat = '';
+        question.categories.forEach((cat,index,arr) => {
 
-        resultCat += '\t' + cat.catName + ' "' + cat.catLabel + '"' + ' [Value=' + cat.catValue + ']'
+            resultCat += '\t' + cat.catName + ' "' + cat.catLabel + '"' + ' [Value=' + cat.catValue + ']'
 
-        if (cat.isOther) {
-            resultCat += ' other (FREETEXT "" text)'
-        }
+            if (index !== arr.length - 1) {
+                resultCat += ','
+            }
+            resultCat += '\n'
+        })
+        
+        result += resultCat;
+        result += '};\n';
 
-        if (cat.isExclusive) {
-            resultCat += ' exclusive'
+        if (question.qtype === 'loop') {
+            result += ') expand grid;\n'
         }
-        if (index !== arr.length - 1) {
-            resultCat += ','
-        }
-        resultCat += '\n'
-    })
+    }
     
-    result += resultCat;
-    result += '};\n';
     return result;
 }
 
