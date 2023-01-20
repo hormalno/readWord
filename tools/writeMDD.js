@@ -36,7 +36,6 @@ module.exports = {
         writeRoutingErrors.end()
 
         console.log(modulePath.slice(-5,-1)+' Questions: '+questions.length);
-        console.log('asdasd asda')
 
     }
 }
