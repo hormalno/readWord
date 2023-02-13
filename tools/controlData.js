@@ -9,7 +9,7 @@ module.exports = {
 
             const zip = new StreamZip.async({ file: wordFilePath+moduleName+'.docx' });
         
-            //console.log(`Done in ${process.uptime()}s.`);
+            console.log(`Done in time`);
             
             // extractEntry(modulePath).catch(console.error)
             // async function extractEntry(modulePath) {

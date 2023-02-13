@@ -30,7 +30,12 @@ function extractText(document) {
             if (r.t) {
                 r.t.forEach(t => {
                     if (typeof t === 'string') {
+                        
                         obj.push(t)
+
+                        if (t.match(/$\sIF/)) {
+                            obj.push("#QInstr#")
+                        }
                     };
                     if (typeof t._ === 'string') {
                         obj.push(t._)
@@ -51,6 +56,8 @@ function extractText(document) {
         if (isInstr) {
             obj.push('#QInstr#')
         }
+
+        console.log(obj)
 
         return obj.join('');
     })
